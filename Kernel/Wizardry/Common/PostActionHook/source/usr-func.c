@@ -10,7 +10,7 @@ bool PostAction_CommonStart(ProcPtr proc)
 	/**
 	 * Calculate total damage
 	 */
-	buf->total_damage_actor  = 0;
+	buf->total_damage_actor = 0;
 	buf->total_damage_target = 0;
 
 	for (i = 0; i < NEW_BATTLE_HIT_MAX; i++) {
@@ -20,7 +20,7 @@ bool PostAction_CommonStart(ProcPtr proc)
 			break;
 
 		if (!(hit->info & BATTLE_HIT_INFO_RETALIATION))
-			buf->total_damage_actor  += hit->hpChange;
+			buf->total_damage_actor += hit->hpChange;
 		else
 			buf->total_damage_target += hit->hpChange;
 	}

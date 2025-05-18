@@ -7,6 +7,24 @@
 
 #define LOCAL_TRACE 0
 
+#if 0
+void DEBUG_PrintStatus(struct WtaStatus *status, char *unitName, char *loc, struct BattleUnit *bu)
+{
+	Debugf("Status for unit %s at location %s. Unit id: %d", unitName, loc, bu->unit.index);
+	Debugf("Status invert: %u", status->invert_eff);
+	Debugf("Status amplify: %u", status->amplifier_eff);
+
+	Debugf("Status delta atk: %d", status->bonus.atk + status->minus.atk);
+	Debugf("Status delta avo: %d", status->bonus.avo + status->minus.avo);
+	Debugf("Status delta crt: %d", status->bonus.crt + status->minus.crt);
+	Debugf("Status delta hit: %d", status->bonus.hit + status->minus.hit);
+	Debugf("Status delta poise: %d", status->bonus.poise_eff + status->minus.poise_eff);
+	Debugf("Status delta sil: %d", status->bonus.sil + status->minus.sil);
+
+	Debugf("BattleUnit hit rate: %d", bu->battleHitRate);
+}
+#endif
+
 STATIC_DECLAR bool WtaHandler_Skill(struct BattleUnit *attacker, struct BattleUnit *defender, struct WtaStatus *status)
 {
 	const struct WeaponTriangleConf *it;
@@ -66,6 +84,8 @@ STATIC_DECLAR bool WtaHandler_Vanilla(struct BattleUnit *attacker, struct Battle
 {
 	const struct WeaponTriangleRule *it;
 
+	Debug("Handling vanilla wta");
+
 	for (it = pr_WeaponTriangleRules; it->attackerWeaponType >= 0; ++it) {
 		if ((attacker->weaponType == it->attackerWeaponType) && (defender->weaponType == it->defenderWeaponType)) {
 			if (it->atkBonus > 0) {
@@ -75,7 +95,7 @@ STATIC_DECLAR bool WtaHandler_Vanilla(struct BattleUnit *attacker, struct Battle
 				status->minus.atk += it->atkBonus * 2;
 				status->minus.hit += it->hitBonus * 2;
 			}
-			return true;
+			return false;
 		}
 	}
 	return false;
@@ -156,6 +176,28 @@ void PreBattleGenerate_SetupWtaStatus(void)
 	WtaHandler();
 }
 
+void ResetUnitWtaStatus(struct WtaStatus *status)
+{
+	status->amplifier_eff = false;
+	status->invert_eff = false;
+
+	status->bonus.atk = 0;
+	status->bonus.avo = 0;
+	status->bonus.crt = 0;
+	status->bonus.def = 0;
+	status->bonus.hit = 0;
+	status->bonus.sil = 0;
+	status->bonus.poise_eff = false;
+
+	status->minus.atk = 0;
+	status->minus.avo = 0;
+	status->minus.crt = 0;
+	status->minus.def = 0;
+	status->minus.hit = 0;
+	status->minus.sil = 0;
+	status->minus.poise_eff = false;
+}
+
 void PreBattleCalcWeaponTriangle(struct BattleUnit *attacker, struct BattleUnit *defender)
 {
 	int ui1, ui2, ui;
@@ -212,30 +254,26 @@ void PreBattleCalcWeaponTriangle(struct BattleUnit *attacker, struct BattleUnit 
 		status->minus.sil = -status->minus.sil;
 	}
 
-	ui1 = (status->bonus.atk + status->bonus.def) * 10
-		+ status->bonus.hit + status->bonus.avo + status->bonus.crt + status->bonus.sil;
-	ui2 = (status->minus.atk + status->minus.def) * 10
-		+ status->minus.hit + status->minus.avo + status->minus.crt + status->minus.sil;
+	ui1 = (status->bonus.atk + status->bonus.def) * 10 + status->bonus.hit + status->bonus.avo + status->bonus.crt + status->bonus.sil;
+	ui2 = (status->minus.atk + status->minus.def) * 10 + status->minus.hit + status->minus.avo + status->minus.crt + status->minus.sil;
 
 	ui = (ui1 + ui2) / 8;
 
 	LTRACEF("[actor=%d] ui=%d invert=%d", attacker == &gBattleActor, ui, status->invert_eff);
-	LTRACEF("bonus: atk=%d, def=%d, hit=%d, avo=%d, crt=%d, sil=%d",
-		status->bonus.atk, status->bonus.def, status->bonus.hit, status->bonus.avo, status->bonus.crt, status->bonus.sil);
-	LTRACEF("minus: atk=%d, def=%d, hit=%d, avo=%d, crt=%d, sil=%d",
-		status->minus.atk, status->minus.def, status->minus.hit, status->minus.avo, status->minus.crt, status->minus.sil);
+	LTRACEF("bonus: atk=%d, def=%d, hit=%d, avo=%d, crt=%d, sil=%d", status->bonus.atk, status->bonus.def, status->bonus.hit, status->bonus.avo, status->bonus.crt, status->bonus.sil);
+	LTRACEF("minus: atk=%d, def=%d, hit=%d, avo=%d, crt=%d, sil=%d", status->minus.atk, status->minus.def, status->minus.hit, status->minus.avo, status->minus.crt, status->minus.sil);
 
-	attacker->battleAttack       += status->bonus.atk + status->minus.atk;
-	attacker->battleDefense      += status->bonus.def + status->minus.def;
-	attacker->battleHitRate      += status->bonus.hit + status->minus.hit;
-	attacker->battleAvoidRate    += status->bonus.avo + status->minus.avo;
-	attacker->battleCritRate     += status->bonus.crt + status->minus.crt;
+	attacker->battleAttack += status->bonus.atk + status->minus.atk;
+	attacker->battleDefense += status->bonus.def + status->minus.def;
+	attacker->battleHitRate += status->bonus.hit + status->minus.hit;
+	attacker->battleAvoidRate += status->bonus.avo + status->minus.avo;
+	attacker->battleCritRate += status->bonus.crt + status->minus.crt;
 	attacker->battleSilencerRate += status->bonus.sil + status->minus.sil;
 
-	attacker->wTriangleHitBonus  += ui;
-	attacker->wTriangleDmgBonus  += ui;
-	defender->wTriangleHitBonus  -= ui;
-	defender->wTriangleDmgBonus  -= ui;
+	attacker->wTriangleHitBonus += ui;
+	attacker->wTriangleDmgBonus += ui;
+	defender->wTriangleHitBonus -= ui;
+	defender->wTriangleDmgBonus -= ui;
 }
 
 #if 0
@@ -257,4 +295,11 @@ void _BattleApplyWeaponTriangleEffect(struct BattleUnit *attacker, struct Battle
 	 * now WTA-bonus in BattleUnit struct is just for BkSel UI.
 	 */
 	return;
+}
+
+void ResetWtaStatus()
+{
+	Debug("Clearing WTA status");
+	ResetUnitWtaStatus(&gWtaStatus_act);
+	ResetUnitWtaStatus(&gWtaStatus_tar);
 }

@@ -11,7 +11,7 @@ extern HookProcFunc_t const *const gpPreMapAnimBattleRoundHooks;
 STATIC_DECLAR void PreMapAnimBattleRound_OnStart(ProcPtr proc)
 {
 #ifdef CONFIG_USE_COMBO_ATTACK
-	MapAnim_PrepareNextBattleRound_CleanPreRoundCombo();
+	// MapAnim_PrepareNextBattleRound_CleanPreRoundCombo();
 #endif
 
 	/**
@@ -51,7 +51,7 @@ const struct ProcCmd ProcScr_MapAnimBattle_Rework[] = {
 	PROC_SLEEP(0x1),
 	PROC_CALL(MapAnim_InitInfoBox),
 	PROC_SLEEP(0xF),
-PROC_LABEL(0x0),
+	PROC_LABEL(0x0),
 
 #if CHAX
 	/* Pre-hit */

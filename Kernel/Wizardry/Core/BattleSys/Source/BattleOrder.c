@@ -46,7 +46,7 @@ STATIC_DECLAR bool CheckCanContinueAttack(struct BattleUnit *bu)
 bool CheckCanTwiceAttackOrder(struct BattleUnit *actor, struct BattleUnit *target)
 {
 	FORCE_DECLARE bool followup_nullified_en = true;
-	FORCE_DECLARE bool ref_actor_hp_above_half  = ((actor->hpInitial  * 2) > actor->unit.maxHP);
+	FORCE_DECLARE bool ref_actor_hp_above_half = ((actor->hpInitial * 2) > actor->unit.maxHP);
 	FORCE_DECLARE bool ref_target_hp_above_half = ((target->hpInitial * 2) > target->unit.maxHP);
 
 	if (target->battleSpeed > 250)
@@ -184,7 +184,7 @@ bool CheckCanTwiceAttackOrder(struct BattleUnit *actor, struct BattleUnit *targe
 
 #if defined(SID_QuickLearner) && (COMMON_SKILL_VALID(SID_QuickLearner))
 		if (BattleFastSkillTester(actor, SID_QuickLearner)) {
-			int lv1 = actor->levelPrevious  + GetUnitHiddenLevel(&actor->unit);
+			int lv1 = actor->levelPrevious + GetUnitHiddenLevel(&actor->unit);
 			int lv2 = target->levelPrevious + GetUnitHiddenLevel(&target->unit);
 
 			if (lv1 < lv2) {
@@ -420,16 +420,15 @@ void BattleUnwind(void)
 
 #ifdef CONFIG_USE_COMBO_ATTACK
 			/* Combo-attack first */
-			if (!combo_atk_done) {
-				combo_atk_done = true;
-				ret = BattleComboGenerateHits();
-				if (ret)
-					break;
-
-				/* Reload battle-hit */
-				old = gBattleHitIterator;
-				LTRACEF("Combo end at round %d", GetBattleHitRound(old));
-			}
+			//if (!combo_atk_done) {
+			//	combo_atk_done = true;
+			//	ret = BattleComboGenerateHits();
+			//	if (ret)
+			//		break;
+			//	/* Reload battle-hit */
+			//	old = gBattleHitIterator;
+			//	LTRACEF("Combo end at round %d", GetBattleHitRound(old));
+			//}
 #endif
 			ret = BattleGenerateRoundHits(&gBattleActor, &gBattleTarget);
 			actor_count++;
@@ -554,9 +553,7 @@ bool BattleGetFollowUpOrder(struct BattleUnit **outAttacker, struct BattleUnit *
 LYN_REPLACE_CHECK(GetBattleUnitHitCount);
 int GetBattleUnitHitCount(struct BattleUnit *actor)
 {
-	FORCE_DECLARE struct BattleUnit *target = (actor == &gBattleActor)
-										    ? &gBattleTarget
-										    : &gBattleActor;
+	FORCE_DECLARE struct BattleUnit *target = (actor == &gBattleActor) ? &gBattleTarget : &gBattleActor;
 	int result = 1;
 
 	if (BattleCheckBraveEffect(actor))
@@ -585,10 +582,10 @@ int GetBattleUnitHitCount(struct BattleUnit *actor)
 #endif
 
 #if defined(SID_ChargePlus) && (COMMON_SKILL_VALID(SID_ChargePlus))
-		if (BattleFastSkillTester(actor, SID_ChargePlus)) {
-			if (MovGetter(gActiveUnit) == gActionData.moveCount)
-				result = result + 1;
-		}
+	if (BattleFastSkillTester(actor, SID_ChargePlus)) {
+		if (MovGetter(gActiveUnit) == gActionData.moveCount)
+			result = result + 1;
+	}
 #endif
 
 #if defined(SID_DoubleLion) && (COMMON_SKILL_VALID(SID_DoubleLion))

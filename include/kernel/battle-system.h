@@ -3,7 +3,7 @@
 #include "common-chax.h"
 #include "kernel-lib.h"
 
-#define IS_BATTLE_UNIT(_unit) ((_unit) == &gBattleActor.unit  || (_unit) ==  &gBattleTarget.unit)
+#define IS_BATTLE_UNIT(_unit) ((_unit) == &gBattleActor.unit || (_unit) == &gBattleTarget.unit)
 #define IS_BATTLE_ACTOR(bu) ((bu) == &gBattleActor)
 
 struct BattleStatus {
@@ -62,7 +62,7 @@ struct WtaStatus {
 
 extern struct WtaStatus gWtaStatus_act, gWtaStatus_tar;
 
-void ResetWtaStatus(void);
+void ResetWtaStatus();
 
 /* Battle hit expansion */
 #define NEW_BATTLE_HIT_MAX 0x20 /* This should align to gAnimRoundData */
@@ -71,7 +71,7 @@ extern u16 gAnimRoundDataRe[NEW_BATTLE_HIT_MAX];
 extern u16 gEfxHpLutRe[NEW_BATTLE_HIT_MAX * 3];
 
 // extern struct BattleHit *const prBattleHitArray;
-extern void * const prBattleHitArray;
+extern void *const prBattleHitArray;
 extern u8 BattleHitArrayWidth;
 
 struct ExtBattleHit {
@@ -80,12 +80,27 @@ struct ExtBattleHit {
 };
 extern struct ExtBattleHit gExtBattleHitArray[NEW_BATTLE_HIT_MAX];
 
-static inline int GetBattleHitRound(struct BattleHit *hit) { return hit - gBattleHitArrayRe; }
-static inline int GetCurrentBattleHitRound(void) { return GetBattleHitRound(gBattleHitIterator); }
+static inline int GetBattleHitRound(struct BattleHit *hit)
+{
+	return hit - gBattleHitArrayRe;
+}
+static inline int GetCurrentBattleHitRound(void)
+{
+	return GetBattleHitRound(gBattleHitIterator);
+}
 
-static inline struct ExtBattleHit *GetExtBattleHit(int round) { return &gExtBattleHitArray[round]; }
-static inline struct ExtBattleHit *GetCurrentExtBattleHit(void) { return GetExtBattleHit(GetCurrentBattleHitRound()); }
-static inline struct ExtBattleHit *GetExtBattleHitFromHit(struct BattleHit *hit) { return GetExtBattleHit(GetBattleHitRound(hit)); }
+static inline struct ExtBattleHit *GetExtBattleHit(int round)
+{
+	return &gExtBattleHitArray[round];
+}
+static inline struct ExtBattleHit *GetCurrentExtBattleHit(void)
+{
+	return GetExtBattleHit(GetCurrentBattleHitRound());
+}
+static inline struct ExtBattleHit *GetExtBattleHitFromHit(struct BattleHit *hit)
+{
+	return GetExtBattleHit(GetBattleHitRound(hit));
+}
 
 bool CheckBattleHitOverflow(void);
 bool CheckCanTwiceAttackOrder(struct BattleUnit *actor, struct BattleUnit *target);
@@ -93,9 +108,9 @@ int CalcBattleRealDamage(struct BattleUnit *attacker, struct BattleUnit *defende
 
 extern struct BattleGlobalFlags {
 	u32 hitted : 1;
-	u32 round_cnt : 5;	  // align to NEW_BATTLE_HIT_MAX
-	u32 round_cnt_hit : 5;  // align to NEW_BATTLE_HIT_MAX
-	u32 round_cnt_avo : 5;  // align to NEW_BATTLE_HIT_MAX
+	u32 round_cnt : 5; // align to NEW_BATTLE_HIT_MAX
+	u32 round_cnt_hit : 5; // align to NEW_BATTLE_HIT_MAX
+	u32 round_cnt_avo : 5; // align to NEW_BATTLE_HIT_MAX
 	u32 enimy_defeated : 1;
 	u32 allies_in_range3x3 : 5;
 	u32 enemies_in_range3x3 : 5;
@@ -106,9 +121,7 @@ extern struct BattleGlobalFlags {
 
 static inline struct BattleGlobalFlags *GetBattleGlobalFlags(struct BattleUnit *bu)
 {
-	return (bu == &gBattleActor)
-		 ? &gBattleActorGlobalFlag
-		 : &gBattleTargetGlobalFlag;
+	return (bu == &gBattleActor) ? &gBattleActorGlobalFlag : &gBattleTargetGlobalFlag;
 }
 
 void ClearBattleGlobalFlags(void);
@@ -333,7 +346,7 @@ static inline bool CheckUnbreakableSpecialSlot(int slot)
 	case CHAX_BUISLOT_GAIDEN_WMAG1 ... CHAX_BUISLOT_GAIDEN_WMAG7:
 	case CHAX_BUISLOT_THREEHOUSES_BMAG1 ... CHAX_BUISLOT_THREEHOUSES_BMAG7:
 	case CHAX_BUISLOT_THREEHOUSES_WMAG1 ... CHAX_BUISLOT_THREEHOUSES_WMAG7:
-	case CHAX_BUISLOT_ENGAGE_WEAPON1    ... CHAX_BUISLOT_ENGAGE_WEAPON7:
+	case CHAX_BUISLOT_ENGAGE_WEAPON1 ... CHAX_BUISLOT_ENGAGE_WEAPON7:
 		return true;
 
 	default:

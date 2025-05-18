@@ -3,6 +3,7 @@
 #include "skill-system.h"
 #include "constants/skills.h"
 
+// clang-format off
 const struct WeaponTriangleConf gWeaponTriangleConfs[] = {
 #if defined(SID_AxeBreaker) && (COMMON_SKILL_VALID(SID_AxeBreaker))
 	{
@@ -167,32 +168,5 @@ const struct WeaponTriangleConf gWeaponTriangleConfs[] = {
 };
 
 const struct WeaponTriangleItemConf gWeaponTriangleItemConf[0x100] = {
-	[ITEM_SWORD_LANCEREAVER] = {
-		.valid = true,
-		.wtype = ITYPE_LANCE,
-		.is_buff = true,
-		.battle_status.atk = 3,
-		.battle_status.avo = 15,
-	},
-	[ITEM_LANCE_AXEREAVER] = {
-		.valid = true,
-		.wtype = ITYPE_AXE,
-		.is_buff = true,
-		.battle_status.atk = 3,
-		.battle_status.def = 3,
-	},
-	[ITEM_AXE_SWORDREAVER] = {
-		.valid = true,
-		.wtype = ITYPE_SWORD,
-		.is_buff = true,
-		.battle_status.atk = 3,
-		.battle_status.hit = 10,
-	},
-	[ITEM_AXE_SWORDSLAYER] = {
-		.valid = true,
-		.wtype = ITYPE_SWORD,
-		.is_buff = true,
-		.battle_status.atk = 3,
-		.battle_status.hit = 15,
-	}
+
 };

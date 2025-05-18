@@ -15,7 +15,7 @@
  * If you're planning to develop a new game instead of making minor
  * changes on vanilla, it is recommanded to uncomment this config to save space.
  */
-// #define CONFIG_CROP_VANILLA_MSG
+#define CONFIG_CROP_VANILLA_MSG
 
 /* CommonProtection.event */
 #define CONFIG_COMMON_PROTECTION_ENBALED
@@ -27,7 +27,7 @@
 #define CONFIG_USE_UTF8_GLYPH
 
 /* Engage style combo attack */
-#define CONFIG_USE_COMBO_ATTACK
+// #define CONFIG_USE_COMBO_ATTACK
 
 /**
  * Surround:
@@ -39,7 +39,7 @@
  *
  * Flyer in outdoor environments are not affected by this effect
  */
-#define CONFIG_BATTLE_SURROUND
+// #define CONFIG_BATTLE_SURROUND
 
 /**
  * 0: Not show any kernel tutorial
@@ -71,7 +71,7 @@
  *      - StartBattleAnimHitEffect
  *      - NewEfxHpBar
  */
-#define CONFIG_FAKE_OLD_ANIMNUMBER_PATCH
+// #define CONFIG_FAKE_OLD_ANIMNUMBER_PATCH
 
 /**
  * Auto detect on EfxResire weapon judgement
@@ -87,13 +87,13 @@
  * AI_EN: if set as 1, AI can also use gaiden B.Mag
  * EXT_CONF_EN: enbale gGaidenChaxConfigs
  */
-#define CONFIG_USE_GAIDEN_MAGIC
+//#define CONFIG_USE_GAIDEN_MAGIC
 
 #ifdef CONFIG_USE_GAIDEN_MAGIC
-	#define CONFIG_GAIDEN_MAGIC_MUST_BE_MAGIC 0 // 0: all weapons are okay
-	#define CONFIG_GAIDEN_MAGIC_REQUIRES_WRANK 0 // 0: not requires unit ability to equip that weapon
-	#define CONFIG_GAIDEN_MAGIC_AI_EN 1
-	#define CONFIG_GAIDEN_EXT_CONF_EN 1
+#define CONFIG_GAIDEN_MAGIC_MUST_BE_MAGIC 0 // 0: all weapons are okay
+#define CONFIG_GAIDEN_MAGIC_REQUIRES_WRANK 0 // 0: not requires unit ability to equip that weapon
+#define CONFIG_GAIDEN_MAGIC_AI_EN 1
+#define CONFIG_GAIDEN_EXT_CONF_EN 1
 #endif /* USE_GAIDEN_MAGIC */
 
 /**
@@ -134,7 +134,7 @@
  * Append the same logic on loading skill as old skillsys, as:
  * https://feuniverse.us/t/the-skill-system-and-you-maximizing-your-usage-of-fe8s-most-prolific-bundle-of-wizardry/8232/5
  */
-#define CONFIG_FIT_OLD_SKILLSYS_LIST
+// #define CONFIG_FIT_OLD_SKILLSYS_LIST
 
 /**
  * Enable shield system
@@ -188,7 +188,7 @@
 /**
  * Install Bow2Decrease
  */
-#define CONFIG_INSTALL_BOW2DECREASE
+// #define CONFIG_INSTALL_BOW2DECREASE
 
 /**
  * Install none-kernel related patches (not necessary)
@@ -199,7 +199,8 @@
  * Install ConvoyExpa
  */
 #define CONFIG_INSTALL_CONVOYEXPA
-#define CONFIG_INSTALL_CONVOYEXPA_AMT 200 // better not to touch this since it will affact on size of gExpaConvoyItemArray
+#define CONFIG_INSTALL_CONVOYEXPA_AMT 200
+// better not to touch this since it will affact on size of gExpaConvoyItemArray
 
 /**
  * If uncommented, suspend data may only saved in play-phase starting.
@@ -235,7 +236,7 @@
 /**
  * Icon config
  */
-#define CONFIG_PR_ITEM_ICON  0x5926F4
+#define CONFIG_PR_ITEM_ICON 0x5926F4
 #define CONFIG_ICON_INDEX_MAG_BOOSTER 0xCA
 #define CONFIG_ICON_INDEX_STAR 0xCB
 
@@ -250,8 +251,8 @@
 /**
  * Unit amount, since it is hard to modify, it is recommanded not change this value
  */
-#define CONFIG_UNIT_AMT_ALLY  51
+#define CONFIG_UNIT_AMT_ALLY 51
 #define CONFIG_UNIT_AMT_ENEMY 50
-#define CONFIG_UNIT_AMT_NPC   8
+#define CONFIG_UNIT_AMT_NPC 8
 
 #endif /* CONFIG_INSTALLED */

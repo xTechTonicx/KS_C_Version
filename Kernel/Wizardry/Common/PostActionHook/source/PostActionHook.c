@@ -15,6 +15,7 @@ bool PostActionEnd(ProcPtr proc)
 	ResetCombatArtStatus();
 	ResetSkillLists();
 	ResetCombatArtList();
+	ResetWtaStatus();
 
 	/* Vanilla function at the hack entry */
 	HandlePostActionTraps(proc);
@@ -28,18 +29,6 @@ bool PostActionPadFunc(ProcPtr proc)
 }
 
 /* CHAX hooks */
-const struct ProcCmd ProcScr_PostActionHookPlayPhase[] = {
-	PROC_YIELD,
-	PROC_CALL(PostActionHook),
-	PROC_YIELD,
-	PROC_JUMP((const struct ProcCmd *)0x0859ABE8),
-	PROC_END
-};
+const struct ProcCmd ProcScr_PostActionHookPlayPhase[] = { PROC_YIELD, PROC_CALL(PostActionHook), PROC_YIELD, PROC_JUMP((const struct ProcCmd *)0x0859ABE8), PROC_END };
 
-const struct ProcCmd ProcScr_PostActionHookCpPerform[] = {
-	PROC_YIELD,
-	PROC_CALL(PostActionHook),
-	PROC_YIELD,
-	PROC_JUMP((const struct ProcCmd *)0x085A807C),
-	PROC_END
-};
+const struct ProcCmd ProcScr_PostActionHookCpPerform[] = { PROC_YIELD, PROC_CALL(PostActionHook), PROC_YIELD, PROC_JUMP((const struct ProcCmd *)0x085A807C), PROC_END };

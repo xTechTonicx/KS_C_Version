@@ -42,8 +42,8 @@ PUSH
     ORG $36E14
     POIN Pal_BKSEL
 
-    ORG $2C7C0 // BattleApplyWeaponTriangleEffect
-    jumpToHack(_BattleApplyWeaponTriangleEffect)
+    ORG $2C7C0 // BattleApplyWeaponTriangleEffect // Bugged
+    jumpToHack(_BattleApplyWeaponTriangleEffect) // Bugged
 
     ORG $2C7CC
     pr_WeaponTriangleRules:
