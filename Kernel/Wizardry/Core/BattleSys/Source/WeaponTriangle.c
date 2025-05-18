@@ -14,12 +14,12 @@ void DEBUG_PrintStatus(struct WtaStatus *status, char *unitName, char *loc, stru
 	Debugf("Status invert: %u", status->invert_eff);
 	Debugf("Status amplify: %u", status->amplifier_eff);
 
-	Debugf("Status delta atk: %d", status->bonus.atk + status->minus.atk);
-	Debugf("Status delta avo: %d", status->bonus.avo + status->minus.avo);
-	Debugf("Status delta crt: %d", status->bonus.crt + status->minus.crt);
-	Debugf("Status delta hit: %d", status->bonus.hit + status->minus.hit);
-	Debugf("Status delta poise: %d", status->bonus.poise_eff + status->minus.poise_eff);
-	Debugf("Status delta sil: %d", status->bonus.sil + status->minus.sil);
+	Debugf("Status delta atk: %d", status->bonus.atk - status->minus.atk);
+	Debugf("Status delta avo: %d", status->bonus.avo - status->minus.avo);
+	Debugf("Status delta crt: %d", status->bonus.crt - status->minus.crt);
+	Debugf("Status delta hit: %d", status->bonus.hit - status->minus.hit);
+	Debugf("Status delta poise: %d", status->bonus.poise_eff - status->minus.poise_eff);
+	Debugf("Status delta sil: %d", status->bonus.sil - status->minus.sil);
 
 	Debugf("BattleUnit hit rate: %d", bu->battleHitRate);
 }
@@ -89,11 +89,25 @@ STATIC_DECLAR bool WtaHandler_Vanilla(struct BattleUnit *attacker, struct Battle
 	for (it = pr_WeaponTriangleRules; it->attackerWeaponType >= 0; ++it) {
 		if ((attacker->weaponType == it->attackerWeaponType) && (defender->weaponType == it->defenderWeaponType)) {
 			if (it->atkBonus > 0) {
-				status->bonus.atk += it->atkBonus * 2;
-				status->bonus.hit += it->hitBonus * 2;
+				status->bonus.hit += 5;
+				if (attacker->unit.ranks[attacker->weaponType] >= WPN_EXP_C)
+					status->bonus.hit += 5;
+				if (attacker->unit.ranks[attacker->weaponType] >= WPN_EXP_A)
+					status->bonus.atk += 1;
+				if (attacker->unit.ranks[attacker->weaponType] == WPN_EXP_S) {
+					status->bonus.hit += 5;
+					status->bonus.atk += 1;
+				}
 			} else {
-				status->minus.atk += it->atkBonus * 2;
-				status->minus.hit += it->hitBonus * 2;
+				status->minus.hit -= 5;
+				if (defender->unit.ranks[defender->weaponType] >= WPN_EXP_C)
+					status->minus.hit -= 5;
+				if (defender->unit.ranks[defender->weaponType] >= WPN_EXP_A)
+					status->minus.atk -= 1;
+				if (defender->unit.ranks[defender->weaponType] == WPN_EXP_S) {
+					status->minus.hit -= 5;
+					status->minus.atk -= 1;
+				}
 			}
 			return false;
 		}
