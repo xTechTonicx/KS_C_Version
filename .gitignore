@@ -25,6 +25,9 @@ Tools/dotnet-install.sh
 *.dmp
 *.lyn.event
 
+# Include pre-made sprites
+!*Sprites/**/*.dmp
+
 # Spritans
 *.4bpp
 *.gbapal
