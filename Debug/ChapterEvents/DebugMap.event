@@ -72,8 +72,8 @@ UNIT
 
 EnemyUnits:
 // Lower Central Group
-UNIT 0x80 CLASS_FIGHTER_M ONeill Level(20, Enemy, True) [9 ,28] 0x0 0x0 0x0 0x0 [ITEM_AXE_BRONZE] NeverMoveAI
-UNIT 0x80 CLASS_FIGHTER_M ONeill Level(20, Enemy, True) [9 ,20] 0x0 0x0 0x0 0x0 [ITEM_AXE_BRONZE] NeverMoveAI
+UNIT 0x80 CLASS_FIGHTER_M CHARACTER_AUDREY Level(20, Enemy, True) [9 ,28] 0x0 0x0 0x0 0x0 [ITEM_AXE_BRONZE] NeverMoveAI
+UNIT 0x80 CLASS_FIGHTER_M CHARACTER_AUDREY Level(20, Enemy, True) [9 ,20] 0x0 0x0 0x0 0x0 [ITEM_AXE_BRONZE] NeverMoveAI
 UNIT
 
 //==================================================================//
