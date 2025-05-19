@@ -35,12 +35,18 @@ STATIC_DECLAR void UpdateItemPageListExt(struct Unit *unit, struct ItemPageList 
 		ent->item = item;
 		ent->slot = i;
 
+		Debugf("Forge when loading statcreen: 0x%04x", item);
+		Debugf("Item uses: 0x%02x", ITEM_USES(item));
+		Debugf("Is weapon: 0x%02x", GetItemData(ITEM_INDEX(item))->attributes & IA_WEAPON);
+
 		if ((unit->state & US_DROP_ITEM) && ((GetUnitItemCount(unit) - 1) == i))
 			ent->color = TEXT_COLOR_SYSTEM_GREEN;
+		else if (!IsItemDisplayUsable(unit, item))
+			ent->color = TEXT_COLOR_SYSTEM_GRAY;
 		else
-			ent->color = IsItemDisplayUsable(unit, item)
-					   ? TEXT_COLOR_SYSTEM_WHITE
-					   : TEXT_COLOR_SYSTEM_GRAY;
+			ent->color = (GetItemData(ITEM_INDEX(item))->attributes & IA_WEAPON && (ITEM_USES(item) > 0))
+					   ? TEXT_COLOR_SYSTEM_BLUE
+					   : TEXT_COLOR_SYSTEM_WHITE;
 	}
 
 	/**

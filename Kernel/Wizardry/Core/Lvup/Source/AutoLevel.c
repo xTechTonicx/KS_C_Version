@@ -144,7 +144,7 @@ void BuffWeapons(int old, int new) {
                 break;
             
             if (iid == old)
-                unit->items[i] = new; // TODO: Scale WRank Appropriately
+                unit->items[i] = MakeNewItem(new);
         };
 		UnitAutolevelWExpConfig(unit);
     })

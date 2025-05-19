@@ -1,1 +1,3 @@
 #define EvtBuffWeapons(OldID, NewID) "SVAL 1 OldID; SVAL 2 NewID; ASMC BuffWeaponsASMC"
+
+#define EvtForgeEnemyWeapons(WeaponID, ForgeLevel) "SVAL 1 WeaponID; SVAL 2 ForgeLevel; ASMC ForgeEnemyWeapons_ASMC"

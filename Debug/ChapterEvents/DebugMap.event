@@ -89,6 +89,8 @@ ENUN
 LOAD1 0x1 UnitsCH2
 ENUN
 
+EvtForgeEnemyWeapons(ITEM_AXE_BRONZE, 2)
+
 NoFade
 ENDA
 
