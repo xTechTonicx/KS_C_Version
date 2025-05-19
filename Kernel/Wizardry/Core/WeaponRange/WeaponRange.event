@@ -29,7 +29,7 @@ ORG $87630
     BL(_prGetUnitDisplayRangeString)
 
 // Fix latona range
-ORG CONFIG_PR_ITEM_TABLE + Latona * 0x24 + 0x19
+ORG CONFIG_PR_ITEM_TABLE + 140 * 0x24 + 0x19 // FIXME Remove later
     BYTE 0x0F
 POP
 
