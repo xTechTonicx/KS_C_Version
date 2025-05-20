@@ -6,6 +6,9 @@
 
 int _GetUnitMov(struct Unit *unit)
 {
+	if (unit->ai_config & AI_UNIT_CONFIG_FLAG_STAY)
+		return 0;
+	
 	const StatusGetterFunc_t *it;
 	int status = UNIT_MOV(unit);
 

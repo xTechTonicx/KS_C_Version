@@ -166,11 +166,14 @@ STATIC_DECLAR void DrawPage1ValueCommon(void)
 {
 	struct Unit *unit = gStatScreen.unit;
 
-	DrawStatWithBarRework(7, 0xD, 0x1,
-					gUiTmScratchA, gUiTmScratchC,
-					UNIT_MOV(unit),
-					MovGetter(unit),
-					UNIT_MOV_MAX(unit));
+	if (MovGetter(unit) == 0) // TODO: Make this better?
+		PutNumberOrBlank(gUiTmScratchA + TILEMAP_INDEX(0xD, 0x1), TEXT_COLOR_SYSTEM_BLUE, -1);
+	else
+		DrawStatWithBarRework(7, 0xD, 0x1,
+						gUiTmScratchA, gUiTmScratchC,
+						UNIT_MOV_BASE(unit),
+						MovGetter(unit),
+						UNIT_MOV_MAX(unit));
 
 	DrawStatWithBarRework(8, 0xD, 0x3,
 					gUiTmScratchA, gUiTmScratchC,
