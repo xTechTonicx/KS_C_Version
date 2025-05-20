@@ -27,7 +27,7 @@ void ForgeEnemyWeapons(u8 weapon, u8 forgeLevel) {
                 break;
             
             if (iid == weapon) 
-                unit->items[i] = unit->items[i];
+                unit->items[i] = unit->items[i] + (forgeLevel << 8);
         };
     })
 }
