@@ -17,6 +17,19 @@ int GetItemMight(int item) {
     return value;
 }
 
+LYN_REPLACE_CHECK(GetItemHit);
+int GetItemHit(int item) {
+    int value = GetItemData(ITEM_INDEX(item))->hit;
+
+    if (!(GetItemAttributes(ITEM_INDEX(item)) & IA_WEAPON))
+        return value;
+    
+    int uses = ITEM_USES(item);
+    if (uses > 0)
+        return value + 10;
+    return value;
+}
+
 void ForgeEnemyWeapons(u8 weapon, u8 forgeLevel) {
     FOR_UNITS_ONMAP_FACTION(FACTION_RED, unit,
     {
