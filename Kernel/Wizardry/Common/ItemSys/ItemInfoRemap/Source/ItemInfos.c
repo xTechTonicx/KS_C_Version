@@ -191,12 +191,10 @@ void DrawItemStatScreenLine(struct Text *text, int item, int nameColor, u16 *map
 	Text_DrawString(text, GetItemName(item));
 
 	if (!IsDuraItem(item)) {
-		color = (nameColor == TEXT_COLOR_SYSTEM_GRAY) ? TEXT_COLOR_SYSTEM_GRAY : TEXT_COLOR_SYSTEM_WHITE;
-		PutSpecialChar(mapOut + 12, color, TEXT_SPECIAL_SLASH);
+		color = (nameColor == TEXT_COLOR_SYSTEM_GRAY) ? TEXT_COLOR_SYSTEM_GRAY : TEXT_COLOR_SYSTEM_BLUE;
 
-		color = (nameColor != TEXT_COLOR_SYSTEM_GRAY) ? TEXT_COLOR_SYSTEM_BLUE : TEXT_COLOR_SYSTEM_GRAY;
-		PutNumberOrBlank(mapOut + 11, color, GetItemUses(item));
-		PutNumberOrBlank(mapOut + 14, color, GetItemMaxUses(item));
+		if(!(GetItemAttributes(item) & IA_UNBREAKABLE))
+			PutNumberOrBlank(mapOut + 14, color, GetItemUses(item));
 	}
 	PutText(text, mapOut + 2);
 
