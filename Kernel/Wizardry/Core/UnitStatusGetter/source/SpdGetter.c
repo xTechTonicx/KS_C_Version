@@ -26,6 +26,16 @@ int SpdGetterWeaponBonus(int status, struct Unit *unit)
 	u16 weapon = GetUnitEquippedWeapon(unit);
 
 	status += GetItemSpdBonus(weapon);
+
+	int wt = GetItemWeight(weapon);
+	int con = unit->pClassData->baseCon + unit->conBonus;
+
+	wt -= con;
+	if (wt < 0)
+		wt = 0;
+
+	status -= wt;
+
 	return status;
 }
 

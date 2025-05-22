@@ -17,19 +17,8 @@ void PreBattleCalcWeaponTriangle(struct BattleUnit *attacker, struct BattleUnit 
 LYN_REPLACE_CHECK(ComputeBattleUnitSpeed);
 void ComputeBattleUnitSpeed(struct BattleUnit *bu)
 {
-	// Make sure BattleUnit::battleAttack has been setup
-
-	int wt = GetItemWeight(bu->weaponBefore);
-	int con = bu->unit.conBonus;
-
-	wt -= con;
-	if (wt < 0)
-		wt = 0;
-
-	bu->battleSpeed = bu->unit.spd - wt;
-
-	if (bu->battleSpeed < 0)
-		bu->battleSpeed = 0;
+	// Weight penalty is now computed in SpdGetterWeaponBonus
+	bu->battleSpeed = bu->unit.spd;
 }
 
 LYN_REPLACE_CHECK(ComputeBattleUnitAttack);
