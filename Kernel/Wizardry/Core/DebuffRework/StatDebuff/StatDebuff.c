@@ -197,6 +197,37 @@ void TickUnitStatDebuff(struct Unit *unit, enum STATUS_DEBUFF_TICK_TYPE type)
 		ResetStatDebuffPositiveType(unit);
 }
 
+void TickGradualStatDebuff(u32* bitfile, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX start, bool* ticked) {
+	u8 end = start - 1;
+
+	for(u8 i = start; i < start + 6; i++) {
+		if (_BIT_CHK(bitfile, i)) {
+			_BIT_CLR(bitfile, i);
+			end = i - 1;
+			break;
+		}
+	}
+
+	for(u8 i = end; i >= start; i--) {
+		_BIT_SET(bitfile, i);
+	}
+}
+
+void TickUnitGradualDebuffs(struct Unit *unit) {
+	u32* bitfile = GetUnitStatDebuffStatus(unit)->st.bitmask;
+	bool ticked = false;
+	
+	TickGradualStatDebuff(bitfile, STR_DEBUFF_START, &ticked);
+	TickGradualStatDebuff(bitfile, MAG_DEBUFF_START, &ticked);
+	TickGradualStatDebuff(bitfile, SKL_DEBUFF_START, &ticked);
+	TickGradualStatDebuff(bitfile, SPD_DEBUFF_START, &ticked);
+	TickGradualStatDebuff(bitfile, LCK_DEBUFF_START, &ticked);
+	TickGradualStatDebuff(bitfile, DEF_DEBUFF_START, &ticked);
+	TickGradualStatDebuff(bitfile, RES_DEBUFF_START, &ticked);
+	if (ticked)
+		ResetStatDebuffPositiveType(unit);
+}
+
 /**
  * Pre-battle calc
  */
@@ -408,6 +439,6 @@ void StatDebuff_OnUnitToBattle(struct Unit *unit, struct BattleUnit *bu)
 
 void SetUnitStatDebuff_Debug() {
 	Debug("Called SetUnitStatDebuff_Debug");
-	SetUnitStatDebuff(GetUnitFromCharId(CHARACTER_AUDREY), UNIT_STAT_BUFF_DEBUGBUFF);
-	SetUnitStatDebuff(GetUnitFromCharId(CHARACTER_OSBORNE), UNIT_STAT_BUFF_DEBUGBUFF);
+	SetUnitStatDebuff(GetUnitFromCharId(CHARACTER_AUDREY), UNIT_STAT_DEBUFF_DEF_2);
+	SetUnitStatDebuff(GetUnitFromCharId(CHARACTER_OSBORNE), UNIT_STAT_DEBUFF_DEF_4);
 }

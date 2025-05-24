@@ -23,47 +23,6 @@ const struct DebuffInfo gStatDebuffInfos[UNIT_STAT_DEBUFF_MAX] = {
 		.battle_status = { .avo = 10 }
 	},
 
-	[UNIT_STAT_DEBUFF_POW] = {
-		.positive_type = STATUS_DEBUFF_NEGATIVE,
-		.tick_type = STATUS_DEBUFF_TICK_ON_ENEMY,
-		.unit_status = { .pow = -4 },
-	},
-	[UNIT_STAT_DEBUFF_MAG] = {
-		.positive_type = STATUS_DEBUFF_NEGATIVE,
-		.tick_type = STATUS_DEBUFF_TICK_ON_ENEMY,
-		.unit_status = { .mag = -4 },
-	},
-	[UNIT_STAT_DEBUFF_SKL] = {
-		.positive_type = STATUS_DEBUFF_NEGATIVE,
-		.tick_type = STATUS_DEBUFF_TICK_ON_ENEMY,
-		.unit_status = { .skl = -4 },
-	},
-	[UNIT_STAT_DEBUFF_SPD] = {
-		.positive_type = STATUS_DEBUFF_NEGATIVE,
-		.tick_type = STATUS_DEBUFF_TICK_ON_ENEMY,
-		.unit_status = { .spd = -4 },
-	},
-	[UNIT_STAT_DEBUFF_LCK] = {
-		.positive_type = STATUS_DEBUFF_NEGATIVE,
-		.tick_type = STATUS_DEBUFF_TICK_ON_ENEMY,
-		.unit_status = { .lck = -4 },
-	},
-	[UNIT_STAT_DEBUFF_DEF] = {
-		.positive_type = STATUS_DEBUFF_NEGATIVE,
-		.tick_type = STATUS_DEBUFF_TICK_ON_ENEMY,
-		.unit_status = { .def = -4 },
-	},
-	[UNIT_STAT_DEBUFF_RES] = {
-		.positive_type = STATUS_DEBUFF_NEGATIVE,
-		.tick_type = STATUS_DEBUFF_TICK_ON_ENEMY,
-		.unit_status = { .res = -4 },
-	},
-	[UNIT_STAT_DEBUFF_MOV] = {
-		.positive_type = STATUS_DEBUFF_NEGATIVE,
-		.tick_type = STATUS_DEBUFF_TICK_ON_ENEMY,
-		.unit_status = { .mov = -4 },
-	},
-
 	[UNIT_STAT_BUFF_POW] = {
 		.positive_type = STATUS_DEBUFF_POSITIVE,
 		.tick_type = STATUS_DEBUFF_TICK_ON_ALLY,
@@ -419,11 +378,220 @@ const struct DebuffInfo gStatDebuffInfos[UNIT_STAT_DEBUFF_MAX] = {
 		},
 	},
 
-	[UNIT_STAT_BUFF_DEBUGBUFF] = {
-		.positive_type = STATUS_DEBUFF_POSITIVE,
+	[UNIT_STAT_DEBUFF_STR_0] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
 		.tick_type = STATUS_DEBUFF_NO_TICK,
-		.unit_status = {
-			.pow = 2
-		}
-	}
+		.unit_status = {.pow = -1}
+	},
+	[UNIT_STAT_DEBUFF_STR_1] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.pow = -2}
+	},
+	[UNIT_STAT_DEBUFF_STR_2] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.pow = -4}
+	},
+	[UNIT_STAT_DEBUFF_STR_3] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.pow = -8}
+	},
+	[UNIT_STAT_DEBUFF_STR_4] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.pow = -16}
+	},
+	[UNIT_STAT_DEBUFF_STR_5] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.pow = -32}
+	},
+
+	[UNIT_STAT_DEBUFF_MAG_0] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.mag = -1}
+	},
+	[UNIT_STAT_DEBUFF_MAG_1] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.mag = -2}
+	},
+	[UNIT_STAT_DEBUFF_MAG_2] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.mag = -4}
+	},
+	[UNIT_STAT_DEBUFF_MAG_3] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.mag = -8}
+	},
+	[UNIT_STAT_DEBUFF_MAG_4] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.mag = -16}
+	},
+	[UNIT_STAT_DEBUFF_MAG_5] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.mag = -32}
+	},
+
+	[UNIT_STAT_DEBUFF_SKL_0] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.skl = -1}
+	},
+	[UNIT_STAT_DEBUFF_SKL_1] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.skl = -2}
+	},
+	[UNIT_STAT_DEBUFF_SKL_2] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.skl = -4}
+	},
+	[UNIT_STAT_DEBUFF_SKL_3] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.skl = -8}
+	},
+	[UNIT_STAT_DEBUFF_SKL_4] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.skl = -16}
+	},
+	[UNIT_STAT_DEBUFF_SKL_5] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.skl = -32}
+	},
+
+	[UNIT_STAT_DEBUFF_SPD_0] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.spd = -1}
+	},
+	[UNIT_STAT_DEBUFF_SPD_1] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.spd = -2}
+	},
+	[UNIT_STAT_DEBUFF_SPD_2] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.spd = -4}
+	},
+	[UNIT_STAT_DEBUFF_SPD_3] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.spd = -8}
+	},
+	[UNIT_STAT_DEBUFF_SPD_4] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.spd = -16}
+	},
+	[UNIT_STAT_DEBUFF_SPD_5] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.spd = -32}
+	},
+
+	[UNIT_STAT_DEBUFF_LCK_0] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.lck = -1}
+	},
+	[UNIT_STAT_DEBUFF_LCK_1] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.lck = -2}
+	},
+	[UNIT_STAT_DEBUFF_LCK_2] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.lck = -4}
+	},
+	[UNIT_STAT_DEBUFF_LCK_3] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.lck = -8}
+	},
+	[UNIT_STAT_DEBUFF_LCK_4] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.lck = -16}
+	},
+	[UNIT_STAT_DEBUFF_LCK_5] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.lck = -32}
+	},
+
+	[UNIT_STAT_DEBUFF_DEF_0] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.def = -1}
+	},
+	[UNIT_STAT_DEBUFF_DEF_1] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.def = -2}
+	},
+	[UNIT_STAT_DEBUFF_DEF_2] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.def = -4}
+	},
+	[UNIT_STAT_DEBUFF_DEF_3] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.def = -8}
+	},
+	[UNIT_STAT_DEBUFF_DEF_4] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.def = -16}
+	},
+	[UNIT_STAT_DEBUFF_DEF_5] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.def = -32}
+	},
+
+	[UNIT_STAT_DEBUFF_RES_0] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.res = -1}
+	},
+	[UNIT_STAT_DEBUFF_RES_1] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.res = -2}
+	},
+	[UNIT_STAT_DEBUFF_RES_2] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.res = -4}
+	},
+	[UNIT_STAT_DEBUFF_RES_3] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.res = -8}
+	},
+	[UNIT_STAT_DEBUFF_RES_4] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.res = -16}
+	},
+	[UNIT_STAT_DEBUFF_RES_5] = {
+		.positive_type = STATUS_DEBUFF_NEGATIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {.res = -32}
+	},
 };

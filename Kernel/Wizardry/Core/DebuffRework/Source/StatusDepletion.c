@@ -76,6 +76,7 @@ void TickActiveFactionTurn(void)
 				DEC_STATUS(unit);
 
 			TickUnitStatDebuff(unit, STATUS_DEBUFF_TICK_ON_ENEMY);
+			TickUnitGradualDebuffs(unit);
 		})
 	} else if (gPlaySt.faction == FACTION_RED) {
 		/* Red buff */
@@ -92,6 +93,7 @@ void TickActiveFactionTurn(void)
 				DEC_STATUS(unit);
 
 			TickUnitStatDebuff(unit, STATUS_DEBUFF_TICK_ON_ENEMY);
+			TickUnitGradualDebuffs(unit);
 		})
 
 		/* Green debuff */
@@ -100,6 +102,7 @@ void TickActiveFactionTurn(void)
 				DEC_STATUS(unit);
 
 			TickUnitStatDebuff(unit, STATUS_DEBUFF_TICK_ON_ENEMY);
+			TickUnitGradualDebuffs(unit);
 		})
 	} else if (gPlaySt.faction == FACTION_GREEN) {
 		/* Green buff */
