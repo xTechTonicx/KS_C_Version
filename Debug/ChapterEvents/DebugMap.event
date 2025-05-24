@@ -27,6 +27,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x00, Turn1_PP, 1)
 END_MAIN
 
 LocationBasedEvents:
@@ -72,7 +73,7 @@ UNIT
 
 EnemyUnits:
 // Lower Central Group
-UNIT 0x80 CLASS_FIGHTER_M CHARACTER_AUDREY Level(20, Enemy, True) [9 ,28] 0x0 0x0 0x0 0x0 [ITEM_AXE_BRONZE] NeverMoveAI
+UNIT 0x80 CLASS_FIGHTER_M CHARACTER_AUDREY Level(20, Enemy, True) [9 ,28] 0x0 0x0 0x0 0x0 [ITEM_AXE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT 0x80 CLASS_FIGHTER_M CHARACTER_AUDREY Level(20, Enemy, True) [9 ,20] 0x0 0x0 0x0 0x0 [ITEM_AXE_BRONZE] NeverMoveAI
 UNIT
 
@@ -80,6 +81,10 @@ UNIT
 //=============================EVENTS===============================//
 //==================================================================//
 
+Turn1_PP:
+ASMC SetUnitStatDebuff_Debug
+NoFade
+ENDA
 
 BeginningScene:
 
@@ -93,7 +98,6 @@ EvtForgeEnemyWeapons(ITEM_AXE_BRONZE, 2)
 
 NoFade
 ENDA
-
 
 EndingScene:
 MNC2 1

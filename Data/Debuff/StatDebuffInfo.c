@@ -418,4 +418,12 @@ const struct DebuffInfo gStatDebuffInfos[UNIT_STAT_DEBUFF_MAX] = {
 			.res = 5,
 		},
 	},
+
+	[UNIT_STAT_BUFF_DEBUGBUFF] = {
+		.positive_type = STATUS_DEBUFF_POSITIVE,
+		.tick_type = STATUS_DEBUFF_NO_TICK,
+		.unit_status = {
+			.pow = 2
+		}
+	}
 };

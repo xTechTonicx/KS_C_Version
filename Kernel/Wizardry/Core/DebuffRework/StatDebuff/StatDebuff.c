@@ -1,8 +1,9 @@
 #include "common-chax.h"
 #include "kernel-lib.h"
 #include "debuff.h"
+#include "KSDefinitions.h"
 
-#define LOCAL_TRACE 0
+#define LOCAL_TRACE 1
 
 inline struct StatDebuffStatus *GetUnitStatDebuffStatus(struct Unit *unit)
 {
@@ -80,6 +81,8 @@ void ResetStatDebuffPositiveType(struct Unit *unit)
 
 void SetUnitStatDebuff(struct Unit *unit, enum UNIT_STAT_DEBUFF_IDX debuff)
 {
+	u32* mask = GetUnitStatDebuffStatus(unit)->st.bitmask;
+	Debugf("Start unit %d bitmask is {0x%x, 0x%x, 0x%x, 0x%x}", unit->index, mask[0], mask[1], mask[2], mask[3]);
 	if (debuff >= UNIT_STAT_DEBUFF_MAX) {
 		Errorf("ENOTDIR: %d", debuff);
 		hang();
@@ -89,11 +92,15 @@ void SetUnitStatDebuff(struct Unit *unit, enum UNIT_STAT_DEBUFF_IDX debuff)
 		return;
 
 	_BIT_SET(GetUnitStatDebuffStatus(unit)->st.bitmask, debuff);
+	mask = GetUnitStatDebuffStatus(unit)->st.bitmask;
+	Debugf("End unit %d bitmask is {0x%x, 0x%x, 0x%x, 0x%x}", unit->index, mask[0], mask[1], mask[2], mask[3]);
 	ResetStatDebuffPositiveType(unit);
 }
 
 void ClearUnitStatDebuff(struct Unit *unit, enum UNIT_STAT_DEBUFF_IDX debuff)
 {
+	// LTRACEF("Clearing the stat debuff %d for unit %d", debuff, unit->index);
+
 	if (debuff >= UNIT_STAT_DEBUFF_MAX) {
 		Errorf("ENOTDIR: %d", debuff);
 		hang();
@@ -231,7 +238,7 @@ STATIC_DECLAR void GenerateStatDebuffMsgBufExt(struct Unit *unit, u32 *bitfile, 
 
 	buf->uid = unit->index;
 
-	LTRACEF("pid=%#x, bitfile [%p]=%#lx", UNIT_CHAR_ID(unit), bitfile, *bitfile);
+	//LTRACEF("pid=%#x, bitfile [%p]=%#lx", UNIT_CHAR_ID(unit), bitfile, *bitfile);
 
 	if (GetUnitStatusIndex(unit) == NEW_UNIT_STATUS_PANIC)
 		in_panic = true;
@@ -307,9 +314,9 @@ STATIC_DECLAR struct StatDebuffMsgBuf *GetStatDebuffMsgBuf(struct Unit *unit)
 		GenerateStatDebuffMsgBufExt(unit, GetUnitStatDebuffStatus(unit)->st.bitmask, buf);
 	}
 
-	LTRACEF("unit %#x at buf %d: pow=%d, mag=%d, skl=%d, spd=%d, lck=%d, def=%d, res=%d, mov=%d",
-			UNIT_CHAR_ID(unit), buf - sStatDebuffMsgBuf,
-			buf->pow, buf->mag, buf->skl, buf->spd, buf->lck, buf->def, buf->res, buf->mov);
+	//LTRACEF("unit %#x at buf %d: pow=%d, mag=%d, skl=%d, spd=%d, lck=%d, def=%d, res=%d, mov=%d",
+	//		UNIT_CHAR_ID(unit), buf - sStatDebuffMsgBuf,
+	//		buf->pow, buf->mag, buf->skl, buf->spd, buf->lck, buf->def, buf->res, buf->mov);
 
 	return buf;
 }
@@ -356,6 +363,7 @@ int MovGetterStatDebuff(int status, struct Unit *unit)
 
 void ResetStatDeuffBuf(void)
 {
+	// LTRACE("Resetting stat debuffs for all units");
 	CpuFastFill16(0, sStatDebuffStatusAlly, sizeof(sStatDebuffStatusAlly));
 	CpuFastFill16(0, sStatDebuffStatusEnemy, sizeof(sStatDebuffStatusEnemy));
 	memset(sStatDebuffStatusNpc, 0, sizeof(sStatDebuffStatusNpc));
@@ -374,6 +382,7 @@ void StatDeuff_OnNewGameInit(void)
 
 void StatDeuff_OnClearUnit(struct Unit *unit)
 {
+	// LTRACEF("Clearing stat debuffs for unit %d", unit->index);
 	memset(GetUnitStatDebuffStatus(unit)->st.bitmask, 0, sizeof(struct StatDebuffStatus));
 }
 
@@ -384,6 +393,7 @@ void StatDeuff_OnLoadUnit(struct Unit *unit)
 
 void StatDeuff_OnCopyUnit(struct Unit *from, struct Unit *to)
 {
+	// LTRACEF("Copying stat debuffs from unit %d to unit %d", from->pCharacterData->number, to->pCharacterData->number);
 	memcpy(
 		GetUnitStatDebuffStatus(to)->st.bitmask,
 		GetUnitStatDebuffStatus(from)->st.bitmask,
@@ -392,5 +402,12 @@ void StatDeuff_OnCopyUnit(struct Unit *from, struct Unit *to)
 
 void StatDebuff_OnUnitToBattle(struct Unit *unit, struct BattleUnit *bu)
 {
+	// LTRACEF("Generating battle unit stat debuffs for unit %d", unit->index);
 	*GetUnitStatDebuffStatus(&bu->unit) = *GetUnitStatDebuffStatus(unit);
+}
+
+void SetUnitStatDebuff_Debug() {
+	Debug("Called SetUnitStatDebuff_Debug");
+	SetUnitStatDebuff(GetUnitFromCharId(CHARACTER_AUDREY), UNIT_STAT_BUFF_DEBUGBUFF);
+	SetUnitStatDebuff(GetUnitFromCharId(CHARACTER_OSBORNE), UNIT_STAT_BUFF_DEBUGBUFF);
 }
