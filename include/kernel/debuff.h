@@ -3,6 +3,8 @@
 #include "common-chax.h"
 
 #define NEW_UNIT_STATUS_MAX_DURATION 4
+#define STAT_DEBUFF_BITS 6
+#define STAT_DEBUFF_MAX_AMOUNT 63
 
 struct UnitStatusRework {
 	u8 index : 6;

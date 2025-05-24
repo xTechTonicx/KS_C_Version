@@ -200,7 +200,7 @@ void TickUnitStatDebuff(struct Unit *unit, enum STATUS_DEBUFF_TICK_TYPE type)
 void TickGradualStatDebuff(u32* bitfile, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX start, bool* ticked) {
 	u8 end = start - 1;
 
-	for(u8 i = start; i < start + 6; i++) {
+	for (u8 i = start; i < start + STAT_DEBUFF_BITS; i++) {
 		if (_BIT_CHK(bitfile, i)) {
 			_BIT_CLR(bitfile, i);
 			end = i - 1;
@@ -211,6 +211,51 @@ void TickGradualStatDebuff(u32* bitfile, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX
 	for(u8 i = end; i >= start; i--) {
 		_BIT_SET(bitfile, i);
 	}
+}
+
+int getCurrentDebuff(u32* bitfile, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX start) {
+	int sum = 0;
+
+	for (int i = start; i < start + STAT_DEBUFF_BITS; i++) {
+		if (_BIT_CHK(bitfile, i))
+			sum += 1 << (i - start);
+	}
+	
+	return sum;
+}
+
+void setCurrentDebuff(u32* bitfile, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX start, int newDebuff) {
+	Debugf("Setting new debuff to %d", newDebuff);
+	for (int i = start; i < start + STAT_DEBUFF_BITS; i++){
+		int currentCheck = 1 << (i - start);
+		if(newDebuff & currentCheck) {
+			Debugf("Bitwise and succeded for newDebuff %d and currentCheck %d", newDebuff, currentCheck);
+			_BIT_SET(bitfile, i);
+			newDebuff -= currentCheck;
+		} else {
+			_BIT_CLR(bitfile, i);
+		}
+	}
+}
+
+void InflictBitfileStatDebuff(u32* bitfile, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX stat, int amount, bool stacking) {
+	int newDebuff, currentDebuff = getCurrentDebuff(bitfile, stat);
+	if (stacking)
+		newDebuff = currentDebuff + amount;
+	else if (amount > currentDebuff)
+		newDebuff = amount;
+	else        // !stacking || amount <= currentDebuff
+		return; // Don't need to do anything
+	
+	if (newDebuff > STAT_DEBUFF_MAX_AMOUNT)
+		newDebuff = STAT_DEBUFF_MAX_AMOUNT;
+	
+	setCurrentDebuff(bitfile, stat, newDebuff);
+}
+
+void InflictUnitStatDebuff(struct Unit* unit, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX stat, int amount, bool stacking) {
+	InflictBitfileStatDebuff(GetUnitStatDebuffStatus(unit)->st.bitmask, stat, amount, stacking);
+	ResetStatDebuffPositiveType(unit);
 }
 
 void TickUnitGradualDebuffs(struct Unit *unit) {
@@ -439,6 +484,17 @@ void StatDebuff_OnUnitToBattle(struct Unit *unit, struct BattleUnit *bu)
 
 void SetUnitStatDebuff_Debug() {
 	Debug("Called SetUnitStatDebuff_Debug");
-	SetUnitStatDebuff(GetUnitFromCharId(CHARACTER_AUDREY), UNIT_STAT_DEBUFF_DEF_2);
-	SetUnitStatDebuff(GetUnitFromCharId(CHARACTER_OSBORNE), UNIT_STAT_DEBUFF_DEF_4);
+	// Expect Audrey debuff = 8
+	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_AUDREY), STR_DEBUFF_START, 5, false);
+	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_AUDREY), STR_DEBUFF_START, 4, false);
+	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_AUDREY), STR_DEBUFF_START, 3, true);
+	// Expect Wesley debuff = 4
+	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_WESLEY), DEF_DEBUFF_START, 4, true);
+	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_WESLEY), DEF_DEBUFF_START, 2, false);
+	// Expect Osborne debuff = 5
+	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_OSBORNE), MAG_DEBUFF_START, 2, false);
+	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_OSBORNE), MAG_DEBUFF_START, 5, false);
+	// Expect Elaine debuff = 5
+	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_ELAINE), SPD_DEBUFF_START, 5, false);
+	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_ELAINE), SPD_DEBUFF_START, 2, false);
 }
