@@ -1,5 +1,6 @@
 #include "common-chax.h"
 #include "kernel-lib.h"
+#include "KSDefinitions.h"
 
 typedef int (*UnitRefrainFunc_t)(struct Unit *unit);
 // extern const UnitRefrainFunc_t gUnitRefrainHooks[];
@@ -11,8 +12,7 @@ void ResetAllPlayerUnitState(void)
 	FOR_UNITS_VALID_FACTION(FACTION_BLUE, unit, {
 		SetUnitHp(unit, GetUnitMaxHp(unit));
 		SetUnitStatus(unit, US_NONE);
-		unit->torchDuration = 0;
-		unit->barrierDuration = 0;
+		unit->attunement = GetUnitMaxAttunement(unit);
 		unit->state &=
 			US_DEAD | US_NOT_DEPLOYED | US_GROWTH_BOOST |
 			US_SOLOANIM_1 | US_SOLOANIM_2 | US_BIT16 |
@@ -54,9 +54,6 @@ void ChapterChangeUnitCleanup(void)
 	FOR_UNITS_VALID_FACTION(FACTION_BLUE, unit, {
 		SetUnitHp(unit, GetUnitMaxHp(unit));
 		SetUnitStatus(unit, UNIT_STATUS_NONE);
-
-		unit->torchDuration = 0;
-		unit->barrierDuration = 0;
 
 		if (unit->state & US_NOT_DEPLOYED)
 			unit->state = unit->state | US_BIT21;

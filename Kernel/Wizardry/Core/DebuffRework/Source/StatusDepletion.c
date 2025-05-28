@@ -1,6 +1,7 @@
 #include "common-chax.h"
 #include "debuff.h"
 #include "kernel-lib.h"
+#include "KSDefinitions.h"
 
 #define LOCAL_TRACE 0
 void StartStatusHealEffect(struct Unit *unit, ProcPtr proc);
@@ -26,19 +27,6 @@ void TickActiveFactionTurn(void)
 	int displayMapChange = FALSE;
 
 	InitTargets(0, 0);
-
-	FOR_UNITS_ONMAP_FACTION(gPlaySt.faction, unit, {
-		if (unit->state & (US_UNAVAILABLE | US_RESCUED))
-			continue;
-
-		if (unit->barrierDuration != 0)
-			unit->barrierDuration--;
-
-		if (unit->torchDuration != 0) {
-			unit->torchDuration--;
-			displayMapChange = TRUE;
-		}
-	})
 
 	if (displayMapChange) {
 		RenderBmMapOnBg2();
@@ -68,6 +56,9 @@ void TickActiveFactionTurn(void)
 				DEC_STATUS(unit);
 
 			TickUnitStatDebuff(unit, STATUS_DEBUFF_TICK_ON_ALLY);
+			
+			if (unit->attunement != GetUnitMaxAttunement(unit))
+				unit->attunement++;
 		})
 
 		/* Red debuff */

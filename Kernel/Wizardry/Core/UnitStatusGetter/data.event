@@ -48,7 +48,6 @@ gDefGetters:
 gResGetters:
     POIN ResGetterWeaponBonus ResGetterSkills ResGetterDebuff
     POIN ResGetterLegendSkills
-    POIN ResGetterPureWater
     POIN ResGetterStatDebuff ResGetterShield
     POIN StatusGetterCheckCpas
     MSG_END

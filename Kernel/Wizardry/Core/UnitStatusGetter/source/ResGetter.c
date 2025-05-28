@@ -103,8 +103,3 @@ int ResGetterSkills(int status, struct Unit *unit)
 
 	return status;
 }
-
-int ResGetterPureWater(int status, struct Unit *unit)
-{
-	return status + unit->barrierDuration;
-}
