@@ -48,7 +48,7 @@ jobs:
 
     - name: Install submodules
       run: |
-        git clone https://github.com/MokhaLeee/FE-CLib-Mokha.git Tools/FE-CLib-Mokha
+        # git clone https://github.com/MokhaLeee/FE-CLib-Mokha.git Tools/FE-CLib-Mokha
 
         if [ ! -d Tools/FE-PyTools/ ]; then
           git clone https://github.com/StanHash/FE-PyTools.git --recursive Tools/FE-PyTools
