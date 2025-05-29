@@ -1,8 +1,9 @@
 #ifndef GUARD_CONSTANTS_CLASSES_H
 #define GUARD_CONSTANTS_CLASSES_H
 
+
 enum {
-    CLASS_NONE                = 0x00,
+    // CLASS_NONE                = 0x00,
 
     CLASS_EPHRAIM_LORD        = 0x01,
     CLASS_EIRIKA_LORD         = 0x02,
@@ -29,7 +30,7 @@ enum {
     CLASS_ASSASSIN            = 0x17,
     CLASS_ASSASSIN_F          = 0x18,
     CLASS_ARCHER              = 0x19,
-    CLASS_ARCHER_F            = 0x1A,
+    // CLASS_ARCHER_F            = 0x1A,
     CLASS_SNIPER              = 0x1B,
     CLASS_SNIPER_F            = 0x1C,
     CLASS_RANGER              = 0x1D,
@@ -135,5 +136,6 @@ enum {
     // Hiding the game's misery
     CLASS_OBSTACLE = CLASS_EPHRAIM_LORD,
 };
+
 
 #endif // GUARD_CONSTANTS_CLASSES_H

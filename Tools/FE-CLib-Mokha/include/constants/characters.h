@@ -1,8 +1,9 @@
 #ifndef GUARD_CONSTANTS_CHARACTERS_H
 #define GUARD_CONSTANTS_CHARACTERS_H
 
+
 enum {
-    CHARACTER_NONE         = 0x00,
+    // CHARACTER_NONE         = 0x00,
 
     // Player Characters
     CHARACTER_EIRIKA       = 0x01,

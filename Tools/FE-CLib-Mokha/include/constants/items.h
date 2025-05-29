@@ -2,13 +2,13 @@
 #define GUARD_CONSTANTS_ITEMS_H
 
 enum {
-    ITEM_NONE              = 0x00,
+    // ITEM_NONE              = 0x00,
 
     // Swords
-    ITEM_SWORD_IRON        = 0x01,
-    ITEM_SWORD_SLIM        = 0x02,
-    ITEM_SWORD_STEEL       = 0x03,
-    ITEM_SWORD_SILVER      = 0x04,
+    ITEM_SWORD_SLIM        = 0x01,
+    // ITEM_SWORD_IRON        = 0x02,
+    // ITEM_SWORD_STEEL       = 0x03,
+    // ITEM_SWORD_SILVER      = 0x04,
     ITEM_BLADE_IRON        = 0x05,
     ITEM_BLADE_STEEL       = 0x06,
     ITEM_BLADE_SILVER      = 0x07,
@@ -26,38 +26,38 @@ enum {
     ITEM_SWORD_ZANBATO     = 0x13,
 
     // Lances
-    ITEM_LANCE_IRON        = 0x14,
+    // ITEM_LANCE_IRON        = 0x14,
     ITEM_LANCE_SLIM        = 0x15,
-    ITEM_LANCE_STEEL       = 0x16,
-    ITEM_LANCE_SILVER      = 0x17,
+    // ITEM_LANCE_STEEL       = 0x16,
+    // ITEM_LANCE_SILVER      = 0x17,
     ITEM_LANCE_VENIN       = 0x18,
     ITEM_LANCE_BRAVE       = 0x19,
     ITEM_LANCE_KILLER      = 0x1A,
     ITEM_LANCE_HORSESLAYER = 0x1B,
-    ITEM_LANCE_JAVELIN     = 0x1C,
-    ITEM_LANCE_SPEAR       = 0x1D,
+    // ITEM_LANCE_JAVELIN     = 0x1C,
+    // ITEM_LANCE_SPEAR       = 0x1D,
     ITEM_LANCE_AXEREAVER   = 0x1E,
 
     // Axes
-    ITEM_AXE_IRON          = 0x1F,
-    ITEM_AXE_STEEL         = 0x20,
-    ITEM_AXE_SILVER        = 0x21,
+    // ITEM_AXE_IRON          = 0x1F,
+    // ITEM_AXE_STEEL         = 0x20,
+    // ITEM_AXE_SILVER        = 0x21,
     ITEM_AXE_VENIN         = 0x22,
     ITEM_AXE_BRAVE         = 0x23,
     ITEM_AXE_KILLER        = 0x24,
     ITEM_AXE_HALBERD       = 0x25,
     ITEM_AXE_HAMMER        = 0x26,
     ITEM_AXE_DEVIL         = 0x27,
-    ITEM_AXE_HANDAXE       = 0x28,
-    ITEM_AXE_TOMAHAWK      = 0x29,
+    // ITEM_AXE_HANDAXE       = 0x28,
+    // ITEM_AXE_TOMAHAWK      = 0x29,
     ITEM_AXE_SWORDREAVER   = 0x2A,
     ITEM_AXE_SWORDSLAYER   = 0x2B,
     ITEM_AXE_HATCHET       = 0x2C,
 
     // Bows
-    ITEM_BOW_IRON          = 0x2D,
-    ITEM_BOW_STEEL         = 0x2E,
-    ITEM_BOW_SILVER        = 0x2F,
+    // ITEM_BOW_IRON          = 0x2D,
+    // ITEM_BOW_STEEL         = 0x2E,
+    // ITEM_BOW_SILVER        = 0x2F,
     ITEM_BOW_VENIN         = 0x30,
     ITEM_BOW_KILLER        = 0x31,
     ITEM_BOW_BRAVE         = 0x32,
@@ -79,7 +79,7 @@ enum {
     ITEM_ANIMA_EXCALIBUR   = 0x3E,
 
     // Light tomes
-    ITEM_LIGHT_LIGHTNING   = 0x3F,
+    // ITEM_LIGHT_LIGHTNING   = 0x3F,
     ITEM_LIGHT_SHINE       = 0x40,
     ITEM_LIGHT_DIVINE      = 0x41,
     ITEM_LIGHT_PURGE       = 0x42,
@@ -95,7 +95,7 @@ enum {
     ITEM_DARK_GLEIPNIR     = 0x4A,
 
     // Staves
-    ITEM_STAFF_HEAL        = 0x4B,
+    // ITEM_STAFF_HEAL        = 0x4B,
     ITEM_STAFF_MEND        = 0x4C,
     ITEM_STAFF_RECOVER     = 0x4D,
     ITEM_STAFF_PHYSIC      = 0x4E,
@@ -136,7 +136,7 @@ enum {
     ITEM_CHESTKEY          = 0x69,
     ITEM_DOORKEY           = 0x6A,
     ITEM_LOCKPICK          = 0x6B,
-    ITEM_VULNERARY         = 0x6C,
+    // ITEM_VULNERARY         = 0x6C,
     ITEM_ELIXIR            = 0x6D,
     ITEM_PUREWATER         = 0x6E,
     ITEM_ANTITOXIN         = 0x6F,
