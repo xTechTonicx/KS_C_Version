@@ -165,7 +165,7 @@ STATIC_DECLAR void NewPackSuspandUnit(struct Unit *src, struct EmsPackedSusUnit 
 
 	if (UNIT_FACTION(src) == FACTION_BLUE) {
 		dst->pad.ally.rescue = src->rescue;
-		dst->pad.ally.ballista = src->ballistaIndex;
+		dst->pad.ally.padding = 0; // unused
 		dst->pad.ally.attunement = src->attunement;
 
 		for (i = 0; i < ARRAY_COUNT(dst->pad.ally.skills); i++)
@@ -177,6 +177,7 @@ STATIC_DECLAR void NewPackSuspandUnit(struct Unit *src, struct EmsPackedSusUnit 
 		for (i = 0; i < ARRAY_COUNT(dst->pad.ai.skills); i++)
 			dst->pad.ai.skills[i] = src->supports[i];
 
+		dst->pad.ai.attunement = src->attunement;
 		dst->pad.ai.ai1 = src->ai1;
 		dst->pad.ai.ai1_cur = src->ai_a_pc;
 		dst->pad.ai.ai2 = src->ai2;
@@ -229,7 +230,7 @@ STATIC_DECLAR void NewUnpackSuspandUnit(struct EmsPackedSusUnit *src, struct Uni
 			dst->supports[i] = src->pad.ally.skills[i];
 
 		dst->rescue = src->pad.ally.rescue;
-		dst->ballistaIndex = src->pad.ally.ballista;
+		dst->ballista = 0;
 		dst->attunement = src->pad.ally.attunement;
 
 		dst->supportBits = src->pad.ally.support_gain;

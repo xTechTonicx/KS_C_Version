@@ -76,7 +76,7 @@ struct EmsPackedSusUnit {
 				struct {
 					u8 skills[7];
 					u8 cur_hp;
-					u8 ballista;
+					u8 attunement;
 
 					/**
 					 * Enemy cannot:
@@ -86,14 +86,14 @@ struct EmsPackedSusUnit {
 					 * 4. gain support
 					 */
 					u8 rescue;
-					u8 attunement;
+					u8 padding;
 					s8 support_gain;
 				} ally;
 
 				struct {
 					u8 skills[3];
 					u8 cur_hp;
-					u8 ballista;
+					u8 attunement;
 
 					u8 ai1;
 					u8 ai2;
