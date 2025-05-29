@@ -230,7 +230,7 @@ STATIC_DECLAR void NewUnpackSuspandUnit(struct EmsPackedSusUnit *src, struct Uni
 			dst->supports[i] = src->pad.ally.skills[i];
 
 		dst->rescue = src->pad.ally.rescue;
-		dst->ballista = 0;
+		dst->ballistaIndex = 0;
 		dst->attunement = src->pad.ally.attunement;
 
 		dst->supportBits = src->pad.ally.support_gain;
@@ -239,6 +239,7 @@ STATIC_DECLAR void NewUnpackSuspandUnit(struct EmsPackedSusUnit *src, struct Uni
 		for (i = 0; i < ARRAY_COUNT(src->pad.ai.skills); i++)
 			dst->supports[i] = src->pad.ai.skills[i];
 
+		dst->attunement = src->pad.ai.attunement;
 		dst->ai1 = src->pad.ai.ai1;
 		dst->ai_a_pc = src->pad.ai.ai1_cur;
 		dst->ai2 = src->pad.ai.ai2;
