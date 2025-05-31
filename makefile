@@ -124,7 +124,7 @@ CLEAN_FILES += $(FE8_CHX)
 # = Wizardry =
 # ============
 
-INC_DIRS := include include/kernel $(LIB_DIR)/include 
+INC_DIRS := include include/kernel $(LIB_DIR)/include
 INC_FLAG := $(foreach dir, $(INC_DIRS), -I $(dir))
 
 ARCH    := -mcpu=arm7tdmi -mthumb -mthumb-interwork
