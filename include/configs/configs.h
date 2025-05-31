@@ -174,6 +174,7 @@
  * Install some performance hooks
  */
 #define CONFIG_PERFORMANCE_OPTIMIZATION
+#define CONFIG_OPTIMIZE_UNIT_AUTOLEVEL
 
 /**
  * Install DrawMapActionAnimation

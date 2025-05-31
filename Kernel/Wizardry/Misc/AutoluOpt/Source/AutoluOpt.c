@@ -1,6 +1,7 @@
 #include <common-chax.h>
 #include <strmag.h>
 #include <lvup.h>
+#include "KSDefinitions.h"
 
 LYN_REPLACE_CHECK(UnitAutolevelRealistic);
 void UnitAutolevelRealistic(struct Unit *unit)
@@ -18,5 +19,6 @@ void UnitAutolevelRealistic(struct Unit *unit)
 	UNIT_MAG(unit) += GetAutoleveledStatIncrease(GetUnitMagGrowth(unit), lvup_level);
 
 	UnitCheckStatCaps(unit);
+	UnitInitializeAttunement(unit);
 	unit->curHP = GetUnitMaxHp(unit);
 }

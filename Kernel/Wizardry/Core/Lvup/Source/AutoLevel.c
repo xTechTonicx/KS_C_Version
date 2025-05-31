@@ -29,7 +29,7 @@ void UnitAutolevelCoreConfig(struct Unit *unit, u8 classId, int levelCount, bool
 		}
 	}
 	UnitCheckStatCaps(unit);
-	InitializeUnitMaxAttunement(unit);
+	UnitInitializeAttunement(unit);
 }
 
 LYN_REPLACE_CHECK(UnitAutolevelCore);
@@ -80,7 +80,7 @@ void UnitAutolevelPenalty(struct Unit *unit, u8 classId, int levelCount)
 	unit->lck   += GetAutoleveledStatIncrease(unit->pClassData->growthLck / 2, levelCount); // Reduced penalty
 	UNIT_MAG(unit) -= GetAutoleveledStatPenalty(gpMagicJInfos[UNIT_CLASS_ID(unit)].growth / 2, levelCount); // Reduced penalty
 	CheckMinimumStats(unit);
-	InitializeUnitMaxAttunement(unit);
+	UnitInitializeAttunement(unit);
 }
 
 LYN_REPLACE_CHECK(UnitApplyBonusLevels);

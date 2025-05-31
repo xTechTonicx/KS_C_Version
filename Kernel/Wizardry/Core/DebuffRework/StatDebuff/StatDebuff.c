@@ -81,8 +81,8 @@ void ResetStatDebuffPositiveType(struct Unit *unit)
 
 void SetUnitStatDebuff(struct Unit *unit, enum UNIT_STAT_DEBUFF_IDX debuff)
 {
-	u32* mask = GetUnitStatDebuffStatus(unit)->st.bitmask;
-	Debugf("Start unit %d bitmask is {0x%x, 0x%x, 0x%x, 0x%x}", unit->index, mask[0], mask[1], mask[2], mask[3]);
+	// u32* mask = GetUnitStatDebuffStatus(unit)->st.bitmask;
+	// Debugf("Start unit %d bitmask is {0x%x, 0x%x, 0x%x, 0x%x}", unit->index, mask[0], mask[1], mask[2], mask[3]);
 	if (debuff >= UNIT_STAT_DEBUFF_MAX) {
 		Errorf("ENOTDIR: %d", debuff);
 		hang();
@@ -92,8 +92,8 @@ void SetUnitStatDebuff(struct Unit *unit, enum UNIT_STAT_DEBUFF_IDX debuff)
 		return;
 
 	_BIT_SET(GetUnitStatDebuffStatus(unit)->st.bitmask, debuff);
-	mask = GetUnitStatDebuffStatus(unit)->st.bitmask;
-	Debugf("End unit %d bitmask is {0x%x, 0x%x, 0x%x, 0x%x}", unit->index, mask[0], mask[1], mask[2], mask[3]);
+	// mask = GetUnitStatDebuffStatus(unit)->st.bitmask;
+	// Debugf("End unit %d bitmask is {0x%x, 0x%x, 0x%x, 0x%x}", unit->index, mask[0], mask[1], mask[2], mask[3]);
 	ResetStatDebuffPositiveType(unit);
 }
 
@@ -225,11 +225,11 @@ int getCurrentDebuff(u32* bitfile, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX start
 }
 
 void setCurrentDebuff(u32* bitfile, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX start, int newDebuff) {
-	Debugf("Setting new debuff to %d", newDebuff);
+	// Debugf("Setting new debuff to %d", newDebuff);
 	for (int i = start; i < start + STAT_DEBUFF_BITS; i++){
 		int currentCheck = 1 << (i - start);
 		if(newDebuff & currentCheck) {
-			Debugf("Bitwise and succeded for newDebuff %d and currentCheck %d", newDebuff, currentCheck);
+			// Debugf("Bitwise and succeded for newDebuff %d and currentCheck %d", newDebuff, currentCheck);
 			_BIT_SET(bitfile, i);
 			newDebuff -= currentCheck;
 		} else {
