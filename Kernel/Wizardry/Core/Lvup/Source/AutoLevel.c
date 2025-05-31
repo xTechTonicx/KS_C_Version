@@ -28,27 +28,16 @@ void UnitAutolevelCoreConfig(struct Unit *unit, u8 classId, int levelCount, bool
 			unit->res   += GetAutoleveledStatIncrease(unit->pClassData->growthRes, levelCount);
 		}
 	}
+	UnitCheckStatCaps(unit);
+	InitializeUnitMaxAttunement(unit);
 }
 
 LYN_REPLACE_CHECK(UnitAutolevelCore);
-void UnitAutolevelCore(struct Unit *unit, u8 classId, int levelCount)
-{
+void UnitAutolevelCore(struct Unit *unit, u8 classId, int levelCount) {
 	UnitAutolevelCoreConfig(unit, classId, levelCount, false);
 }
 
-
-LYN_REPLACE_CHECK(UnitAutolevelPenalty);
-void UnitAutolevelPenalty(struct Unit *unit, u8 classId, int levelCount)
-{
-	unit->maxHP -= GetAutoleveledStatPenalty(unit->pClassData->growthHP, levelCount);
-	unit->pow -= GetAutoleveledStatPenalty(unit->pClassData->growthHP / 2, levelCount); // Reduced penalty
-	unit->skl -= GetAutoleveledStatPenalty(unit->pClassData->growthHP / 2, levelCount); // Reduced penalty
-	unit->spd -= GetAutoleveledStatPenalty(unit->pClassData->growthHP, levelCount);
-	unit->def -= GetAutoleveledStatPenalty(unit->pClassData->growthHP, levelCount);
-	unit->res -= GetAutoleveledStatPenalty(unit->pClassData->growthHP, levelCount);
-	unit->lck   += GetAutoleveledStatIncrease(unit->pClassData->growthLck / 2, levelCount); // Reduced penalty
-	UNIT_MAG(unit) -= GetAutoleveledStatPenalty(gpMagicJInfos[UNIT_CLASS_ID(unit)].growth / 2, levelCount); // Reduced penalty
-
+void CheckMinimumStats(struct Unit *unit) {
 	if (unit->maxHP < 1) {
 		unit->maxHP = 1;
 	}
@@ -78,6 +67,22 @@ void UnitAutolevelPenalty(struct Unit *unit, u8 classId, int levelCount)
 	}
 }
 
+
+LYN_REPLACE_CHECK(UnitAutolevelPenalty);
+void UnitAutolevelPenalty(struct Unit *unit, u8 classId, int levelCount)
+{
+	unit->maxHP -= GetAutoleveledStatPenalty(unit->pClassData->growthHP, levelCount);
+	unit->pow -= GetAutoleveledStatPenalty(unit->pClassData->growthPow / 2, levelCount); // Reduced penalty
+	unit->skl -= GetAutoleveledStatPenalty(unit->pClassData->growthSkl / 2, levelCount); // Reduced penalty
+	unit->spd -= GetAutoleveledStatPenalty(unit->pClassData->growthSpd, levelCount);
+	unit->def -= GetAutoleveledStatPenalty(unit->pClassData->growthDef, levelCount);
+	unit->res -= GetAutoleveledStatPenalty(unit->pClassData->growthRes, levelCount);
+	unit->lck   += GetAutoleveledStatIncrease(unit->pClassData->growthLck / 2, levelCount); // Reduced penalty
+	UNIT_MAG(unit) -= GetAutoleveledStatPenalty(gpMagicJInfos[UNIT_CLASS_ID(unit)].growth / 2, levelCount); // Reduced penalty
+	CheckMinimumStats(unit);
+	InitializeUnitMaxAttunement(unit);
+}
+
 LYN_REPLACE_CHECK(UnitApplyBonusLevels);
 void UnitApplyBonusLevels(struct Unit* unit, int levelCount) {
     if (levelCount && !UNIT_IS_GORGON_EGG(unit)) {
@@ -85,8 +90,6 @@ void UnitApplyBonusLevels(struct Unit* unit, int levelCount) {
             UnitAutolevelCoreConfig(unit, unit->pClassData->number, levelCount, true);
         else if (levelCount < 0)
             UnitAutolevelPenalty(unit, unit->pClassData->number, -levelCount);
-
-        UnitCheckStatCaps(unit);
 
         unit->curHP = GetUnitMaxHp(unit);
     }

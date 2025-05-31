@@ -38,5 +38,6 @@ enum CharacterDefinitions
 #define IS_EASY_MODE "!(gPlaySt.config.controller)"
 
 u8 GetUnitMaxAttunement(struct Unit *unit);
+void InitializeUnitMaxAttunement(struct Unit *unit);
 
 #endif

@@ -5,6 +5,7 @@ gLoadUnitHooks:
     POIN UnitHiddenLevelPreLoad /* this should be ahead of auto-load skill */
     POIN UnitAutoLoadSkills
     POIN StatDeuff_OnLoadUnit
+    POIN UnitInitializeAttunement
     POIN DemoUnitExpa_OnLoadUnit
     WORD 0 0 0 0
 
@@ -39,5 +40,6 @@ gKillUnitHooks: // void (*)(struct Unit *unit)
     WORD 0 0 0 0
 
 gUnitRefrainHooks: // void (*)(struct Unit *unit)
+    POIN UnitInitializeAttunement
     POIN DemoUnitExpa_OnRefrain
     WORD 0 0 0 0

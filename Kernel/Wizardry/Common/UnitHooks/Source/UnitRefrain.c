@@ -12,7 +12,6 @@ void ResetAllPlayerUnitState(void)
 	FOR_UNITS_VALID_FACTION(FACTION_BLUE, unit, {
 		SetUnitHp(unit, GetUnitMaxHp(unit));
 		SetUnitStatus(unit, US_NONE);
-		unit->attunement = GetUnitMaxAttunement(unit);
 		unit->state &=
 			US_DEAD | US_NOT_DEPLOYED | US_GROWTH_BOOST |
 			US_SOLOANIM_1 | US_SOLOANIM_2 | US_BIT16 |
