@@ -301,8 +301,8 @@ STATIC_DECLAR void DrawPage1BWL(void)
 		TEXT_COLOR_SYSTEM_BLUE, bwl->winAmt);
 
 	// Display Loss Amt
-	PutNumber(gUiTmScratchA + TILEMAP_INDEX(11 + CountDigits(bwl->lossAmt), 0xF),
-		TEXT_COLOR_SYSTEM_BLUE, bwl->lossAmt);
+	PutNumber(gUiTmScratchA + TILEMAP_INDEX(11 + CountDigits(gStatScreen.unit->attunement), 0xF),
+		TEXT_COLOR_SYSTEM_BLUE, gStatScreen.unit->attunement);
 }
 
 STATIC_DECLAR void DrawPage1Affin(void)
