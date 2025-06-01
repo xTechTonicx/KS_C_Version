@@ -16,4 +16,5 @@ const struct ItemData ItemSilverSword = {
     .weaponRank = WPN_EXP_B,
     .iconId = ICON_SWORD_BRONZE,
     .weaponExp = 1,
+    .tieredWeaponType = TIER_WEAPON_SWORD,
 };

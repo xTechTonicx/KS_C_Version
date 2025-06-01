@@ -1,31 +1,31 @@
 #include "common-chax.h"
 #include "KSDefinitions.h"
 
-const struct ROMChapterData Chapter01 = {
+const struct ROMChapterData ChapterDebug = {
 	.map = {
 		.obj1Id = 1,
 		.obj2Id = 0,
 		.paletteId = 2,
 		.tileConfigId = 3,
-		.mainLayerId = 4,
+		.mainLayerId = 139,
 		.objAnimId = 5,
 		.paletteAnimId = 0,
-		.changeLayerId = 6,
+		.changeLayerId = 140,
 	},
 	.initialFogLevel = 0,
 	.hasPrepScreen = FALSE,
-	.chapTitleId = 0x38,
+	.chapTitleId = 0x30,
 	.chapTitleIdInHectorStory = 0,
 	.initialPosX = 8,
-	.initialPosY = 5,
+	.initialPosY = 20,
 	.initialWeather = WEATHER_FINE,
 	.battleTileSet = 0,
-	.easyModeLevelMalus = 2,
-	.difficultModeLevelBonus = 3,
+	.easyModeLevelMalus = 10,
+	.difficultModeLevelBonus = 10,
 	.normalModeLevelMalus = 0,
 	.mapBgmIds = {
-		[MAP_BGM_BLUE] = 13,
-		[MAP_BGM_RED] = 21,
+		[MAP_BGM_BLUE] = SONG_LAND_OF_PROMISE,
+		[MAP_BGM_RED] = SONG_TWISTED_SHADOWS_B,
 		[MAP_BGM_GREEN] = 15,
 		[MAP_BGM_BLUE_HECTOR] = 13,
 		[MAP_BGM_RED_HECTOR] = 21,
@@ -37,12 +37,12 @@ const struct ROMChapterData Chapter01 = {
 		[MAP_BGM_PROLOGUE_HECTOR] = 65535,
 	},
 	.mapCrackedWallHeath = 30,
-
-	.minWeaponTierHard = CHAPTER_WEAPON_TIER_IRON,
-	.minWeaponTierLunatic = CHAPTER_WEAPON_TIER_IRON,
+	
+    .minWeaponTierHard = CHAPTER_WEAPON_TIER_IRON,
+	.minWeaponTierLunatic = CHAPTER_WEAPON_TIER_FORGED_SILVER,
 	.minWexpHard = WPN_EXP_C,
 	.minWexpLunatic = WPN_EXP_A,
-	
+
 	.turnsForTacticsRankBInEliwoodStory = {
 		[0] = 6,
 		[1] = 6,
@@ -111,7 +111,7 @@ const struct ROMChapterData Chapter01 = {
 	},
 	.chapTitleTextId = 409,
 	.chapTitleTextIdInHectorStory = 409,
-	.mapEventDataId = 7,
+	.mapEventDataId = 0x99,
 	.gmapEventId = 1,
 	.divinationTextIdBeginning = 0,
 	.divinationTextIdInEliwoodStory = 0,

@@ -95,20 +95,26 @@ void UnitApplyBonusLevels(struct Unit* unit, int levelCount) {
     }
 }
 
+void UnitHandleMinimumWeaponRank(struct Unit* unit, enum WeaponExp wexp) {
+	for (int i = 0; i <= ITYPE_DARK; i++)
+		if (unit->pClassData->baseRanks[i] && (unit->ranks[i] < wexp))
+			unit->ranks[i] = wexp;
+}
+
+void UnitHandleDifficultyBaseWeaponRank(struct Unit* unit) {
+	SWITCH_BY_DIFFICULTY(
+		return;,
+		UnitHandleMinimumWeaponRank(unit, GetROMChapterStruct(gPlaySt.chapterIndex)->minWexpHard); return;,
+		UnitHandleMinimumWeaponRank(unit, GetROMChapterStruct(gPlaySt.chapterIndex)->minWexpLunatic); return;
+	);	
+}
+
 void UnitAutolevelWExpConfig(struct Unit* unit) {
 	int i;
-	
-	// Lunatic mode base rank
-	if (gPlaySt.chapterStateBits & PLAY_FLAG_HARD) {
-		for (int i = 0; i <= ITYPE_DARK; i++)
-			if (unit->pClassData->baseRanks[i] && (unit->ranks[i] < WPN_EXP_A))
-				unit->ranks[i] = WPN_EXP_A;
-	// Hard mode base rank
-	} else if (!(IS_EASY_MODE)) { 
-		for (int i = 0; i <= ITYPE_DARK; i++)
-			if (unit->pClassData->baseRanks[i] && (unit->ranks[i] < WPN_EXP_C))
-				unit->ranks[i] = WPN_EXP_C;
-	}
+
+	if (UNIT_FACTION(unit) == FACTION_RED)
+		UnitHandleDifficultyBaseWeaponRank(unit);
+
     for (i = 0; i < GetUnitItemCount(unit); ++i) {
         int wType, item = unit->items[i];
         if (!(GetItemAttributes(item) & IA_REQUIRES_WEXP))
@@ -133,7 +139,7 @@ void UnitAutolevelWExpConfig(struct Unit* unit) {
 
 LYN_REPLACE_CHECK(UnitAutolevelWExp);
 void UnitAutolevelWExp(struct Unit* unit, const struct UnitDefinition* uDef) {
-	if (uDef->autolevel) 
+	if (uDef->autolevel && UNIT_FACTION(unit) != FACTION_BLUE) 
 		UnitAutolevelWExpConfig(unit);
 }
 

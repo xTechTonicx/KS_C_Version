@@ -53,8 +53,10 @@ struct ROMChapterData {
 
     /* 2C */ u8 mapCrackedWallHeath;
 
-    /* 2D */ u8 turnsForTacticsRankAInEliwoodStory[2]; // left over from FE7
-    /* 2F */ u8 turnsForTacticsRankAInHectorStory[2]; // left over from FE7
+    /* 2D */ u8 minWeaponTierHard;
+    /* 2E */ u8 minWeaponTierLunatic;
+    /* 2F */ u8 minWexpHard;
+    /* 30 */ u8 minWexpLunatic;
     /* 31 */ u8 turnsForTacticsRankBInEliwoodStory[2]; // left over from FE7
     /* 33 */ u8 turnsForTacticsRankBInHectorStory[2]; // left over from FE7
     /* 35 */ u8 turnsForTacticsRankCInEliwoodStory[2]; // left over from FE7

@@ -48,3 +48,7 @@ void ForgeEnemyWeapons(u8 weapon, u8 forgeLevel) {
 void ForgeEnemyWeapons_ASMC() {
     ForgeEnemyWeapons(gEventSlots[1], gEventSlots[2]);
 }
+
+int ForgeWeapon(int item, u8 forgeLevel) {
+    return item + (forgeLevel << 8);
+}

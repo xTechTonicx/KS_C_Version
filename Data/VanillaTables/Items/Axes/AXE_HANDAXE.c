@@ -17,4 +17,5 @@ const struct ItemData ItemHandaxe = {
     .weaponRank = WPN_EXP_D,
     .iconId = ICON_AXE_HAMMER, // TODO Change this
     .weaponExp = 1,
+    .tieredWeaponType = TIER_WEAPON_AXE_RANGED
 };

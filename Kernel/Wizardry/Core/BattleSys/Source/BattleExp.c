@@ -12,11 +12,7 @@
 #define HARD_MODE_EXP_BONUS 6
 
 int GetDifficultyExpBonus() {
-	if (IS_EASY_MODE) // Playing on Normal mode
-		return NORMAL_MODE_EXP_BONUS;
-	else if (!(gPlaySt.chapterStateBits & PLAY_FLAG_HARD)) // Playing on Hard mode
-		return HARD_MODE_EXP_BONUS;
-	return 0;
+	SWITCH_BY_DIFFICULTY(return NORMAL_MODE_EXP_BONUS;, return HARD_MODE_EXP_BONUS;, return 0;)
 }
 
 int GetUnitChipExpAmount(struct Unit* actor, struct Unit* target) {

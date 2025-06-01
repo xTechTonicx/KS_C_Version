@@ -28,7 +28,10 @@ struct ItemData
     /* 08 */ u32 attributes;
 
     /* 0C */ const struct ItemStatBonuses* pStatBonuses;
-    /* 10 */ const u8* pEffectiveness;
+    /* 10 */ u8 effectivenessType;
+    /* 11 */ u8 tieredWeaponType;
+    /* 12 */ u8 weaponTier;
+    /* 13 */ u8 padding1;
 
     /* 14 */ u8  maxUses;
 
@@ -121,7 +124,7 @@ enum {
     REACH_MAGBY2 = (1 << 5),
 };
 
-enum {
+enum WeaponLevel {
     // Weapon level identifiers
 
     WPN_LEVEL_0 = 0,
@@ -133,7 +136,7 @@ enum {
     WPN_LEVEL_S = 6,
 };
 
-enum {
+enum WeaponExp {
     // Weapon exp needed to have a given weapon level
 
     WPN_EXP_0 = 0,

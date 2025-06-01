@@ -20,8 +20,8 @@ u8 GetUnitMaxAttunement(struct Unit* unit) {
 }
 
 void UnitInitializeAttunement(struct Unit *unit) {
-    Debugf("Unit %d attunement before: %d", unit->index, unit->attunement);
-    Debugf("Unit stats are %d magic and %d skill", UNIT_MAG(unit), unit->skl);
+    // Debugf("Unit %d attunement before: %d", unit->index, unit->attunement);
+    // Debugf("Unit stats are %d magic and %d skill", UNIT_MAG(unit), unit->skl);
     unit->attunement = GetUnitMaxAttunement(unit);
-    Debugf("Unit %d attunement after: %d", unit->index, unit->attunement);
+    // Debugf("Unit %d attunement after: %d", unit->index, unit->attunement);
 }

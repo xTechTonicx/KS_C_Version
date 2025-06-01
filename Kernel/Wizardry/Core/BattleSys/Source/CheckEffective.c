@@ -49,6 +49,7 @@ STATIC_DECLAR bool CheckUnitNullEffective(struct Unit *unit)
 LYN_REPLACE_CHECK(IsItemEffectiveAgainst);
 bool IsItemEffectiveAgainst(u16 item, struct Unit *unit)
 {
+	#if 0
 	int i, jid;
 	const u8 *list;
 
@@ -72,6 +73,8 @@ check_null_effective:
 		return false;
 
 	return true;
+	#endif
+	return false;
 }
 
 STATIC_DECLAR bool IsBattleUnitEffectiveAgainst(struct BattleUnit *actor,

@@ -6,6 +6,8 @@
 #include "../Sprites/Sprites.h"
 #include "../Data/VanillaTables/VanillaTables.h"
 #include "../Contents/Texts/build/msgs.h"
+#include "attunement.h"
+#include "autolevel.h"
 
 enum CharacterDefinitions 
 {
@@ -35,9 +37,20 @@ enum CharacterDefinitions
     CHARACTER_SLAVER_8,
 };
 
-#define IS_EASY_MODE "!(gPlaySt.config.controller)"
+#define IS_KS_HARD_MODE gPlaySt.config.controller == 1
+#define IS_KS_LUNATIC_MODE gPlaySt.chapterStateBits & PLAY_FLAG_HARD
 
-u8 GetUnitMaxAttunement(struct Unit *unit);
-void UnitInitializeAttunement(struct Unit *unit);
+#define SWITCH_BY_DIFFICULTY(normalFunc, hardFunc, lunaticFunc) \
+{ \
+	if (IS_KS_LUNATIC_MODE) { \
+        lunaticFunc \
+    } else if (IS_KS_HARD_MODE) { \
+        hardFunc \
+    } else { \
+        normalFunc \
+    } \
+}
+
+int ForgeWeapon(int weapon, u8 forgeLevel);
 
 #endif

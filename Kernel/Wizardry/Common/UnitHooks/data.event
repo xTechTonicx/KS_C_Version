@@ -6,6 +6,7 @@ gLoadUnitHooks:
     POIN UnitAutoLoadSkills
     POIN StatDeuff_OnLoadUnit
     POIN UnitInitializeAttunement
+    POIN UnitHandleWeaponTiering
     POIN DemoUnitExpa_OnLoadUnit
     WORD 0 0 0 0
 
