@@ -44,5 +44,5 @@ struct ItemTierData {
     u8 forgeLevel;
 };
 
-void HandleWeaponTiering(struct Unit *unit);
+void UnitHandleWeaponTiering(struct Unit *unit, const struct UnitDefinition *udef);
 void UnitAutolevelWExpConfig(struct Unit* unit);

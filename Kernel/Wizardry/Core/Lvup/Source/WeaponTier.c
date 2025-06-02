@@ -115,8 +115,8 @@ void UnitHandleWeaponTieringHelper(struct Unit *unit, u8 tier) {
 
 
 
-void UnitHandleWeaponTiering(struct Unit *unit) {
-	if (UNIT_FACTION(unit) != FACTION_RED || unit->state & US_DROP_ITEM)
+void UnitHandleWeaponTiering(struct Unit *unit, const struct UnitDefinition *udef) {
+	if (UNIT_FACTION(unit) != FACTION_RED || udef->itemDrop)
 		return;
     
     SWITCH_BY_DIFFICULTY(
@@ -130,4 +130,40 @@ void UnitHandleWeaponTiering(struct Unit *unit) {
 		UnitHandleWeaponTieringHelper(unit, GetROMChapterStruct(gPlaySt.chapterIndex)->minWeaponTierHard); return;,
 		UnitHandleWeaponTieringHelper(unit, GetROMChapterStruct(gPlaySt.chapterIndex)->minWeaponTierLunatic); return;
 	);
+}
+
+LYN_REPLACE_CHECK(UnitInitFromDefinition);
+void UnitInitFromDefinition(struct Unit* unit, const struct UnitDefinition* uDef) {
+    unit->pCharacterData = GetCharacterData(uDef->charIndex);
+
+    if (uDef->classIndex)
+        unit->pClassData = GetClassData(uDef->classIndex);
+    else // such an overlooked feature
+        unit->pClassData = GetClassData(unit->pCharacterData->defaultClass);
+
+    unit->level = uDef->level;
+
+    GenUnitDefinitionFinalPosition(uDef, &unit->xPos, &unit->yPos, FALSE);
+
+    if (UNIT_IS_GORGON_EGG(unit)) {
+        int i;
+
+        // For gorgon eggs, set first item to zero
+        // And store the other item ids in slots 1 through 4 for later initialization
+
+        unit->items[0] = 0;
+
+        for (i = 0; i < UNIT_DEFINITION_ITEM_COUNT; ++i)
+            unit->items[i + 1] = uDef->items[i];
+    } else {
+        int i;
+
+        for (i = 0; (i < UNIT_DEFINITION_ITEM_COUNT) && (uDef->items[i]); ++i)
+            UnitAddItem(unit, MakeNewItem(uDef->items[i]));
+        
+        UnitHandleWeaponTiering(unit, uDef);
+        
+    }
+
+    CharStoreAI(unit, uDef);
 }
