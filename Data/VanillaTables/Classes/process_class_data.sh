@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Made using Gemeni
-
 # Class data location
 subdir="ClassData"
 
