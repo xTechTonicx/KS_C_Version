@@ -167,7 +167,7 @@ UNIT
 
 BeginningScene:
 
-GOTO 5
+// GOTO 5
 
 MUSC Raid
 LOAD1 0x1 BossGroup
@@ -211,9 +211,9 @@ EvtBuffWeapons(ITEM_AXE_BRONZE, ITEM_AXE_IRON)
 EvtBuffWeapons(ITEM_SWORD_BRONZE, ITEM_SWORD_IRON)
 EvtBuffWeapons(ITEM_BOW_BRONZE, ITEM_BOW_IRON)
 
-LABEL 5
-MNC2 40
-NoFade
+// LABEL 5
+// MNC2 40
+// NoFade
 ENDA
 NoFade
 ENDA

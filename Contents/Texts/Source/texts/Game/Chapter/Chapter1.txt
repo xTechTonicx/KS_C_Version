@@ -1,17 +1,20 @@
 ## Chapter1InitialConvo1
 [MidLeft][LoadFester]
 [MidRight][LoadGlove]
+[Box1]
 So[Beat]this the village[,] boss?[A]
 
 [MidLeft]
 Aye[,] it fits the bill.[A]
 
 [MidRight]
+[Box2]
 So[Beat]we just head in and[N]
 and round up the slav-[A]
 
 
 [MidLeft]
+[Box3]
 That won't be necessary[.][N]
 I'll handle this one myself.[AN]
 You fools can keep watch and make[N]

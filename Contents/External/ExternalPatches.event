@@ -14,6 +14,8 @@
     #include "StatScreenfx/StatScreenfx.event"
 #endif
 
+#include "TextEngineRework/Installer.event"
+
 // Keystone Sage Specific Patches
 
 // #include "WeaponScaling/WeaponScalingInstaller.event" // moved to Autolevel.c

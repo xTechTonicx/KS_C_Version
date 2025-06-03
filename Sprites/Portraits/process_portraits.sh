@@ -3,7 +3,7 @@
 # Made using Gemini
 
 # Define the subdirectory containing the PNG files
-SUBDIRECTORY="PortraitData"
+SUBDIRECTORY="./PortraitData"
 
 # Define the program to process the PNG files
 PROGRAM="../../Tools/EventAssembler/Tools/PortraitFormatter"
