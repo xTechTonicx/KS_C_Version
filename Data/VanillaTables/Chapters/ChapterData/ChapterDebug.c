@@ -38,8 +38,8 @@ const struct ROMChapterData ChapterDebug = {
 	},
 	.mapCrackedWallHeath = 30,
 	
-    .minWeaponTierHard = CHAPTER_WEAPON_TIER_IRON,
-	.minWeaponTierLunatic = CHAPTER_WEAPON_TIER_FORGED_SILVER,
+    .minWeaponTierHard = 0,
+	.minWeaponTierLunatic = 0,
 	.minWexpHard = WPN_EXP_C,
 	.minWexpLunatic = WPN_EXP_A,
 

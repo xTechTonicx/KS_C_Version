@@ -5,11 +5,10 @@
 #include <limits.h>
 
 #ifndef __STDBOOL_H__
-typedef s8 bool;
-enum { false, true };
-#define false	false
-#define true	true
-#define __bool_true_false_are_defined	1
+#define bool s8
+#define false 0
+#define true 1
+#define __bool_true_false_are_defined 1
 #endif /* bool */
 
 // Forward declarations for common types
@@ -17,7 +16,7 @@ struct Proc;
 struct Unit;
 
 // Forward declarations for types that may need to be declared elsewhere later?
-struct BattleUnit; // currently in bmunit.h
+struct BattleUnit;     // currently in bmunit.h
 struct UnitDefinition; // currently in bmunit.h
 struct Trap;
 struct BattleHit;
@@ -52,22 +51,31 @@ struct Struct0858791C
 
 typedef void (*InterruptHandler)(void);
 
-struct Vec2 { short x, y; };
-struct Vec2u { u16 x, y; };
-struct Vec2l { int x, y; }; // also Struct0859E7D4
+struct Vec2
+{
+    short x, y;
+};
+struct Vec2u
+{
+    u16 x, y;
+};
+struct Vec2l
+{
+    int x, y;
+}; // also Struct0859E7D4
 
 struct BmSt // Game State Struct
 {
-    /* 00 */ s8  main_loop_ended;
+    /* 00 */ s8 main_loop_ended;
 
-    /* 01 */ s8  lock;
-    /* 02 */ s8  gameGfxSemaphore;
+    /* 01 */ s8 lock;
+    /* 02 */ s8 gameGfxSemaphore;
 
-    /* 03 */ u8  _unk04;
+    /* 03 */ u8 _unk04;
 
-    /* 04 */ u8  gameStateBits;
+    /* 04 */ u8 gameStateBits;
 
-    /* 05 */ u8  _unk05;
+    /* 05 */ u8 _unk05;
 
     /* 06 */ u16 prevVCount;
 
@@ -100,32 +108,35 @@ struct BmSt // Game State Struct
     /* 3F */ s8 unk3F;
 };
 
-enum BmSt_gameStateBits {
+enum BmSt_gameStateBits
+{
     BM_FLAG_0 = (1 << 0),
     BM_FLAG_1 = (1 << 1),
     BM_FLAG_2 = (1 << 2),
     BM_FLAG_3 = (1 << 3),
     BM_FLAG_PREPSCREEN = (1 << 4),
-    BM_FLAG_5 = (1 << 5),   /* Maybe mute battle-anim BGM ? */
+    BM_FLAG_5 = (1 << 5), /* Maybe mute battle-anim BGM ? */
     BM_FLAG_LINKARENA = (1 << 6),
 };
 
-enum BmSt_TakenAction {
+enum BmSt_TakenAction
+{
     BM_TAKEN_ACTION_TAKE = (1 << 0),
     BM_TAKEN_ACTION_TRADE = (1 << 1),
     BM_TAKEN_ACTION_SUPPLY = (1 << 2),
     BM_TAKEN_ACTION_BALLISTA = (1 << 3),
 };
 
-struct PlaySt_30 {
+struct PlaySt_30
+{
     s32 total_gold;
 
     u32 unk_4_00 : 20;
     u32 unk_4_14 : 12;
 
-    u32 unk_8_1: 8;
-    u32 unk_8_2: 20; // Used by bmdifficulty (Valni/Lagdou)
-    u32 unk_8_3: 4;
+    u32 unk_8_1 : 8;
+    u32 unk_8_2 : 20; // Used by bmdifficulty (Valni/Lagdou)
+    u32 unk_8_3 : 4;
 
     u32 unk_C_00 : 6;
     u32 combatRank : 3;
@@ -137,72 +148,77 @@ struct PlaySt_30 {
     u32 unk_F_00 : 8;
 } BITPACKED;
 
-struct PlaySt_OptionBits {
+struct PlaySt_OptionBits
+{
     // option bits
-    u32 unitColor:1; // 1
-    u32 disableTerrainDisplay:1; // 1
-    u32 unitDisplayType:2; // 2
-    u32 autoCursor:1; // 1
-    u32 textSpeed:2;
-    u32 gameSpeed:1; // 1
+    u32 unitColor : 1;             // 1
+    u32 disableTerrainDisplay : 1; // 1
+    u32 unitDisplayType : 2;       // 2
+    u32 autoCursor : 1;            // 1
+    u32 textSpeed : 2;
+    u32 gameSpeed : 1; // 1
 
-    u32 disableBgm:1; // 1
-    u32 disableSoundEffects:1; // 1
-    u32 windowColor:2;
-    u32 unk41_5:1; // 1
-    u32 unk41_6:1; // unk
-    u32 disableAutoEndTurns:1; // 1
-    u32 noSubtitleHelp:1; // 1
+    u32 disableBgm : 1;          // 1
+    u32 disableSoundEffects : 1; // 1
+    u32 windowColor : 2;
+    u32 unk41_5 : 1;             // 1
+    u32 unk41_6 : 1;             // unk
+    u32 disableAutoEndTurns : 1; // 1
+    u32 noSubtitleHelp : 1;      // 1
 
-    u32 disableGoalDisplay:1; // unk
-    u32 animationType:2; // 2
-    u32 battleForecastType:2; // 2
-    u32 controller:1; // 1
-    u32 rankDisplay:1; // unk
+    u32 disableGoalDisplay : 1; // unk
+    u32 animationType : 2;      // 2
+    u32 battleForecastType : 2; // 2
+    u32 controller : 1;         // 1
+    u32 rankDisplay : 1;        // unk
 
-    u32 debugControlRed:2; // 2 (!)
-    u32 debugControlGreen:2; // 2
-    u32 unk43_4:5; // unk
+    u32 debugControlRed : 2;   // 2 (!)
+    u32 debugControlGreen : 2; // 2
+    u32 unk43_4 : 5;           // unk
 
-    u8  unk44[0x48 - 0x44];
+    u8 unk44[0x48 - 0x44];
 } BITPACKED;
 
-struct PlaySt { // Chapter Data Struct
+struct PlaySt
+{ // Chapter Data Struct
     /* 00 */ u32 time_saved;
     /* 04 */ u32 time_chapter_started;
 
     /* 08 */ u32 partyGoldAmount;
-    /* 0C */ u8  gameSaveSlot;
+    /* 0C */ u8 gameSaveSlot;
 
-    /* 0D */ u8  chapterVisionRange; // 0 means no fog
-    /* 0E */ s8  chapterIndex;
+    /* 0D */ u8 chapterVisionRange; // 0 means no fog
+    /* 0E */ s8 chapterIndex;
 
-    /* 0F */ u8  faction; // 0x00 = Player phase, 0x40 = NPC phase, 0x80 = Enemy phase (0xC0 = link arena 4th team?)
+    /* 0F */ u8 faction; // 0x00 = Player phase, 0x40 = NPC phase, 0x80 = Enemy phase (0xC0 = link
+                         // arena 4th team?)
 
     /* 10 */ u16 chapterTurnNumber;
 
-    /* 12 */ u8  xCursor, yCursor; // map cursor position
+    /* 12 */ u8 xCursor, yCursor; // map cursor position
 
-    /* 14 */ u8  chapterStateBits; // +0x04 = postgame, +0x10 = in prep screen, +0x40 = difficult mode, +0x80 = link arena?
-    /* 15 */ u8  chapterWeatherId;
+    /* 14 */ u8 chapterStateBits; // +0x04 = postgame, +0x10 = in prep screen, +0x40 = difficult
+                                  // mode, +0x80 = link arena?
+    /* 15 */ u8 chapterWeatherId;
     /* 16 */ u16 chapterTotalSupportGain;
 
     /* 18 */ u8 playthroughIdentifier;
     /* 19 */ u8 unk19;
     /* 1A */ u8 lastUnitSortType;
 
-    /* 1B */ u8  chapterModeIndex; // 1 for tutorial (ch0-8), 2 for Eirika route, 3 for Ephraim route
+    /* 1B */ u8 chapterModeIndex; // 1 for tutorial (ch0-8), 2 for Eirika route, 3 for Ephraim route
 
     // character identifiers indexed by weapon type.
     // has to do with allowing unusable weapons to be used
-    /* 1C */ u8  unk1C[2];
+    /* 1C */ u8 unk1C[2];
     /* 1E */ u8 unk1E;
     /* 1F */ u8 unk1F;
 
-    /* 20 */ char playerName[0x2B - 0x20]; // unused outside of link arena (was tactician name in FE7); Size unknown
+    /* 20 */ char playerName[0x2B - 0x20]; // unused outside of link arena (was tactician name in
+                                           // FE7); Size unknown
 
     /* 2B */ u8 unk_2B_00 : 0x01;
-             u8 unk_2B_01 : 0x07;
+    u8 unk_2B_01 : 0x07;
 
     u32 unk_2C_1 : 1;
     u32 unk_2C_01 : 3;
@@ -224,7 +240,8 @@ struct PlaySt { // Chapter Data Struct
 } BITPACKED;
 
 /* PlaySt::config::animationType */
-enum PlaySt_AnimConfType {
+enum PlaySt_AnimConfType
+{
     PLAY_ANIMCONF_ON = 0,
     PLAY_ANIMCONF_OFF = 1,
     PLAY_ANIMCONF_SOLO_ANIM = 2,
@@ -235,15 +252,16 @@ enum PlaySt_AnimConfType {
  * Use with PlaySt field chapterStateBits
  */
 
-enum PlaySt_chapterStateBits {
+enum PlaySt_chapterStateBits
+{
     PLAY_FLAG_STATSCREENPAGE0 = (1 << 0),
     PLAY_FLAG_STATSCREENPAGE1 = (1 << 1),
-    PLAY_FLAG_POSTGAME        = (1 << 2),
-    PLAY_FLAG_TUTORIAL        = (1 << 3),
-    PLAY_FLAG_PREPSCREEN      = (1 << 4),
-    PLAY_FLAG_COMPLETE        = (1 << 5),
-    PLAY_FLAG_HARD            = (1 << 6),
-    PLAY_FLAG_EXTRA_MAP       = (1 << 7),
+    PLAY_FLAG_POSTGAME = (1 << 2),
+    PLAY_FLAG_TUTORIAL = (1 << 3),
+    PLAY_FLAG_PREPSCREEN = (1 << 4),
+    PLAY_FLAG_COMPLETE = (1 << 5),
+    PLAY_FLAG_HARD = (1 << 6),
+    PLAY_FLAG_EXTRA_MAP = (1 << 7),
 
     PLAY_FLAG_STATSCREENPAGE_SHIFT = 0,
     PLAY_FLAG_STATSCREENPAGE_MASK = PLAY_FLAG_STATSCREENPAGE0 | PLAY_FLAG_STATSCREENPAGE1,
@@ -253,7 +271,8 @@ enum PlaySt_chapterStateBits {
  * Use with PlaySt field chapterModeIndex
  */
 
-enum PlaySt_chapterModeIndex {
+enum PlaySt_chapterModeIndex
+{
     CHAPTER_MODE_COMMON = 1,
     CHAPTER_MODE_EIRIKA = 2,
     CHAPTER_MODE_EPHRAIM = 3,
@@ -272,10 +291,10 @@ struct MsgBuffer
 
 enum
 {
-    FACING_LEFT  = 0,
+    FACING_LEFT = 0,
     FACING_RIGHT = 1,
-    FACING_DOWN  = 2,
-    FACING_UP    = 3,
+    FACING_DOWN = 2,
+    FACING_UP = 3,
 };
 
 enum
@@ -335,7 +354,7 @@ enum
 {
     GAME_ACTION_EVENT_RETURN = 0, /* Return form event command */
     GAME_ACTION_CLASS_REEL = 1,
-    GAME_ACTION_USR_SKIPPED = 2,  /* User press button A/B/START to skip op-anim */
+    GAME_ACTION_USR_SKIPPED = 2,    /* User press button A/B/START to skip op-anim */
     GAME_ACTION_PLAYED_THROUGH = 3, /* Return if game played through */
     GAME_ACTION_4 = 4,
     GAME_ACTION_5 = 5,
@@ -378,7 +397,7 @@ enum
 
 struct SMSHandle
 {
-    /* 00 */ struct SMSHandle * pNext;
+    /* 00 */ struct SMSHandle *pNext;
 
     /* 04 */ short xDisplay;
     /* 06 */ short yDisplay;
@@ -396,10 +415,13 @@ struct MapChange
     /* 02 */ u8 yOrigin;
     /* 03 */ u8 xSize;
     /* 04 */ u8 ySize;
-    /* 08 */ const void* data;
+    /* 08 */ const void *data;
 };
 
-enum { UNIT_SUPPORT_MAX_COUNT = 7 };
+enum
+{
+    UNIT_SUPPORT_MAX_COUNT = 7
+};
 
 enum
 {
@@ -409,13 +431,13 @@ enum
 
 struct FaceData
 {
-    /* 00 */ const u8*  img;
-    /* 04 */ const u8*  imgChibi;
-    /* 08 */ const u16* pal;
-    /* 0C */ const u8*  imgMouth;
-    /* 10 */ const u8*  imgCard;
+    /* 00 */ const u8 *img;
+    /* 04 */ const u8 *imgChibi;
+    /* 08 */ const u16 *pal;
+    /* 0C */ const u8 *imgMouth;
+    /* 10 */ const u8 *imgCard;
     /* 14 */ u8 xMouth, yMouth;
-    /* 16 */ u8 xEyes,  yEyes;
+    /* 16 */ u8 xEyes, yEyes;
     /* 18 */ u8 blinkKind;
 };
 
@@ -425,7 +447,8 @@ struct FaceVramEntry
     /* 04 */ u16 paletteId;
 };
 
-struct Struct202B6B0 {
+struct Struct202B6B0
+{
     u8 _pad00_[0x2A - 0x00];
     u16 unk2A;
     u8 _pad2C[0x5A - 0x2C];
@@ -434,15 +457,17 @@ struct Struct202B6B0 {
     u16 unk8A;
 };
 
-struct EfxFrameConfig {
+struct EfxFrameConfig
+{
     s16 value;
     s16 duration;
 };
 
-struct gfx_set {
-    void * gfx;
-    void * tsa;
-    void * pal;
+struct gfx_set
+{
+    void *gfx;
+    void *tsa;
+    void *pal;
 };
 
 #endif // GUARD_TYPES_H

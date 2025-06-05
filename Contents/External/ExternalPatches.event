@@ -14,7 +14,7 @@
     #include "StatScreenfx/StatScreenfx.event"
 #endif
 
-#include "TextEngineRework/Installer.event"
+// #include "TextEngineRework/Installer.event"
 
 // Keystone Sage Specific Patches
 

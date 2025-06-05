@@ -3,7 +3,7 @@
 #include "skill-system.h"
 #include "battle-system.h"
 #include "post-action.h"
-#include "GroupAI.h"
+#include "GroupAi.h"
 
 void PostActionHook(ProcPtr proc)
 {

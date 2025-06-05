@@ -4,19 +4,19 @@
 
 void SetBitUES(struct Unit *unit, int bit)
 {
-	Assert(bit >= 0 && bit < 16);
+	Assert(bit >= 0 && bit < 8);
 	_BIT_SET(&unit->_u3A, bit);
 }
 
 void ClearBitUES(struct Unit *unit, int bit)
 {
-	Assert(bit >= 0 && bit < 16);
+	Assert(bit >= 0 && bit < 8);
 	_BIT_CLR(&unit->_u3A, bit);
 }
 
 bool CheckBitUES(struct Unit *unit, int bit)
 {
-	Assert(bit >= 0 && bit < 16);
+	Assert(bit >= 0 && bit < 8);
 	return _BIT_CHK(&unit->_u3A, bit);
 }
 
@@ -28,7 +28,7 @@ static void reset_expa(s8 uid)
 		return;
 
 	unit->_u3A = 0;
-	unit->aiGroup = 0;
+	// unit->aiGroup = 0;
 }
 
 void ResetUnitsExpaSus(void)
