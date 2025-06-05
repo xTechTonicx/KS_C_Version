@@ -3,6 +3,7 @@
 #include "skill-system.h"
 #include "battle-system.h"
 #include "post-action.h"
+#include "GroupAI.h"
 
 void PostActionHook(ProcPtr proc)
 {
@@ -16,6 +17,7 @@ bool PostActionEnd(ProcPtr proc)
 	ResetSkillLists();
 	ResetCombatArtList();
 	ResetWtaStatus();
+	HandleGroupAi();
 
 	/* Vanilla function at the hack entry */
 	HandlePostActionTraps(proc);

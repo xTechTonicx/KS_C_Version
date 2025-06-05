@@ -110,7 +110,7 @@ void InitBattleUnit(struct BattleUnit *bu, struct Unit *unit)
 	BU_CHG_MAG(bu) = 0;
 
 	bu->unit._u3A = unit->_u3A;
-	bu->unit._u3B = unit->_u3B;
+	bu->unit.aiGroup = unit->aiGroup;
 
 	for (it = gpExternalUnitToBattleHook; *it; it++)
 		(*it)(unit, bu);
@@ -127,7 +127,7 @@ void UpdateUnitFromBattle(struct Unit *unit, struct BattleUnit *bu)
 
 	/* Unit expa sus */
 	unit->_u3A = bu->unit._u3A;
-	unit->_u3B = bu->unit._u3B;
+	unit->aiGroup = bu->unit.aiGroup;
 
 	ResetSkillLists();
 

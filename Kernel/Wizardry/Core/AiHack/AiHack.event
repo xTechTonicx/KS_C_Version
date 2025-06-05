@@ -10,6 +10,7 @@
 #include "AiAction/AiAction.event"
 #include "AiDecide/AiDecide.event"
 #include "AiOptimization/AiOptimization.event"
+#include "GroupAi/GroupAi.event"
 
 // #include "data.event"
 

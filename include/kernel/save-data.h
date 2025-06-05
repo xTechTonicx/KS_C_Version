@@ -110,7 +110,7 @@ struct EmsPackedSusUnit {
 	/* 28 */ u16 items[UNIT_ITEM_COUNT];
 
 	/* 32 */ u8 _u3A;
-	/* 33 */ u8 _u3B;
+	/* 33 */ u8 aiGroup;
 } BITPACKED;
 
 #define SIZE_OF_SAV_UNIT_PACK 0x2C

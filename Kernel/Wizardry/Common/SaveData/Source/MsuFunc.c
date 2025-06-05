@@ -187,7 +187,7 @@ STATIC_DECLAR void NewPackSuspandUnit(struct Unit *src, struct EmsPackedSusUnit 
 		dst->pad.ai.cur_hp = src->curHP;
 	}
 	dst->_u3A = src->_u3A;
-	dst->_u3B = src->_u3B;
+	dst->aiGroup = src->aiGroup;
 }
 
 STATIC_DECLAR void NewUnpackSuspandUnit(struct EmsPackedSusUnit *src, struct Unit *dst)
@@ -252,7 +252,7 @@ STATIC_DECLAR void NewUnpackSuspandUnit(struct EmsPackedSusUnit *src, struct Uni
 	dst->state = src->state;
 
 	dst->_u3A = src->_u3A;
-	dst->_u3B = src->_u3B;
+	dst->aiGroup = src->aiGroup;
 
 	for (i = 0; i < 0x5; i++)
 		dst->items[i] = src->items[i];

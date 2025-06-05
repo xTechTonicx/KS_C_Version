@@ -167,7 +167,7 @@ struct Unit
 
     /* pad */
     /* 3A */ u8 _u3A;
-    /* 3B */ u8 _u3B;
+    /* 3B */ u8 aiGroup;
 
     /* 3C */ struct SMSHandle * pMapSpriteHandle;
 

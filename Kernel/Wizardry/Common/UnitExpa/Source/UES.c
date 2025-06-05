@@ -28,7 +28,7 @@ static void reset_expa(s8 uid)
 		return;
 
 	unit->_u3A = 0;
-	unit->_u3B = 0;
+	unit->aiGroup = 0;
 }
 
 void ResetUnitsExpaSus(void)
