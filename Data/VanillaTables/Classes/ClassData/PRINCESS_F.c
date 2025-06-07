@@ -19,6 +19,7 @@ const struct ClassData ClassPrincess = {
     .baseRes = 2,
     .baseCon = 7,
     .baseMov = 5,
+    .baseLuck = 3,
 
     .maxHP  = 45,
     .maxPow = 18,
@@ -27,7 +28,6 @@ const struct ClassData ClassPrincess = {
     .maxDef = 18,
     .maxRes = 16,
     .maxCon = 20,
-    .classRelativePower = 3,
 
 
     .growthHP  = 90,

@@ -18,6 +18,7 @@ const struct ClassData ClassArcherF = {
     .baseRes = 0,
     .baseCon = 6,
     .baseMov = 5,
+    .baseLuck = 5,
 
     .maxHP  = 45,
     .maxPow = 17,
@@ -26,7 +27,7 @@ const struct ClassData ClassArcherF = {
     .maxDef = 17,
     .maxRes = 16,
     .maxCon = 20,
-    .classRelativePower = 5,
+
 
 
     .growthHP  = 70,

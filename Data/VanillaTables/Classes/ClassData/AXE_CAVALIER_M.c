@@ -18,6 +18,7 @@ const struct ClassData ClassAxeCavM = {
     .baseRes = 1,
     .baseCon = 9,
     .baseMov = 7,
+    .baseLuck = 2,
 
     .maxHP  = 45,
     .maxPow = 18,
@@ -26,7 +27,6 @@ const struct ClassData ClassAxeCavM = {
     .maxDef = 19,
     .maxRes = 15,
     .maxCon = 20,
-    .classRelativePower = 2,
 
 
     .growthHP  = 75,

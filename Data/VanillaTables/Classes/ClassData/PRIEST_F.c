@@ -18,6 +18,7 @@ const struct ClassData ClassPriestF = {
     .baseRes = 10,
     .baseCon = 6,
     .baseMov = 5,
+    .baseLuck = 10,
 
     .maxHP  = 45,
     .maxPow = 15,
@@ -26,7 +27,6 @@ const struct ClassData ClassPriestF = {
     .maxDef = 15,
     .maxRes = 20,
     .maxCon = 20,
-    .classRelativePower = 10,
 
 
     .growthHP  = 50,

@@ -18,6 +18,7 @@ const struct ClassData ClassFighterM = {
     .baseRes = 0,
     .baseCon = 10,
     .baseMov = 5,
+    .baseLuck = 4,
 
     .maxHP  = 45,
     .maxPow = 20,
@@ -26,7 +27,6 @@ const struct ClassData ClassFighterM = {
     .maxDef = 16,
     .maxRes = 15,
     .maxCon = 20,
-    .classRelativePower = 4,
 
 
     .growthHP  = 85,

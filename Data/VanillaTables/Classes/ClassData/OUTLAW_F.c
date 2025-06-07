@@ -18,6 +18,7 @@ const struct ClassData ClassOutlawF = {
     .baseRes = 7,
     .baseCon = 7,
     .baseMov = 5,
+    .baseLuck = 4,
 
     .maxHP  = 45,
     .maxPow = 15,
@@ -26,7 +27,6 @@ const struct ClassData ClassOutlawF = {
     .maxDef = 15,
     .maxRes = 20,
     .maxCon = 20,
-    .classRelativePower = 6,
 
 
     .growthHP  = 60,

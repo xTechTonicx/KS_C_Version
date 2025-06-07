@@ -18,6 +18,7 @@ const struct ClassData ClassSoldierM = {
     .baseRes = 4,
     .baseCon = 8,
     .baseMov = 5,
+    .baseLuck = 6,
 
     .maxHP  = 45,
     .maxPow = 17,
@@ -26,7 +27,6 @@ const struct ClassData ClassSoldierM = {
     .maxDef = 18,
     .maxRes = 16,
     .maxCon = 20,
-    .classRelativePower = 6,
 
 
     .growthHP  = 70,

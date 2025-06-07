@@ -5,7 +5,7 @@ const struct ClassData ClassBrigandMCh1 = {
     .nameTextId = MSG_CLASS_FIGHTER_NAME,
     .descTextId = MSG_CLASS_FIGHTER_DESC,
     .number = CLASS_FIGHTER_M,
-    .promotion = CLASS_HERO,
+    .promotion = CLASS_BERSERKER,
     .SMSId = CLASS_FIGHTER_M - 1,
     .defaultPortraitId = FIGHTER_CARD,
     .sort_order = 0x2,
@@ -18,6 +18,7 @@ const struct ClassData ClassBrigandMCh1 = {
     .baseRes = 0,
     .baseCon = 11,
     .baseMov = 5,
+    .baseLuck = 1,
 
     .maxHP  = 45,
     .maxPow = 20,
@@ -26,7 +27,6 @@ const struct ClassData ClassBrigandMCh1 = {
     .maxDef = 15,
     .maxRes = 14,
     .maxCon = 20,
-    .classRelativePower = 1,
 
 
     .growthHP  = 95,

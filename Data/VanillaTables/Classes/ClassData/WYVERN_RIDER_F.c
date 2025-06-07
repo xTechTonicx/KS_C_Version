@@ -18,6 +18,7 @@ const struct ClassData ClassSwordfigherM = {
     .baseRes = 0,
     .baseCon = 11,
     .baseMov = 6,
+    .baseLuck = 2,
 
     .maxHP  = 45,
     .maxPow = 19,
@@ -26,7 +27,6 @@ const struct ClassData ClassSwordfigherM = {
     .maxDef = 20,
     .maxRes = 14,
     .maxCon = 25,
-    .classRelativePower = 1,
 
     .growthHP  = 90,
     .growthPow = 45,
