@@ -136,7 +136,7 @@ enum {
     ITEM_CHESTKEY          = 0x69,
     ITEM_DOORKEY           = 0x6A,
     ITEM_LOCKPICK          = 0x6B,
-    // ITEM_VULNERARY         = 0x6C,
+    ITEM_VULNERARY         = 0x6C,
     ITEM_ELIXIR            = 0x6D,
     ITEM_PUREWATER         = 0x6E,
     ITEM_ANTITOXIN         = 0x6F,

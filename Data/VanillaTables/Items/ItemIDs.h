@@ -33,5 +33,5 @@ enum ItemDefinitions
     // Anima
     // No Items in Anima
     // Misc
-    ITEM_VULNERARY,
+    // No Items in Misc
 };
