@@ -63,6 +63,6 @@ done < "$INPUT_FILE_LIST"
 echo "POP" >> "$OUTPUT_MASTER_INSTALLER_FILE"
 echo "};" >> "$OUTPUT_HEADER_FILE"
 
-cp "class_info.txt" "../../../Contents/MapSprites/class_info.txt"
+cp "class_info.txt" "../../../Sprites/MapSprites/class_info.txt"
 
 echo "Header file '$OUTPUT_HEADER_FILE', ClassIDs.event, and installer event files created."

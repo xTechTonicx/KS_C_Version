@@ -69,13 +69,15 @@ const struct BattleAnimDef MAGE_M_REF[] = {
 	{ 0 }
 };
 
-const struct BattleAnimDef NINJA_F_REF[] = { { .wtype = 0x0100 | ITYPE_KNIFE,
-					       .index = NINJA_F_KNIFE },
-					     { 0 } };
+const struct BattleAnimDef NINJA_F_REF[] = { 
+	{ .wtype = 0x0100 | ITYPE_KNIFE, .index = NINJA_F_KNIFE },
+	{ 0 }
+};
 
-const struct BattleAnimDef NINJA_M_REF[] = { { .wtype = 0x0100 | ITYPE_KNIFE,
-					       .index = NINJA_M_KNIFE },
-					     { 0 } };
+const struct BattleAnimDef NINJA_M_REF[] = { 
+	{ .wtype = 0x0100 | ITYPE_KNIFE, .index = NINJA_M_KNIFE },
+	{ 0 }
+};
 
 const struct BattleAnimDef OUTLAW_F_REF[] = {
 	{ .wtype = 0x0100 | ITYPE_BOW, .index = OUTLAW_F_BOW },

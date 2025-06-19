@@ -4,9 +4,9 @@
 const struct ClassData ClassBrigandMCh1 = {
     .nameTextId = MSG_CLASS_FIGHTER_NAME,
     .descTextId = MSG_CLASS_FIGHTER_DESC,
-    .number = CLASS_FIGHTER_M,
+    .number = CLASS_BRIGAND_CH1_M,
     .promotion = CLASS_BERSERKER,
-    .SMSId = CLASS_FIGHTER_M - 1,
+    .SMSId = CLASS_BRIGAND_CH1_M - 1,
     .defaultPortraitId = FIGHTER_CARD,
     .sort_order = 0x2,
 

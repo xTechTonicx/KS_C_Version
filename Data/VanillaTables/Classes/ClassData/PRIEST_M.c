@@ -24,7 +24,7 @@ const struct ClassData ClassPriestM = {
     .maxPow = 15,
     .maxSkl = 19,
     .maxSpd = 17,
-    .maxDef = 15,
+    .maxDef = 10,
     .maxRes = 20,
     .maxCon = 20,
 

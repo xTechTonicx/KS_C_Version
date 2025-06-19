@@ -1,7 +1,7 @@
 #include "common-chax.h"
 #include "KSDefinitions.h"
 
-const struct ClassData ClassPriestF = {
+const struct ClassData ClassClericF = {
     .nameTextId = MSG_CLASS_PRIEST_NAME,
     .descTextId = MSG_CLASS_PRIEST_DESC,
     .number = CLASS_PRIEST_M,
@@ -24,7 +24,7 @@ const struct ClassData ClassPriestF = {
     .maxPow = 15,
     .maxSkl = 19,
     .maxSpd = 17,
-    .maxDef = 15,
+    .maxDef = 10,
     .maxRes = 20,
     .maxCon = 20,
 

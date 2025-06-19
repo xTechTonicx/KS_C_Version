@@ -1,12 +1,12 @@
 #include "common-chax.h"
 #include "KSDefinitions.h"
 
-const struct ClassData ClassSwordfigherM = {
+const struct ClassData ClassWyvernRiderM = {
     .nameTextId = 0x2ce,
     .descTextId = 0x31a,
-    .number = CLASS_WYVERN_RIDER,
+    .number = CLASS_WYVERN_RIDER_M,
     .promotion = CLASS_WYVERN_LORD,
-    .SMSId = 0x19,
+    .SMSId = CLASS_WYVERN_RIDER_M,
     .defaultPortraitId = 0x88,
     .sort_order = 0xd,
 
@@ -43,9 +43,9 @@ const struct ClassData ClassSwordfigherM = {
     .promotionDef = 0,
     .promotionRes = 0,
 
-    .attributes = CA_MOUNTEDAID | CA_CANTO | CA_WYVERN | CA_FEMALE,
+    .attributes = CA_MOUNTEDAID | CA_CANTO | CA_WYVERN,
     .baseRanks = {
-        [ITYPE_AXE] = WPN_EXP_D,
+        [ITYPE_AXE] = WPN_EXP_E,
     },
 
     .pBattleAnimDef = AnimConf_088AF1D0,
