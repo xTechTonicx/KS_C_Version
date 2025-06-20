@@ -4,9 +4,9 @@
 const struct ClassData ClassMilitiaF = {
     .nameTextId = MSG_CLASS_SOLDIER_NAME,
     .descTextId = MSG_CLASS_SOLDIER_DESC,
-    .number = CLASS_SOLDIER_F,
+    .number = CLASS_MILITIA_F,
     .promotion = CLASS_GREAT_KNIGHT,
-    .SMSId = CLASS_SOLDIER_F - 1,
+    .SMSId = CLASS_MILITIA_F - 1,
     .defaultPortraitId = SOLDIER_CARD,
     .sort_order = 0x2,
 

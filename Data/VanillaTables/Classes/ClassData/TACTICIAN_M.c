@@ -4,9 +4,9 @@
 const struct ClassData ClassTacticianM = {
     .nameTextId = MSG_CLASS_PRIEST_NAME,
     .descTextId = MSG_CLASS_PRIEST_DESC,
-    .number = CLASS_PRIEST_M,
+    .number = CLASS_TACTICIAN_M,
     .promotion = CLASS_GREAT_KNIGHT,
-    .SMSId = CLASS_PRIEST_M - 1,
+    .SMSId = CLASS_TACTICIAN_M - 1,
     .defaultPortraitId = MONK_CARD,
     .sort_order = 0x2,
 

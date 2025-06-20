@@ -4,9 +4,9 @@
 const struct ClassData ClassLancePegasusM = {
     .nameTextId = 0x2e7,
     .descTextId = 0x333,
-    .number = CLASS_LANCE_PEGASUS_F,
+    .number = CLASS_LANCE_PEGASUS_M,
     .promotion = CLASS_FALCON_KNIGHT,
-    .SMSId = CLASS_LANCE_PEGASUS_F - 1,
+    .SMSId = CLASS_LANCE_PEGASUS_M - 1,
     .defaultPortraitId = 0x86,
     .sort_order = 0x10,
 
