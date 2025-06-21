@@ -31,6 +31,15 @@
     #include "BattleAnimData/ARCHER_M_UNARMED.event"
 }
 
+// ARMOR_U
+{
+    #include "BattleAnimData/ARMOR_U_AXE.event"
+    #include "BattleAnimData/ARMOR_U_HANDAXE.event"
+    #include "BattleAnimData/ARMOR_U_LANCE.event"
+    #include "BattleAnimData/ARMOR_U_SWORD.event"
+    #include "BattleAnimData/ARMOR_U_UNARMED.event"
+}
+
 // AXECAV_F
 {
     #include "BattleAnimData/AXECAV_F_AXE.event"

@@ -3,8 +3,8 @@
 enum ClassDefinitions
 {
     CLASS_NONE,
-    CLASS_AXE_ARMOR_M,
     CLASS_PRINCESS_F,
+    CLASS_AXE_ARMOR_M,
     CLASS_LANCE_ARMOR_M,
     CLASS_SWORD_ARMOR_M,
     CLASS_FIGHTER_M,

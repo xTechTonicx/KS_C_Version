@@ -63,6 +63,35 @@ const struct BattleAnimDef ARCHER_M_REF[] =
     {0}
 };
 
+const struct BattleAnimDef ARMOR_U_REF[] = 
+{
+    {
+        .wtype = 0x0100 | ITYPE_AXE,
+        .index = (u16) ARMOR_U_AXE
+    },
+    {
+        .wtype = ITEM_AXE_HANDAXE,
+        .index = (u16) ARMOR_U_HANDAXE
+    },
+    {
+        .wtype = ITEM_AXE_TOMAHAWK,
+        .index = (u16) ARMOR_U_HANDAXE
+    },
+    {
+        .wtype = 0x0100 | ITYPE_LANCE,
+        .index = (u16) ARMOR_U_LANCE
+    },
+    {
+        .wtype = 0x0100 | ITYPE_SWORD,
+        .index = (u16) ARMOR_U_SWORD
+    },
+    {
+        .wtype = 0x0100 | ITYPE_ITEM,
+        .index = (u16) ARMOR_U_UNARMED
+    },
+    {0}
+};
+
 const struct BattleAnimDef AXECAV_F_REF[] = 
 {
     {

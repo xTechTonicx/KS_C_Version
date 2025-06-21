@@ -106,7 +106,7 @@ while IFS= read -r event_file; do
 
   file_name=$(basename "$event_file")
 
-  # Extract base class name (keep [class]_[M|F], remove _[weapon].event)
+  # Extract base class name (keep [class]_[M|F|U], remove _[weapon].event)
   class_gender="${file_name%_*}"  # Remove last segment (weapon type)
   animation_name="${file_name%.event}"  # Remove .event extension
 

@@ -52,7 +52,7 @@
  * If uncommented, enable patch
  * FEB: Character Custom Animation
  */
-#define CONFIG_USE_CHAR_CUSTOM_ANIM
+// #define CONFIG_USE_CHAR_CUSTOM_ANIM
 
 /**
  * If uncommented, fasten function GenerateUnitCompleteAttackRange

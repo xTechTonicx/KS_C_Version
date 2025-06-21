@@ -47,7 +47,7 @@ const struct ClassData ClassAxeArmorM = {
         .baseRanks = {
             [ITYPE_AXE] = WPN_EXP_E,
         },
-        .pBattleAnimDef = AnimConf_088AF048,
+        .pBattleAnimDef = ARMOR_U_REF,
         .pMovCostTable = {
             TerrainTable_MovCost_ArmorNormal,
             TerrainTable_MovCost_ArmorRain,
