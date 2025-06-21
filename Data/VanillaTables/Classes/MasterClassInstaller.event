@@ -4,8 +4,8 @@
 
 PUSH
     ORG $807110 + $54
-    #include "ClassData/PRINCESS_F.lyn.event"
     #include "ClassData/AXE_ARMOR_M.lyn.event"
+    #include "ClassData/PRINCESS_F.lyn.event"
     #include "ClassData/LANCE_ARMOR_M.lyn.event"
     #include "ClassData/SWORD_ARMOR_M.lyn.event"
     #include "ClassData/FIGHTER_M.lyn.event"

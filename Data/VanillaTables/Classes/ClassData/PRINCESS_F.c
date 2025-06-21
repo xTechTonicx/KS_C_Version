@@ -45,7 +45,7 @@ const struct ClassData ClassPrincess = {
     .promotionDef = 0,
     .promotionRes = 0,
 
-    .attributes = CA_LORD | CA_LOCK_5,
+    .attributes = CA_LORD,
 
     .baseRanks = {
         [ITYPE_SWORD] = WPN_EXP_E,
