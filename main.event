@@ -31,6 +31,7 @@ MESSAGE FreeSpace__Reloc___ end at (CURRENTOFFSET) size as (CURRENTOFFSET - Free
 
 ORG FreeSpace_UsrData
     #include "Data/Data.event"
+    #include "Sprites/Data/SpriteDataInstaller.event"
     #include "Debug/Debug.event"
     #include "Contents/Contents.event"
 FreeSpace_UsrDataTail:

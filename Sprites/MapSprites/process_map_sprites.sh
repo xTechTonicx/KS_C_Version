@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Made using Gemini
-
 # Define the subdirectory containing the PNG files
 SMS_SUBDIRECTORY="SMS"
 MMS_SUBDIRECTORY="MMS"

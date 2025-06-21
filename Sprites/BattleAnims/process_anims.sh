@@ -6,8 +6,8 @@ SUBDIRECTORY="BattleAnimData"
 # Define the output files
 OUTPUT_FILE="AnimationTableInstaller.event"
 INDEX_FILE="AnimationIndexes.event"
-REFERENCE_FILE="AnimationReference.h"
-SOURCE_FILE="AnimationReference.c"
+REFERENCE_FILE="../Data/AnimationReference.h"
+SOURCE_FILE="../Data/AnimationReference.c"
 
 curr_weapon=""
 curr_class_gender_weapon=""
@@ -35,28 +35,28 @@ write_battle_anim_def() {
   echo "    {" >> "$SOURCE_FILE"
   if [[ "$curr_weapon" == "HANDAXE" ]]; then
     echo "        .wtype = ITEM_AXE_HANDAXE," >> "$SOURCE_FILE"
-    echo "        .index = $curr_class_gender_weapon" >> "$SOURCE_FILE"
+    echo "        .index = (u16) $curr_class_gender_weapon" >> "$SOURCE_FILE"
     echo "    }," >> "$SOURCE_FILE"
     echo "    {" >> "$SOURCE_FILE"
     echo "        .wtype = ITEM_AXE_TOMAHAWK," >> "$SOURCE_FILE"
-    echo "        .index = $curr_class_gender_weapon" >> "$SOURCE_FILE"
+    echo "        .index = (u16) $curr_class_gender_weapon" >> "$SOURCE_FILE"
   elif [[ "$curr_weapon" == "MAGIC" ]]; then
     echo "        .wtype = 0x0100 | ITYPE_ANIMA," >> "$SOURCE_FILE"
-    echo "        .index = $curr_class_gender_weapon" >> "$SOURCE_FILE"
+    echo "        .index = (u16) $curr_class_gender_weapon" >> "$SOURCE_FILE"
     echo "    }," >> "$SOURCE_FILE"
     echo "    {" >> "$SOURCE_FILE"
     echo "        .wtype = 0x0100 | ITYPE_DARK," >> "$SOURCE_FILE"
-    echo "        .index = $curr_class_gender_weapon" >> "$SOURCE_FILE"
+    echo "        .index = (u16) $curr_class_gender_weapon" >> "$SOURCE_FILE"
     echo "    }," >> "$SOURCE_FILE"
     echo "    {" >> "$SOURCE_FILE"
     echo "        .wtype = 0x0100 | ITYPE_STAFF," >> "$SOURCE_FILE"
-    echo "        .index = $curr_class_gender_weapon" >> "$SOURCE_FILE"
+    echo "        .index = (u16) $curr_class_gender_weapon" >> "$SOURCE_FILE"
   elif [[ "$curr_weapon" == "UNARMED" ]]; then
     echo "        .wtype = 0x0100 | ITYPE_ITEM," >> "$SOURCE_FILE"
-    echo "        .index = $curr_class_gender_weapon" >> "$SOURCE_FILE"
+    echo "        .index = (u16) $curr_class_gender_weapon" >> "$SOURCE_FILE"
   else
     echo "        .wtype = 0x0100 | ITYPE_${curr_weapon}," >> "$SOURCE_FILE"
-    echo "        .index = $curr_class_gender_weapon" >> "$SOURCE_FILE"
+    echo "        .index = (u16) $curr_class_gender_weapon" >> "$SOURCE_FILE"
   fi
   echo "    }," >> "$SOURCE_FILE"
 }
@@ -86,13 +86,13 @@ declare -A animation_indexes
 index=1
 
 echo "#include \"AnimationIndexes.event\"" >> "$OUTPUT_FILE"
-echo "#include \"AnimationReference.lyn.event\"" >> "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE"
 echo "#define ClassAnimTable (0xc00008-0x20)" >> "$OUTPUT_FILE"
 echo "#define AnimTableEntry(index) \"ORG ClassAnimTable + (index * 0x20)\"" >> "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE"
 
 echo "#pragma once" >> "$REFERENCE_FILE"
+echo "#define ITYPE_KNIFE ITYPE_LIGHT" >> "$REFERENCE_FILE"
 echo "" >> "$REFERENCE_FILE"
 echo "enum AnimationTableIndex {" >> "$REFERENCE_FILE"
 

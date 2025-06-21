@@ -6,7 +6,7 @@ const struct ClassData ClassOutlawF = {
     .descTextId = MSG_CLASS_OUTLAW_DESC,
     .number = CLASS_OUTLAW_F,
     .promotion = CLASS_GREAT_KNIGHT,
-    .SMSId = CLASS_OUTLAW_M - 1,
+    .SMSId = CLASS_OUTLAW_F - 1,
     .defaultPortraitId = OUTLAW_CARD,
     .sort_order = 0x2,
 

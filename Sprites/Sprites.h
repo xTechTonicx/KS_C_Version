@@ -1,7 +1,7 @@
 #ifndef SpriteData
 #define SpriteData
 
-#include "BattleAnims/AnimationReference.h"
+#include "Data/AnimationReference.h"
 
 #include "ClassCards/ClassCardID.h"
 
