@@ -33,13 +33,24 @@ Iscaneus, Leo_link, Intestine - Male Sword Fighter
 Leo_link, Tsushi, Iscaneus - Male Sword Fighter (alt)
 Itranc, Leo_Link - Adventurer 
 Leo_link, Spud, MeatOfJustice - Outlaw 
+Nuramon, Jeorge Reds, Flasuban - Armour Knight
 
 ==Map Animations==
 Rexacuse, Peerless, Alusq - Soldier (M)
 Rexacuse, Peerless, Alusq, WarPath - Soldier (F) 
-Salvaged - Male Axe Cavalier
-Salvaged, Flasuban - Female Axe Cavalier 
+Salvaged - Male Axe Cavalier, Lance Cavalier, Sword Cavalier
+Salvaged, Flasuban - Female Axe Cavalier, Lance Cavalier, Sword Cavalier
 Sephie - Male Swordfighter
 Alice - Female Swordfighter
 MeatOfJustice - Outlaw
 ArcherBias - Adventurer
+RobertFPY - Ninja
+Aruka, Kenpuhu - Ballistician
+Flasuban - Cleric, Priest, Female Mage, Wyvern Rider
+Argo - Axe Armour, Lance Armour, Sword Armour
+Pikmin - Male Mage
+Alusq - Male Militia
+Epicer, Alusq - Female Militia
+Radsel - Cantor
+Sephie, Cornontherob - Sword Pegasus
+VelvetKitsune - Female Summoner
