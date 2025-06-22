@@ -48,7 +48,7 @@ const struct ClassData ClassBrigandM = {
         [ITYPE_AXE] = WPN_EXP_E,
     },
     
-    .pBattleAnimDef = AnimConf_088AF468,
+    .pBattleAnimDef = BRIGAND_M_REF,
     .pMovCostTable = {
         TerrainTable_MovCost_BrigandNormal,
         TerrainTable_MovCost_BrigandNormal,

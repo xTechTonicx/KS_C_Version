@@ -50,7 +50,7 @@ const struct ClassData ClassArcherF = {
     .baseRanks = {
         [ITYPE_BOW] = WPN_EXP_E,
     },
-    .pBattleAnimDef = AnimConf_088AF150,
+    .pBattleAnimDef = ARCHER_F_REF,
     .pMovCostTable = {
         TerrainTable_MovCost_CommonT1Normal,
         TerrainTable_MovCost_CommonT1Normal,

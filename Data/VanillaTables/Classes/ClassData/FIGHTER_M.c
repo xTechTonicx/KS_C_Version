@@ -48,7 +48,7 @@ const struct ClassData ClassFighterM = {
         [ITYPE_AXE] = WPN_EXP_E,
     },
     
-    .pBattleAnimDef = AnimConf_088AF5C8,
+    .pBattleAnimDef = FIGHTER_M_REF,
     .pMovCostTable = {
         TerrainTable_MovCost_CommonT1Normal,
         TerrainTable_MovCost_CommonT1Normal,

@@ -49,7 +49,7 @@ const struct ClassData ClassClericF = {
     .baseRanks = {
         [ITYPE_STAFF] = WPN_EXP_E,
     },
-    .pBattleAnimDef = AnimConf_088AF4F8,
+    .pBattleAnimDef = AnimConf_088AF4F8, // TODO: Hurty sticks fix
     .pMovCostTable = {
         TerrainTable_MovCost_MagicNormal,
         TerrainTable_MovCost_MagicNormal,

@@ -49,7 +49,7 @@ const struct ClassData MageF = {
     .baseRanks = {
         [ITYPE_ANIMA] = WPN_EXP_E,
     },
-    .pBattleAnimDef = AnimConf_088AF234,
+    .pBattleAnimDef = MAGE_F_REF,
     .pMovCostTable = {
         TerrainTable_MovCost_MagicNormal,
         TerrainTable_MovCost_MagicRain,

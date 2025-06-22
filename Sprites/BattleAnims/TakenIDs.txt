@@ -1,15 +1,18 @@
-# Taken IDs
-# Fighter
-25
-26
-27
-# Brigand
-32
-33
-34
-# Archer (M)
-38
-39
-# Archer (F)
-40
-41
+# FIGHTER_M
+25 # AXE
+26 # HANDAXE
+27 # UNARMED
+# BRIGAND_M
+32 # AXE
+33 # HANDAXE
+34 # UNARMED
+# ARCHER_M
+38 # BOW
+39 # UNARMED
+# ARCHER_F
+40 # BOW
+41 # UNARMED
+# MAGE_F
+108 # MAGIC
+# UMBRALBISHOP_M
+123 # MAGIC

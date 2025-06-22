@@ -2,7 +2,6 @@
 
 #pragma once
 #define ITYPE_KNIFE ITYPE_LIGHT
-
 enum AnimationTableIndex {
     ADVENTURER_F_BOW = 1,
     ADVENTURER_F_STAFF = 2,
@@ -35,41 +34,57 @@ enum AnimationTableIndex {
     MILITIA_M_UNARMED = 35,
     NINJA_F_KNIFE = 36,
     NINJA_M_KNIFE = 37,
-    NOMAD_F_BOW = 41,
-    NOMAD_F_UNARMED = 42,
-    NOMAD_M_BOW = 43,
-    NOMAD_M_UNARMED = 44,
-    OUTLAW_F_BOW = 45,
-    OUTLAW_F_UNARMED = 46,
-    OUTLAW_M_BOW = 47,
-    OUTLAW_M_UNARMED = 48,
-    PEGASUS_F_LANCE = 49,
-    PEGASUS_F_SWORD = 50,
-    PEGASUS_F_UNARMED = 51,
-    PRINCESS_F_SWORD = 52,
-    PRINCESS_F_UNARMED = 53,
-    SOLDIER_F_LANCE = 54,
-    SOLDIER_F_UNARMED = 55,
-    SOLDIER_M_LANCE = 56,
-    SOLDIER_M_UNARMED = 57,
-    SWORDFIGHTER_F_SWORD = 58,
-    SWORDFIGHTER_F_UNARMED = 59,
-    SWORDFIGHTER_M_SWORD = 60,
-    SWORDFIGHTER_M_UNARMED = 61,
-    UMBRALBISHOP_F_MAGIC = 62,
-    UMBRALBISHOP_F_STAFF = 63,
-    WYVERNRIDER_U_AXE = 64,
-    WYVERNRIDER_U_HANDAXE = 65,
-    WYVERNRIDER_U_UNARMED = 66,
+    NOMAD_F_BOW = 42,
+    NOMAD_F_UNARMED = 43,
+    NOMAD_M_BOW = 44,
+    NOMAD_M_UNARMED = 45,
+    OUTLAW_F_BOW = 46,
+    OUTLAW_F_UNARMED = 47,
+    OUTLAW_M_BOW = 48,
+    OUTLAW_M_UNARMED = 49,
+    PEGASUS_F_LANCE = 50,
+    PEGASUS_F_SWORD = 51,
+    PEGASUS_F_UNARMED = 52,
+    PRINCESS_F_SWORD = 53,
+    PRINCESS_F_UNARMED = 54,
+    SOLDIER_F_LANCE = 55,
+    SOLDIER_F_UNARMED = 56,
+    SOLDIER_M_LANCE = 57,
+    SOLDIER_M_UNARMED = 58,
+    SWORDFIGHTER_F_SWORD = 59,
+    SWORDFIGHTER_F_UNARMED = 60,
+    SWORDFIGHTER_M_SWORD = 61,
+    SWORDFIGHTER_M_UNARMED = 62,
+    UMBRALBISHOP_F_MAGIC = 63,
+    UMBRALBISHOP_F_STAFF = 64,
+    WYVERNRIDER_U_AXE = 65,
+    WYVERNRIDER_U_HANDAXE = 66,
+    WYVERNRIDER_U_UNARMED = 67,
+    ARCHER_F_BOW = 40,
+    FIGHTER_M_AXE = 25,
+    ARCHER_M_UNARMED = 39,
+    BRIGAND_M_HANDAXE = 33,
+    MAGE_F_MAGIC = 108,
+    FIGHTER_M_HANDAXE = 26,
+    BRIGAND_M_AXE = 32,
+    UMBRALBISHOP_M_MAGIC = 123,
+    FIGHTER_M_UNARMED = 27,
+    ARCHER_F_UNARMED = 41,
+    ARCHER_M_BOW = 38,
+    BRIGAND_M_UNARMED = 34,
 };
-
 extern const struct BattleAnimDef ADVENTURER_F_REF[];
 extern const struct BattleAnimDef ADVENTURER_M_REF[];
+extern const struct BattleAnimDef ARCHER_F_REF[];
+extern const struct BattleAnimDef ARCHER_M_REF[];
 extern const struct BattleAnimDef ARMOR_U_REF[];
 extern const struct BattleAnimDef BALLISTA_U_REF[];
+extern const struct BattleAnimDef BRIGAND_M_REF[];
 extern const struct BattleAnimDef CANTOR_M_REF[];
 extern const struct BattleAnimDef CAVALIER_F_REF[];
 extern const struct BattleAnimDef CAVALIER_M_REF[];
+extern const struct BattleAnimDef FIGHTER_M_REF[];
+extern const struct BattleAnimDef MAGE_F_REF[];
 extern const struct BattleAnimDef MAGE_M_REF[];
 extern const struct BattleAnimDef MILITIA_F_REF[];
 extern const struct BattleAnimDef MILITIA_M_REF[];
@@ -86,4 +101,5 @@ extern const struct BattleAnimDef SOLDIER_M_REF[];
 extern const struct BattleAnimDef SWORDFIGHTER_F_REF[];
 extern const struct BattleAnimDef SWORDFIGHTER_M_REF[];
 extern const struct BattleAnimDef UMBRALBISHOP_F_REF[];
+extern const struct BattleAnimDef UMBRALBISHOP_M_REF[];
 extern const struct BattleAnimDef WYVERNRIDER_U_REF[];
