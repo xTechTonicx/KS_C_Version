@@ -34,6 +34,16 @@ Leo_link, Tsushi, Iscaneus - Male Sword Fighter (alt)
 Itranc, Leo_Link - Adventurer 
 Leo_link, Spud, MeatOfJustice - Outlaw 
 Nuramon, Jeorge Reds, Flasuban - Armour Knight
+Spud, Ren_Ookami, Pushwall - Ballistician
+Salvaged - Lance and Sword Cavalier (M)
+Salvaged, CelestiaHeart - Lance and Sword Cavalier (M)
+Alusq - Militia (M)
+Alusq, KnaKnabepicer - Militia (F)
+GabrielKnight, UltraFenix - Mage (M)
+Flasuban, UltraFenix, Leo_link, L95 - Pegasus Knight
+VelvetKitsune, Author_Pendragon - Umbral Bishop (F)
+Eldritch Abomination, Shin19 - Cantor (M)
+Leo_Link, Jj09, Itranc - Wyvern Rider
 
 ==Map Animations==
 Rexacuse, Peerless, Alusq - Soldier (M)
