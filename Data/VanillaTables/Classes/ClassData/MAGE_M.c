@@ -2,8 +2,8 @@
 #include "KSDefinitions.h"
 
 const struct ClassData MageM = {
-    .nameTextId = 0x2d1,
-    .descTextId = 0x31d,
+    .nameTextId = MSG_CLASS_MAGE_NAME,
+    .descTextId = MSG_CLASS_MAGE_DESC,
     .number = CLASS_MAGE_M,
     .promotion = CLASS_SAGE_F,
     .SMSId = CLASS_MAGE_M - 1,

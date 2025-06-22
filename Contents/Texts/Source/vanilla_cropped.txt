@@ -986,23 +986,23 @@ Base[X]
 LV[X]
 
 ## MSG_0149
-For first-timers.[....][LF]
+For first-timers.[Huff][LF]
 Game rules and[LF]
 controls will be[LF]
 explained as you[LF]
 play.[X]
 
 ## MSG_014A
-For experienced[....][LF]
-players. No game-[....][LF]
-play hints will[....][LF]
+For experienced[Huff][LF]
+players. No game-[Huff][LF]
+play hints will[Huff][LF]
 be provided as[LF]
 you play.[X]
 
 ## MSG_014B
-For players seeking[....][LF]
-a real challenge.[....][LF]
-No instructions are[....][LF]
+For players seeking[Huff][LF]
+a real challenge.[Huff][LF]
+No instructions are[Huff][LF]
 given & difficulty[LF]
 is set to high.[X]
 
@@ -1331,7 +1331,7 @@ Defeat Lyon[X]
 Defeat all monsters[X]
 
 ## MSG_01B6
-Guard Mansel for 13[....][LF]
+Guard Mansel for 13[Huff][LF]
 turns/Defeat Riev[X]
 
 ## MSG_01B7
@@ -1341,7 +1341,7 @@ Seize the lair gate[X]
 Defeat Lyon[X]
 
 ## MSG_01B9
-Defeat Fomortiis, the[....][LF]
+Defeat Fomortiis, the[Huff][LF]
 Demon King[X]
 
 ## MSG_01BA
@@ -1903,7 +1903,7 @@ An earnest and compassionate[LF]
 cavalier from Renais.[X]
 
 ## MSG_0272
-A mature priest of Frelia. He's[....][LF]
+A mature priest of Frelia. He's[Huff][LF]
 gentle and reassuring.[X]
 
 ## MSG_0273
@@ -1919,7 +1919,7 @@ A childhood friend of Colm who[LF]
 hails from Renais. She cries a lot.[X]
 
 ## MSG_0276
-A childhood friend of Neimi who[....][LF]
+A childhood friend of Neimi who[Huff][LF]
 hails from Renais. He can be snide.[X]
 
 ## MSG_0277
@@ -1931,11 +1931,11 @@ The prince of Frelia. He's brash[LF]
 and arrogant, but good at heart.[X]
 
 ## MSG_0279
-A young mage of Renais. She[....][LF]
+A young mage of Renais. She[Huff][LF]
 believes she is a prodigy.[X]
 
 ## MSG_027A
-A beautiful cleric from the Grado[....][LF]
+A beautiful cleric from the Grado[Huff][LF]
 Empire. She's graceful and serious.[X]
 
 ## MSG_027B
@@ -1943,7 +1943,7 @@ A wyvern knight of Grado. A gentle[LF]
 man, but a ferocious warrior.[X]
 
 ## MSG_027C
-The prince of Renais. He is a man[....][LF]
+The prince of Renais. He is a man[Huff][LF]
 of great honor and bravery.[X]
 
 ## MSG_027D
@@ -1959,15 +1959,15 @@ A young girl from a small village in[LF]
 Grado. She is honest and sincere.[X]
 
 ## MSG_0280
-A young monk from Renais. He is a[....][LF]
+A young monk from Renais. He is a[Huff][LF]
 very forthright and pious man.[X]
 
 ## MSG_0281
-A mercenary leader from Jehanna. He's[....][LF]
+A mercenary leader from Jehanna. He's[Huff][LF]
 better known as the Desert Tiger.[X]
 
 ## MSG_0282
-A beautiful and charming dancer[....][LF]
+A beautiful and charming dancer[Huff][LF]
 from Jehanna.[X]
 
 ## MSG_0283
@@ -1975,7 +1975,7 @@ An aloof sword fighter from Jehanna.[LF]
 She's known as the Crimson Flash.[X]
 
 ## MSG_0284
-A sage from the village Caer Pelyn.[....][LF]
+A sage from the village Caer Pelyn.[Huff][LF]
 He's Ewan's solemn, but kind, teacher.[X]
 
 ## MSG_0285
@@ -1983,7 +1983,7 @@ A sage-in-training from Jehanna.[LF]
 He reveres his teacher, Saleh.[X]
 
 ## MSG_0286
-A young woman from Rausten. She[....][LF]
+A young woman from Rausten. She[Huff][LF]
 fights for justice and order.[X]
 
 ## MSG_0287
@@ -1991,15 +1991,15 @@ A berserker from Rausten. He's a[LF]
 hearty man with a thirst for life.[X]
 
 ## MSG_0288
-A lazy, greedy, but exceptional[....][LF]
+A lazy, greedy, but exceptional[Huff][LF]
 fighter from the Republic of Carcino.[X]
 
 ## MSG_0289
-A courageous general in Grado's army.[....][LF]
+A courageous general in Grado's army.[Huff][LF]
 He's better known as Obsidian.[X]
 
 ## MSG_028A
-A young, pure-hearted girl from[....][LF]
+A young, pure-hearted girl from[Huff][LF]
 Darkling Woods. She tends to be shy.[X]
 
 ## MSG_028B
@@ -2007,7 +2007,7 @@ One of Grado's royal mages. He knows[LF]
 the riddle of the Dark Stone.[X]
 
 ## MSG_028C
-A wandering swordsman from Jehanna.[....][LF]
+A wandering swordsman from Jehanna.[Huff][LF]
 He loves to gamble.[X]
 
 ## MSG_028D
@@ -2015,11 +2015,11 @@ The dutiful commander of the 3rd[LF]
 battalion of Frelia's pegasus knights.[X]
 
 ## MSG_028E
-A young lady of Frelia. She is both[....][LF]
+A young lady of Frelia. She is both[Huff][LF]
 cheery and sociable.[X]
 
 ## MSG_028F
-The prince of Grado. The Dark Stone[....][LF]
+The prince of Grado. The Dark Stone[Huff][LF]
 is slowly corrupting his body.[X]
 
 ## MSG_0290
@@ -2031,11 +2031,11 @@ A cavalier of Renais. He's a devoted[LF]
 husband and a serene and quiet man.[X]
 
 ## MSG_0292
-A general in Grado's army. This cruel[....][LF]
+A general in Grado's army. This cruel[Huff][LF]
 man is also known as Moonstone.[X]
 
 ## MSG_0293
-One of Grado's generals. She's also[....][LF]
+One of Grado's generals. She's also[Huff][LF]
 known by the name Fluorspar.[X]
 
 ## MSG_0294
@@ -2052,11 +2052,11 @@ Commander of Grado's border guard.[LF]
 His loyalty is unshakable.[X]
 
 ## MSG_0298
-An underling serving General Riev. He[....][LF]
+An underling serving General Riev. He[Huff][LF]
 is a cowardly and ambitious schemer.[X]
 
 ## MSG_0299
-A cavalier of Grado and a trusted[....][LF]
+A cavalier of Grado and a trusted[Huff][LF]
 confidant of Tirado.[X]
 
 ## MSG_029A
@@ -2064,7 +2064,7 @@ General Grado's aide. He has utter[LF]
 confidence in his own ingenuity.[X]
 
 ## MSG_029B
-Leader of a band of mercenaries hired[....][LF]
+Leader of a band of mercenaries hired[Huff][LF]
 by an unknown agent.[X]
 
 ## MSG_029C
@@ -2076,11 +2076,11 @@ An aid to Grado's General Caellach. He[LF]
 believes he is an unbeatable tactician.[X]
 
 ## MSG_029E
-Former leader of Jehanna's army. He[....][LF]
+Former leader of Jehanna's army. He[Huff][LF]
 lost himself for love of his queen.[X]
 
 ## MSG_029F
-An ambitious general in Grado's army.[....][LF]
+An ambitious general in Grado's army.[Huff][LF]
 He's better known as Tiger Eye.[X]
 
 ## MSG_02A0
@@ -2092,7 +2092,7 @@ A squad commander in Grado's army.[LF]
 He cares nothing for his men's lives.[X]
 
 ## MSG_02A2
-A cavalier sworn in service to Grado.[....][LF]
+A cavalier sworn in service to Grado.[Huff][LF]
 He serves as Valter's confidant.[X]
 
 ## MSG_02A3
@@ -2115,7 +2115,7 @@ The crown prince of Grado. He's fallen[LF]
 under the control of the Demon King.[X]
 
 ## MSG_02A8
-A former cavalier now serving Grado[....][LF]
+A former cavalier now serving Grado[Huff][LF]
 in hopes of restoring his dead wife.[X]
 
 ## MSG_02A9
@@ -2127,11 +2127,11 @@ The scattered remnants of what was[LF]
 once the greatest army of the land.[X]
 
 ## MSG_02AB
-A mercenary fighting as part of[....][LF]
+A mercenary fighting as part of[Huff][LF]
 Binks's force.[X]
 
 ## MSG_02AC
-One of the treasure hunters who[....][LF]
+One of the treasure hunters who[Huff][LF]
 have laid claim to this region.[X]
 
 ## MSG_02AD
@@ -2150,11 +2150,11 @@ of Carcino.[X]
 Mercenaries hired by Pablo of Carcino.[X]
 
 ## MSG_02B1
-A grotesque creature created by[....][LF]
+A grotesque creature created by[Huff][LF]
 magic and born in darkness.[X]
 
 ## MSG_02B2
-The Demon King, lord of darkness. His[....][LF]
+The Demon King, lord of darkness. His[Huff][LF]
 sole desire is to remake the world.[X]
 
 ## MSG_02B3
@@ -2182,7 +2182,7 @@ The queen of Jehanna. She is known[LF]
 as the Queen of the White Dunes.[X]
 
 ## MSG_02B9
-A pegasus knight of Frelia. She[....][LF]
+A pegasus knight of Frelia. She[Huff][LF]
 serves as their message bearer.[X]
 
 ## MSG_02BA
@@ -2190,7 +2190,7 @@ A knight of Frelia, sworn in service[LF]
 of Hayden, the Sage King.[X]
 
 ## MSG_02BB
-A knight of Rausten, sworn in service[....][LF]
+A knight of Rausten, sworn in service[Huff][LF]
 to Mansel, the Divine Emperor.[X]
 
 ## MSG_02BC
@@ -2270,11 +2270,11 @@ Mage Knight[X]
 ## MSG_02D4
 Bishop[X]
 
-## MSG_02D5
+## MSG_CLASS_NOMAD_NAME
 Nomad[X]
 
-## MSG_02D6
-Nmd Trooper[X]
+## MSG_CLASS_NOMAD_TROOPER_NAME
+Nomad Trooper[X]
 
 ## MSG_02D7
 Manakete[X]
@@ -2330,13 +2330,13 @@ Pegasus Kn.[X]
 ## MSG_02E8
 Falcoknight[X]
 
-## MSG_02E9
+## MSG_CLASS_CLERIC_NAME
 Cleric[X]
 
-## MSG_02EA
+## MSG_CLASS_TROUBADOUR_NAME
 Troubadour[X]
 
-## MSG_02EB
+## MSG_CLASS_VALKYRIE_NAME
 Valkyrie[X]
 
 ## MSG_02EC
@@ -2447,11 +2447,11 @@ Mounted knights with swift movement.[LF]
 Equip: Swords, lances.[X]
 
 ## MSG_030E
-Mounted knights with superior[....][LF]
+Mounted knights with superior[Huff][LF]
 abilities. Equip: Swords, lances.[X]
 
 ## MSG_030F
-Heavily armored knights with poor[....][LF]
+Heavily armored knights with poor[Huff][LF]
 movement. Equip: Lances.[X]
 
 ## MSG_0310
@@ -2467,11 +2467,11 @@ Well-balanced professional soldiers-[LF]
 for-hire. Equip: Swords.[X]
 
 ## MSG_0313
-Seasoned veterans with remarkable[....][LF]
+Seasoned veterans with remarkable[Huff][LF]
 skill. Equip: Swords, axes.[X]
 
 ## MSG_0314
-Talented swordsmen skilled in swift[....][LF]
+Talented swordsmen skilled in swift[Huff][LF]
 killing strokes. Equip: Swords.[X]
 
 ## MSG_0315
@@ -2487,16 +2487,16 @@ Warriors who use bows to attack from[LF]
 afar. Equip: Bows.[X]
 
 ## MSG_CLASS_SNIPER_DESC
-Archers of unparalleled accuracy.[....][LF]
+Archers of unparalleled accuracy.[Huff][LF]
 Equip: Bows. Skill: Sure Strike.[X]
 
 ## MSG_0319
-Fighters skilled in both sword and bow.[....][LF]
+Fighters skilled in both sword and bow.[Huff][LF]
 Equip: Swords, bows.[X]
 
 ## MSG_CLASS_WYVERNRIDER_DESC
 High-flying knights vulnerable only to[LF]
-bows and magic. Equip: Lances.[X]
+bows and magic. Equip: Axes.[X]
 
 ## MSG_CLASS_WYVERNLORD_DESC
 Wyvern-mounted knights of superior[LF]
@@ -2511,27 +2511,27 @@ Magic wielders with solid skills but low[LF]
 physical strength. Equip: Anima.[X]
 
 ## MSG_CLASS_SAGE_DESC
-Advanced scholars of magical codices.[....][LF]
+Advanced scholars of magical codices.[Huff][LF]
 Equip: Anima, light, staves.[X]
 
 ## MSG_031F
-Knights trained in both anima and[....][LF]
+Knights trained in both anima and[Huff][LF]
 staves. Equip: Anima, staves.[X]
 
 ## MSG_0320
-Users of monster-slaying light magic.[....][LF]
+Users of monster-slaying light magic.[Huff][LF]
 Equip: Light, staves. Skill: Slayer.[X]
 
-## MSG_0321
-Mounted plainsmen with good[....][LF]
+## MSG_CLASS_NOMAD_DESC
+Mounted plainsmen with good[Huff][LF]
 movement. Armed with bows.[X]
 
-## MSG_0322
-An honorific given to nomads of[....][LF]
+## MSG_CLASS_NOMAD_TROOPER_DESC
+An honorific given to nomads of[Huff][LF]
 great skill. Equip: Bows, swords.[X]
 
 ## MSG_0323
-Mysterious tribesmen who can turn[....][LF]
+Mysterious tribesmen who can turn[Huff][LF]
 into dragons. Equip: Dragonstone.[X]
 
 ## MSG_0324
@@ -2543,39 +2543,39 @@ Mages in training with lofty[LF]
 aspirations. Equip: Anima.[X]
 
 ## MSG_0326
-Knaves who need no tools or keys to[....][LF]
+Knaves who need no tools or keys to[Huff][LF]
 open locks. Equip: Swords. Skill: Pick.[X]
 
 ## MSG_CLASS_FIGHTER_DESC
 Ruffians with great strength but[LF]
 poor defense. Equip: Axes.[X]
 
-## MSG_0328
+## MSG_CLASS_WARRIOR_DESC
 Stalwart warriors whose power is[LF]
 their pride. Equip: Axes, bows.[X]
 
-## MSG_0329
-Mighty mercenaries who thrive[....][LF]
+## MSG_CLASS_BRIGAND_DESC
+Mighty mercenaries who thrive[Huff][LF]
 in mountains. Equip: Axes.[X]
 
-## MSG_032A
+## MSG_CLASS_BERSERKER_DESC
 Fighters at home both in mountains[LF]
 and at sea. Equip: Axes.[X]
 
 ## MSG_032B
-Knights with great mobility and[....][LF]
+Knights with great mobility and[Huff][LF]
 defense. Equip: Swords, lances, axes.[X]
 
 ## MSG_032C
-Wielders of magic who are stronger,[....][LF]
+Wielders of magic who are stronger,[Huff][LF]
 but slower, than mages. Equip: Dark.[X]
 
 ## MSG_032D
-Wielders of deep and ancient magic.[....][LF]
+Wielders of deep and ancient magic.[Huff][LF]
 Equip: Dark, anima, staves.[X]
 
 ## MSG_032E
-Master sorcerers who summon fighters.[....][LF]
+Master sorcerers who summon fighters.[Huff][LF]
 Equip: Dark, staves. Skill: Summon.[X]
 
 ## MSG_032F
@@ -2583,7 +2583,7 @@ Users of light magic with high[LF]
 resistance. Equip: Light.[X]
 
 ## MSG_CLASS_PRIEST_DESC
-Spiritual guides who use sacred[....][LF]
+Spiritual guides who use sacred[Huff][LF]
 staves to heal allies. Equip: Staves.[X]
 
 ## MSG_0331
@@ -2595,43 +2595,44 @@ Unproven knights with dreams[LF]
 of glory. Equip: Lances.[X]
 
 ## MSG_0333
-Airborne knights who resist magic but[....][LF]
+Airborne knights who resist magic but[Huff][LF]
 are weak against bows. Equip: Lances.[X]
 
 ## MSG_0334
 Swift sky warriors who shrug off[LF]
 magic attacks. Equip: Swords, lances.[X]
 
-## MSG_0335
-Holy women who use sacred staves to[....][LF]
+## MSG_CLASS_CLERIC_DESC
+Holy women who use sacred staves to[Huff][LF]
 heal their allies. Equip: Staves.[X]
 
-## MSG_0336
-Maidens who wield staves from[....][LF]
-horseback. Equip: Staves.[X]
+## MSG_CLASS_TROUBADOUR_DESC
+Maidens who wield staves and[Huff][LF]
+swords on horseback.[X]
 
-## MSG_0337
-Battle maidens who wield both staves[LF]
-and light magic. Equip: Light, staves.[X]
+## MSG_CLASS_VALKYRIE_DESC
+Esteemed troubadours that excel in healing[LF]
+with staves and hurting with swords.[LF]
+High speed, resistance and movement.[X]
 
 ## MSG_0338
-Dancers whose dances revitalize[....][LF]
+Dancers whose dances revitalize[Huff][LF]
 their allies. They cannot attack.[X]
 
 ## MSG_CLASS_SOLDIER_DESC
 Infantry lance fighter with balanced[LF]
 attack, speed, and bulk.[X]
 
-## MSG_033A
-Tough brawlers who call the[....][LF]
+## MSG_CLASS_PIRATE_DESC
+Tough brawlers who call the[Huff][LF]
 sea their home. Equip: Axes.[X]
 
 ## MSG_033B
-Master of the Dark Stone who uses[....][LF]
+Master of the Dark Stone who uses[Huff][LF]
 dark magic to command corpses.[X]
 
 ## MSG_033C
-Warships that patrol the open seas.[....][LF]
+Warships that patrol the open seas.[Huff][LF]
 They carry powerful ballistae.[X]
 
 ## MSG_033D
@@ -2643,19 +2644,19 @@ Walking corpses that move slowly[LF]
 but attack with sharp claws.[X]
 
 ## MSG_033F
-Reanimated corpses. They're not fast,[....][LF]
+Reanimated corpses. They're not fast,[Huff][LF]
 but their talons rend flesh with ease.[X]
 
 ## MSG_0340
-Dead warriors given will by dark magic.[....][LF]
+Dead warriors given will by dark magic.[Huff][LF]
 They wield a variety of weapons.[X]
 
 ## MSG_0341
-Skeletons driven by terrible magic.[....][LF]
+Skeletons driven by terrible magic.[Huff][LF]
 They can wield many weapons.[X]
 
 ## MSG_0342
-Giant poisonous mountain spiders with[....][LF]
+Giant poisonous mountain spiders with[Huff][LF]
 venom-filled fangs.[X]
 
 ## MSG_0343
@@ -2663,11 +2664,11 @@ Magic-infused giant spiders.[LF]
 Their venom is lethal.[X]
 
 ## MSG_0344
-One-eyed giants who use their[....][LF]
+One-eyed giants who use their[Huff][LF]
 strength to wield huge axes.[X]
 
 ## MSG_0345
-Blood-hungry demon dogs that attack[....][LF]
+Blood-hungry demon dogs that attack[Huff][LF]
 with keen-edged fangs.[X]
 
 ## MSG_0346
@@ -2679,7 +2680,7 @@ Vile man-beasts who thunder into[LF]
 combat with colossal axes.[X]
 
 ## MSG_0348
-Immensely fast and strong creatures[....][LF]
+Immensely fast and strong creatures[Huff][LF]
 who hunt with axes and bows.[X]
 
 ## MSG_0349
@@ -2706,7 +2707,7 @@ Gargoyles empowered by magic. They[LF]
 are both swift and brutal.[X]
 
 ## MSG_034F
-The revived corpse of a dragon. Its[....][LF]
+The revived corpse of a dragon. Its[Huff][LF]
 putrid breath decays all it touches.[X]
 
 ## MSG_0350
@@ -2714,7 +2715,7 @@ This foul being is the master of the[LF]
 dark. Its power exceeds mortal ken.[X]
 
 ## MSG_0351
-An innocent peasant lacking any[....][LF]
+An innocent peasant lacking any[Huff][LF]
 combat skills at all.[X]
 
 ## MSG_0352
@@ -3459,14 +3460,14 @@ The breath of a dragon corpse.[LF]
 It decays everything it touches. [X]
 
 ## MSG_0448
-A stone imbued with mysterious might.[....][LF]
+A stone imbued with mysterious might.[Huff][LF]
 Myrrh draws strength from it.[X]
 
 ## MSG_0449
 DUMMY[X]
 
 ## MSG_044A
-A malefic flash that destroys[....][LF]
+A malefic flash that destroys[Huff][LF]
 everything it touches.[X]
 
 ## MSG_044B
@@ -3594,15 +3595,15 @@ Restores many HP to allies[LF]
 in adjacent spaces.[X]
 
 ## MSG_DESC_RESTORE
-Restores all HP to allies[....][LF]
+Restores all HP to allies[Huff][LF]
 in adjacent spaces.[X]
 
 ## MSG_DESC_PHYSIC
-Restores HP to allies[....][LF]
+Restores HP to allies[Huff][LF]
 at a distance.[X]
 
 ## MSG_0475
-Restores all HP to allies[....][LF]
+Restores all HP to allies[Huff][LF]
 nearby.[X]
 
 ## MSG_0476
@@ -3610,11 +3611,11 @@ Returns allies to normal[LF]
 condition. (Cures sleep, etc.)[X]
 
 ## MSG_0477
-Halts all enemy magic[....][LF]
+Halts all enemy magic[Huff][LF]
 for several turns.[X]
 
 ## MSG_0478
-Puts enemies to sleep for[....][LF]
+Puts enemies to sleep for[Huff][LF]
 several turns.[X]
 
 ## MSG_0479
@@ -3626,15 +3627,15 @@ Moves allies in adjacent[LF]
 spaces instantly elsewhere.[X]
 
 ## MSG_047B
-Moves allies from distant[....][LF]
+Moves allies from distant[Huff][LF]
 spaces to adjacent ones.[X]
 
 ## MSG_047C
-Lights an area. The light[....][LF]
+Lights an area. The light[Huff][LF]
 grows weaker each turn.[X]
 
 ## MSG_047D
-Restores an adjacent ally's[....][LF]
+Restores an adjacent ally's[Huff][LF]
 weapons to new condition.[X]
 
 ## MSG_047E
@@ -3650,7 +3651,7 @@ A Sacred Twin staff. The[LF]
 ancient Staff of Latona.[X]
 
 ## MSG_0481
-A dance that allows[....][LF]
+A dance that allows[Huff][LF]
 allies to move again.[X]
 
 ## MSG_0482
@@ -3662,7 +3663,7 @@ Increases HP by a max of[LF]
 7 points. Vanishes after use.[X]
 
 ## MSG_0484
-Increases Mag or Str by[....][LF]
+Increases Mag or Str by[Huff][LF]
 2 points. Vanishes after use.[X]
 
 ## MSG_0485
@@ -3674,7 +3675,7 @@ Increases speed by[LF]
 2 points. Vanishes after use.[X]
 
 ## MSG_0487
-Increases luck by[....][LF]
+Increases luck by[Huff][LF]
 2 points. Vanishes after use.[X]
 
 ## MSG_0488
@@ -3682,31 +3683,31 @@ Increases defense by[LF]
 2 points. Vanishes after use.[X]
 
 ## MSG_0489
-Increases resistance by[....][LF]
+Increases resistance by[Huff][LF]
 2 points. Vanishes after use.[X]
 
 ## MSG_048A
-Increases movement by[....][LF]
+Increases movement by[Huff][LF]
 2 points. Vanishes after use.[X]
 
 ## MSG_048B
-Increases constitution by[....][LF]
+Increases constitution by[Huff][LF]
 2 points. Vanishes after use.[X]
 
 ## MSG_048C
-For mercenaries, myrmidons,[....][LF]
+For mercenaries, myrmidons,[Huff][LF]
 and fighters Lv. 10 and up.[X]
 
 ## MSG_048D
-For knights and cavaliers[....][LF]
+For knights and cavaliers[Huff][LF]
 Lv. 10 and up.[X]
 
 ## MSG_048E
-For archers[....][LF]
+For archers[Huff][LF]
 Lv. 10 and up.[X]
 
 ## MSG_048F
-For pegasus knights and[....][LF]
+For pegasus knights and[Huff][LF]
 wyvern riders Lv. 10 and up.[X]
 
 ## MSG_0490
@@ -3721,11 +3722,11 @@ Opens doors in[LF]
 adjacent spaces.[X]
 
 ## MSG_DESC_LOCKPICK
-Opens doors and chests.[....][LF]
+Opens doors and chests.[Huff][LF]
 Usable only by thieves.[X]
 
 ## MSG_DESC_VULNERARY
-A medicinal solution used[....][LF]
+A medicinal solution used[Huff][LF]
 for healing minor wounds.[X]
 
 ## MSG_DESC_ELIXIR
@@ -3737,11 +3738,11 @@ A draught that boosts Res.[LF]
 Grows weaker each turn.[X]
 
 ## MSG_0497
-A medicinal solution that[....][LF]
+A medicinal solution that[Huff][LF]
 cures poison.[X]
 
 ## MSG_0498
-A staff with burning pitch.[....][LF]
+A staff with burning pitch.[Huff][LF]
 Grows dimmer each turn.[X]
 
 ## MSG_0499
@@ -3749,27 +3750,27 @@ An amulet that protects fliers[LF]
 from arrows.[X]
 
 ## MSG_049A
-If someone with this card[....][LF]
+If someone with this card[Huff][LF]
 stops in a suspicious space...[X]
 
 ## MSG_049B
-A special card that reduces[....][LF]
+A special card that reduces[Huff][LF]
 the cost of all items by half.[X]
 
 ## MSG_049C
-A valuable gemstone worth[....][LF]
+A valuable gemstone worth[Huff][LF]
 20,000 gold.[X]
 
 ## MSG_049D
-A valuable gemstone worth[....][LF]
+A valuable gemstone worth[Huff][LF]
 15,000 gold.[X]
 
 ## MSG_049E
-A valuable gemstone worth[....][LF]
+A valuable gemstone worth[Huff][LF]
 10,000 gold.[X]
 
 ## MSG_049F
-A rare gemstone worth[....][LF]
+A rare gemstone worth[Huff][LF]
 5,000 gold.[X]
 
 ## MSG_04A0
@@ -3780,7 +3781,7 @@ worth 2,500 gold.[X]
 A bag full of money.[X]
 
 ## MSG_04A2
-A trap that damages units[....][LF]
+A trap that damages units[Huff][LF]
 that step on it.[X]
 
 ## MSG_04A3
@@ -3788,7 +3789,7 @@ A device that blocks units[LF]
 from entering spaces.[X]
 
 ## MSG_04A4
-A device that negates[....][LF]
+A device that negates[Huff][LF]
 enemy critical attacks.[X]
 
 ## MSG_04A5
@@ -3796,7 +3797,7 @@ For some units Lv. 10 and up[LF]
 who have not changed class.[X]
 
 ## MSG_04A6
-Gives a little treat to the[....][LF]
+Gives a little treat to the[Huff][LF]
 unit that uses it.[X]
 
 ## MSG_04A7
@@ -3808,7 +3809,7 @@ For use by Eirika,[LF]
 princess of Renais.[X]
 
 ## MSG_04A9
-For use by Ephraim,[....][LF]
+For use by Ephraim,[Huff][LF]
 prince of Renais.[X]
 
 ## MSG_04AA
@@ -3855,24 +3856,24 @@ Blocks enemy magic.[X]
 Puts enemies to sleep.[X]
 
 ## MSG_04B7
-Drives enemies to[....][LF]
+Drives enemies to[Huff][LF]
 attack wildly in a[LF]
 frenzy of rage.[X]
 
 ## MSG_04B8
-Warps allies to[....][LF]
+Warps allies to[Huff][LF]
 other spaces.[X]
 
 ## MSG_04B9
-Warps allies to a[....][LF]
-space adjacent to[....][LF]
+Warps allies to a[Huff][LF]
+space adjacent to[Huff][LF]
 the staff wielder.[X]
 
 ## MSG_04BA
 Lights up an area.[X]
 
 ## MSG_04BB
-Restores items to[....][LF]
+Restores items to[Huff][LF]
 new condition.[X]
 
 ## MSG_04BC
@@ -3886,18 +3887,18 @@ Restores all HP as[LF]
 well as allies' status.[X]
 
 ## MSG_04BF
-Allows allies[....][LF]
+Allows allies[Huff][LF]
 to move again.[X]
 
 ## MSG_04C0
-Allows allies[....][LF]
+Allows allies[Huff][LF]
 to move again.[X]
 
 ## MSG_04C1
 Raises Max HP.[X]
 
 ## MSG_04C2
-Raises either[....][LF]
+Raises either[Huff][LF]
 strength or magic.[X]
 
 ## MSG_04C3
@@ -3923,7 +3924,7 @@ Raises constitution.[X]
 
 ## MSG_04CA
 Use this on a worthy[LF]
-mercenary, fighter,[....][LF]
+mercenary, fighter,[Huff][LF]
 or myrmidon.[X]
 
 ## MSG_04CB
@@ -3951,7 +3952,7 @@ Opens chests.[X]
 Opens doors.[X]
 
 ## MSG_04D1
-Universal lockpicks[....][LF]
+Universal lockpicks[Huff][LF]
 designed for thieves.[X]
 
 ## MSG_04D2
@@ -3971,7 +3972,7 @@ Cures poison.[X]
 Lights an area.[X]
 
 ## MSG_04D7
-Protects airborne[....][LF]
+Protects airborne[Huff][LF]
 units from bows.[X]
 
 ## MSG_04D8
@@ -4001,7 +4002,7 @@ critical attacks.[X]
 
 ## MSG_04DE
 Use this on a unit Lv.[LF]
-10 and up who has[....][LF]
+10 and up who has[Huff][LF]
 yet to change class.[X]
 
 ## MSG_04DF
@@ -4017,7 +4018,7 @@ Have Eirika use this[LF]
 when she's ready.[X]
 
 ## MSG_04E2
-Have Ephraim use this[....][LF]
+Have Ephraim use this[Huff][LF]
 when he's ready.[X]
 
 ## MSG_04E3
@@ -4228,16 +4229,16 @@ MP/2[X]
  2[DashedLine]3[X]
 
 ## MSG_0528
-3[....][DashedLine]10[X]
+3[Huff][DashedLine]10[X]
 
 ## MSG_0529
-3[....][DashedLine]15[X]
+3[Huff][DashedLine]15[X]
 
 ## MSG_052A
 Total[X]
 
 ## MSG_052B
-   [....][DashedLine][DashedLine][X]
+   [Huff][DashedLine][DashedLine][X]
 
 ## MSG_052C
 [DashedLine][X]
@@ -4314,7 +4315,7 @@ Experience points gained. Gain[LF]
 100 points to earn a new level.[X]
 
 ## MSG_0544
-Unit hit points. The unit loses[....][LF]
+Unit hit points. The unit loses[Huff][LF]
 consciousness if this reaches 0.[X]
 
 ## MSG_0545
@@ -4337,7 +4338,7 @@ Speed. This affects both[LF]
 evasion and attacks.[X]
 
 ## MSG_054A
-Luck. This affects many[....][LF]
+Luck. This affects many[Huff][LF]
 different things.[X]
 
 ## MSG_054B
@@ -4345,15 +4346,15 @@ Defensive skill. Reduces[LF]
 damage from weapons.[X]
 
 ## MSG_054C
-Magical resistance. Reduces[....][LF]
+Magical resistance. Reduces[Huff][LF]
 damage from magic attacks.[X]
 
 ## MSG_054D
-Movement. The normal distance[....][LF]
+Movement. The normal distance[Huff][LF]
 you can cross in 1 turn.[X]
 
 ## MSG_054E
-Constitution, or physical size.[....][LF]
+Constitution, or physical size.[Huff][LF]
 Affects rescues.[X]
 
 ## MSG_054F
@@ -4369,11 +4370,11 @@ Elemental affinity. Determines[LF]
 compatibility with other units.[X]
 
 ## MSG_0552
-Normal.[....][LF]
+Normal.[Huff][LF]
 Feeling healthy.[X]
 
 ## MSG_0553
-Ooooog...[....][LF]
+Ooooog...[Huff][LF]
 Poison slowly steals HP.[X]
 
 ## MSG_0554
@@ -4381,7 +4382,7 @@ Zzzz... Zzzzz...[LF]
 Sleeping now... Can't move...[X]
 
 ## MSG_0555
-Rarrrrr! Attack the nearest[....][LF]
+Rarrrrr! Attack the nearest[Huff][LF]
 unit, be it friend or foe![X]
 
 ## MSG_0556
@@ -4389,7 +4390,7 @@ unit, be it friend or foe![X]
 Magic and staves are unusable.[X]
 
 ## MSG_0557
-Craaack! Turned...to...[....][LF]
+Craaack! Turned...to...[Huff][LF]
 stone. Can't...move![X]
 
 ## MSG_0558
@@ -4397,11 +4398,11 @@ Attack power is increased,[LF]
 thanks to Filla's Might.[X]
 
 ## MSG_0559
-Defense & resistance increased,[....][LF]
+Defense & resistance increased,[Huff][LF]
 thanks to Ninis's Grace.[X]
 
 ## MSG_055A
-Critical hit  0s increased,[....][LF]
+Critical hit  0s increased,[Huff][LF]
 thanks to Thor's Ire.[X]
 
 ## MSG_055B
@@ -4421,11 +4422,11 @@ Attack speed. Calculated using[LF]
 user's speed, and equipment burden.[X]
 
 ## MSG_055F
-Chance the weapon will strike a[....][LF]
+Chance the weapon will strike a[Huff][LF]
 critical blow, doing triple damage.[X]
 
 ## MSG_0560
-Ability to dodge enemy attacks.[....][LF]
+Ability to dodge enemy attacks.[Huff][LF]
 Affects enemy's hit %.[X]
 
 ## MSG_0561
@@ -4453,7 +4454,7 @@ Dark magic mastery level.[X]
 Staff mastery level.[X]
 
 ## MSG_0569
-Strengthen the bond[....][LF]
+Strengthen the bond[Huff][LF]
 between units by talking.[X]
 
 ## MSG_056A
@@ -4464,15 +4465,15 @@ to whom you can talk.[X]
 Weapon or magic in use.[X]
 
 ## MSG_056C
-Weapon or magic in use.[....][LF]
+Weapon or magic in use.[Huff][LF]
 Does more damage than normal.[X]
 
 ## MSG_056D
-Wielder and weapon are well[....][LF]
+Wielder and weapon are well[Huff][LF]
 suited. Hit % and power increase.[X]
 
 ## MSG_056E
-Wielder and weapon are well[....][LF]
+Wielder and weapon are well[Huff][LF]
 suited. Hit % and dmg increase.[X]
 
 ## MSG_056F
@@ -4484,11 +4485,11 @@ Wielder and weapon are ill[LF]
 suited. Hit % and power decrease.[X]
 
 ## MSG_0571
-Damage this weapon will do.[....][LF]
+Damage this weapon will do.[Huff][LF]
 x2 = two attacks, x4 = four.[X]
 
 ## MSG_0572
-Attack Speed.[....][LF]
+Attack Speed.[Huff][LF]
 Determines number of attacks.[X]
 
 ## MSG_0573
@@ -4514,15 +4515,15 @@ Check Map[X]
 Save[X]
 
 ## MSG_057A
-Select which units to[....][LF]
+Select which units to[Huff][LF]
 field this battle. The[LF]
 number is restricted.[X]
 
 ## MSG_057B
 Manage your units'[LF]
-items. Item names[....][LF]
-that appear in gray[....][LF]
-cannot be used by[....][LF]
+items. Item names[Huff][LF]
+that appear in gray[Huff][LF]
+cannot be used by[Huff][LF]
 that unit.[X]
 
 ## MSG_057C
@@ -4533,27 +4534,27 @@ This command cannot be[LF]
 used at this time.[X]
 
 ## MSG_057E
-Valuable battle[....][LF]
+Valuable battle[Huff][LF]
 information can be[LF]
 viewed here, as well[LF]
 as tactician data.[X]
 
 ## MSG_057F
-Check the compatibility[....][LF]
+Check the compatibility[Huff][LF]
 of your units.[X]
 
 ## MSG_0580
-View the map. Check[....][LF]
+View the map. Check[Huff][LF]
 the number and type of[LF]
 enemies. Also, check for[LF]
-shops and change your[....][LF]
+shops and change your[Huff][LF]
 allies' starting positions.[X]
 
 ## MSG_0581
-Save any changes.[....][LF]
+Save any changes.[Huff][LF]
 Choose Restart Chapter[LF]
 to restart this chapter.[LF]
-You can't return to the[....][LF]
+You can't return to the[Huff][LF]
 world map after saving.[X]
 
 ## MSG_0582
@@ -4701,7 +4702,7 @@ between units.[X]
 Use items.[X]
 
 ## MSG_05B1
-Transfer items to and[....][LF]
+Transfer items to and[Huff][LF]
 from storage.[X]
 
 ## MSG_05B2
@@ -4711,34 +4712,34 @@ Buy and sell items.[X]
 Display all units' items.[X]
 
 ## MSG_05B4
-Sell your unneeded items.[....][LF]
+Sell your unneeded items.[Huff][LF]
 Important items cannot be sold.[X]
 
 ## MSG_05B5
 Place all items in storage.[X]
 
 ## MSG_05B6
-Put items in storage. Up to[....][LF]
+Put items in storage. Up to[Huff][LF]
 100 items can be put in storage.[X]
 
 ## MSG_05B7
-Receive item.[....][LF]
+Receive item.[Huff][LF]
 A unit can carry up to 5 items.[X]
 
 ## MSG_05B8
-Check your rankings for[....][LF]
+Check your rankings for[Huff][LF]
 the battles so far.[X]
 
 ## MSG_05B9
-Check your tactician rating[....][LF]
+Check your tactician rating[Huff][LF]
 and character data.[X]
 
 ## MSG_05BA
-Predict elements of the[....][LF]
+Predict elements of the[Huff][LF]
 coming battle.[X]
 
 ## MSG_05BB
-View maps to battle on or[....][LF]
+View maps to battle on or[Huff][LF]
 items to sell in stores.[X]
 
 ## MSG_05BC
@@ -4989,13 +4990,13 @@ Retreat[X]
 ## MSG_060D
 Units are divided into the[LF]
 following three types:[LF]
-    Player (blue)[....][LF]
-    Enemy (red)[....][LF]
-    Neutral (green)[....][LF]
+    Player (blue)[Huff][LF]
+    Enemy (red)[Huff][LF]
+    Neutral (green)[Huff][LF]
 Blue units are controlled by the[LF]
-player. Red units are the enemy[....][LF]
-units the player must defeat.[....][LF]
-Red units will attack both blue[....][LF]
+player. Red units are the enemy[Huff][LF]
+units the player must defeat.[Huff][LF]
+Red units will attack both blue[Huff][LF]
 and green units, so be careful.[X]
 
 ## MSG_060E
@@ -5007,13 +5008,13 @@ the following order:[LF]
 
 ## MSG_060F
 If a main character's Hit Points[LF]
-are reduced to zero, the game[....][LF]
+are reduced to zero, the game[Huff][LF]
 ends.[X]
 
 ## MSG_0610
 The blue area that appears[LF]
-when you select a unit is[....][LF]
-its movement range. Place the[....][LF]
+when you select a unit is[Huff][LF]
+its movement range. Place the[Huff][LF]
 cursor on an enemy unit to see[LF]
 its movement range.[X]
 
@@ -5021,19 +5022,19 @@ its movement range.[X]
 Mounted units can move again[LF]
 after visiting homes or villages[LF]
 if they have movement remaining.[LF]
-This is most common among[....][LF]
+This is most common among[Huff][LF]
 cavaliers and pegasus knights.[X]
 
 ## MSG_0612
 The red area that appears when[LF]
 you select a unit is its[LF]
 attack range. Place the cursor[LF]
-on an enemy unit to see its[....][LF]
+on an enemy unit to see its[Huff][LF]
 attack range.[X]
 
 ## MSG_0613
 Each weapon type has its own[LF]
-strengths and weaknesses.[....][LF]
+strengths and weaknesses.[Huff][LF]
 Swords do well against axes.[LF]
 Axes do well against lances.[LF]
 Lances do well against swords.[LF]
@@ -5042,74 +5043,74 @@ Weapon Triangle.[X]
 
 ## MSG_0614
 Each type of magic has its own[LF]
-strengths and weaknesses.[....][LF]
-Light is strong against Dark.[....][LF]
-Dark is strong against Anima.[....][LF]
+strengths and weaknesses.[Huff][LF]
+Light is strong against Dark.[Huff][LF]
+Dark is strong against Anima.[Huff][LF]
 Anima is strong against Light.[LF]
 This is called the[LF]
 Trinity of Magic.[X]
 
 ## MSG_0615
-Some weapons are especially[....][LF]
+Some weapons are especially[Huff][LF]
 effective against certain units.[LF]
 These weapons will cause heavy[LF]
 damage to those units. For[LF]
 example, bows are particularly[LF]
-effective against flying units.[....][LF]
+effective against flying units.[Huff][LF]
 The weapon icons in the combat[LF]
 information window will glow[LF]
-when your unit is facing an[....][LF]
+when your unit is facing an[Huff][LF]
 enemy that is weak against[LF]
 that weapon.[X]
 
 ## MSG_0616
-Critical hits inflict three times[....][LF]
-the normal damage to enemies.[....][LF]
+Critical hits inflict three times[Huff][LF]
+the normal damage to enemies.[Huff][LF]
 Your chance of a critical strike[LF]
 changes depending on your unit's[LF]
 attributes and the weapon with[LF]
 which you are attacking.[X]
 
 ## MSG_0617
-Any attack from a weapon is a[....][LF]
+Any attack from a weapon is a[Huff][LF]
 physical attack. Each unit's[LF]
-DEF (defense) attribute[....][LF]
-shows how well he defends[....][LF]
-against physical attacks. The[....][LF]
-higher the number, the less[....][LF]
+DEF (defense) attribute[Huff][LF]
+shows how well he defends[Huff][LF]
+against physical attacks. The[Huff][LF]
+higher the number, the less[Huff][LF]
 damage he takes. Knights and[LF]
 mercenaries have good defense.[X]
 
 ## MSG_0618
-Any attack with magic is called[....][LF]
-a magical attack. Your unit's[....][LF]
+Any attack with magic is called[Huff][LF]
+a magical attack. Your unit's[Huff][LF]
 RES (resistance) attribute[LF]
-shows how well he defends[....][LF]
+shows how well he defends[Huff][LF]
 against them. The higher the[LF]
 number, the less damage he[LF]
 takes. Mages, monks, clerics[LF]
 & shamans have high resistance.[X]
 
 ## MSG_0619
-Restore HP to your units by using[....][LF]
-vulneraries, elixirs, and staves.[....][LF]
+Restore HP to your units by using[Huff][LF]
+vulneraries, elixirs, and staves.[Huff][LF]
 Vulneraries and elixirs heal[LF]
 only the user, while staves heal[LF]
 only the units on whom they're[LF]
-used. Choose your healing[....][LF]
+used. Choose your healing[Huff][LF]
 items carefully in battle.[X]
 
 ## MSG_061A
 There are five abnormal states[LF]
-a unit can enter:[....][LF]
+a unit can enter:[Huff][LF]
 1. Sleep[LF]
-(Asleep and unable to move)[....][LF]
+(Asleep and unable to move)[Huff][LF]
 2. Silence[LF]
-(Unable to use magic or staves)[....][LF]
-3. Poison[....][LF]
-(Take continual damage)[....][LF]
+(Unable to use magic or staves)[Huff][LF]
+3. Poison[Huff][LF]
+(Take continual damage)[Huff][LF]
 4. Berserk[LF]
-(Attack enemies and allies alike)[....][LF]
+(Attack enemies and allies alike)[Huff][LF]
 5. Petrify[LF]
 (Turned to stone, cannot move)[LF]
 These conditions will continue for[LF]
@@ -5123,68 +5124,68 @@ combat information window:[LF]
 [LF]
 HP: Unit's remaining HP.[LF]
 MT: Amount of damage the[LF]
-equipped weapon inflicts.[....][LF]
+equipped weapon inflicts.[Huff][LF]
 HIT: Chance an attack will land.[LF]
 CRIT: Chance the weapon will[LF]
 land a critical blow.[X]
 
 ## MSG_061C
 Here is the information shown if[LF]
-you choose the detailed[....][LF]
+you choose the detailed[Huff][LF]
 combat information window:[LF]
 [LF]
 HP: Unit's remaining HP.[LF]
 ATK: Amount of damage your[LF]
 attack will inflict.[LF]
-DEF: Amount of damage enemy[....][LF]
-attacks will be reduced by.[....][LF]
+DEF: Amount of damage enemy[Huff][LF]
+attacks will be reduced by.[Huff][LF]
 HIT: Chance an attack will land.[LF]
-CRIT: Chance the weapon will land[....][LF]
+CRIT: Chance the weapon will land[Huff][LF]
 a critical blow.[LF]
 AS: The speed of each unit's[LF]
 attack, which determines how[LF]
 many attacks each unit makes.[X]
 
 ## MSG_061D
-Any unit can rescue a blue or[....][LF]
-green unit in an adjacent tile.[....][LF]
-However, your constitution must[....][LF]
-be higher than that of the unit[....][LF]
+Any unit can rescue a blue or[Huff][LF]
+green unit in an adjacent tile.[Huff][LF]
+However, your constitution must[Huff][LF]
+be higher than that of the unit[Huff][LF]
 you're trying to rescue.[LF]
-The rescuing unit suffers a[....][LF]
-penalty in speed and skill,[....][LF]
-but the rescued unit is[....][LF]
-protected from attacks.[....][LF]
+The rescuing unit suffers a[Huff][LF]
+penalty in speed and skill,[Huff][LF]
+but the rescued unit is[Huff][LF]
+protected from attacks.[Huff][LF]
 If a unit is about to lose all[LF]
-of its HP, use the rescue[....][LF]
+of its HP, use the rescue[Huff][LF]
 command to whisk it to safety.[X]
 
 ## MSG_061E
 You can drop a rescued unit into[LF]
 any adjacent tile. The dropped[LF]
-unit will not be able to move[....][LF]
+unit will not be able to move[Huff][LF]
 until the next turn.[X]
 
 ## MSG_061F
-You can purchase items at[....][LF]
-shops. You can also pick them[....][LF]
+You can purchase items at[Huff][LF]
+shops. You can also pick them[Huff][LF]
 up by visiting villagers and[LF]
-opening chests. Enemies[....][LF]
-sometimes drop items when[....][LF]
+opening chests. Enemies[Huff][LF]
+sometimes drop items when[Huff][LF]
 they are defeated.[X]
 
 ## MSG_0620
 Choose an item from the item[LF]
-list and press the A Button[....][LF]
+list and press the A Button[Huff][LF]
 to use it. Items that cannot[LF]
 be used by that unit will be[LF]
 grayed out.[X]
 
 ## MSG_0621
 You can trade items with units[LF]
-in adjacent tiles. Select Trade[....][LF]
-on the command menu, and then[....][LF]
-select the unit with whom you[....][LF]
+in adjacent tiles. Select Trade[Huff][LF]
+on the command menu, and then[Huff][LF]
+select the unit with whom you[Huff][LF]
 want to trade. Next, place the[LF]
 cursor on the item you want to[LF]
 take from the other unit's[LF]
@@ -5193,35 +5194,35 @@ to receive that item.[X]
 
 ## MSG_0622
 Items have a limited number of[LF]
-uses. Each time you use an item[....][LF]
-its durability goes down. The[....][LF]
+uses. Each time you use an item[Huff][LF]
+its durability goes down. The[Huff][LF]
 number next to an item indicates[LF]
 how many times it can be used.[LF]
-When that number reaches 0, the[....][LF]
-item breaks and disappears.[....][LF]
+When that number reaches 0, the[Huff][LF]
+item breaks and disappears.[Huff][LF]
 Be careful not to let items drop[LF]
 to 0 in the heat of battle.[X]
 
 ## MSG_0623
 A supply convoy travels with[LF]
-your main character. If you[....][LF]
-move to a space adjacent your[....][LF]
+your main character. If you[Huff][LF]
+move to a space adjacent your[Huff][LF]
 supply convoy, you can trade[LF]
 items with it. On the battle[LF]
-preparation screen, you can[....][LF]
+preparation screen, you can[Huff][LF]
 also buy and sell items at the[LF]
-supply convoy. The convoy can[....][LF]
+supply convoy. The convoy can[Huff][LF]
 store up to 100 items for you.[X]
 
 ## MSG_0624
 Move a unit onto an armory and[LF]
-then choose Armory to buy[....][LF]
+then choose Armory to buy[Huff][LF]
 weapons. You can also sell[LF]
 items you've collected here.[X]
 
 ## MSG_0625
-Move a unit onto a shop and[....][LF]
-then choose Shop to buy and[....][LF]
+Move a unit onto a shop and[Huff][LF]
+then choose Shop to buy and[Huff][LF]
 sell items, magic tomes, and[LF]
 staves.[X]
 
@@ -5229,139 +5230,139 @@ staves.[X]
 Forests and mountains give[LF]
 units additional cover. When[LF]
 your units are in these tiles,[LF]
-enemy hit percentages will be[....][LF]
-reduced. When entering attack[....][LF]
+enemy hit percentages will be[Huff][LF]
+reduced. When entering attack[Huff][LF]
 range, try to stop in one of[LF]
 these spaces.[X]
 
 ## MSG_0627
-Any unit that ends its turn[....][LF]
-on a fortress, castle gate,[....][LF]
-gate, or throne will regain[....][LF]
+Any unit that ends its turn[Huff][LF]
+on a fortress, castle gate,[Huff][LF]
+gate, or throne will regain[Huff][LF]
 some HP automatically at the[LF]
 beginning of the next turn.[X]
 
 ## MSG_0628
-Move a unit to a house to visit[....][LF]
+Move a unit to a house to visit[Huff][LF]
 the occupants of that house.[LF]
-This is a good way of gaining[....][LF]
-useful information that might[....][LF]
+This is a good way of gaining[Huff][LF]
+useful information that might[Huff][LF]
 turn the battle in your favor.[LF]
-Visit houses whenever you get[....][LF]
+Visit houses whenever you get[Huff][LF]
 the opportunity.[X]
 
 ## MSG_0629
-Move a unit to a village to[....][LF]
-speak with its villagers.[....][LF]
-You can gain information,[....][LF]
+Move a unit to a village to[Huff][LF]
+speak with its villagers.[Huff][LF]
+You can gain information,[Huff][LF]
 items, and even money from[LF]
 villages, so visit them if[LF]
 you have the opportunity.[X]
 
 ## MSG_062A
-Move units onto spaces with[....][LF]
-chests to open them. Chests[....][LF]
+Move units onto spaces with[Huff][LF]
+chests to open them. Chests[Huff][LF]
 are filled with all sorts of[LF]
-useful items. However, you'll[....][LF]
-need a chest key or lockpicks[....][LF]
+useful items. However, you'll[Huff][LF]
+need a chest key or lockpicks[Huff][LF]
 to open the chest.[X]
 
 ## MSG_062B
-If you see an old snag near[....][LF]
-a river, knock it over to[....][LF]
+If you see an old snag near[Huff][LF]
+a river, knock it over to[Huff][LF]
 form an impromptu bridge.[X]
 
 ## MSG_062C
-Attack cracked walls to[....][LF]
-destroy them and create[....][LF]
+Attack cracked walls to[Huff][LF]
+destroy them and create[Huff][LF]
 new paths.[X]
 
 ## MSG_062D
-Darkness and fog limit your[....][LF]
-field of vision, preventing[....][LF]
+Darkness and fog limit your[Huff][LF]
+field of vision, preventing[Huff][LF]
 you from seeing distant enemies.[LF]
-Use thieves, torches, and[....][LF]
-Torch staves to increase your[....][LF]
+Use thieves, torches, and[Huff][LF]
+Torch staves to increase your[Huff][LF]
 field of vision.[X]
 
 ## MSG_062E
-These siege weapons[....][LF]
-fire missiles from long[....][LF]
-distances. Place an archer or[....][LF]
+These siege weapons[Huff][LF]
+fire missiles from long[Huff][LF]
+distances. Place an archer or[Huff][LF]
 sniper on them to use them.[X]
 
 ## MSG_062F
-On your quest, you will run[....][LF]
+On your quest, you will run[Huff][LF]
 across many characters who[LF]
 might join your cause. Watch[LF]
-story hints carefully to find[....][LF]
+story hints carefully to find[Huff][LF]
 who should talk to these[LF]
 characters and convince them[LF]
 to join you.[X]
 
 ## MSG_0630
-Except in rare cases, if one of[....][LF]
-your units loses all of its HP,[....][LF]
+Except in rare cases, if one of[Huff][LF]
+your units loses all of its HP,[Huff][LF]
 it will retreat from battle and be[LF]
 unable to fight again. Be careful![X]
 
 ## MSG_0631
-Some units have special bonds[....][LF]
-between them. The longer they[....][LF]
+Some units have special bonds[Huff][LF]
+between them. The longer they[Huff][LF]
 spend in adjoining spaces, the[LF]
-stronger that bond will grow.[....][LF]
+stronger that bond will grow.[Huff][LF]
 Once this bond is strong enough,[LF]
-the Support command will appear[....][LF]
+the Support command will appear[Huff][LF]
 on the command menu.[LF]
 Select it to make the characters[LF]
 share a support conversation.[X]
 
 ## MSG_0632
 If supportive units are within[LF]
-three spaces of each other they[....][LF]
+three spaces of each other they[Huff][LF]
 both gain special combat[LF]
-bonuses. There are three levels[....][LF]
-of support. The higher the level,[....][LF]
+bonuses. There are three levels[Huff][LF]
+of support. The higher the level,[Huff][LF]
 the better the bonuses received.[LF]
 Support levels increase each[LF]
 time units share a conversation.[X]
 
 ## MSG_0633
-Green units are neutral. They[....][LF]
+Green units are neutral. They[Huff][LF]
 may become allies if you speak[LF]
-to them. If you move to a space[....][LF]
-adjacent to a green unit, the[....][LF]
+to them. If you move to a space[Huff][LF]
+adjacent to a green unit, the[Huff][LF]
 Talk command may appear.[LF]
-Choose “Talk” to convince the[....][LF]
+Choose “Talk” to convince the[Huff][LF]
 unit to join you.[X]
 
 ## MSG_0634
 Some enemy units will join you[LF]
-if you talk to them. Move a[....][LF]
+if you talk to them. Move a[Huff][LF]
 character you think might know[LF]
 that enemy unit into a space[LF]
-adjacent to it to see if they[....][LF]
-can talk.[....][LF]
+adjacent to it to see if they[Huff][LF]
+can talk.[Huff][LF]
 Be careful! Enemy units will[LF]
 continue to attack until you[LF]
-talk to them! Try not to take[....][LF]
-them out or be taken out before[....][LF]
+talk to them! Try not to take[Huff][LF]
+them out or be taken out before[Huff][LF]
 you have a chance to chat.[X]
 
 ## MSG_0635
-If you defeat the enemy boss,[....][LF]
+If you defeat the enemy boss,[Huff][LF]
 you clear the map. There is no[LF]
 need to defeat all enemy units.[X]
 
 ## MSG_0636
 Move the main character onto a[LF]
-throne, castle gate, gate, or[....][LF]
+throne, castle gate, gate, or[Huff][LF]
 other such location and choose[LF]
-Seize from the command menu[....][LF]
+Seize from the command menu[Huff][LF]
 to clear the map.[X]
 
 ## MSG_0637
-Clear the map by wiping out[....][LF]
+Clear the map by wiping out[Huff][LF]
 all enemy units.[X]
 
 ## MSG_0638
@@ -5370,10 +5371,10 @@ a set number of turns to clear[LF]
 the map.[X]
 
 ## MSG_0639
-Choose Suspend on the command[....][LF]
-menu to save your game during[....][LF]
-a battle. The next time you[....][LF]
-play, choose Resume to continue[....][LF]
+Choose Suspend on the command[Huff][LF]
+menu to save your game during[Huff][LF]
+a battle. The next time you[Huff][LF]
+play, choose Resume to continue[Huff][LF]
 playing where you left off.[X]
 
 ## MSG_063A
@@ -5382,36 +5383,36 @@ to save your game data between[LF]
 chapters.[X]
 
 ## MSG_063B
-Place the cursor on a space[....][LF]
-and press the A Button to[....][LF]
+Place the cursor on a space[Huff][LF]
+and press the A Button to[Huff][LF]
 move to that location.[X]
 
 ## MSG_063C
-Some areas on the world map[....][LF]
-contain stores. You can see[....][LF]
-where stores are located by[....][LF]
+Some areas on the world map[Huff][LF]
+contain stores. You can see[Huff][LF]
+where stores are located by[Huff][LF]
 placing the cursor on a location[LF]
-and viewing the shop icons that[....][LF]
+and viewing the shop icons that[Huff][LF]
 appear next to the place name.[LF]
 You can enter any of these[LF]
 stores if the main character[LF]
 is at that location.[X]
 
 ## MSG_063D
-Manage your units' items by[....][LF]
-placing the cursor on the[....][LF]
-main character and pressing[....][LF]
+Manage your units' items by[Huff][LF]
+placing the cursor on the[Huff][LF]
+main character and pressing[Huff][LF]
 the A Button.[X]
 
 ## MSG_063E
 Sometimes, creatures will appear[LF]
-on an area you've already[....][LF]
-cleared. To drive off the[....][LF]
-monsters, move to that area[....][LF]
+on an area you've already[Huff][LF]
+cleared. To drive off the[Huff][LF]
+monsters, move to that area[Huff][LF]
 and battle the fiends.[X]
 
 ## MSG_063F
-Ready your units for battle[....][LF]
+Ready your units for battle[Huff][LF]
 before entering the battlefield.[LF]
 Choose which units will fight,[LF]
 and manage the weapons and[LF]
@@ -5421,48 +5422,48 @@ Press START to begin combat.[X]
 ## MSG_0640
 Units gain EXP (experience[LF]
 points) by fighting and by using[LF]
-staves. They go up a level when[....][LF]
-they earn 100 EXP. As they go[....][LF]
+staves. They go up a level when[Huff][LF]
+they earn 100 EXP. As they go[Huff][LF]
 up in level, characters become[LF]
 stronger, more skilled, etc.[LF]
 The highest level is level 20.[X]
 
 ## MSG_0641
-Most units can change classes[....][LF]
-once they reach level 10.[....][LF]
-Changing classes dramatically[....][LF]
+Most units can change classes[Huff][LF]
+once they reach level 10.[Huff][LF]
+Changing classes dramatically[Huff][LF]
 improves a unit's abilities.[LF]
-If you're in a tough battle, be[....][LF]
+If you're in a tough battle, be[Huff][LF]
 sure to change classes. When[LF]
 changing classes, you will be able[LF]
 to choose between 2 classes.[LF]
-Look at the overall party[....][LF]
+Look at the overall party[Huff][LF]
 makeup before deciding![X]
 
 ## MSG_0642
-If there's a command you're[....][LF]
-unfamiliar with, place the cursor[....][LF]
-over it and press the R Button.[....][LF]
-This will bring up a simple[....][LF]
+If there's a command you're[Huff][LF]
+unfamiliar with, place the cursor[Huff][LF]
+over it and press the R Button.[Huff][LF]
+This will bring up a simple[Huff][LF]
 explanation of the command.[X]
 
 ## MSG_0643
 Visit an arena, and bet your[LF]
-money and your life on single[....][LF]
-combat. Move a unit onto an[....][LF]
-arena and choose Arena from[....][LF]
+money and your life on single[Huff][LF]
+combat. Move a unit onto an[Huff][LF]
+arena and choose Arena from[Huff][LF]
 the command menu to enter.[LF]
-If you win a battle, you'll[....][LF]
-win twice what you wagered.[....][LF]
-If you lose, that unit will[....][LF]
+If you win a battle, you'll[Huff][LF]
+win twice what you wagered.[Huff][LF]
+If you lose, that unit will[Huff][LF]
 be gone for good.[X]
 
 ## MSG_0644
-You can escape from battles[....][LF]
+You can escape from battles[Huff][LF]
 in towers, in ruins, or with[LF]
 monsters. On the command menu,[LF]
 select Retreat to withdraw[LF]
-from combat in any of these[....][LF]
+from combat in any of these[Huff][LF]
 locations.[X]
 
 ## MSG_0645
@@ -5830,7 +5831,7 @@ Clears[X]
      OK[X]
 
 ## MSG_06BE
-There are no messages for[....][LF]
+There are no messages for[Huff][LF]
 this menu item.[X]
 
 ## MSG_06BF
@@ -5845,23 +5846,23 @@ Use the magic stored[LF]
 within a staff.[X]
 
 ## MSG_06C2
-Perform a dance that allows[....][LF]
+Perform a dance that allows[Huff][LF]
 your allies to move again.[X]
 
 ## MSG_06C3
-Use a ring that allows your[....][LF]
+Use a ring that allows your[Huff][LF]
 allies to move again.[X]
 
 ## MSG_06C4
-Shhh...[....][LF]
+Shhh...[Huff][LF]
 (Steal enemy items!)[X]
 
 ## MSG_06C5
-Rescue an ally from[....][LF]
+Rescue an ally from[Huff][LF]
 an adjacent space.[X]
 
 ## MSG_06C6
-Place a rescued ally in[....][LF]
+Place a rescued ally in[Huff][LF]
 an adjacent space.[X]
 
 ## MSG_06C7
@@ -5869,7 +5870,7 @@ Pass a rescued ally to[LF]
 another ally next to you.[X]
 
 ## MSG_06C8
-Receive a rescued ally from[....][LF]
+Receive a rescued ally from[Huff][LF]
 another ally next to you.[X]
 
 ## MSG_06C9
@@ -5877,7 +5878,7 @@ Talk to an ally or enemy[LF]
 in an adjacent space.[X]
 
 ## MSG_06CA
-Speak to an allied unit and[....][LF]
+Speak to an allied unit and[Huff][LF]
 strengthen the bond you share.[X]
 
 ## MSG_06CB
@@ -5888,7 +5889,7 @@ Seize a designated point[LF]
 to complete the chapter.[X]
 
 ## MSG_06CD
-A door.[....][LF]
+A door.[Huff][LF]
 Use a key to open it.[X]
 
 ## MSG_06CE
@@ -5900,30 +5901,30 @@ An armory.[LF]
 Enter to buy weapons.[X]
 
 ## MSG_06D0
-A shop.[....][LF]
+A shop.[Huff][LF]
 Enter to buy items.[X]
 
 ## MSG_06D1
-Congratulations! Only for[....][LF]
+Congratulations! Only for[Huff][LF]
 one as lucky as you...[X]
 
 ## MSG_06D2
-An arena. Wager your life[....][LF]
+An arena. Wager your life[Huff][LF]
 in battle for gold.[X]
 
 ## MSG_06D3
 Use and equip items.[X]
 
 ## MSG_06D4
-Trade items with allies[....][LF]
+Trade items with allies[Huff][LF]
 in adjacent spaces.[X]
 
 ## MSG_06D5
-Adjacent units can exchange[....][LF]
+Adjacent units can exchange[Huff][LF]
 items with your supply convoy.[X]
 
 ## MSG_06D6
-Get on ballista and[....][LF]
+Get on ballista and[Huff][LF]
 use it to attack.[X]
 
 ## MSG_06D7
@@ -5938,7 +5939,7 @@ Use the ballista to target[LF]
 distant enemies.[X]
 
 ## MSG_06DA
-Ready weapons or magic.[....][LF]
+Ready weapons or magic.[Huff][LF]
 Use them to counterattack.[X]
 
 ## MSG_06DB
@@ -5952,7 +5953,7 @@ items cannot be discarded.[X]
 Summon a phantasm.[X]
 
 ## MSG_06DE
-Open doors and chests without[....][LF]
+Open doors and chests without[Huff][LF]
 using keys.[X]
 
 ## MSG_06DF
@@ -6002,7 +6003,7 @@ Weapon or magical tome[LF]
 being used.[X]
 
 ## MSG_06EC
-Physical condition.[....][LF]
+Physical condition.[Huff][LF]
 Default is normal.[X]
 
 ## MSG_06ED
@@ -6032,23 +6033,23 @@ Only units with animation turned[LF]
 on can perform combat animation.[X]
 
 ## MSG_06F5
-The prince of Renais. A spear fighter[....][LF]
+The prince of Renais. A spear fighter[Huff][LF]
 on an important mission.[X]
 
 ## MSG_06F6
-The princess of Renais. A sword fighter[....][LF]
+The princess of Renais. A sword fighter[Huff][LF]
 on an important mission.[X]
 
 ## MSG_06F7
-The prince of Renais. A spear fighter[....][LF]
+The prince of Renais. A spear fighter[Huff][LF]
 on an important mission.[X]
 
 ## MSG_06F8
-The princess of Renais. A sword fighter[....][LF]
+The princess of Renais. A sword fighter[Huff][LF]
 on an important mission.[X]
 
 ## MSG_06F9
-Mounted knights with superior movement.[....][LF]
+Mounted knights with superior movement.[Huff][LF]
 Well balanced for speed, defense, & attack.[X]
 
 ## MSG_06FA
@@ -6056,11 +6057,11 @@ A title earned only by those cavaliers whose[LF]
 lives have been dedicated to justice.[X]
 
 ## MSG_06FB
-Heavily armored knights. Superior defense[....][LF]
+Heavily armored knights. Superior defense[Huff][LF]
 outweighs their poor movement and speed.[X]
 
 ## MSG_06FC
-Lordly knights in heavy armor. They possess[....][LF]
+Lordly knights in heavy armor. They possess[Huff][LF]
 excellent defensive and offensive skills.[X]
 
 ## MSG_06FD
@@ -6068,11 +6069,11 @@ Rogues and fortune hunters. They possess[LF]
 weak attacks but many other skills.[X]
 
 ## MSG_06FE
-Professional soldiers-for-hire. They are well[....][LF]
+Professional soldiers-for-hire. They are well[Huff][LF]
 balanced, with superior abilities all around.[X]
 
 ## MSG_06FF
-The finest of all mercenary warriors.[....][LF]
+The finest of all mercenary warriors.[Huff][LF]
 Expert in all fields of combat.[X]
 
 ## MSG_0700
@@ -6080,7 +6081,7 @@ Swordsmen who possess superior speed and[LF]
 technique. They specialize in killing strokes.[X]
 
 ## MSG_0701
-A title given to those dedicated to the[....][LF]
+A title given to those dedicated to the[Huff][LF]
 sword. Incredible speed and killing strokes.[X]
 
 ## MSG_0702
@@ -6088,15 +6089,15 @@ Masters of the killing arts. They have the[LF]
 ability to kill a foe with a single stroke.[X]
 
 ## MSG_0703
-Lightly protected warriors armed with bows.[....][LF]
+Lightly protected warriors armed with bows.[Huff][LF]
 They can attack from a distance.[X]
 
 ## MSG_0704
-Archers dedicated to mastering their art.[....][LF]
+Archers dedicated to mastering their art.[Huff][LF]
 None can match their skill with the bow.[X]
 
 ## MSG_0705
-Mounted knights who charge into battle with[....][LF]
+Mounted knights who charge into battle with[Huff][LF]
 sword and bow. They possess great mobility.[X]
 
 ## MSG_0706
@@ -6108,7 +6109,7 @@ Knights united with their wyvern mounts.[LF]
 They have better movement and combat skill.[X]
 
 ## MSG_0708
-High-flying, lance-wielding knights. They can[....][LF]
+High-flying, lance-wielding knights. They can[Huff][LF]
 penetrate enemy defenses with ease.[X]
 
 ## MSG_0709
@@ -6116,7 +6117,7 @@ Mages schooled in anima magic. They bypass[LF]
 defenses but are weak against weapons.[X]
 
 ## MSG_070A
-A title given to advanced mages. They wield[....][LF]
+A title given to advanced mages. They wield[Huff][LF]
 magic and can carry staves.[X]
 
 ## MSG_070B
@@ -6128,15 +6129,15 @@ A title given to monks who have attained[LF]
 enlightenment. Wields magic for offense.[X]
 
 ## MSG_070D
-Dragonkin who live in Darkling Woods.[....][LF]
+Dragonkin who live in Darkling Woods.[Huff][LF]
 Dragonstones can transform them.[X]
 
 ## MSG_070E
-A green fighter who wishes to emulate[....][LF]
+A green fighter who wishes to emulate[Huff][LF]
 his father. He's young but courageous.[X]
 
 ## MSG_070F
-A hardworking apprentice studying magic[....][LF]
+A hardworking apprentice studying magic[Huff][LF]
 under the master Saleh.[X]
 
 ## MSG_0710
@@ -6164,7 +6165,7 @@ Knights with high defense and mobility. They[LF]
 use swords, axes, and lances equally well.[X]
 
 ## MSG_0716
-Masters of elder black magic. They are very[....][LF]
+Masters of elder black magic. They are very[Huff][LF]
 powerful, but very slow as well.[X]
 
 ## MSG_0717
@@ -6176,7 +6177,7 @@ A title granted to shamans who have used[LF]
 forbidden magic to learn the summoning arts.[X]
 
 ## MSG_0719
-Ascetic wielders of sacred light magic.[....][LF]
+Ascetic wielders of sacred light magic.[Huff][LF]
 Superior ability to hit but low attack power.[X]
 
 ## MSG_071A
@@ -6192,15 +6193,15 @@ Knights who soar through the skies. They[LF]
 resist magic but are weak against bows.[X]
 
 ## MSG_071D
-Knights united with their pegasus mounts.[....][LF]
+Knights united with their pegasus mounts.[Huff][LF]
 They have superior skill and resistance.[X]
 
 ## MSG_071E
-Wielders of sacred staves who aid allies in[....][LF]
+Wielders of sacred staves who aid allies in[Huff][LF]
 battle. They refuse to take arms in combat.[X]
 
 ## MSG_071F
-Mounted maidens whose sacred staves aid[....][LF]
+Mounted maidens whose sacred staves aid[Huff][LF]
 allies. They are swift but will not fight.[X]
 
 ## MSG_0720
@@ -6208,7 +6209,7 @@ Battle maidens who ride into combat wielding[LF]
 light magic and sacred staves.[X]
 
 ## MSG_0721
-Dancers whose grace soothes allies.[....][LF]
+Dancers whose grace soothes allies.[Huff][LF]
 They do not fight in combat.[X]
 
 ## MSG_0722
@@ -6220,11 +6221,11 @@ Axe-wielding privateers trained to[LF]
 fight on the high seas.[X]
 
 ## MSG_0724
-The crown prince of Grado's empire. The[....][LF]
+The crown prince of Grado's empire. The[Huff][LF]
 Dark Stone gives him strange powers.[X]
 
 ## MSG_0725
-Reanimated cadavers of the recently dead.[....][LF]
+Reanimated cadavers of the recently dead.[Huff][LF]
 They are slow, but their claws are cruel.[X]
 
 ## MSG_0726
@@ -6232,19 +6233,19 @@ Corpses animated by evil power. They are[LF]
 slow moving, but their talons are deadly.[X]
 
 ## MSG_0727
-Dead warriors given will by dark magic.[....][LF]
+Dead warriors given will by dark magic.[Huff][LF]
 They wield a variety of weapons.[X]
 
 ## MSG_0728
-Skeletons infused with tremendous magical[....][LF]
+Skeletons infused with tremendous magical[Huff][LF]
 strength. They can wield many weapons.[X]
 
 ## MSG_0729
-Giant poison spiders. They roam the[....][LF]
+Giant poison spiders. They roam the[Huff][LF]
 mountains, attacking with deadly venom.[X]
 
 ## MSG_072A
-Giant spiders infused with tremendous[....][LF]
+Giant spiders infused with tremendous[Huff][LF]
 magical strength. Their venom is lethal.[X]
 
 ## MSG_072B
@@ -6256,7 +6257,7 @@ Savage demon hounds that thirst for blood.[LF]
 These agile beasts have razor-sharp fangs.[X]
 
 ## MSG_072D
-Ferocious, three-headed hellhounds. Their[....][LF]
+Ferocious, three-headed hellhounds. Their[Huff][LF]
 triple-fanged bites are difficult to dodge.[X]
 
 ## MSG_072E
@@ -6268,11 +6269,11 @@ Creatures of great strength and speed.[LF]
 They pursue their prey with axes and bows.[X]
 
 ## MSG_0730
-Floating eyes filled with dark power.[....][LF]
+Floating eyes filled with dark power.[Huff][LF]
 Simply seeing one is considered an ill omen.[X]
 
 ## MSG_0731
-Mogall of great power. Their dark might[....][LF]
+Mogall of great power. Their dark might[Huff][LF]
 far exceeds that of their lesser cousins.[X]
 
 ## MSG_0732
@@ -6280,11 +6281,11 @@ Beautiful and cursed creatures, whose gaze[LF]
 turns all who behold it into stone.[X]
 
 ## MSG_0733
-Malignant fiends who hunt with lances. They[....][LF]
+Malignant fiends who hunt with lances. They[Huff][LF]
 swoop in swiftly on their fell wings.[X]
 
 ## MSG_0734
-Gargoyles enhanced by magic. They surpass[....][LF]
+Gargoyles enhanced by magic. They surpass[Huff][LF]
 their lesser brethren in speed and brutality.[X]
 
 ## MSG_0735
@@ -6297,7 +6298,7 @@ Build or edit a multiplayer team.[X]
 Battle the computer.[X]
 
 ## MSG_0738
-Set team [....][HASH] with + Control Pad.[X]
+Set team [Huff][HASH] with + Control Pad.[X]
 
 ## MSG_0739
 Battle against a linked player.[X]
@@ -6410,16 +6411,16 @@ Cancel[X]
 ## MSG_075D
 Select up to 5 units[LF]
 to fight in the Link[LF]
-Arena. You cannot[....][LF]
-select units that[....][LF]
+Arena. You cannot[Huff][LF]
+select units that[Huff][LF]
 cannot fight.[X]
 
 ## MSG_075E
 Swap units' items.[X]
 
 ## MSG_075F
-Cancel link formation[....][LF]
-and return to the[....][LF]
+Cancel link formation[Huff][LF]
+and return to the[Huff][LF]
 previous screen.[X]
 
 ## MSG_0760
@@ -6772,7 +6773,7 @@ and parted ways with the company.[X]
 Wounded at[X]
 
 ## MSG_07D4
-,[....][LF]
+,[Huff][LF]
 but remained until the end.[X]
 
 ## MSG_07D5
@@ -7076,38 +7077,38 @@ but remained until the end.[X]
 [X]
 
 ## MSG_0839
-Dummy[....][A][X]
+Dummy[Huff][A][X]
 
 ## MSG_083A
-Dummy[....][A][X]
+Dummy[Huff][A][X]
 
 ## MSG_083B
-Dummy[....][A][X]
+Dummy[Huff][A][X]
 
 ## MSG_083C
-Dummy[....][A][X]
+Dummy[Huff][A][X]
 
 ## MSG_083D
-Dummy[....][A][X]
+Dummy[Huff][A][X]
 
 ## MSG_083E
-Dummy[....][A][X]
+Dummy[Huff][A][X]
 
 ## MSG_083F
-Dummy[....][A][X]
+Dummy[Huff][A][X]
 
 ## MSG_0840
 [OpenLeft][LoadFace][FID_0x64]
-[OpenLeft]All your saved data will be erased.[....][LF]
-Shall I continue?[....][No][X]
+[OpenLeft]All your saved data will be erased.[Huff][LF]
+Shall I continue?[Huff][No][X]
 
 ## MSG_0841
-[OpenLeft]Once your data is erased, it cannot[....][LF]
+[OpenLeft]Once your data is erased, it cannot[Huff][LF]
 be restored.[A][LF]
-Shall I continue?[....][No][X]
+Shall I continue?[Huff][No][X]
 
 ## MSG_0842
-[OpenLeft]The data has been erased.[....][A][X]
+[OpenLeft]The data has been erased.[Huff][A][X]
 
 ## MSG_0843
 Yes[X]
@@ -7134,19 +7135,19 @@ ON[X]
 OFF[X]
 
 ## MSG_084B
-Throw away [....][Item]?[....][LF]
+Throw away [Huff][Item]?[Huff][LF]
 [No][X]
 
 ## MSG_084C
-You can't visit villages or[....][LF]
+You can't visit villages or[Huff][LF]
 houses while Silenced.[X]
 
 ## MSG_084D
-You can't equip[....][LF]
+You can't equip[Huff][LF]
 this weapon.[X]
 
 ## MSG_084E
-Your weapon level[....][LF]
+Your weapon level[Huff][LF]
 is too low.[X]
 
 ## MSG_084F
@@ -7156,23 +7157,23 @@ Treasure can't be dropped.[X]
 Treasure can't be sold.[X]
 
 ## MSG_0851
-You can't use a staff[....][LF]
+You can't use a staff[Huff][LF]
 while Silenced.[X]
 
 ## MSG_0852
-You can't speak[....][LF]
+You can't speak[Huff][LF]
 while Silenced.[X]
 
 ## MSG_0853
-You can't enter the[....][LF]
+You can't enter the[Huff][LF]
 arena while Silenced.[X]
 
 ## MSG_0854
-You can't fight, so you[....][LF]
+You can't fight, so you[Huff][LF]
 can't enter the arena.[X]
 
 ## MSG_0855
-Weapons, magic, and[....][LF]
+Weapons, magic, and[Huff][LF]
 staves can't be stolen.[X]
 
 ## MSG_0856
@@ -7224,7 +7225,7 @@ You cannot stop in the[LF]
 middle of the tutorial.[X]
 
 ## MSG_0865
-Your supply convoy is full.[....][LF]
+Your supply convoy is full.[Huff][LF]
 Select an item to discard.[A][X]
 
 ## MSG_0866
@@ -7332,34 +7333,34 @@ Please wait a moment.[X]
 [OpenLeft]Map send complete.[X]
 
 ## MSG_0888
-[OpenLeft]There is no backup trial map.[....][LF]
+[OpenLeft]There is no backup trial map.[Huff][LF]
 Ending map send and returning to menu.[X]
 
 ## MSG_0889
-This unit has no usable[....][LF]
+This unit has no usable[Huff][LF]
 weapons, so it cannot join.[X]
 
 ## MSG_088A
 This unit cannot be deployed.[X]
 
 ## MSG_088B
-If you have no usable[....][LF]
+If you have no usable[Huff][LF]
 weapons, you cannot attack.[X]
 
 ## MSG_088C
 [OpenLeft][LoadFace][FID_0x64]
-[OpenLeft]Do you surrender?[....][LF]
+[OpenLeft]Do you surrender?[Huff][LF]
 [Yes][X]
 
 ## MSG_088D
 [OpenLeft][LoadFace][FID_0x64]
-[OpenLeft]You can do no damage.[....][A][CR][LF]
-Would you like to quit?[....][LF]
+[OpenLeft]You can do no damage.[Huff][A][CR][LF]
+Would you like to quit?[Huff][LF]
 [Yes][X]
 
 ## MSG_088E
 Linking error.[LF]
-Turn the power off, check[....][LF]
+Turn the power off, check[Huff][LF]
 the connections, and retry.[X]
 
 ## MSG_088F
@@ -7373,12 +7374,12 @@ Send data from[LF]
 Chapter 2+[X]
 
 ## MSG_0892
-This data[....][LF]
-can't be used[....][LF]
+This data[Huff][LF]
+can't be used[Huff][LF]
 on a trial map.[X]
 
 ## MSG_0893
-Sacred Dragon[....][LF]
+Sacred Dragon[Huff][LF]
 added to[LF]
 Sound Room[X]
 
@@ -7392,14 +7393,14 @@ Select cleared save data.[X]
 
 ## MSG_0896
 Welcome to the armory![A][CR][LF]
-These are the weapons[....][LF]
-we have for sale.[....][A][X]
+These are the weapons[Huff][LF]
+we have for sale.[Huff][A][X]
 
 ## MSG_0897
 Welcome to the[LF]
 general store![A][CR][LF]
 Here are all the items[LF]
-we have for sale.[....][A][X]
+we have for sale.[Huff][A][X]
 
 ## MSG_0898
 Come back again.[A][X]
@@ -7409,12 +7410,12 @@ Hope to see you again![A][X]
 
 ## MSG_089A
 Welcome to the armory.[A][CR][LF]
-I deal in all sorts of goods.[....][LF]
+I deal in all sorts of goods.[Huff][LF]
 [BuySell][X]
 
 ## MSG_089B
-Welcome to the general store.[....][A][CR][LF]
-How can I help you?[....][LF]
+Welcome to the general store.[Huff][A][CR][LF]
+How can I help you?[Huff][LF]
 [BuySell][X]
 
 ## MSG_089C
@@ -7439,7 +7440,7 @@ Do you need anything else?[LF]
 [ShopContinue][X]
 
 ## MSG_08A1
-Can I do anything else for you?[....][LF]
+Can I do anything else for you?[Huff][LF]
 [ShopContinue][X]
 
 ## MSG_08A2
@@ -7474,13 +7475,13 @@ What are you selling?[X]
 What would you sell?[X]
 
 ## MSG_08AC
-You've got nothing to sell![....][A][X]
+You've got nothing to sell![Huff][A][X]
 
 ## MSG_08AD
-You have nothing to sell.[....][A][X]
+You have nothing to sell.[Huff][A][X]
 
 ## MSG_08AE
-You've got nothing to sell![....][A][X]
+You've got nothing to sell![Huff][A][X]
 
 ## MSG_08AF
 Selling anything else?[X]
@@ -7492,7 +7493,7 @@ Anything else to sell?[X]
 What else are you selling?[X]
 
 ## MSG_08B2
-You don't have the money![....][A][X]
+You don't have the money![Huff][A][X]
 
 ## MSG_08B3
 You're short of funds.[A][X]
@@ -7501,16 +7502,16 @@ You're short of funds.[A][X]
 Heh! Not enough money![A][X]
 
 ## MSG_08B5
-How does [....][G] gold[....][LF]
-sound to you?[....][Yes][X]
+How does [Huff][G] gold[Huff][LF]
+sound to you?[Huff][Yes][X]
 
 ## MSG_08B6
-That's worth [....][G] gold.[LF]
+That's worth [Huff][G] gold.[LF]
 Is that all right?[Yes][X]
 
 ## MSG_08B7
 That is worth [G] gold.[LF]
-Is that acceptable?[....][Yes][X]
+Is that acceptable?[Huff][Yes][X]
 
 ## MSG_08B8
 Come back again.[A][X]
@@ -7519,35 +7520,35 @@ Come back again.[A][X]
 Drop in again.[A][X]
 
 ## MSG_08BA
-Hee hee... Buh-bye![....][A][X]
+Hee hee... Buh-bye![Huff][A][X]
 
 ## MSG_08BB
-I can't buy that.[....][A][X]
+I can't buy that.[Huff][A][X]
 
 ## MSG_08BC
-I can't buy that.[....][A][X]
+I can't buy that.[Huff][A][X]
 
 ## MSG_08BD
-Hee hee... Wait a minute.[....][LF]
-I can't buy that![....][A][X]
+Hee hee... Wait a minute.[Huff][LF]
+I can't buy that![Huff][A][X]
 
 ## MSG_08BE
-Looks like you're full.[....][A][CR][LF]
-Send it to storage?[....][LF]
+Looks like you're full.[Huff][A][CR][LF]
+Send it to storage?[Huff][LF]
 [Yes][X]
 
 ## MSG_08BF
 Your hands are full.[A][CR][LF]
-Send it to storage?[....][LF]
+Send it to storage?[Huff][LF]
 [Yes][X]
 
 ## MSG_08C0
 Your hands are full.[A][CR][LF]
-Send it to storage?[....][LF]
+Send it to storage?[Huff][LF]
 [Yes][X]
 
 ## MSG_08C1
-Looks like you're full.[....][A][X]
+Looks like you're full.[Huff][A][X]
 
 ## MSG_08C2
 Your hands are full.[A][X]
@@ -7559,17 +7560,17 @@ Your hands are full.[A][X]
 Right. I'll send it now.[A][X]
 
 ## MSG_08C5
-Right. I'll have it sent.[....][A][X]
+Right. I'll have it sent.[Huff][A][X]
 
 ## MSG_08C6
-Heh heh... I'll send it then.[....][A][X]
+Heh heh... I'll send it then.[Huff][A][X]
 
 ## MSG_08C7
 No? Too bad. You could[LF]
-take it if you made room.[....][A][X]
+take it if you made room.[Huff][A][X]
 
 ## MSG_08C8
-That's a shame. You could[....][LF]
+That's a shame. You could[Huff][LF]
 carry it if you made room.[A][X]
 
 ## MSG_08C9
@@ -7586,36 +7587,36 @@ I could send it there...[A][X]
 
 ## MSG_08CC
 If you had some storage,[LF]
-I could send it to you.[....][A][X]
+I could send it to you.[Huff][A][X]
 
 ## MSG_08CD
 Your storage is full, too![LF]
 Rearrange your things![A][X]
 
 ## MSG_08CE
-Your storage is full,[....][LF]
-too. Try again later.[....][A][X]
+Your storage is full,[Huff][LF]
+too. Try again later.[Huff][A][X]
 
 ## MSG_08CF
 Heh... Your storage is full,[LF]
 too. Rearrange things...[A][X]
 
 ## MSG_08D0
-Welcome to the arena![....][A][X]
+Welcome to the arena![Huff][A][X]
 
 ## MSG_08D1
-Welcome to the arena.[....][A][LF]
-Oh! It's you again.[....][A][CR][LF]
-I've lost a lot of gold[....][LF]
+Welcome to the arena.[Huff][A][LF]
+Oh! It's you again.[Huff][A][CR][LF]
+I've lost a lot of gold[Huff][LF]
 thanks to you...[A][CR][LF]
 If you want to continue,[A][LF]
 we're going to have to[LF]
 do things differently.[A][CR][LF]
-I'm going to prepare some[....][LF]
+I'm going to prepare some[Huff][LF]
 more challenging foes.[A][X]
 
 ## MSG_08D2
-Would you like to wager[....][LF]
+Would you like to wager[Huff][LF]
 [G] gold?[Yes][X]
 
 ## MSG_08D3
@@ -7623,11 +7624,11 @@ Good luck. Don't get[LF]
 yourself killed.[A][X]
 
 ## MSG_08D4
-What's that? Bah![....][LF]
-Get outta here![....][A][X]
+What's that? Bah![Huff][LF]
+Get outta here![Huff][A][X]
 
 ## MSG_08D5
-Fight 'til you drop, or press[....][LF]
+Fight 'til you drop, or press[Huff][LF]
 the B Button to yield.[A][X]
 
 ## MSG_08D6
@@ -7643,62 +7644,62 @@ What? You yield? Well,[LF]
 your gold is mine, then![A][X]
 
 ## MSG_08D9
-Looks like no one wins.[....][LF]
-Here's your money back.[....][A][X]
+Looks like no one wins.[Huff][LF]
+Here's your money back.[Huff][A][X]
 
 ## MSG_08DA
-You don't have the money![....][LF]
+You don't have the money![Huff][LF]
 Try again later.[A][X]
 
 ## MSG_08DB
 [X]
 
 ## MSG_08DC
-Eirika and her companions have liberated [....][LF]
+Eirika and her companions have liberated [Huff][LF]
 the border castle.[A][LF]
 [BreakTalk]
-Alongside Princess Tana of Frelia, they ride [....][LF]
-to the Frelian capital.[....][A][LF]
+Alongside Princess Tana of Frelia, they ride [Huff][LF]
+to the Frelian capital.[Huff][A][LF]
 [BreakTalk]
 [X]
 
 ## MSG_08DD
-The world map shows the continent in [....][LF]
-its entirety.[....][A][CR][LF]
+The world map shows the continent in [Huff][LF]
+its entirety.[Huff][A][CR][LF]
 Castles, towns, and other map points[LF]
-are added to the map as you play.[....][A][CR][LF]
-Press the A Button when not on a map [....][LF]
-point to open the [ToggleRed]map menu[ToggleRed].[....][A][LF]
-This is where you can [ToggleRed]save[ToggleRed].[....][LF]
+are added to the map as you play.[Huff][A][CR][LF]
+Press the A Button when not on a map [Huff][LF]
+point to open the [ToggleRed]map menu[ToggleRed].[Huff][A][LF]
+This is where you can [ToggleRed]save[ToggleRed].[Huff][LF]
 When you want to stop playing, use this [LF]
-option to save your progress.[....][A][CR][LF]
+option to save your progress.[Huff][A][CR][LF]
 Now then, move on to your next[LF]
 destination.[A][LF]
 The marker with the [ToggleRed]red flag[ToggleRed] in the center[LF]
-of the map is your destination.[....][A][LF]
-Move the triangle cursor onto the red flag [....][LF]
-and press the A Button.[....][A][X]
+of the map is your destination.[Huff][A][LF]
+Move the triangle cursor onto the red flag [Huff][LF]
+and press the A Button.[Huff][A][X]
 
 ## MSG_08DE
 [X]
 
 ## MSG_08DF
-Once cleared, battle sites become [ToggleRed]bases[....][ToggleRed]. [LF]
-You can [ToggleRed]manage items[ToggleRed] on any base.[....][A][CR][LF]
+Once cleared, battle sites become [ToggleRed]bases[Huff][ToggleRed]. [LF]
+You can [ToggleRed]manage items[ToggleRed] on any base.[Huff][A][CR][LF]
 To manage items, place the cursor on your [LF]
-character icon.[....][A][LF]
+character icon.[Huff][A][LF]
 Then, press the A Button to bring up the[LF]
-[ToggleRed]Manage Items[ToggleRed] command.[....][A][LF]
+[ToggleRed]Manage Items[ToggleRed] command.[Huff][A][LF]
 Choose Manage Items to trade possessions[LF]
 with your supply convoy or with other units.[A][CR][LF]
-Some map areas have [ToggleRed]shops[....][ToggleRed][LF]
-and [ToggleRed]armories[ToggleRed].[....][A][LF]
-To see if a base has a shop or an[....][LF]
-armory, move the cursor to that base.[....][A][LF]
+Some map areas have [ToggleRed]shops[Huff][ToggleRed][LF]
+and [ToggleRed]armories[ToggleRed].[Huff][A][LF]
+To see if a base has a shop or an[Huff][LF]
+armory, move the cursor to that base.[Huff][A][LF]
 For example, in Ide, where Eirika is[LF]
-now, there is an [....][ToggleRed]armory[ToggleRed].[....][A][LF]
+now, there is an [Huff][ToggleRed]armory[ToggleRed].[Huff][A][LF]
 Check the corner of the screen for the[LF]
-[ToggleRed]base name[....][ToggleRed] and any [....][ToggleRed]shop icons[ToggleRed].[....][A][X]
+[ToggleRed]base name[Huff][ToggleRed] and any [Huff][ToggleRed]shop icons[ToggleRed].[Huff][A][X]
 
 ## MSG_08E0
 [X]
@@ -7717,28 +7718,28 @@ Check the corner of the screen for the[LF]
 
 ## MSG_08E5
 The [ToggleRed]Tower of Valni[ToggleRed] has appeared to the[LF]
-east of Castle Frelia on the world map.[....][A][LF]
+east of Castle Frelia on the world map.[Huff][A][LF]
 Once held by Grado's troops, it has become[LF]
-home to a host of [ToggleRed]dark creatures[ToggleRed].[....][A][LF]
-Battling these monstrosities is a good [....][LF]
-way for units to gain strength.[....][A][LF]
-Try using the tower as a training area [....][LF]
-to gain extra experience.[....][A][CR][LF]
+home to a host of [ToggleRed]dark creatures[ToggleRed].[Huff][A][LF]
+Battling these monstrosities is a good [Huff][LF]
+way for units to gain strength.[Huff][A][LF]
+Try using the tower as a training area [Huff][LF]
+to gain extra experience.[Huff][A][CR][LF]
 Be aware: you cannot save your battle [LF]
 preparations for tower skirmishes.[A][LF]
 Once you clear a tower map, you'll have [LF]
-access to the next floor.[....][A][LF]
+access to the next floor.[Huff][A][LF]
 Each floor is more difficult than the last, [LF]
-so come prepared![....][A][CR][LF]
+so come prepared![Huff][A][CR][LF]
 Dark creatures also may appear on other [LF]
-bases on the world map.[....][A][LF]
-To engage these demons in combat,[....][A][LF]
+bases on the world map.[Huff][A][LF]
+To engage these demons in combat,[Huff][A][LF]
 simply place the cursor on their location [LF]
-and press the A Button.[....][A][CR][LF]
+and press the A Button.[Huff][A][CR][LF]
 If the battle goes poorly and you're in [LF]
-danger of losing units,[....][A][LF]
-use the [ToggleRed]retreat[....][ToggleRed] command on the map [LF]
-menu to withdraw your troops.[....][A][X]
+danger of losing units,[Huff][A][LF]
+use the [ToggleRed]retreat[Huff][ToggleRed] command on the map [LF]
+menu to withdraw your troops.[Huff][A][X]
 
 ## MSG_08E6
 [X]
@@ -7899,127 +7900,127 @@ Chapter to finish this battle.[A][X]
 [X]
 
 ## MSG_0919
-Your training begins with [ToggleRed]movement[ToggleRed].[....][A][LF]
-Place the [ToggleRed]square cursor[....][ToggleRed] on[....][LF]
-Eirika and press the [....][ToggleRed]A Button[ToggleRed].[....][A][X]
+Your training begins with [ToggleRed]movement[ToggleRed].[Huff][A][LF]
+Place the [ToggleRed]square cursor[Huff][ToggleRed] on[Huff][LF]
+Eirika and press the [Huff][ToggleRed]A Button[ToggleRed].[Huff][A][X]
 
 ## MSG_091A
 Press the [ToggleRed]A Button[ToggleRed][LF]
-to select Eirika.[....][A][X]
+to select Eirika.[Huff][A][X]
 
 ## MSG_091B
-You can move anywhere[....][LF]
-within the [....][ToggleRed]blue area[....][ToggleRed].[....][A][LF]
+You can move anywhere[Huff][LF]
+within the [Huff][ToggleRed]blue area[Huff][ToggleRed].[Huff][A][LF]
 Move the cursor to the[LF]
 flashing space beside Seth[LF]
-and press the [ToggleRed]A Button[ToggleRed].[....][A][X]
+and press the [ToggleRed]A Button[ToggleRed].[Huff][A][X]
 
 ## MSG_091C
 You'll now move next[LF]
 to Seth.[A][LF]
 Go ahead and press the[LF]
-[ToggleRed]A Button[ToggleRed].[....][A][X]
+[ToggleRed]A Button[ToggleRed].[Huff][A][X]
 
 ## MSG_091D
-Red units are [ToggleRed]enemy units[....][ToggleRed].[....][A][LF]
+Red units are [ToggleRed]enemy units[Huff][ToggleRed].[Huff][A][LF]
 After all of Eirika's party has moved,[LF]
-the [ToggleRed]enemy[....][ToggleRed] units will move.[....][A][LF]
-Each side takes turns moving and then[....][LF]
-fighting until the battle ends.[....][A][X]
+the [ToggleRed]enemy[Huff][ToggleRed] units will move.[Huff][A][LF]
+Each side takes turns moving and then[Huff][LF]
+fighting until the battle ends.[Huff][A][X]
 
 ## MSG_091E
-It's time to [....][ToggleRed]attack[ToggleRed][LF]
+It's time to [Huff][ToggleRed]attack[ToggleRed][LF]
 the enemy.[A][LF]
 Place the cursor on Eirika[LF]
-and press the [ToggleRed]A Button[ToggleRed].[....][A][X]
+and press the [ToggleRed]A Button[ToggleRed].[Huff][A][X]
 
 ## MSG_091F
 The cursor is now on Eirika.[LF]
-Press the [ToggleRed]A Button[ToggleRed].[....][A][X]
+Press the [ToggleRed]A Button[ToggleRed].[Huff][A][X]
 
 ## MSG_0920
-Select [....][ToggleRed]Attack[ToggleRed] and press[LF]
-the [ToggleRed]A Button[ToggleRed].[....][A][X]
+Select [Huff][ToggleRed]Attack[ToggleRed] and press[LF]
+the [ToggleRed]A Button[ToggleRed].[Huff][A][X]
 
 ## MSG_0921
 This is the [ToggleRed]combat[LF]
-information window[ToggleRed].[....][A][LF]
-You can see the combatant's[....][LF]
-[ToggleRed]HP[ToggleRed] and the amount[....][LF]
-of damage you will inflict.[....][A][LF]
-Eirika should do [....][ToggleRed]7[....][ToggleRed] points,[LF]
-and the enemy should do [ToggleRed]9[....][ToggleRed].[....][A][LF]
+information window[ToggleRed].[Huff][A][LF]
+You can see the combatant's[Huff][LF]
+[ToggleRed]HP[ToggleRed] and the amount[Huff][LF]
+of damage you will inflict.[Huff][A][LF]
+Eirika should do [Huff][ToggleRed]7[Huff][ToggleRed] points,[LF]
+and the enemy should do [ToggleRed]9[Huff][ToggleRed].[Huff][A][LF]
 You see the [ToggleRed]x2[ToggleRed] next to[LF]
 [ToggleRed]Mt[ToggleRed], right?[A][LF]
 This indicates that you will[LF]
-[ToggleRed]attack twice[ToggleRed].[....][A][LF]
-Eirika is faster than her[....][LF]
-opponent, so she can [....][ToggleRed]strike[LF]
-twice[....][ToggleRed] in one turn.[....][A][LF]
-So, with [....][ToggleRed]2 attacks of 7[LF]
-points each[....][ToggleRed], Eirika will[....][LF]
-do [....][ToggleRed]14 points[....][ToggleRed] of damage.[....][A][LF]
-Now press the [ToggleRed]A Button[ToggleRed] to[....][LF]
-[ToggleRed]attack[ToggleRed] the enemy.[....][A][X]
+[ToggleRed]attack twice[ToggleRed].[Huff][A][LF]
+Eirika is faster than her[Huff][LF]
+opponent, so she can [Huff][ToggleRed]strike[LF]
+twice[Huff][ToggleRed] in one turn.[Huff][A][LF]
+So, with [Huff][ToggleRed]2 attacks of 7[LF]
+points each[Huff][ToggleRed], Eirika will[Huff][LF]
+do [Huff][ToggleRed]14 points[Huff][ToggleRed] of damage.[Huff][A][LF]
+Now press the [ToggleRed]A Button[ToggleRed] to[Huff][LF]
+[ToggleRed]attack[ToggleRed] the enemy.[Huff][A][X]
 
 ## MSG_0922
 On this map you need to defeat[LF]
 O'Neill, the enemy leader, to win.[A][LF]
-The [ToggleRed]objective[....][ToggleRed] is displayed at the [....][LF]
-corner of the screen.[....][A][LF]
+The [ToggleRed]objective[Huff][ToggleRed] is displayed at the [Huff][LF]
+corner of the screen.[Huff][A][LF]
 Your objective changes from map to[LF]
 map, which may change your approach.[A][LF]
 Check your objective before deciding[LF]
-your strategy. Now, attack the enemy![....][A][X]
+your strategy. Now, attack the enemy![Huff][A][X]
 
 ## MSG_0923
 Place the cursor on [ToggleRed]Eirika[ToggleRed] and[LF]
-press the [ToggleRed]A Button[ToggleRed].[....][A][X]
+press the [ToggleRed]A Button[ToggleRed].[Huff][A][X]
 
 ## MSG_0924
 The cursor is now on Eirika.[LF]
-Press the [ToggleRed]A Button[ToggleRed].[....][A][X]
+Press the [ToggleRed]A Button[ToggleRed].[Huff][A][X]
 
 ## MSG_0925
 Move next to the enemy[LF]
-and press the [ToggleRed]A Button[ToggleRed].[....][A][X]
+and press the [ToggleRed]A Button[ToggleRed].[Huff][A][X]
 
 ## MSG_0926
 The [ToggleRed]combat information[LF]
-window[ToggleRed] is open again.[....][A][LF]
-Do you see [....][ToggleRed]Hit[....][ToggleRed] displayed[LF]
-below [ToggleRed]HP[ToggleRed] and [....][ToggleRed]Mt[ToggleRed]?[....][A][LF]
-[ToggleRed]Hit[....][ToggleRed] is the likelihood that[....][LF]
+window[ToggleRed] is open again.[Huff][A][LF]
+Do you see [Huff][ToggleRed]Hit[Huff][ToggleRed] displayed[LF]
+below [ToggleRed]HP[ToggleRed] and [Huff][ToggleRed]Mt[ToggleRed]?[Huff][A][LF]
+[ToggleRed]Hit[Huff][ToggleRed] is the likelihood that[Huff][LF]
 you will land your blow.[A][LF]
-Eirika's [....][ToggleRed]Hit[....][ToggleRed] is 94, so she[LF]
-has a 94 percent chance[....][LF]
-of hitting the enemy.[....][A][LF]
+Eirika's [Huff][ToggleRed]Hit[Huff][ToggleRed] is 94, so she[LF]
+has a 94 percent chance[Huff][LF]
+of hitting the enemy.[Huff][A][LF]
 [ToggleRed]Crit[ToggleRed], short for Critical, also[LF]
-appears in this window.[....][A][LF]
+appears in this window.[Huff][A][LF]
 This is the chance an attack[LF]
 will be a lethal strike.[A][LF]
-Eirika's [....][ToggleRed]Crit[ToggleRed] is 14, so she[LF]
+Eirika's [Huff][ToggleRed]Crit[ToggleRed] is 14, so she[LF]
 has a 14 percent chance of[LF]
-landing a killing blow.[....][A][LF]
-Critical attacks do [ToggleRed]3 times[....][ToggleRed][LF]
+landing a killing blow.[Huff][A][LF]
+Critical attacks do [ToggleRed]3 times[Huff][ToggleRed][LF]
 the damage of a normal[LF]
-attack.[....][A][LF]
-Press the [ToggleRed]A Button[ToggleRed] to[....][LF]
+attack.[Huff][A][LF]
+Press the [ToggleRed]A Button[ToggleRed] to[Huff][LF]
 attack the enemy leader.[A][X]
 
 ## MSG_0927
-Eirika gained over [....][ToggleRed]100[....][LF]
-experience points[....][ToggleRed] and[LF]
-has [ToggleRed]leveled up[ToggleRed].[....][A][LF]
-Gaining levels increases [....][LF]
-unit abilities and makes [....][LF]
+Eirika gained over [Huff][ToggleRed]100[Huff][LF]
+experience points[Huff][ToggleRed] and[LF]
+has [ToggleRed]leveled up[ToggleRed].[Huff][A][LF]
+Gaining levels increases [Huff][LF]
+unit abilities and makes [Huff][LF]
 them stronger.[A][X]
 
 ## MSG_0928
-You've received a rapier from Seth.[....][A][LF]
-All weapons have a [....][ToggleRed]durability[ToggleRed] rating.[LF]
+You've received a rapier from Seth.[Huff][A][LF]
+All weapons have a [Huff][ToggleRed]durability[ToggleRed] rating.[LF]
 The rapier's durability is 40.[A][LF]
-Once the rapier has been used[....][LF]
+Once the rapier has been used[Huff][LF]
 40 times, it will break.[A][LF]
 Pay close attention to how many uses[LF]
 your weapons have remaining.[A][X]
@@ -8085,171 +8086,171 @@ your weapons have remaining.[A][X]
 [X]
 
 ## MSG_093D
-The relationship between [....][ToggleRed]swords[ToggleRed], [ToggleRed]lances[ToggleRed],[....][LF]
-and [ToggleRed]axes[ToggleRed] is called the [....][ToggleRed]weapon triangle[....][ToggleRed].[....][A][LF]
-[ToggleRed]Lances[ToggleRed] are strong against [ToggleRed]swords[ToggleRed].[....][LF]
-[ToggleRed]Swords[ToggleRed] are strong against [ToggleRed]axes[ToggleRed].[....][LF]
-[ToggleRed]Axes[ToggleRed] are strong against [ToggleRed]lances[ToggleRed].[....][A][LF]
-In that last battle, the enemy commander,[....][LF]
-Breguet, wielded a [....][ToggleRed]lance[....][ToggleRed], while the[....][LF]
-Frelian soldier used a [....][ToggleRed]sword[....][ToggleRed].[....][A][LF]
-[ToggleRed]Lances[ToggleRed] are strong against [ToggleRed]swords[ToggleRed],[....][LF]
+The relationship between [Huff][ToggleRed]swords[ToggleRed], [ToggleRed]lances[ToggleRed],[Huff][LF]
+and [ToggleRed]axes[ToggleRed] is called the [Huff][ToggleRed]weapon triangle[Huff][ToggleRed].[Huff][A][LF]
+[ToggleRed]Lances[ToggleRed] are strong against [ToggleRed]swords[ToggleRed].[Huff][LF]
+[ToggleRed]Swords[ToggleRed] are strong against [ToggleRed]axes[ToggleRed].[Huff][LF]
+[ToggleRed]Axes[ToggleRed] are strong against [ToggleRed]lances[ToggleRed].[Huff][A][LF]
+In that last battle, the enemy commander,[Huff][LF]
+Breguet, wielded a [Huff][ToggleRed]lance[Huff][ToggleRed], while the[Huff][LF]
+Frelian soldier used a [Huff][ToggleRed]sword[Huff][ToggleRed].[Huff][A][LF]
+[ToggleRed]Lances[ToggleRed] are strong against [ToggleRed]swords[ToggleRed],[Huff][LF]
 so Breguet had an advantage.[A][LF]
-The [ToggleRed]weapon triangle[....][ToggleRed] can be very[LF]
-important in determining the outcome of[....][LF]
+The [ToggleRed]weapon triangle[Huff][ToggleRed] can be very[LF]
+important in determining the outcome of[Huff][LF]
 a battle. For the time being, just[A][LF]
-remember that [ToggleRed]lances[ToggleRed] are strong[....][LF]
-against [ToggleRed]swords[ToggleRed].[....][A][X]
+remember that [ToggleRed]lances[ToggleRed] are strong[Huff][LF]
+against [ToggleRed]swords[ToggleRed].[Huff][A][X]
 
 ## MSG_093E
-It's time to [....][ToggleRed]visit[....][ToggleRed] a home. First,[....][LF]
+It's time to [Huff][ToggleRed]visit[Huff][ToggleRed] a home. First,[Huff][LF]
 place the cursor on Eirika[LF]
-and press the A Button.[....][A][X]
+and press the A Button.[Huff][A][X]
 
 ## MSG_093F
-The cursor is now on [....][ToggleRed]Eirika[ToggleRed].[....][LF]
-Press the A Button.[....][A][X]
+The cursor is now on [Huff][ToggleRed]Eirika[ToggleRed].[Huff][LF]
+Press the A Button.[Huff][A][X]
 
 ## MSG_0940
-Move Eirika to the [....][ToggleRed]house[....][ToggleRed].[....][A][LF]
+Move Eirika to the [Huff][ToggleRed]house[Huff][ToggleRed].[Huff][A][LF]
 Place the cursor on the flashing[LF]
-space and press the A Button.[....][A][X]
+space and press the A Button.[Huff][A][X]
 
 ## MSG_0941
 You can get [ToggleRed]battle hints[ToggleRed] and[LF]
-other useful information by[....][LF]
-talking to people in homes.[....][A][LF]
+other useful information by[Huff][LF]
+talking to people in homes.[Huff][A][LF]
 This can be very beneficial,[LF]
 so be sure to visit houses[LF]
-when you have the chance.[....][A][CR][LF]
-Now select [....][ToggleRed]Visit[....][ToggleRed] and press [....][LF]
-the A Button.[....][A][X]
+when you have the chance.[Huff][A][CR][LF]
+Now select [Huff][ToggleRed]Visit[Huff][ToggleRed] and press [Huff][LF]
+the A Button.[Huff][A][X]
 
 ## MSG_0942
-Units on [....][ToggleRed]gates[....][ToggleRed], [ToggleRed]forts[....][ToggleRed], and other special[....][LF]
-areas [ToggleRed]recover Hit Points (HP)[....][ToggleRed] at the[....][LF]
-beginning of your turn.[....][A][LF]
+Units on [Huff][ToggleRed]gates[Huff][ToggleRed], [ToggleRed]forts[Huff][ToggleRed], and other special[Huff][LF]
+areas [ToggleRed]recover Hit Points (HP)[Huff][ToggleRed] at the[Huff][LF]
+beginning of your turn.[Huff][A][LF]
 Currently, the enemy commander, Breguet,[LF]
-is standing on a [....][ToggleRed]gate[ToggleRed]. Even if he takes[LF]
-damage, he'll soon [....][ToggleRed]recover some of the[....][ToggleRed][LF]
-[ToggleRed]HP[ToggleRed] he lost.[....][A][X]
+is standing on a [Huff][ToggleRed]gate[ToggleRed]. Even if he takes[LF]
+damage, he'll soon [Huff][ToggleRed]recover some of the[Huff][ToggleRed][LF]
+[ToggleRed]HP[ToggleRed] he lost.[Huff][A][X]
 
 ## MSG_0943
 Starting with this chapter, you will[LF]
-control not only Eirika, but also Seth,[....][LF]
-general of the Knights of Renais.[....][A][LF]
-You select and move him in the same way[....][LF]
+control not only Eirika, but also Seth,[Huff][LF]
+general of the Knights of Renais.[Huff][A][LF]
+You select and move him in the same way[Huff][LF]
 you do Eirika: by placing the cursor[LF]
-on him and pressing the A Button.[....][A][LF]
+on him and pressing the A Button.[Huff][A][LF]
 When all of your units have finished[LF]
 moving, your enemy's turn will begin[LF]
-[ToggleRed]automatically[....][ToggleRed].[....][A][CR][LF]
+[ToggleRed]automatically[Huff][ToggleRed].[Huff][A][CR][LF]
 If Eirika, the leader of your group, falls[LF]
-in battle, [....][ToggleRed]the game is over[ToggleRed].[....][A][LF]
-You can choose to continue playing if any[....][LF]
+in battle, [Huff][ToggleRed]the game is over[ToggleRed].[Huff][A][LF]
+You can choose to continue playing if any[Huff][LF]
 of your allies fall, but defeated allies[LF]
-will [....][ToggleRed]never fight at your side again[ToggleRed].[....][A][LF]
-Try to move forward with the fewest[....][LF]
+will [Huff][ToggleRed]never fight at your side again[ToggleRed].[Huff][A][LF]
+Try to move forward with the fewest[Huff][LF]
 number of casualties possible.[A][X]
 
 ## MSG_0944
 Allied units have joined the battle.[A][LF]
 All allied blue units can be moved[LF]
-in the same manner as Eirika.[....][A][X]
+in the same manner as Eirika.[Huff][A][X]
 
 ## MSG_0945
-You defeated Breguet, commander[....][LF]
-of Grado's forces in Mulan.[....][A][LF]
-All that remains is to [....][ToggleRed]seize[....][ToggleRed] the [....][LF]
+You defeated Breguet, commander[Huff][LF]
+of Grado's forces in Mulan.[Huff][A][LF]
+All that remains is to [Huff][ToggleRed]seize[Huff][ToggleRed] the [Huff][LF]
 castle gate.[A][LF]
-Only your [ToggleRed]commander[....][ToggleRed] can perform[LF]
+Only your [ToggleRed]commander[Huff][ToggleRed] can perform[LF]
 this task.[A][LF]
 The commander of this group is Eirika.[LF]
-Move her to the castle gate, [....][ToggleRed]seize[....][ToggleRed] [....][LF]
-it, and clear this map.[....][A][X]
+Move her to the castle gate, [Huff][ToggleRed]seize[Huff][ToggleRed] [Huff][LF]
+it, and clear this map.[Huff][A][X]
 
 ## MSG_0946
-It's time to [....][ToggleRed]trade[....][ToggleRed] items. First,[LF]
-place the cursor on Gilliam and[....][LF]
-press the A Button.[....][A][X]
+It's time to [Huff][ToggleRed]trade[Huff][ToggleRed] items. First,[LF]
+place the cursor on Gilliam and[Huff][LF]
+press the A Button.[Huff][A][X]
 
 ## MSG_0947
-The cursor is on [....][ToggleRed]Gilliam[....][ToggleRed].[....][LF]
-Press the A Button.[....][A][X]
+The cursor is on [Huff][ToggleRed]Gilliam[Huff][ToggleRed].[Huff][LF]
+Press the A Button.[Huff][A][X]
 
 ## MSG_0948
-Now select [....][ToggleRed]Trade[....][ToggleRed].[....][A][X]
+Now select [Huff][ToggleRed]Trade[Huff][ToggleRed].[Huff][A][X]
 
 ## MSG_0949
 Here are the items Gilliam[LF]
-and Franz are carrying.[....][A][LF]
+and Franz are carrying.[Huff][A][LF]
 Move the cursor to Franz's[LF]
 items on the right side.[A][LF]
 Press [ToggleRed]right on the[LF]
-+ Control Pad[....][ToggleRed].[....][A][X]
++ Control Pad[Huff][ToggleRed].[Huff][A][X]
 
 ## MSG_094A
-Use the [ToggleRed]+ Control Pad[....][ToggleRed] to select[LF]
-a [ToggleRed]vulnerary[....][ToggleRed] and press the [....][LF]
-A Button.[....][A][X]
+Use the [ToggleRed]+ Control Pad[Huff][ToggleRed] to select[LF]
+a [ToggleRed]vulnerary[Huff][ToggleRed] and press the [Huff][LF]
+A Button.[Huff][A][X]
 
 ## MSG_094B
 Press the A Button now to accept[LF]
-the [ToggleRed]vulnerary[....][ToggleRed] from Franz.[A][X]
+the [ToggleRed]vulnerary[Huff][ToggleRed] from Franz.[A][X]
 
 ## MSG_094C
 The item has successfully been traded.[A][LF]
-Press the [ToggleRed]B Button[ToggleRed] to finish [....][LF]
-your transaction.[....][A][X]
+Press the [ToggleRed]B Button[ToggleRed] to finish [Huff][LF]
+your transaction.[Huff][A][X]
 
 ## MSG_094D
-You can use the [ToggleRed]vulnerary[....][ToggleRed][LF]
+You can use the [ToggleRed]vulnerary[Huff][ToggleRed][LF]
 you received right away.[A][LF]
-Select the [....][ToggleRed]vulnerary[....][ToggleRed] from[....][LF]
-your [....][ToggleRed]items[....][ToggleRed] and use it.[A][X]
+Select the [Huff][ToggleRed]vulnerary[Huff][ToggleRed] from[Huff][LF]
+your [Huff][ToggleRed]items[Huff][ToggleRed] and use it.[A][X]
 
 ## MSG_094E
 Place the cursor on [ToggleRed]Seth[ToggleRed] and[LF]
-press the A Button.[....][A][X]
+press the A Button.[Huff][A][X]
 
 ## MSG_094F
-The cursor is now on [....][ToggleRed]Seth[ToggleRed].[....][LF]
-Press the A Button.[....][A][X]
+The cursor is now on [Huff][ToggleRed]Seth[ToggleRed].[Huff][LF]
+Press the A Button.[Huff][A][X]
 
 ## MSG_0950
-Seth must move near his[....][LF]
+Seth must move near his[Huff][LF]
 foe. Press the A Button.[A][X]
 
 ## MSG_0951
 This is the [ToggleRed]combat[LF]
-information window[ToggleRed].[....][A][LF]
-At the top of the window,[....][LF]
-next to Seth's name, is a[....][LF]
-[ToggleRed]weapon[ToggleRed] and an [ToggleRed]arrow[....][A][LF]
-pointing up[....][ToggleRed]. This is because[....][LF]
-Seth has a [....][ToggleRed]sword[....][ToggleRed], while[....][LF]
-the soldier has an [....][ToggleRed]axe[....][ToggleRed].[....][A][LF]
-The [ToggleRed]weapon triangle[....][ToggleRed] states[....][LF]
-that [....][ToggleRed]swords[ToggleRed] are strong[....][LF]
-against [ToggleRed]axes[ToggleRed].[....][A][LF]
+information window[ToggleRed].[Huff][A][LF]
+At the top of the window,[Huff][LF]
+next to Seth's name, is a[Huff][LF]
+[ToggleRed]weapon[ToggleRed] and an [ToggleRed]arrow[Huff][A][LF]
+pointing up[Huff][ToggleRed]. This is because[Huff][LF]
+Seth has a [Huff][ToggleRed]sword[Huff][ToggleRed], while[Huff][LF]
+the soldier has an [Huff][ToggleRed]axe[Huff][ToggleRed].[Huff][A][LF]
+The [ToggleRed]weapon triangle[Huff][ToggleRed] states[Huff][LF]
+that [Huff][ToggleRed]swords[ToggleRed] are strong[Huff][LF]
+against [ToggleRed]axes[ToggleRed].[Huff][A][LF]
 Seth is at an advantage.[A][X]
 
 ## MSG_0952
-The enemy has an [....][ToggleRed]axe[....][ToggleRed], so it's[....][LF]
-best to counter with a [....][ToggleRed]sword[....][ToggleRed].[....][LF]
-Choose [....][ToggleRed]Attack[ToggleRed] and press[LF]
-the A Button.[....][A][X]
+The enemy has an [Huff][ToggleRed]axe[Huff][ToggleRed], so it's[Huff][LF]
+best to counter with a [Huff][ToggleRed]sword[Huff][ToggleRed].[Huff][LF]
+Choose [Huff][ToggleRed]Attack[ToggleRed] and press[LF]
+the A Button.[Huff][A][X]
 
 ## MSG_0953
 Move the cursor to an unoccupied[LF]
 space on the map, and press the [LF]
-A Button to open the [....][ToggleRed]map menu[ToggleRed].[....][A][LF]
+A Button to open the [Huff][ToggleRed]map menu[ToggleRed].[Huff][A][LF]
 The third item from the top is[LF]
-[ToggleRed]Guide[....][ToggleRed]. Try selecting it.[....][A][LF]
+[ToggleRed]Guide[Huff][ToggleRed]. Try selecting it.[Huff][A][LF]
 The guide contains lots of useful [LF]
-[ToggleRed]game-play information[....][ToggleRed].[....][A][LF]
+[ToggleRed]game-play information[Huff][ToggleRed].[Huff][A][LF]
 If you run into something that[LF]
-seems unclear, review the [ToggleRed]guide[....][ToggleRed][LF]
+seems unclear, review the [ToggleRed]guide[Huff][ToggleRed][LF]
 for a quick reference.[A][X]
 
 ## MSG_0954
@@ -8328,194 +8329,194 @@ for a quick reference.[A][X]
 [X]
 
 ## MSG_096D
-Sometimes, you will gain [....][ToggleRed]gold[ToggleRed] or [ToggleRed]items[....][ToggleRed][LF]
-when you [....][ToggleRed]visit[....][ToggleRed] a village.[....][A][LF]
-Villages can also be [....][ToggleRed]destroyed[....][ToggleRed] by[....][LF]
+Sometimes, you will gain [Huff][ToggleRed]gold[ToggleRed] or [ToggleRed]items[Huff][ToggleRed][LF]
+when you [Huff][ToggleRed]visit[Huff][ToggleRed] a village.[Huff][A][LF]
+Villages can also be [Huff][ToggleRed]destroyed[Huff][ToggleRed] by[Huff][LF]
 bandits or other enemy troops.[A][LF]
-Any of your allied units can [....][ToggleRed]visit[....][ToggleRed][LF]
+Any of your allied units can [Huff][ToggleRed]visit[Huff][ToggleRed][LF]
 villages and houses.[A][LF]
-[ToggleRed]Visit[....][ToggleRed] all the villages and warn them[....][LF]
-before they're [....][ToggleRed]savaged[....][ToggleRed] by the bandits.[A][X]
+[ToggleRed]Visit[Huff][ToggleRed] all the villages and warn them[Huff][LF]
+before they're [Huff][ToggleRed]savaged[Huff][ToggleRed] by the bandits.[A][X]
 
 ## MSG_096E
-Ross is a [ToggleRed]journeyman[ToggleRed].[....][A][LF]
+Ross is a [ToggleRed]journeyman[ToggleRed].[Huff][A][LF]
 [ToggleRed]Journeymen[ToggleRed] are inexperienced[LF]
 fighters with low combat skills.[A][LF]
 When they reach [ToggleRed]level 10[ToggleRed], they[A][LF]
-can [ToggleRed]change classes[ToggleRed] to become more[....][LF]
-powerful [....][ToggleRed]fighters[ToggleRed] or [ToggleRed]pirates[....][ToggleRed].[....][A][LF]
-You should avoid sending [....][ToggleRed]journeymen[ToggleRed][LF]
-to face strong enemies.[....][A][CR][LF]
-Ross's father is Garcia, a [....][ToggleRed]fighter[....][ToggleRed].[....][A][LF]
-[ToggleRed]Fighters[ToggleRed] who reach level 10 or higher[....][LF]
-can use [ToggleRed]hero crests[....][ToggleRed] to [ToggleRed]change classes[ToggleRed][LF]
-and become [....][ToggleRed]heroes[ToggleRed] or [ToggleRed]warriors[ToggleRed].[....][A][CR][LF]
-Additionally, [ToggleRed]cavaliers[....][ToggleRed] and [....][ToggleRed]knights[....][ToggleRed] can [....][LF]
-use [ToggleRed]knight crests[....][ToggleRed] to [ToggleRed]change classes[ToggleRed].[....][LF]
-They can choose between [ToggleRed]2 types[....][ToggleRed][LF]
-[ToggleRed]of soldiers[....][ToggleRed].[....][A][LF]
+can [ToggleRed]change classes[ToggleRed] to become more[Huff][LF]
+powerful [Huff][ToggleRed]fighters[ToggleRed] or [ToggleRed]pirates[Huff][ToggleRed].[Huff][A][LF]
+You should avoid sending [Huff][ToggleRed]journeymen[ToggleRed][LF]
+to face strong enemies.[Huff][A][CR][LF]
+Ross's father is Garcia, a [Huff][ToggleRed]fighter[Huff][ToggleRed].[Huff][A][LF]
+[ToggleRed]Fighters[ToggleRed] who reach level 10 or higher[Huff][LF]
+can use [ToggleRed]hero crests[Huff][ToggleRed] to [ToggleRed]change classes[ToggleRed][LF]
+and become [Huff][ToggleRed]heroes[ToggleRed] or [ToggleRed]warriors[ToggleRed].[Huff][A][CR][LF]
+Additionally, [ToggleRed]cavaliers[Huff][ToggleRed] and [Huff][ToggleRed]knights[Huff][ToggleRed] can [Huff][LF]
+use [ToggleRed]knight crests[Huff][ToggleRed] to [ToggleRed]change classes[ToggleRed].[Huff][LF]
+They can choose between [ToggleRed]2 types[Huff][ToggleRed][LF]
+[ToggleRed]of soldiers[Huff][ToggleRed].[Huff][A][LF]
 Be sure to power up your units and[LF]
 [ToggleRed]change classes[ToggleRed] when you can.[A][X]
 
 ## MSG_096F
-Because [ToggleRed]pegasus knights[....][ToggleRed] fly, mountains[....][LF]
+Because [ToggleRed]pegasus knights[Huff][ToggleRed] fly, mountains[Huff][LF]
 do not block their movement.[A][LF]
-However, they are vulnerable to [ToggleRed]missile[....][LF]
-attacks[....][ToggleRed], so watch out for [....][ToggleRed]archers[....][ToggleRed].[....][A][X]
+However, they are vulnerable to [ToggleRed]missile[Huff][LF]
+attacks[Huff][ToggleRed], so watch out for [Huff][ToggleRed]archers[Huff][ToggleRed].[Huff][A][X]
 
 ## MSG_0970
-Vanessa must [....][ToggleRed]rescue[ToggleRed] Ross.[A][LF]
-First, place the cursor on [....][ToggleRed]Vanessa[....][ToggleRed][LF]
-and press the A Button.[....][A][X]
+Vanessa must [Huff][ToggleRed]rescue[ToggleRed] Ross.[A][LF]
+First, place the cursor on [Huff][ToggleRed]Vanessa[Huff][ToggleRed][LF]
+and press the A Button.[Huff][A][X]
 
 ## MSG_0971
 Move to a space next to [ToggleRed]Ross[ToggleRed][LF]
-and press the A Button.[....][A][X]
+and press the A Button.[Huff][A][X]
 
 ## MSG_0972
-Now select [....][ToggleRed]Rescue[ToggleRed] and[LF]
-press the A Button again.[....][A][X]
+Now select [Huff][ToggleRed]Rescue[ToggleRed] and[LF]
+press the A Button again.[Huff][A][X]
 
 ## MSG_0973
-[ToggleRed]Pegasus knights[....][ToggleRed], [ToggleRed]cavaliers[....][ToggleRed], and other[....][LF]
-mounted units can [ToggleRed]continue moving[....][ToggleRed] after[LF]
+[ToggleRed]Pegasus knights[Huff][ToggleRed], [ToggleRed]cavaliers[Huff][ToggleRed], and other[Huff][LF]
+mounted units can [ToggleRed]continue moving[Huff][ToggleRed] after[LF]
 they've rescued someone.[A][LF]
 Go ahead and move to this space.[A][X]
 
 ## MSG_0974
-Place the cursor on [ToggleRed]Vanessa[....][ToggleRed][LF]
-and press the A Button.[....][A][X]
+Place the cursor on [ToggleRed]Vanessa[Huff][ToggleRed][LF]
+and press the A Button.[Huff][A][X]
 
 ## MSG_0975
-Vanessa is currently carrying Ross as[....][LF]
-a [ToggleRed]traveler[ToggleRed].[....][A][LF]
+Vanessa is currently carrying Ross as[Huff][LF]
+a [ToggleRed]traveler[ToggleRed].[Huff][A][LF]
 Drop Ross off next to Moulder.[A][LF]
-First, place the cursor on [....][ToggleRed]Vanessa[....][ToggleRed][LF]
-and press the A Button.[....][A][X]
+First, place the cursor on [Huff][ToggleRed]Vanessa[Huff][ToggleRed][LF]
+and press the A Button.[Huff][A][X]
 
 ## MSG_0976
 Press the A Button[LF]
-and select [....][ToggleRed]drop[ToggleRed].[....][A][X]
+and select [Huff][ToggleRed]drop[ToggleRed].[Huff][A][X]
 
 ## MSG_0977
-You can continue to move.[....][A][LF]
+You can continue to move.[Huff][A][LF]
 Ross's father, Garcia, is still on[LF]
 the other side of the mountains.[A][LF]
-Move close so that it's easier to[....][LF]
-rescue him on your next turn.[....][A][X]
+Move close so that it's easier to[Huff][LF]
+rescue him on your next turn.[Huff][A][X]
 
 ## MSG_0978
-Moulder can use his [ToggleRed]staff[....][ToggleRed] to[....][LF]
-restore some of Ross's [....][ToggleRed]HP[ToggleRed].[....][A][LF]
-Place the cursor on [ToggleRed]Moulder[....][ToggleRed] and[LF]
-press the A Button.[....][A][X]
+Moulder can use his [ToggleRed]staff[Huff][ToggleRed] to[Huff][LF]
+restore some of Ross's [Huff][ToggleRed]HP[ToggleRed].[Huff][A][LF]
+Place the cursor on [ToggleRed]Moulder[Huff][ToggleRed] and[LF]
+press the A Button.[Huff][A][X]
 
 ## MSG_0979
 Leave the cursor where it is and[LF]
-press the A Button again.[....][A][X]
+press the A Button again.[Huff][A][X]
 
 ## MSG_097A
-Now select [....][ToggleRed]Staff[....][ToggleRed] and [....][LF]
-press the A Button again.[....][A][X]
+Now select [Huff][ToggleRed]Staff[Huff][ToggleRed] and [Huff][LF]
+press the A Button again.[Huff][A][X]
 
 ## MSG_097B
-Ross has been [ToggleRed]rescued[....][ToggleRed].[....][LF]
-Now bring Moulder to Vanessa.[....][A][LF]
-Select [....][ToggleRed]Moulder[....][ToggleRed] with the cursor[LF]
-and press the A Button.[....][A][X]
+Ross has been [ToggleRed]rescued[Huff][ToggleRed].[Huff][LF]
+Now bring Moulder to Vanessa.[Huff][A][LF]
+Select [Huff][ToggleRed]Moulder[Huff][ToggleRed] with the cursor[LF]
+and press the A Button.[Huff][A][X]
 
 ## MSG_097C
-Move close to [ToggleRed]Vanessa[....][ToggleRed].[....][LF]
+Move close to [ToggleRed]Vanessa[Huff][ToggleRed].[Huff][LF]
 Place the cursor on the flashing[LF]
-space and press the A Button.[....][A][X]
+space and press the A Button.[Huff][A][X]
 
 ## MSG_097D
-In this way, you can use [....][ToggleRed]Rescue[ToggleRed] to[....][LF]
+In this way, you can use [Huff][ToggleRed]Rescue[ToggleRed] to[Huff][LF]
 help units in danger, as well as[LF]
 in other situations.[A][LF]
 Use it to your advantage, and turn[LF]
 battles in your favor.[A][X]
 
 ## MSG_097E
-The [ToggleRed]objective[....][ToggleRed] on this map [....][LF]
-is to [ToggleRed]defeat all enemies[ToggleRed].[....][A][LF]
-The number of enemies [ToggleRed]left[ToggleRed] [....][LF]
+The [ToggleRed]objective[Huff][ToggleRed] on this map [Huff][LF]
+is to [ToggleRed]defeat all enemies[ToggleRed].[Huff][A][LF]
+The number of enemies [ToggleRed]left[ToggleRed] [Huff][LF]
 appears on the edge of the screen.[A][LF]
-Defeat all of your opponents to[....][LF]
-gain a [....][ToggleRed]victory[....][ToggleRed].[....][A][X]
+Defeat all of your opponents to[Huff][LF]
+gain a [Huff][ToggleRed]victory[Huff][ToggleRed].[Huff][A][X]
 
 ## MSG_097F
-Ross has joined your team and become [....][LF]
-one of your [ToggleRed]allies[ToggleRed].[....][A][LF]
-The green unit on the other side of the[....][LF]
-mountains is Garcia. He is still [....][ToggleRed]neutral[....][ToggleRed].[....][A][LF]
+Ross has joined your team and become [Huff][LF]
+one of your [ToggleRed]allies[ToggleRed].[Huff][A][LF]
+The green unit on the other side of the[Huff][LF]
+mountains is Garcia. He is still [Huff][ToggleRed]neutral[Huff][ToggleRed].[Huff][A][LF]
 If you get the right person to talk to[LF]
-him, he may become an [ToggleRed]ally[ToggleRed].[....][A][LF]
+him, he may become an [ToggleRed]ally[ToggleRed].[Huff][A][LF]
 Move into spaces adjoining green units[LF]
-and select [....][ToggleRed]Talk[ToggleRed].[....][A][CR][LF]
+and select [Huff][ToggleRed]Talk[ToggleRed].[Huff][A][CR][LF]
 Ross is Garcia's son. Move Ross into a[LF]
-space next to Garcia and choose [ToggleRed]Talk[ToggleRed].[....][A][X]
+space next to Garcia and choose [ToggleRed]Talk[ToggleRed].[Huff][A][X]
 
 ## MSG_0980
-[ToggleRed]Visit[....][ToggleRed] a village to warn it about the[....][LF]
+[ToggleRed]Visit[Huff][ToggleRed] a village to warn it about the[Huff][LF]
 bandit threat. First, place the cursor[LF]
-on [....][ToggleRed]Eirika[ToggleRed] and press the A Button.[A][X]
+on [Huff][ToggleRed]Eirika[ToggleRed] and press the A Button.[A][X]
 
 ## MSG_0981
-The cursor is on [....][ToggleRed]Eirika[ToggleRed].[....][LF]
-Press the A Button.[....][A][X]
+The cursor is on [Huff][ToggleRed]Eirika[ToggleRed].[Huff][LF]
+Press the A Button.[Huff][A][X]
 
 ## MSG_0982
-Move [....][ToggleRed]Eirika[ToggleRed] to the village.[LF]
+Move [Huff][ToggleRed]Eirika[ToggleRed] to the village.[LF]
 Place the cursor on the flashing[LF]
-space and press the A Button.[....][A][X]
+space and press the A Button.[Huff][A][X]
 
 ## MSG_0983
-Now select [....][ToggleRed]Visit[....][ToggleRed] and press[LF]
-the A Button again.[....][A][X]
+Now select [Huff][ToggleRed]Visit[Huff][ToggleRed] and press[LF]
+the A Button again.[Huff][A][X]
 
 ## MSG_0984
-Try talking to Ross. Place the cursor[....][LF]
-on [....][ToggleRed]Eirika[ToggleRed] and press the A Button.[A][X]
+Try talking to Ross. Place the cursor[Huff][LF]
+on [Huff][ToggleRed]Eirika[ToggleRed] and press the A Button.[A][X]
 
 ## MSG_0985
-The cursor is on [....][ToggleRed]Eirika[ToggleRed].[....][LF]
-Press the A Button.[....][A][X]
+The cursor is on [Huff][ToggleRed]Eirika[ToggleRed].[Huff][LF]
+Press the A Button.[Huff][A][X]
 
 ## MSG_0986
-Move Eirika next to Ross. Place[....][LF]
+Move Eirika next to Ross. Place[Huff][LF]
 the cursor in the flashing[LF]
-space and press the A Button.[....][A][X]
+space and press the A Button.[Huff][A][X]
 
 ## MSG_0987
-Select [....][ToggleRed]Talk[ToggleRed] and press[LF]
-the A Button.[....][A][X]
+Select [Huff][ToggleRed]Talk[ToggleRed] and press[LF]
+the A Button.[Huff][A][X]
 
 ## MSG_0988
-There is an [ToggleRed]armory[ToggleRed] due south of here.[....][A][LF]
-You could probably take the [ToggleRed]red gem[....][ToggleRed] you[LF]
-got at the village and sell it there.[....][A][X]
+There is an [ToggleRed]armory[ToggleRed] due south of here.[Huff][A][LF]
+You could probably take the [ToggleRed]red gem[Huff][ToggleRed] you[LF]
+got at the village and sell it there.[Huff][A][X]
 
 ## MSG_0989
-It's a good idea to buy iron swords and[....][LF]
-other everyday weapons at [ToggleRed]armories[ToggleRed].[....][A][LF]
+It's a good idea to buy iron swords and[Huff][LF]
+other everyday weapons at [ToggleRed]armories[ToggleRed].[Huff][A][LF]
 However, your funds are not endless.[A][LF]
-There are [ToggleRed]armories[ToggleRed] in other towns, too,[....][LF]
+There are [ToggleRed]armories[ToggleRed] in other towns, too,[Huff][LF]
 so purchase only necessary items here.[A][X]
 
 ## MSG_098A
 From here on out, you'll also have[LF]
-the services of a [ToggleRed]supply convoy[....][ToggleRed].[....][LF]
-The [ToggleRed]supply convoy[....][ToggleRed] always travels [LF]
+the services of a [ToggleRed]supply convoy[Huff][ToggleRed].[Huff][LF]
+The [ToggleRed]supply convoy[Huff][ToggleRed] always travels [LF]
 with your commander.[A][LF]
-The commander of this group is [....][ToggleRed]Eirika[ToggleRed].[....][A][LF]
+The commander of this group is [Huff][ToggleRed]Eirika[ToggleRed].[Huff][A][LF]
 If you place an allied unit in a space[LF]
 next to [ToggleRed]Eirika[ToggleRed], the [ToggleRed]supply[ToggleRed] command[LF]
 will display. You will then be able to[LF]
-[ToggleRed]give[ToggleRed] and [....][ToggleRed]take[ToggleRed] items.[....][A][LF]
+[ToggleRed]give[ToggleRed] and [Huff][ToggleRed]take[ToggleRed] items.[Huff][A][LF]
 If you're carrying too many items,[LF]
 it's a good idea to [ToggleRed]give[ToggleRed] some to[LF]
-the [ToggleRed]supply convoy[....][ToggleRed].[....][A][X]
+the [ToggleRed]supply convoy[Huff][ToggleRed].[Huff][A][X]
 
 ## MSG_098B
 [X]
@@ -8566,99 +8567,99 @@ the [ToggleRed]supply convoy[....][ToggleRed].[....][A][X]
 [X]
 
 ## MSG_099B
-[ToggleRed]Walls[....][ToggleRed] with cracks in them can be[....][LF]
-attacked and destroyed.[....][A][LF]
+[ToggleRed]Walls[Huff][ToggleRed] with cracks in them can be[Huff][LF]
+attacked and destroyed.[Huff][A][LF]
 Once a wall is destroyed, you can pass[LF]
-through the opening you've created.[....][A][LF]
+through the opening you've created.[Huff][A][LF]
 When your way seems blocked, be sure[LF]
-to check all the [....][ToggleRed]walls[....][ToggleRed].[....][A][X]
+to check all the [Huff][ToggleRed]walls[Huff][ToggleRed].[Huff][A][X]
 
 ## MSG_099C
-The bandits' [....][ToggleRed]hand axes[....][ToggleRed] can be used[LF]
-in both [ToggleRed]direct[ToggleRed] and [....][ToggleRed]indirect combat[....][ToggleRed].[....][A][LF]
+The bandits' [Huff][ToggleRed]hand axes[Huff][ToggleRed] can be used[LF]
+in both [ToggleRed]direct[ToggleRed] and [Huff][ToggleRed]indirect combat[Huff][ToggleRed].[Huff][A][LF]
 They can be wielded like normal axes[LF]
 in direct, hand-to-hand combat[A][LF]
-or thrown to strike enemies who are[....][LF]
-a space away or at an angle to you.[....][A][LF]
+or thrown to strike enemies who are[Huff][LF]
+a space away or at an angle to you.[Huff][A][LF]
 Like bows, they can also hit enemies[LF]
-on the [....][ToggleRed]other sides of walls[ToggleRed].[....][A][X]
+on the [Huff][ToggleRed]other sides of walls[ToggleRed].[Huff][A][X]
 
 ## MSG_099D
-The [ToggleRed]thief[....][ToggleRed] Colm has appeared.[....][A][LF]
-Thieves can [ToggleRed]steal[....][ToggleRed] items from[....][LF]
+The [ToggleRed]thief[Huff][ToggleRed] Colm has appeared.[Huff][A][LF]
+Thieves can [ToggleRed]steal[Huff][ToggleRed] items from[Huff][LF]
 other units.[A][LF]
-Also, they can [....][ToggleRed]open the locks[ToggleRed] of[....][LF]
-[ToggleRed]doors[....][ToggleRed] and [....][ToggleRed]chests[ToggleRed]. Thieves[....][LF]
+Also, they can [Huff][ToggleRed]open the locks[ToggleRed] of[Huff][LF]
+[ToggleRed]doors[Huff][ToggleRed] and [Huff][ToggleRed]chests[ToggleRed]. Thieves[Huff][LF]
 are handy allies to have around.[A][X]
 
 ## MSG_099E
 Place the cursor on a unit and press[LF]
 the [ToggleRed]R Button[ToggleRed] to display that[LF]
-unit's [....][ToggleRed]status[ToggleRed].[....][A][LF]
-For example, if you select a bandit[....][LF]
+unit's [Huff][ToggleRed]status[ToggleRed].[Huff][A][LF]
+For example, if you select a bandit[Huff][LF]
 and press the [ToggleRed]R Button[ToggleRed], you'll[LF]
 see that he's carrying a hand axe.[A][CR][LF]
-If you press the [....][ToggleRed]R Button[ToggleRed] again,[....][LF]
-you'll see [....][ToggleRed]help information[ToggleRed] for each[....][LF]
-item on-screen.[....][A][LF]
-You can use the [ToggleRed]R Button[ToggleRed] to see[....][LF]
+If you press the [Huff][ToggleRed]R Button[ToggleRed] again,[Huff][LF]
+you'll see [Huff][ToggleRed]help information[ToggleRed] for each[Huff][LF]
+item on-screen.[Huff][A][LF]
+You can use the [ToggleRed]R Button[ToggleRed] to see[Huff][LF]
 the properties of weapons and items.[A][LF]
-If there's something you don't [....][LF]
-understand about [....][ToggleRed]unit information[ToggleRed], [LF]
-press the [ToggleRed]R Button[ToggleRed].[....][A][X]
+If there's something you don't [Huff][LF]
+understand about [Huff][ToggleRed]unit information[ToggleRed], [LF]
+press the [ToggleRed]R Button[ToggleRed].[Huff][A][X]
 
 ## MSG_099F
-Bows are [....][ToggleRed]ranged weapons[ToggleRed].[....][LF]
+Bows are [Huff][ToggleRed]ranged weapons[ToggleRed].[Huff][LF]
 They can be used to attack enemies[LF]
-who are a space away.[....][A][LF]
+who are a space away.[Huff][A][LF]
 Additionally, they can be used[LF]
-to attack over walls.[....][A][X]
+to attack over walls.[Huff][A][X]
 
 ## MSG_09A0
-Colm and Neimi are childhood friends.[....][LF]
-Try moving Neimi next to Colm and[....][LF]
-have her [....][ToggleRed]talk[ToggleRed] to him. He[....][LF]
-may decide to join you.[....][A][X]
+Colm and Neimi are childhood friends.[Huff][LF]
+Try moving Neimi next to Colm and[Huff][LF]
+have her [Huff][ToggleRed]talk[ToggleRed] to him. He[Huff][LF]
+may decide to join you.[Huff][A][X]
 
 ## MSG_09A1
-Colm and Neimi have an [....][ToggleRed]invisible[....][LF]
-bond[ToggleRed] that ties them together.[....][A][LF]
-Units that have such a bond can[....][LF]
-develop a [ToggleRed]support relationship[ToggleRed].[....][A][CR][LF]
+Colm and Neimi have an [Huff][ToggleRed]invisible[Huff][LF]
+bond[ToggleRed] that ties them together.[Huff][A][LF]
+Units that have such a bond can[Huff][LF]
+develop a [ToggleRed]support relationship[ToggleRed].[Huff][A][CR][LF]
 Units become closer and their bond[LF]
 stronger the longer they are[LF]
-[ToggleRed]adjacent to one another[....][ToggleRed].[....][A][LF]
+[ToggleRed]adjacent to one another[Huff][ToggleRed].[Huff][A][LF]
 Eventually, they will be able to[LF]
-share a [ToggleRed]support conversation[ToggleRed].[....][A][CR][LF]
-Units that share a support relationship[....][LF]
-fight with [....][ToggleRed]improved abilities[ToggleRed][LF]
+share a [ToggleRed]support conversation[ToggleRed].[Huff][A][CR][LF]
+Units that share a support relationship[Huff][LF]
+fight with [Huff][ToggleRed]improved abilities[ToggleRed][LF]
 when they are near each other.[A][CR][LF]
-There are three levels of support[....][LF]
-units can share: [....][ToggleRed]C, B, and A[....][ToggleRed].[....][A][LF]
+There are three levels of support[Huff][LF]
+units can share: [Huff][ToggleRed]C, B, and A[Huff][ToggleRed].[Huff][A][LF]
 Levels are gained by staying[LF]
-side-by-side as much as possible.[....][A][CR][LF]
-Colm and Neimi are not the only units[....][LF]
+side-by-side as much as possible.[Huff][A][CR][LF]
+Colm and Neimi are not the only units[Huff][LF]
 that can have support relationships.[LF]
-Eirika and Seth, among others, can [....][LF]
+Eirika and Seth, among others, can [Huff][LF]
 grow close to other units as well.[A][CR][LF]
-Watch how characters interact with each[....][LF]
-other to guess at who might share[....][LF]
-a support relationship with whom.[....][A][CR][LF]
-If you have two units you think may[....][LF]
-have such a bond, [ToggleRed]place them next[....][LF]
-to one another again and again[ToggleRed].[....][A][LF]
+Watch how characters interact with each[Huff][LF]
+other to guess at who might share[Huff][LF]
+a support relationship with whom.[Huff][A][CR][LF]
+If you have two units you think may[Huff][LF]
+have such a bond, [ToggleRed]place them next[Huff][LF]
+to one another again and again[ToggleRed].[Huff][A][LF]
 Who knows: they may eventually share[LF]
-a [ToggleRed]support conversation[ToggleRed].[....][A][CR][LF]
+a [ToggleRed]support conversation[ToggleRed].[Huff][A][CR][LF]
 However, bear in mind that each unit[LF]
-can have only [ToggleRed]5[....][ToggleRed] support relationships.[....][A][X]
+can have only [ToggleRed]5[Huff][ToggleRed] support relationships.[Huff][A][X]
 
 ## MSG_09A2
 Enemy units may sometimes drop items[LF]
-when they are defeated.[....][A][LF]
-In the same way you searched for hand[....][LF]
+when they are defeated.[Huff][A][LF]
+In the same way you searched for hand[Huff][LF]
 axes earlier, try looking at enemy items[LF]
-with the [....][ToggleRed]R Button[ToggleRed].[....][A][LF]
-[ToggleRed]Green items[....][ToggleRed] are items that will be [LF]
+with the [Huff][ToggleRed]R Button[ToggleRed].[Huff][A][LF]
+[ToggleRed]Green items[Huff][ToggleRed] are items that will be [LF]
 dropped. Check enemy items beforehand [LF]
 to gain the advantage in combat.[A][X]
 
@@ -8721,24 +8722,24 @@ to gain the advantage in combat.[A][X]
 
 ## MSG_09B6
 There are three different schools of[LF]
-[ToggleRed]magic[....][ToggleRed], each of which is governed[....][LF]
-by the [....][ToggleRed]trinity of magic[ToggleRed].[....][A][LF]
-[ToggleRed]Light[....][ToggleRed] is strong against [....][ToggleRed]Dark[ToggleRed].[....][LF]
-[ToggleRed]Dark[ToggleRed] is strong against [....][ToggleRed]Anima[....][ToggleRed].[....][LF]
-[ToggleRed]Anima[....][ToggleRed] is strong against [....][ToggleRed]Light[....][ToggleRed].[....][A][LF]
-For now, just remember that [ToggleRed]Light[....][LF]
-is strong against Dark[ToggleRed].[....][A][X]
+[ToggleRed]magic[Huff][ToggleRed], each of which is governed[Huff][LF]
+by the [Huff][ToggleRed]trinity of magic[ToggleRed].[Huff][A][LF]
+[ToggleRed]Light[Huff][ToggleRed] is strong against [Huff][ToggleRed]Dark[ToggleRed].[Huff][LF]
+[ToggleRed]Dark[ToggleRed] is strong against [Huff][ToggleRed]Anima[Huff][ToggleRed].[Huff][LF]
+[ToggleRed]Anima[Huff][ToggleRed] is strong against [Huff][ToggleRed]Light[Huff][ToggleRed].[Huff][A][LF]
+For now, just remember that [ToggleRed]Light[Huff][LF]
+is strong against Dark[ToggleRed].[Huff][A][X]
 
 ## MSG_09B7
-The [ToggleRed]magic[....][ToggleRed] that Artur and Lute[LF]
+The [ToggleRed]magic[Huff][ToggleRed] that Artur and Lute[LF]
 wield cannot be stopped by[LF]
-physical [....][ToggleRed]defense[....][ToggleRed].[....][A][LF]
-However, magic [....][ToggleRed]resistance[ToggleRed] can affect[....][LF]
-the damage it does.[....][A][LF]
+physical [Huff][ToggleRed]defense[Huff][ToggleRed].[Huff][A][LF]
+However, magic [Huff][ToggleRed]resistance[ToggleRed] can affect[Huff][LF]
+the damage it does.[Huff][A][LF]
 So, it's possible to do high damage to[LF]
-units like [....][ToggleRed]knights[....][ToggleRed], who possess[....][LF]
-strong [....][ToggleRed]defenses[ToggleRed].[....][A][LF]
-On the other hand, it's difficult to harm[....][LF]
+units like [Huff][ToggleRed]knights[Huff][ToggleRed], who possess[Huff][LF]
+strong [Huff][ToggleRed]defenses[ToggleRed].[Huff][A][LF]
+On the other hand, it's difficult to harm[Huff][LF]
 units with high [ToggleRed]resistance[ToggleRed], like[LF]
 pegasus knights.[A][LF]
 Magic can also be used to attack[LF]
@@ -8749,24 +8750,24 @@ enemies at a distance.[A][X]
 
 ## MSG_09B8
 Starting on this map, you'll be able[LF]
-to use the [....][ToggleRed]preparations screen[....][ToggleRed].[....][A][LF]
-You can [ToggleRed]choose which units[ToggleRed] to send into[....][LF]
-battle and [....][ToggleRed]manage items[ToggleRed] to secure[LF]
-the best chance of victory.[....][A][X]
+to use the [Huff][ToggleRed]preparations screen[Huff][ToggleRed].[Huff][A][LF]
+You can [ToggleRed]choose which units[ToggleRed] to send into[Huff][LF]
+battle and [Huff][ToggleRed]manage items[ToggleRed] to secure[LF]
+the best chance of victory.[Huff][A][X]
 
 ## MSG_09B9
-Forests and other map areas may[....][LF]
-offer [ToggleRed]terrain bonuses[....][ToggleRed].[....][A][LF]
+Forests and other map areas may[Huff][LF]
+offer [ToggleRed]terrain bonuses[Huff][ToggleRed].[Huff][A][LF]
 Units in forests are harder to hit[LF]
-and take less damage when struck.[....][A][LF]
-Simply put, staying under trees makes[....][LF]
-it more difficult for enemies to hit [....][LF]
-and harm you.[....][A][LF]
-Areas that have [ToggleRed]terrain bonuses[....][ToggleRed] are[LF]
-[ToggleRed]forests[....][ToggleRed], [ToggleRed]mountains[....][ToggleRed], [ToggleRed]fortresses[ToggleRed], and[....][LF]
-[ToggleRed]gates[....][ToggleRed], to name a few.[A][LF]
+and take less damage when struck.[Huff][A][LF]
+Simply put, staying under trees makes[Huff][LF]
+it more difficult for enemies to hit [Huff][LF]
+and harm you.[Huff][A][LF]
+Areas that have [ToggleRed]terrain bonuses[Huff][ToggleRed] are[LF]
+[ToggleRed]forests[Huff][ToggleRed], [ToggleRed]mountains[Huff][ToggleRed], [ToggleRed]fortresses[ToggleRed], and[Huff][LF]
+[ToggleRed]gates[Huff][ToggleRed], to name a few.[A][LF]
 Use terrain to your advantage during[LF]
-combat to avoid risking your units.[....][A][X]
+combat to avoid risking your units.[Huff][A][X]
 
 ## MSG_09BA
 [X]
@@ -8838,50 +8839,50 @@ combat to avoid risking your units.[....][A][X]
 [X]
 
 ## MSG_09D1
-Sometimes, you can talk to an enemy and[....][LF]
-convince him to join you.[....][A][LF]
+Sometimes, you can talk to an enemy and[Huff][LF]
+convince him to join you.[Huff][A][LF]
 For example, right now, [ToggleRed]Joshua[ToggleRed] might[LF]
-be inclined to talk with [....][ToggleRed]Natasha[....][ToggleRed].[....][A][CR][LF]
-However, [....][ToggleRed]Joshua[ToggleRed] is a [ToggleRed]red unit[ToggleRed].[....][A][LF]
+be inclined to talk with [Huff][ToggleRed]Natasha[Huff][ToggleRed].[Huff][A][CR][LF]
+However, [Huff][ToggleRed]Joshua[ToggleRed] is a [ToggleRed]red unit[ToggleRed].[Huff][A][LF]
 Unlike green units you've seen before,[LF]
 he will [ToggleRed]attack[ToggleRed] until he's spoken to.[A][LF]
-Moreover, [ToggleRed]Joshua[ToggleRed] is a [ToggleRed]myrmidon[ToggleRed], who[....][LF]
-specializes in [....][ToggleRed]critical hits[....][ToggleRed].[....][A][LF]
-If you are struck by a [....][ToggleRed]critical hit[ToggleRed], you[....][LF]
+Moreover, [ToggleRed]Joshua[ToggleRed] is a [ToggleRed]myrmidon[ToggleRed], who[Huff][LF]
+specializes in [Huff][ToggleRed]critical hits[Huff][ToggleRed].[Huff][A][LF]
+If you are struck by a [Huff][ToggleRed]critical hit[ToggleRed], you[Huff][LF]
 will suffer 3 times the normal damage.[A][LF]
 It's a good idea to check [ToggleRed]Crit[ToggleRed][LF]
-on the combat information window.[....][A][X]
+on the combat information window.[Huff][A][X]
 
 ## MSG_09D2
-You got an armorslayer.[....][A][LF]
+You got an armorslayer.[Huff][A][LF]
 This weapon is similar to rapiers in[LF]
 that you can severely injure knights[LF]
 and generals with a single blow.[A][LF]
-In such cases, the weapon icon on the[....][LF]
-combat information window will flash.[....][A][X]
+In such cases, the weapon icon on the[Huff][LF]
+combat information window will flash.[Huff][A][X]
 
 ## MSG_09D3
-There's an [....][ToggleRed]armory[ToggleRed] and a[LF]
+There's an [Huff][ToggleRed]armory[ToggleRed] and a[LF]
 [ToggleRed]shop[ToggleRed] in this city.[A][X]
 
 ## MSG_09D4
 [ToggleRed]Armories[ToggleRed] sell iron swords, steel[LF]
 lances, and other weapons.[A][LF]
-[ToggleRed]Shops[....][ToggleRed] carry spells, vulneraries,[....][LF]
+[ToggleRed]Shops[Huff][ToggleRed] carry spells, vulneraries,[Huff][LF]
 and a myriad of other items.[A][LF]
 If you're running short on anything,[LF]
 make sure you stock up here.[A][X]
 
 ## MSG_09D5
-There's an [....][ToggleRed]arena[....][ToggleRed] here.[A][X]
+There's an [Huff][ToggleRed]arena[Huff][ToggleRed] here.[A][X]
 
 ## MSG_09D6
 Arenas play host to [ToggleRed]one-on-one[LF]
-combat matches[ToggleRed].[....][A][LF]
-If you win a match, you'll earn [ToggleRed]twice[....][LF]
-the amount of the entry fee[....][ToggleRed].[....][A][LF]
+combat matches[ToggleRed].[Huff][A][LF]
+If you win a match, you'll earn [ToggleRed]twice[Huff][LF]
+the amount of the entry fee[Huff][ToggleRed].[Huff][A][LF]
 If you lose, however, that unit [ToggleRed]will not[LF]
-be able to fight in any future battles[ToggleRed].[....][A][LF]
+be able to fight in any future battles[ToggleRed].[Huff][A][LF]
 If your HP drops near zero in a fight,[LF]
 [ToggleRed]press the B Button quickly[ToggleRed] to concede.[A][LF]
 You'll lose your entry fee, but you'll[LF]
@@ -10052,18 +10053,18 @@ save your unit to fight again.[A][X]
 [X]
 
 ## MSG_0B5B
-Eirika's [....][ToggleRed]Lunar Brace[....][ToggleRed] and[LF]
-Ephraim's [ToggleRed]Solar Brace[....][ToggleRed] glow[....][LF]
+Eirika's [Huff][ToggleRed]Lunar Brace[Huff][ToggleRed] and[LF]
+Ephraim's [ToggleRed]Solar Brace[Huff][ToggleRed] glow[Huff][LF]
 in response to the Sacred Stone.[LF]
 With the power of the bracelets, the[LF]
-twins can now change classes.[....][A][X]
+twins can now change classes.[Huff][A][X]
 
 ## MSG_0B5C
-Ephraim's [ToggleRed]Solar Brace[....][ToggleRed] and[LF]
-Eirika's [....][ToggleRed]Lunar Brace[....][ToggleRed] glow[....][LF]
+Ephraim's [ToggleRed]Solar Brace[Huff][ToggleRed] and[LF]
+Eirika's [Huff][ToggleRed]Lunar Brace[Huff][ToggleRed] glow[Huff][LF]
 in answer to the Sacred Stone.[LF]
 With the power of the bracelets,[LF]
-the twins can now change classes.[....][A][X]
+the twins can now change classes.[Huff][A][X]
 
 ## MSG_0B5D
 Do you want Eirika to change[LF]
@@ -10071,19 +10072,19 @@ classes now?[LF]
 [Yes][X]
 
 ## MSG_0B5E
-Do you want Ephraim to change[....][LF]
+Do you want Ephraim to change[Huff][LF]
 classes now?[LF]
 [Yes][X]
 
 ## MSG_0B5F
-Eirika got the [....][ToggleRed]Lunar Brace[....][ToggleRed].[....][LF]
-She can use it to[....][LF]
-change classes.[....][A][X]
+Eirika got the [Huff][ToggleRed]Lunar Brace[Huff][ToggleRed].[Huff][LF]
+She can use it to[Huff][LF]
+change classes.[Huff][A][X]
 
 ## MSG_0B60
-Ephraim got the [ToggleRed]Solar Brace[....][ToggleRed].[....][LF]
+Ephraim got the [ToggleRed]Solar Brace[Huff][ToggleRed].[Huff][LF]
 He can use it to[LF]
-change classes.[....][A][X]
+change classes.[Huff][A][X]
 
 ## MSG_0B61
 [X]
@@ -10624,7 +10625,7 @@ change classes.[....][A][X]
 
 ## MSG_0C14
 Eirika and Ephraim will now part ways.[LF]
-Which of them will you accompany?[....][A][X]
+Which of them will you accompany?[Huff][A][X]
 
 ## MSG_0C15
 Go with Eirika to Rausten.[X]
@@ -10637,7 +10638,7 @@ Will you go with Eirika?[LF]
 [Yes][X]
 
 ## MSG_0C18
-Will you go with Ephraim?[....][LF]
+Will you go with Ephraim?[Huff][LF]
 [Yes][X]
 
 ## MSG_0C19

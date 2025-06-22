@@ -2,8 +2,8 @@
 #include "KSDefinitions.h"
 
 const struct ClassData ClassWyvernRiderM = {
-    .nameTextId = 0x2ce,
-    .descTextId = 0x31a,
+    .nameTextId = MSG_CLASS_WYVERNRIDER_NAME,
+    .descTextId = MSG_CLASS_WYVERNRIDER_DESC,
     .number = CLASS_WYVERN_RIDER_M,
     .promotion = CLASS_WYVERN_LORD,
     .SMSId = CLASS_WYVERN_RIDER_M - 1,

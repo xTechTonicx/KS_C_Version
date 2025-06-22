@@ -1,3 +1,52 @@
+## MSG_CLASS_UMBRAL_BISHOP_DESC
+Esteemed dark mages that retain their peers'[NL]
+fearsome magic while also being able to[NL]
+wield holy and wicked staves.[X]
+
+## MSG_CLASS_MILITIA_DESC
+Poorly trained, lance-wielding peasantry[NL]
+with good offense but poor defense.[X]
+
+## MSG_CLASS_SWORD_PEGASUS_DESC
+Flying knight that ignore terrain and[NL]
+attack foes with swords. High speed and[NL]
+resistance, but weak to bows.[X]
+
+## MSG_CLASS_LANCE_PEGASUS_DESC
+Flying knight that ignore terrain and[NL]
+attack foes with lances. High speed and[NL]
+resistance, but weak to bows.[X]
+
+## MSG_CLASS_CANTOR_DESC
+Esteemed dark mages capable of[NL]
+summoning monsters using the power[NL]
+contained in umbral keystones.[X]
+
+## MSG_CLASS_BALLISTICIAN_DESC
+Long range artillery that is capable[NL]
+of wreaking havoc across the battlefield.[NL]
+Incabable of doubling.[X]
+
+## MSG_CLASS_SWORD_ARMOUR_DESC
+Heavily armoured soldiers that use[NL]
+swords. Low mobility, and incapable of[NL]
+doubling or getting doubled.[X]
+
+## MSG_CLASS_LANCE_ARMOUR_DESC
+Heavily armoured soldiers that use[NL]
+lances. Low mobility, and incapable of[NL]
+doubling or getting doubled.[X]
+
+## MSG_CLASS_AXE_ARMOUR_DESC
+Heavily armoured soldiers that use[NL]
+axes. Low mobility, and incapable of[NL]
+doubling or getting doubled.[X]
+
+## MSG_CLASS_SWORD_CAV_DESC
+Mounted soldiers that use swords to[NL]
+cut through the battlefield. Their[NL]
+stats are balanced.[X]
+
 ## MSG_CLASS_LANCE_CAV_DESC
 Mounted soldiers that use lances to[NL]
 cut through the battlefield. Their[NL]

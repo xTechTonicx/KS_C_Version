@@ -32,7 +32,7 @@
 [BuySell] = 26
 [ShopContinue] = 27
 [SendToBack] = 28
-[.] = 31
+[Huff] = 31
 
 // A special hook on "#" :\
 [HASH] = 0x23

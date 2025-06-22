@@ -2,8 +2,8 @@
 #include "KSDefinitions.h"
 
 const struct ClassData ClassLancePegasusM = {
-    .nameTextId = 0x2e7,
-    .descTextId = 0x333,
+    .nameTextId = MSG_CLASS_LANCE_PEGASUS_NAME,
+    .descTextId = MSG_CLASS_LANCE_PEGASUS_DESC,
     .number = CLASS_LANCE_PEGASUS_M,
     .promotion = CLASS_FALCON_KNIGHT,
     .SMSId = CLASS_LANCE_PEGASUS_M - 1,

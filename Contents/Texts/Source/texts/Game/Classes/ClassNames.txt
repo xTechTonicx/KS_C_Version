@@ -1,3 +1,33 @@
+## MSG_CLASS_UMBRAL_BISHOP_NAME
+Umbral Bishop[X]
+
+## MSG_CLASS_MILITIA_NAME
+Militia[X]
+
+## MSG_CLASS_SWORD_PEGASUS_NAME
+Sword Pegasus[X]
+
+## MSG_CLASS_LANCE_PEGASUS_NAME
+Lance Pegasus[X]
+
+## MSG_CLASS_CANTOR_NAME
+Cantor[X]
+
+## MSG_CLASS_BALLISTICIAN_NAME
+Ballistician[X]
+
+## MSG_CLASS_SWORD_ARMOUR_NAME
+Sword Knight[X]
+
+## MSG_CLASS_LANCE_ARMOUR_NAME
+Lance Knight[X]
+
+## MSG_CLASS_AXE_ARMOUR_NAME
+Axe Knight[X]
+
+## MSG_CLASS_SWORD_CAV_NAME
+Sword Cavalier[X]
+
 ## MSG_CLASS_LANCE_CAV_NAME
 Lance Cavalier[X]
 

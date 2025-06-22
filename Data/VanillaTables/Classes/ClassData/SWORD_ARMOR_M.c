@@ -2,8 +2,8 @@
 #include "KSDefinitions.h"
 
 const struct ClassData ClassSwordArmorM = {
-    .nameTextId = 0x2c3,
-    .descTextId = 0x30f,
+    .nameTextId = MSG_CLASS_SWORD_ARMOUR_NAME,
+    .descTextId = MSG_CLASS_SWORD_ARMOUR_DESC,
     .number = CLASS_SWORD_ARMOR_M,
     .promotion = CLASS_GENERAL,
     .SMSId = CLASS_SWORD_ARMOR_M - 1,

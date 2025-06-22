@@ -2,8 +2,8 @@
 #include "KSDefinitions.h"
 
 const struct ClassData ClassUmbralBishopF = {
-    .nameTextId = 0x2d1,
-    .descTextId = 0x31d,
+    .nameTextId = MSG_CLASS_UMBRAL_BISHOP_NAME,
+    .descTextId = MSG_CLASS_UMBRAL_BISHOP_DESC,
     .number = CLASS_UMBRAL_BISHOP_F,
     .promotion = 0x0,
     .SMSId = CLASS_UMBRAL_BISHOP_F - 1,
