@@ -49,7 +49,7 @@ const struct ClassData ClassSwordCavF = {
     .baseRanks = {
         [ITYPE_SWORD] = WPN_EXP_E,
     },
-    .pBattleAnimDef = AnimConf_088AF008,
+    .pBattleAnimDef = CAVALIER_F_REF,
     .pMovCostTable = {
         TerrainTable_MovCost_HorseT1Normal,
         TerrainTable_MovCost_HorseT1Rain,

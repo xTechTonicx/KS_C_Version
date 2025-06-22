@@ -19,18 +19,6 @@
     #include "BattleAnimData/ADVENTURER_M_UNARMED.event"
 }
 
-// ARCHER_F
-{
-    #include "BattleAnimData/ARCHER_F_BOW.event"
-    #include "BattleAnimData/ARCHER_F_UNARMED.event"
-}
-
-// ARCHER_M
-{
-    #include "BattleAnimData/ARCHER_M_BOW.event"
-    #include "BattleAnimData/ARCHER_M_UNARMED.event"
-}
-
 // ARMOR_U
 {
     #include "BattleAnimData/ARMOR_U_AXE.event"
@@ -40,35 +28,50 @@
     #include "BattleAnimData/ARMOR_U_UNARMED.event"
 }
 
-// AXECAV_F
+// BALLISTA_U
 {
-    #include "BattleAnimData/AXECAV_F_AXE.event"
-    #include "BattleAnimData/AXECAV_F_HANDAXE.event"
-    #include "BattleAnimData/AXECAV_F_UNARMED.event"
+    #include "BattleAnimData/BALLISTA_U_BOW.event"
 }
 
-// AXECAV_M
+// CANTOR_M
 {
-    #include "BattleAnimData/AXECAV_M_AXE.event"
-    #include "BattleAnimData/AXECAV_M_HANDAXE.event"
-    #include "BattleAnimData/AXECAV_M_UNARMED.event"
+    #include "BattleAnimData/CANTOR_M_MAGIC.event"
+    #include "BattleAnimData/CANTOR_M_STAFF.event"
 }
 
-// FIGHTER_M
+// CAVALIER_F
 {
-    #include "BattleAnimData/FIGHTER_M_AXE.event"
-    #include "BattleAnimData/FIGHTER_M_HANDAXE.event"
-    #include "BattleAnimData/FIGHTER_M_UNARMED.event"
+    #include "BattleAnimData/CAVALIER_F_AXE.event"
+    #include "BattleAnimData/CAVALIER_F_HANDAXE.event"
+    #include "BattleAnimData/CAVALIER_F_LANCE.event"
+    #include "BattleAnimData/CAVALIER_F_SWORD.event"
+    #include "BattleAnimData/CAVALIER_F_UNARMED.event"
 }
 
-// MAGE_F
+// CAVALIER_M
 {
-    #include "BattleAnimData/MAGE_F_MAGIC.event"
+    #include "BattleAnimData/CAVALIER_M_AXE.event"
+    #include "BattleAnimData/CAVALIER_M_HANDAXE.event"
+    #include "BattleAnimData/CAVALIER_M_LANCE.event"
+    #include "BattleAnimData/CAVALIER_M_SWORD.event"
+    #include "BattleAnimData/CAVALIER_M_UNARMED.event"
 }
 
 // MAGE_M
 {
     #include "BattleAnimData/MAGE_M_MAGIC.event"
+}
+
+// MILITIA_F
+{
+    #include "BattleAnimData/MILITIA_F_LANCE.event"
+    #include "BattleAnimData/MILITIA_F_UNARMED.event"
+}
+
+// MILITIA_M
+{
+    #include "BattleAnimData/MILITIA_M_LANCE.event"
+    #include "BattleAnimData/MILITIA_M_UNARMED.event"
 }
 
 // NINJA_F
@@ -81,6 +84,18 @@
     #include "BattleAnimData/NINJA_M_KNIFE.event"
 }
 
+// NOMAD_F
+{
+    #include "BattleAnimData/NOMAD_F_BOW.event"
+    #include "BattleAnimData/NOMAD_F_UNARMED.event"
+}
+
+// NOMAD_M
+{
+    #include "BattleAnimData/NOMAD_M_BOW.event"
+    #include "BattleAnimData/NOMAD_M_UNARMED.event"
+}
+
 // OUTLAW_F
 {
     #include "BattleAnimData/OUTLAW_F_BOW.event"
@@ -91,6 +106,13 @@
 {
     #include "BattleAnimData/OUTLAW_M_BOW.event"
     #include "BattleAnimData/OUTLAW_M_UNARMED.event"
+}
+
+// PEGASUS_F
+{
+    #include "BattleAnimData/PEGASUS_F_LANCE.event"
+    #include "BattleAnimData/PEGASUS_F_SWORD.event"
+    #include "BattleAnimData/PEGASUS_F_UNARMED.event"
 }
 
 // PRINCESS_F
@@ -121,5 +143,18 @@
 {
     #include "BattleAnimData/SWORDFIGHTER_M_SWORD.event"
     #include "BattleAnimData/SWORDFIGHTER_M_UNARMED.event"
+}
+
+// UMBRALBISHOP_F
+{
+    #include "BattleAnimData/UMBRALBISHOP_F_MAGIC.event"
+    #include "BattleAnimData/UMBRALBISHOP_F_STAFF.event"
+}
+
+// WYVERNRIDER_U
+{
+    #include "BattleAnimData/WYVERNRIDER_U_AXE.event"
+    #include "BattleAnimData/WYVERNRIDER_U_HANDAXE.event"
+    #include "BattleAnimData/WYVERNRIDER_U_UNARMED.event"
 }
 

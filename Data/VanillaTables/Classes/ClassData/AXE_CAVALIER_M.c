@@ -42,7 +42,7 @@ const struct ClassData ClassAxeCavM = {
     .baseRanks = {
         [ITYPE_AXE] = WPN_EXP_E,
     },
-    .pBattleAnimDef = AXECAV_M_REF,
+    .pBattleAnimDef = CAVALIER_M_REF,
     .pMovCostTable = {
         TerrainTable_MovCost_HorseT1Normal,
         TerrainTable_MovCost_HorseT1Normal,

@@ -48,7 +48,7 @@ const struct ClassData ClassWyvernRiderF = {
         [ITYPE_AXE] = WPN_EXP_E,
     },
 
-    .pBattleAnimDef = AnimConf_088AF1D0,
+    .pBattleAnimDef = WYVERNRIDER_U_REF,
     .pMovCostTable = {
         TerrainTable_MovCost_FlyNormal,
         TerrainTable_MovCost_FlyNormal,

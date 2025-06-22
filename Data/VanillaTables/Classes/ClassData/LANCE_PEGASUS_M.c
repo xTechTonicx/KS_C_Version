@@ -49,7 +49,7 @@ const struct ClassData ClassLancePegasusM = {
     .baseRanks = {
         [ITYPE_LANCE] = WPN_EXP_E,
     },
-    .pBattleAnimDef = AnimConf_088AF4DC,
+    .pBattleAnimDef = PEGASUS_F_REF,
     .pMovCostTable = {
         TerrainTable_MovCost_FlyNormal,
         TerrainTable_MovCost_FlyRain,

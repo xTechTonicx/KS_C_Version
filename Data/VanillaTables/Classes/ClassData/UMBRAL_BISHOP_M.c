@@ -50,7 +50,7 @@ const struct ClassData ClassUmbralBishopM = {
         [ITYPE_DARK] = WPN_EXP_E,
         [ITYPE_STAFF] = WPN_EXP_E,
     },
-    .pBattleAnimDef = AnimConf_088AF234,
+    .pBattleAnimDef = AnimConf_088AF330,
     .pMovCostTable = {
         TerrainTable_MovCost_MagicNormal,
         TerrainTable_MovCost_MagicRain,

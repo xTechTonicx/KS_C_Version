@@ -10,60 +10,80 @@ enum AnimationTableIndex {
     ADVENTURER_M_BOW = 4,
     ADVENTURER_M_STAFF = 5,
     ADVENTURER_M_UNARMED = 6,
-    ARCHER_F_BOW = 7,
-    ARCHER_F_UNARMED = 8,
-    ARCHER_M_BOW = 9,
-    ARCHER_M_UNARMED = 10,
-    ARMOR_U_AXE = 11,
-    ARMOR_U_HANDAXE = 12,
-    ARMOR_U_LANCE = 13,
-    ARMOR_U_SWORD = 14,
-    ARMOR_U_UNARMED = 15,
-    AXECAV_F_AXE = 16,
-    AXECAV_F_HANDAXE = 17,
-    AXECAV_F_UNARMED = 18,
-    AXECAV_M_AXE = 19,
-    AXECAV_M_HANDAXE = 20,
-    AXECAV_M_UNARMED = 21,
-    FIGHTER_M_AXE = 22,
-    FIGHTER_M_HANDAXE = 23,
-    FIGHTER_M_UNARMED = 24,
-    MAGE_F_MAGIC = 25,
-    MAGE_M_MAGIC = 26,
-    NINJA_F_KNIFE = 27,
-    NINJA_M_KNIFE = 28,
-    OUTLAW_F_BOW = 29,
-    OUTLAW_F_UNARMED = 30,
-    OUTLAW_M_BOW = 31,
-    OUTLAW_M_UNARMED = 32,
-    PRINCESS_F_SWORD = 33,
-    PRINCESS_F_UNARMED = 34,
-    SOLDIER_F_LANCE = 35,
-    SOLDIER_F_UNARMED = 36,
-    SOLDIER_M_LANCE = 37,
-    SOLDIER_M_UNARMED = 38,
-    SWORDFIGHTER_F_SWORD = 39,
-    SWORDFIGHTER_F_UNARMED = 40,
-    SWORDFIGHTER_M_SWORD = 41,
-    SWORDFIGHTER_M_UNARMED = 42,
+    ARMOR_U_AXE = 7,
+    ARMOR_U_HANDAXE = 8,
+    ARMOR_U_LANCE = 9,
+    ARMOR_U_SWORD = 10,
+    ARMOR_U_UNARMED = 11,
+    BALLISTA_U_BOW = 12,
+    CANTOR_M_MAGIC = 13,
+    CANTOR_M_STAFF = 14,
+    CAVALIER_F_AXE = 15,
+    CAVALIER_F_HANDAXE = 16,
+    CAVALIER_F_LANCE = 17,
+    CAVALIER_F_SWORD = 18,
+    CAVALIER_F_UNARMED = 19,
+    CAVALIER_M_AXE = 20,
+    CAVALIER_M_HANDAXE = 21,
+    CAVALIER_M_LANCE = 22,
+    CAVALIER_M_SWORD = 23,
+    CAVALIER_M_UNARMED = 24,
+    MAGE_M_MAGIC = 28,
+    MILITIA_F_LANCE = 29,
+    MILITIA_F_UNARMED = 30,
+    MILITIA_M_LANCE = 31,
+    MILITIA_M_UNARMED = 35,
+    NINJA_F_KNIFE = 36,
+    NINJA_M_KNIFE = 37,
+    NOMAD_F_BOW = 41,
+    NOMAD_F_UNARMED = 42,
+    NOMAD_M_BOW = 43,
+    NOMAD_M_UNARMED = 44,
+    OUTLAW_F_BOW = 45,
+    OUTLAW_F_UNARMED = 46,
+    OUTLAW_M_BOW = 47,
+    OUTLAW_M_UNARMED = 48,
+    PEGASUS_F_LANCE = 49,
+    PEGASUS_F_SWORD = 50,
+    PEGASUS_F_UNARMED = 51,
+    PRINCESS_F_SWORD = 52,
+    PRINCESS_F_UNARMED = 53,
+    SOLDIER_F_LANCE = 54,
+    SOLDIER_F_UNARMED = 55,
+    SOLDIER_M_LANCE = 56,
+    SOLDIER_M_UNARMED = 57,
+    SWORDFIGHTER_F_SWORD = 58,
+    SWORDFIGHTER_F_UNARMED = 59,
+    SWORDFIGHTER_M_SWORD = 60,
+    SWORDFIGHTER_M_UNARMED = 61,
+    UMBRALBISHOP_F_MAGIC = 62,
+    UMBRALBISHOP_F_STAFF = 63,
+    WYVERNRIDER_U_AXE = 64,
+    WYVERNRIDER_U_HANDAXE = 65,
+    WYVERNRIDER_U_UNARMED = 66,
 };
 
 extern const struct BattleAnimDef ADVENTURER_F_REF[];
 extern const struct BattleAnimDef ADVENTURER_M_REF[];
-extern const struct BattleAnimDef ARCHER_F_REF[];
-extern const struct BattleAnimDef ARCHER_M_REF[];
 extern const struct BattleAnimDef ARMOR_U_REF[];
-extern const struct BattleAnimDef AXECAV_F_REF[];
-extern const struct BattleAnimDef AXECAV_M_REF[];
-extern const struct BattleAnimDef FIGHTER_M_REF[];
-extern const struct BattleAnimDef MAGE_F_REF[];
+extern const struct BattleAnimDef BALLISTA_U_REF[];
+extern const struct BattleAnimDef CANTOR_M_REF[];
+extern const struct BattleAnimDef CAVALIER_F_REF[];
+extern const struct BattleAnimDef CAVALIER_M_REF[];
 extern const struct BattleAnimDef MAGE_M_REF[];
+extern const struct BattleAnimDef MILITIA_F_REF[];
+extern const struct BattleAnimDef MILITIA_M_REF[];
 extern const struct BattleAnimDef NINJA_F_REF[];
 extern const struct BattleAnimDef NINJA_M_REF[];
+extern const struct BattleAnimDef NOMAD_F_REF[];
+extern const struct BattleAnimDef NOMAD_M_REF[];
 extern const struct BattleAnimDef OUTLAW_F_REF[];
 extern const struct BattleAnimDef OUTLAW_M_REF[];
+extern const struct BattleAnimDef PEGASUS_F_REF[];
 extern const struct BattleAnimDef PRINCESS_F_REF[];
 extern const struct BattleAnimDef SOLDIER_F_REF[];
 extern const struct BattleAnimDef SOLDIER_M_REF[];
 extern const struct BattleAnimDef SWORDFIGHTER_F_REF[];
 extern const struct BattleAnimDef SWORDFIGHTER_M_REF[];
+extern const struct BattleAnimDef UMBRALBISHOP_F_REF[];
+extern const struct BattleAnimDef WYVERNRIDER_U_REF[];

@@ -51,7 +51,7 @@ const struct ClassData BallisticianM = {
         [ITYPE_BOW] = WPN_EXP_E,
     },
 
-    .pBattleAnimDef = ARCHER_M_REF,
+    .pBattleAnimDef = BALLISTA_U_REF,
     .pMovCostTable = {
         TerrainTable_MovCost_CommonT1Normal,
         TerrainTable_MovCost_CommonT1Normal,

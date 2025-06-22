@@ -49,7 +49,7 @@ const struct ClassData NomadF = {
     .baseRanks = {
         [ITYPE_BOW] = WPN_EXP_E,
     },
-    .pBattleAnimDef = AnimConf_088AF008,
+    .pBattleAnimDef = NOMAD_F_REF,
     .pMovCostTable = {
         TerrainTable_MovCost_HorseT1Normal,
         TerrainTable_MovCost_HorseT1Rain,

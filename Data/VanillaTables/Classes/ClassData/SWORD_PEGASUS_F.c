@@ -49,7 +49,7 @@ const struct ClassData ClassSwordPegasusF = {
     .baseRanks = {
         [ITYPE_SWORD] = WPN_EXP_E,
     },
-    .pBattleAnimDef = AnimConf_088AF4DC,
+    .pBattleAnimDef = PEGASUS_F_REF,
     .pMovCostTable = {
         TerrainTable_MovCost_FlyNormal,
         TerrainTable_MovCost_FlyRain,

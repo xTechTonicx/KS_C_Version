@@ -49,7 +49,7 @@ const struct ClassData ClassMilitiaF = {
     .baseRanks = {
         [ITYPE_LANCE] = WPN_EXP_E,
     },
-    .pBattleAnimDef = SOLDIER_F_REF,
+    .pBattleAnimDef = MILITIA_F_REF,
     .pMovCostTable = {
         TerrainTable_MovCost_CommonT1Normal,
         TerrainTable_MovCost_CommonT1Normal,

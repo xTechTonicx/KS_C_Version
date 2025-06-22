@@ -1,0 +1,15 @@
+# Taken IDs
+# Fighter
+25
+26
+27
+# Brigand
+32
+33
+34
+# Archer (M)
+38
+39
+# Archer (F)
+40
+41

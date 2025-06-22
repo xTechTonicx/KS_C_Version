@@ -49,7 +49,7 @@ const struct ClassData ClassCantorM = {
     .baseRanks = {
         [ITYPE_DARK] = WPN_EXP_E,
     },
-    .pBattleAnimDef = AnimConf_088AF234,
+    .pBattleAnimDef = CANTOR_M_REF,
     .pMovCostTable = {
         TerrainTable_MovCost_MagicNormal,
         TerrainTable_MovCost_MagicRain,

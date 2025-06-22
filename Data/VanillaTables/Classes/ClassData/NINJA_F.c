@@ -49,7 +49,7 @@ const struct ClassData ClassNinjaF = {
     .baseRanks = {
         [ITYPE_LIGHT] = WPN_EXP_E,
     },
-    .pBattleAnimDef = AnimConf_088AF0A0,
+    .pBattleAnimDef = NINJA_M_REF,
 
     .pMovCostTable = {
         TerrainTable_MovCost_ThiefNormal,

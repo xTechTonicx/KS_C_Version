@@ -37,32 +37,6 @@ const struct BattleAnimDef ADVENTURER_M_REF[] =
     {0}
 };
 
-const struct BattleAnimDef ARCHER_F_REF[] = 
-{
-    {
-        .wtype = 0x0100 | ITYPE_BOW,
-        .index = (u16) ARCHER_F_BOW
-    },
-    {
-        .wtype = 0x0100 | ITYPE_ITEM,
-        .index = (u16) ARCHER_F_UNARMED
-    },
-    {0}
-};
-
-const struct BattleAnimDef ARCHER_M_REF[] = 
-{
-    {
-        .wtype = 0x0100 | ITYPE_BOW,
-        .index = (u16) ARCHER_M_BOW
-    },
-    {
-        .wtype = 0x0100 | ITYPE_ITEM,
-        .index = (u16) ARCHER_M_UNARMED
-    },
-    {0}
-};
-
 const struct BattleAnimDef ARMOR_U_REF[] = 
 {
     {
@@ -92,82 +66,90 @@ const struct BattleAnimDef ARMOR_U_REF[] =
     {0}
 };
 
-const struct BattleAnimDef AXECAV_F_REF[] = 
+const struct BattleAnimDef BALLISTA_U_REF[] = 
 {
     {
-        .wtype = 0x0100 | ITYPE_AXE,
-        .index = (u16) AXECAV_F_AXE
-    },
-    {
-        .wtype = ITEM_AXE_HANDAXE,
-        .index = (u16) AXECAV_F_HANDAXE
-    },
-    {
-        .wtype = ITEM_AXE_TOMAHAWK,
-        .index = (u16) AXECAV_F_HANDAXE
-    },
-    {
-        .wtype = 0x0100 | ITYPE_ITEM,
-        .index = (u16) AXECAV_F_UNARMED
+        .wtype = 0x0100 | ITYPE_BOW,
+        .index = (u16) BALLISTA_U_BOW
     },
     {0}
 };
 
-const struct BattleAnimDef AXECAV_M_REF[] = 
-{
-    {
-        .wtype = 0x0100 | ITYPE_AXE,
-        .index = (u16) AXECAV_M_AXE
-    },
-    {
-        .wtype = ITEM_AXE_HANDAXE,
-        .index = (u16) AXECAV_M_HANDAXE
-    },
-    {
-        .wtype = ITEM_AXE_TOMAHAWK,
-        .index = (u16) AXECAV_M_HANDAXE
-    },
-    {
-        .wtype = 0x0100 | ITYPE_ITEM,
-        .index = (u16) AXECAV_M_UNARMED
-    },
-    {0}
-};
-
-const struct BattleAnimDef FIGHTER_M_REF[] = 
-{
-    {
-        .wtype = 0x0100 | ITYPE_AXE,
-        .index = (u16) FIGHTER_M_AXE
-    },
-    {
-        .wtype = ITEM_AXE_HANDAXE,
-        .index = (u16) FIGHTER_M_HANDAXE
-    },
-    {
-        .wtype = ITEM_AXE_TOMAHAWK,
-        .index = (u16) FIGHTER_M_HANDAXE
-    },
-    {
-        .wtype = 0x0100 | ITYPE_ITEM,
-        .index = (u16) FIGHTER_M_UNARMED
-    },
-    {0}
-};
-
-const struct BattleAnimDef MAGE_F_REF[] = 
+const struct BattleAnimDef CANTOR_M_REF[] = 
 {
     {
         .wtype = 0x0100 | ITYPE_ANIMA,
-        .index = (u16) MAGE_F_MAGIC
+        .index = (u16) CANTOR_M_MAGIC
     },
     {
         .wtype = 0x0100 | ITYPE_DARK,
-        .index = (u16) MAGE_F_MAGIC
+        .index = (u16) CANTOR_M_MAGIC
     },
     {
         .wtype = 0x0100 | ITYPE_STAFF,
-        .index = (u16) MAGE_F_MAGIC
+        .index = (u16) CANTOR_M_MAGIC
+    },
+    {
+        .wtype = 0x0100 | ITYPE_STAFF,
+        .index = (u16) CANTOR_M_STAFF
+    },
+    {0}
+};
+
+const struct BattleAnimDef CAVALIER_F_REF[] = 
+{
+    {
+        .wtype = 0x0100 | ITYPE_AXE,
+        .index = (u16) CAVALIER_F_AXE
+    },
+    {
+        .wtype = ITEM_AXE_HANDAXE,
+        .index = (u16) CAVALIER_F_HANDAXE
+    },
+    {
+        .wtype = ITEM_AXE_TOMAHAWK,
+        .index = (u16) CAVALIER_F_HANDAXE
+    },
+    {
+        .wtype = 0x0100 | ITYPE_LANCE,
+        .index = (u16) CAVALIER_F_LANCE
+    },
+    {
+        .wtype = 0x0100 | ITYPE_SWORD,
+        .index = (u16) CAVALIER_F_SWORD
+    },
+    {
+        .wtype = 0x0100 | ITYPE_ITEM,
+        .index = (u16) CAVALIER_F_UNARMED
+    },
+    {0}
+};
+
+const struct BattleAnimDef CAVALIER_M_REF[] = 
+{
+    {
+        .wtype = 0x0100 | ITYPE_AXE,
+        .index = (u16) CAVALIER_M_AXE
+    },
+    {
+        .wtype = ITEM_AXE_HANDAXE,
+        .index = (u16) CAVALIER_M_HANDAXE
+    },
+    {
+        .wtype = ITEM_AXE_TOMAHAWK,
+        .index = (u16) CAVALIER_M_HANDAXE
+    },
+    {
+        .wtype = 0x0100 | ITYPE_LANCE,
+        .index = (u16) CAVALIER_M_LANCE
+    },
+    {
+        .wtype = 0x0100 | ITYPE_SWORD,
+        .index = (u16) CAVALIER_M_SWORD
+    },
+    {
+        .wtype = 0x0100 | ITYPE_ITEM,
+        .index = (u16) CAVALIER_M_UNARMED
     },
     {0}
 };
@@ -189,6 +171,32 @@ const struct BattleAnimDef MAGE_M_REF[] =
     {0}
 };
 
+const struct BattleAnimDef MILITIA_F_REF[] = 
+{
+    {
+        .wtype = 0x0100 | ITYPE_LANCE,
+        .index = (u16) MILITIA_F_LANCE
+    },
+    {
+        .wtype = 0x0100 | ITYPE_ITEM,
+        .index = (u16) MILITIA_F_UNARMED
+    },
+    {0}
+};
+
+const struct BattleAnimDef MILITIA_M_REF[] = 
+{
+    {
+        .wtype = 0x0100 | ITYPE_LANCE,
+        .index = (u16) MILITIA_M_LANCE
+    },
+    {
+        .wtype = 0x0100 | ITYPE_ITEM,
+        .index = (u16) MILITIA_M_UNARMED
+    },
+    {0}
+};
+
 const struct BattleAnimDef NINJA_F_REF[] = 
 {
     {
@@ -203,6 +211,32 @@ const struct BattleAnimDef NINJA_M_REF[] =
     {
         .wtype = 0x0100 | ITYPE_KNIFE,
         .index = (u16) NINJA_M_KNIFE
+    },
+    {0}
+};
+
+const struct BattleAnimDef NOMAD_F_REF[] = 
+{
+    {
+        .wtype = 0x0100 | ITYPE_BOW,
+        .index = (u16) NOMAD_F_BOW
+    },
+    {
+        .wtype = 0x0100 | ITYPE_ITEM,
+        .index = (u16) NOMAD_F_UNARMED
+    },
+    {0}
+};
+
+const struct BattleAnimDef NOMAD_M_REF[] = 
+{
+    {
+        .wtype = 0x0100 | ITYPE_BOW,
+        .index = (u16) NOMAD_M_BOW
+    },
+    {
+        .wtype = 0x0100 | ITYPE_ITEM,
+        .index = (u16) NOMAD_M_UNARMED
     },
     {0}
 };
@@ -229,6 +263,23 @@ const struct BattleAnimDef OUTLAW_M_REF[] =
     {
         .wtype = 0x0100 | ITYPE_ITEM,
         .index = (u16) OUTLAW_M_UNARMED
+    },
+    {0}
+};
+
+const struct BattleAnimDef PEGASUS_F_REF[] = 
+{
+    {
+        .wtype = 0x0100 | ITYPE_LANCE,
+        .index = (u16) PEGASUS_F_LANCE
+    },
+    {
+        .wtype = 0x0100 | ITYPE_SWORD,
+        .index = (u16) PEGASUS_F_SWORD
+    },
+    {
+        .wtype = 0x0100 | ITYPE_ITEM,
+        .index = (u16) PEGASUS_F_UNARMED
     },
     {0}
 };
@@ -294,6 +345,48 @@ const struct BattleAnimDef SWORDFIGHTER_M_REF[] =
     {
         .wtype = 0x0100 | ITYPE_ITEM,
         .index = (u16) SWORDFIGHTER_M_UNARMED
+    },
+    {0}
+};
+
+const struct BattleAnimDef UMBRALBISHOP_F_REF[] = 
+{
+    {
+        .wtype = 0x0100 | ITYPE_ANIMA,
+        .index = (u16) UMBRALBISHOP_F_MAGIC
+    },
+    {
+        .wtype = 0x0100 | ITYPE_DARK,
+        .index = (u16) UMBRALBISHOP_F_MAGIC
+    },
+    {
+        .wtype = 0x0100 | ITYPE_STAFF,
+        .index = (u16) UMBRALBISHOP_F_MAGIC
+    },
+    {
+        .wtype = 0x0100 | ITYPE_STAFF,
+        .index = (u16) UMBRALBISHOP_F_STAFF
+    },
+    {0}
+};
+
+const struct BattleAnimDef WYVERNRIDER_U_REF[] = 
+{
+    {
+        .wtype = 0x0100 | ITYPE_AXE,
+        .index = (u16) WYVERNRIDER_U_AXE
+    },
+    {
+        .wtype = ITEM_AXE_HANDAXE,
+        .index = (u16) WYVERNRIDER_U_HANDAXE
+    },
+    {
+        .wtype = ITEM_AXE_TOMAHAWK,
+        .index = (u16) WYVERNRIDER_U_HANDAXE
+    },
+    {
+        .wtype = 0x0100 | ITYPE_ITEM,
+        .index = (u16) WYVERNRIDER_U_UNARMED
     },
     {0}
 };

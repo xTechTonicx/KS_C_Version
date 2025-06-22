@@ -47,7 +47,7 @@ const struct ClassData ClassPriestM = {
     .baseRanks = {
         [ITYPE_STAFF] = WPN_EXP_E,
     },
-    .pBattleAnimDef = ADVENTURER_M_REF,
+    .pBattleAnimDef = AnimConf_088AF4C4,
     .pMovCostTable = {
         TerrainTable_MovCost_MagicNormal,
         TerrainTable_MovCost_MagicNormal,
