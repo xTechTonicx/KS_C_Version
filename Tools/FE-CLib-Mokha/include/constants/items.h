@@ -70,8 +70,8 @@ enum {
     ITEM_BALLISTA_KILLER   = 0x37,
 
     // Anima tomes
-    ITEM_ANIMA_FIRE        = 0x38,
-    ITEM_ANIMA_THUNDER     = 0x39,
+    // ITEM_ANIMA_FIRE        = 0x38,
+    // ITEM_ANIMA_THUNDER     = 0x39,
     ITEM_ANIMA_ELFIRE      = 0x3A,
     ITEM_ANIMA_BOLTING     = 0x3B,
     ITEM_ANIMA_FIMBULVETR  = 0x3C,

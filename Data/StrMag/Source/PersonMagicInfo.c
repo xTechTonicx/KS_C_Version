@@ -26,5 +26,9 @@ const struct UnitMagicInfo gMagicPInfos[0x100] = {
 	[CHARACTER_SURGE] = {
 		.base = 0,
 		.growth = 0
+	},
+	[CHARACTER_OSMA] = {
+		.base = 2,
+		.growth = 65,
 	}
 };

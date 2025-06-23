@@ -17,7 +17,10 @@ WARNING
 #include "ChapterIntro/ChapterIntro.event"
 
 {
-    #include "ChapterEvents/Chapter1.event"
+    #include "ChapterEvents/Chapter01.event"
+}
+{
+    #include "ChapterEvents/Chapter02.event"
 }
 {
     #include "ChapterEvents/DebugMap.event"

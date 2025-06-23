@@ -31,7 +31,8 @@ enum ItemDefinitions
     ITEM_LIGHT_LIGHTNING,
     ITEM_STAFF_HEAL,
     // Anima
-    // No Items in Anima
+    ITEM_ANIMA_FIRE,
+    ITEM_ANIMA_THUNDER,
     // Misc
     // No Items in Misc
 };

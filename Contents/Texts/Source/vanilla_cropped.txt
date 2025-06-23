@@ -2981,19 +2981,19 @@ Beacon Bow[X]
 ## MSG_03A8
 Emblem Seal[X]
 
-## MSG_03A9
+## MSG_FIRE
 Fire[X]
 
-## MSG_03AA
+## MSG_THUNDER
 Thunder[X]
 
-## MSG_03AB
-Elfire[X]
+## MSG_BLAZE
+Blaze[X]
 
 ## MSG_03AC
 Alacalibur[X]
 
-## MSG_03AD
+## MSG_BOLTING
 Bolting[X]
 
 ## MSG_03AE
@@ -3511,11 +3511,11 @@ Effective against monsters.[X]
 ## MSG_0457
 Effective against monsters.[X]
 
-## MSG_0458
- [X]
+## MSG_FIRE_DESC
+[NarrowFontMenu]A beginner cantrip that summons a fireball.[X]
 
-## MSG_0459
- [X]
+## MSG_THUNDER_DESC
+[NarrowFontMenu]A spell with extended range. Cannot follow up.[X]
 
 ## MSG_045A
  [X]
