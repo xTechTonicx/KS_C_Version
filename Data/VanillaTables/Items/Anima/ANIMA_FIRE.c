@@ -1,8 +1,8 @@
 #include "common-chax.h"
 #include "KSDefinitions.h"
 
-const struct ItemData ItemLightLightning = {
-    .nameTextId = MSG_FIRE,
+const struct ItemData ItemAnimaFire = {
+	.nameTextId = MSG_FIRE,
 	.descTextId = MSG_FIRE_DESC,
 	.number = ITEM_ANIMA_FIRE,
 	.weaponType = ITYPE_ANIMA,
@@ -10,7 +10,7 @@ const struct ItemData ItemLightLightning = {
 	.maxUses = 1,
 	.might = 10,
 	.hit = 90,
-	.weight = 6,
+	.weight = 4,
 	.crit = 0xFF,
 	.encodedRange = 0x12,
 	.costPerUse = 500,

@@ -6,8 +6,8 @@ EventPointerTable(0xa, PointerList)
 
 // setText(0x161, Ch2Name)
 
-#define VillageClose 2
-#define VillageDestroy 3
+#define VillageCloseCh2Label 2
+#define VillageDestroyCh2Label 3
 
 ALIGN 4
 PointerList:
@@ -88,9 +88,9 @@ UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x0 Level(3, Enemy, True) [6 ,3] 0x0 0x0
 
 // Group B Enemies
 
-UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M 0x1 Level(3, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA11R5 [ITEM_SWORD_BRONZE] AttackInRangeAI
-UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M 0x1 Level(3, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA12R4 [ITEM_SWORD_IRON] AttackInRangeAI
-UNIT CHARACTER_SLAVER_0 CLASS_MAGE_M 0x1 Level(4, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA13R5 [ITEM_ANIMA_FIRE] AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M 0x1 Level(3, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA12R5 [ITEM_LANCE_BRONZE] AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M 0x1 Level(3, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA13R4 [ITEM_LANCE_IRON] AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_MAGE_M 0x1 Level(4, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA14R5 [ITEM_ANIMA_FIRE] AttackInRangeAI
 UNIT
 
 //==================================================================//

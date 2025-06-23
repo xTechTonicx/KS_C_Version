@@ -3,6 +3,7 @@ PUSH
     WARNING __Prologue_chapter_rewritten__
     ORG 0x8B0890
     #include "ChapterData/Chapter01.lyn.event"
+    #include "ChapterData/Chapter02.lyn.event"
     ORG 0x8B0890 + (0x94 * 40)
     #include "ChapterData/ChapterDebug.lyn.event"
 }

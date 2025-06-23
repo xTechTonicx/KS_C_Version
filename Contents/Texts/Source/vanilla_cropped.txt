@@ -1066,17 +1066,17 @@ Turns[X]
 ## MSG_015F
 Total Turns[X]
 
-## MSG_0160
-The Fall of Renais[X]
+## MSG_CH1_Name
+Canyon Clash[X]
 
-## MSG_0161
-Escape![X]
+## MSG_CH2_Name
+The Slaver's Trail[X]
 
-## MSG_0162
-The Protected[X]
+## MSG_CH3_Name
+Conspiracy[X]
 
-## MSG_0163
-The Bandits of Borgo[X]
+## MSG_CH4_Name
+Dawn of a Bloodbath[X]
 
 ## MSG_0164
 Ancient Horrors[X]
@@ -3512,10 +3512,10 @@ Effective against monsters.[X]
 Effective against monsters.[X]
 
 ## MSG_FIRE_DESC
-[NarrowFontMenu]A beginner cantrip that summons a fireball.[X]
+A beginner cantrip that summons a fireball.[X]
 
 ## MSG_THUNDER_DESC
-[NarrowFontMenu]A spell with extended range. Cannot follow up.[X]
+A spell with extended range. Cannot follow up.[X]
 
 ## MSG_045A
  [X]

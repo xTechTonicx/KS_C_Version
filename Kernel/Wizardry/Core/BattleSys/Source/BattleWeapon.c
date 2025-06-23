@@ -47,7 +47,7 @@ int GetItemFromSlot(struct Unit *unit, int slot)
 	/* reserved */
 	case CHAX_BUISLOT_THREEHOUSES_BMAG1 ... CHAX_BUISLOT_THREEHOUSES_BMAG7:
 	case CHAX_BUISLOT_THREEHOUSES_WMAG1 ... CHAX_BUISLOT_THREEHOUSES_WMAG7:
-	case CHAX_BUISLOT_ENGAGE_WEAPON1    ... CHAX_BUISLOT_ENGAGE_WEAPON7:
+	case CHAX_BUISLOT_ENGAGE_WEAPON1 ... CHAX_BUISLOT_ENGAGE_WEAPON7:
 	case -1:
 	default:
 		return 0;
@@ -139,7 +139,7 @@ STATIC_DECLAR void SetBattleUnitWeaponVanilla(struct BattleUnit *bu, int itemSlo
 	/* reserved */
 	case CHAX_BUISLOT_THREEHOUSES_BMAG1 ... CHAX_BUISLOT_THREEHOUSES_BMAG7:
 	case CHAX_BUISLOT_THREEHOUSES_WMAG1 ... CHAX_BUISLOT_THREEHOUSES_WMAG7:
-	case CHAX_BUISLOT_ENGAGE_WEAPON1    ... CHAX_BUISLOT_ENGAGE_WEAPON7:
+	case CHAX_BUISLOT_ENGAGE_WEAPON1 ... CHAX_BUISLOT_ENGAGE_WEAPON7:
 #endif
 
 	default:
@@ -147,7 +147,6 @@ STATIC_DECLAR void SetBattleUnitWeaponVanilla(struct BattleUnit *bu, int itemSlo
 		bu->weapon = 0;
 		bu->canCounter = false;
 		break;
-
 	}
 
 	bu->weaponBefore = bu->weapon;
@@ -157,7 +156,6 @@ STATIC_DECLAR void SetBattleUnitWeaponVanilla(struct BattleUnit *bu, int itemSlo
 	if (!(gBattleStats.config & BATTLE_CONFIG_BIT2)) {
 		if (bu->weaponAttributes & IA_MAGICDAMAGE) {
 			switch (GetItemIndex(bu->weapon)) {
-
 			case ITEM_SWORD_WINDSWORD:
 				// if (gBattleStats.range == 2)
 				if (gBattleStats.range >= 2)
@@ -194,7 +192,6 @@ STATIC_DECLAR void SetBattleUnitWeaponVanilla(struct BattleUnit *bu, int itemSlo
 			bu->canCounter = false;
 
 			break;
-
 		}
 #endif
 	}
@@ -283,9 +280,6 @@ s8 CanUnitUseWeapon(struct Unit *unit, int item)
 			return false;
 
 		if ((GetItemAttributes(item) & IA_LOCK_6) && !(UNIT_CATTRIBUTES(unit) & CA_LOCK_6))
-			return false;
-
-		if ((GetItemAttributes(item) & IA_LOCK_7) && !(UNIT_CATTRIBUTES(unit) & CA_LOCK_7))
 			return false;
 
 		if ((GetItemAttributes(item) & IA_LOCK_2) && !(UNIT_CATTRIBUTES(unit) & CA_LOCK_2))

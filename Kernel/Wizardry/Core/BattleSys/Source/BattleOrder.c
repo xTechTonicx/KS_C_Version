@@ -58,6 +58,9 @@ bool CheckCanTwiceAttackOrder(struct BattleUnit *actor, struct BattleUnit *targe
 	if (GetItemWeaponEffect(actor->weaponBefore) == WPN_EFFECT_HPHALVE)
 		return false;
 
+	if (GetItemAttributes(actor->weaponBefore) & IA_NOFOLLOWUP)
+		return false;
+
 	if (GetItemIndex(actor->weapon) == ITEM_MONSTER_STONE)
 		return false;
 
@@ -98,8 +101,7 @@ bool CheckCanTwiceAttackOrder(struct BattleUnit *actor, struct BattleUnit *targe
 		if (&gBattleActor == actor) {
 #if defined(SID_WaryFighter) && (COMMON_SKILL_VALID(SID_WaryFighter))
 			if (BattleFastSkillTester(target, SID_WaryFighter))
-				if (ref_target_hp_above_half)
-					return false;
+				return false;
 #endif
 
 #if defined(SID_Moonlight) && (COMMON_SKILL_VALID(SID_Moonlight))
