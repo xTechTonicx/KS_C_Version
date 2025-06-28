@@ -10,7 +10,7 @@ const struct ClassData BallisticianM = {
     .defaultPortraitId = ARCHER_CARD,
     .sort_order = 0x2,
 
-    .baseHP  = 24,
+    .baseHP  = 27,
     .basePow = 10,
     .baseSkl = 7,
     .baseSpd = 0,

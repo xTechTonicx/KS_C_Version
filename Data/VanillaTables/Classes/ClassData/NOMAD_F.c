@@ -10,7 +10,7 @@ const struct ClassData NomadF = {
     .defaultPortraitId = 0x80,
     .sort_order = 0x20,
 
-    .baseHP  = 27,
+    .baseHP  = 23,
     .basePow = 5,
     .baseSkl = 6,
     .baseSpd = 8,

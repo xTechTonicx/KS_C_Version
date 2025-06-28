@@ -10,7 +10,7 @@ const struct ClassData ClassBrigandMCh1 = {
     .defaultPortraitId = FIGHTER_CARD,
     .sort_order = 0x2,
 
-    .baseHP  = 32,
+    .baseHP  = 28,
     .basePow = 8,
     .baseSkl = 7,
     .baseSpd = 4,

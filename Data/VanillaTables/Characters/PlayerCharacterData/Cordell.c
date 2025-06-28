@@ -18,7 +18,7 @@ const struct CharacterData CharCordell =
     .baseDef = 5,
     .baseRes = 3,
     .baseLck = 12,
-    .baseCon = 0,   
+    .baseCon = 1,   
     
     .baseRanks = {
         [ITYPE_BOW] = WPN_EXP_C,

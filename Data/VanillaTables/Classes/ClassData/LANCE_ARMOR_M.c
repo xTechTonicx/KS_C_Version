@@ -11,7 +11,7 @@ const struct ClassData ClassLanceArmorM = {
         .defaultPortraitId = 0x76,
         .sort_order = 0xc,
 
-        .baseHP  = 26,
+        .baseHP  = 24,
         .basePow = 7,
         .baseSkl = 5,
         .baseSpd = 0,

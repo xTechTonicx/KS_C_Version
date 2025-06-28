@@ -10,11 +10,11 @@ const struct ClassData ClassMilitiaM = {
     .defaultPortraitId = SOLDIER_CARD,
     .sort_order = 0x2,
 
-    .baseHP  = 29,
+    .baseHP  = 25,
     .basePow = 7,
     .baseSkl = 4,
     .baseSpd = 7,
-    .baseDef = 4,
+    .baseDef = 2,
     .baseRes = 0,
     .baseCon = 8,
     .baseMov = 5,

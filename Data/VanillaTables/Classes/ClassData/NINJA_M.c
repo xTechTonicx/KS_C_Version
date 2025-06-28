@@ -10,7 +10,7 @@ const struct ClassData ClassNinjaM = {
     .defaultPortraitId = 0x8e,
     .sort_order = 0x7,
 
-    .baseHP  = 25,
+    .baseHP  = 23,
     .basePow = 4,
     .baseSkl = 12,
     .baseSpd = 9,

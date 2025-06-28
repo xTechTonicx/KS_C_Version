@@ -10,7 +10,7 @@ const struct ClassData ClassLancePegasusM = {
     .defaultPortraitId = 0x86,
     .sort_order = 0x10,
 
-    .baseHP  = 26,
+    .baseHP  = 24,
     .basePow = 5,
     .baseSkl = 8,
     .baseSpd = 9,

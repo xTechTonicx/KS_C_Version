@@ -10,7 +10,7 @@ const struct ClassData MageF = {
     .defaultPortraitId = 0x7c,
     .sort_order = 0x12,
 
-    .baseHP  = 24,
+    .baseHP  = 21,
     .basePow = 0,
     .baseSkl = 5,
     .baseSpd = 5,

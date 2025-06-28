@@ -10,7 +10,7 @@ const struct ClassData ClassAxeCavM = {
     .defaultPortraitId = AXE_CAVALIER_CARD,
     .sort_order = 0x2,
 
-    .baseHP  = 31,
+    .baseHP  = 26,
     .basePow = 7,
     .baseSkl = 6,
     .baseSpd = 3,

@@ -10,7 +10,7 @@ const struct ClassData ClassCantorM = {
     .defaultPortraitId = 0x7c,
     .sort_order = 0x12,
 
-    .baseHP  = 35,
+    .baseHP  = 33,
     .basePow = 0,
     .baseSkl = 8,
     .baseSpd = 6,

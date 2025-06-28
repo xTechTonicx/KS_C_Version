@@ -10,13 +10,13 @@ const struct ClassData ClassArcherM = {
     .defaultPortraitId = ARCHER_CARD,
     .sort_order = 0x2,
 
-    .baseHP  = 24,
+    .baseHP  = 22,
     .basePow = 5,
     .baseSkl = 12,
     .baseSpd = 6,
     .baseDef = 2,
     .baseRes = 0,
-    .baseCon = 6,
+    .baseCon = 7,
     .baseMov = 5,
     .baseLuck = 5,
 

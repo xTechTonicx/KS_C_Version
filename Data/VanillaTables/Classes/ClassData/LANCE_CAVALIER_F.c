@@ -10,7 +10,7 @@ const struct ClassData ClassLanceCavF = {
     .defaultPortraitId = 0x80,
     .sort_order = 0x20,
 
-    .baseHP  = 28,
+    .baseHP  = 25,
     .basePow = 6,
     .baseSkl = 5,
     .baseSpd = 5,

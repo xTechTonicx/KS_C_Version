@@ -10,7 +10,7 @@ const struct ClassData ClassOutlawM = {
     .defaultPortraitId = OUTLAW_CARD,
     .sort_order = 0x2,
 
-    .baseHP  = 25,
+    .baseHP  = 22,
     .basePow = 5,
     .baseSkl = 4,
     .baseSpd = 8,
