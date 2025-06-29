@@ -1,7 +1,6 @@
 #include "common-chax.h"
 #include "KSDefinitions.h"
 
-
 const struct ClassData ClassPrincess = {
     .nameTextId = 0x2bf,
     .descTextId = 0x309,
@@ -11,7 +10,7 @@ const struct ClassData ClassPrincess = {
     .defaultPortraitId = SOLDIER_CARD,
     .sort_order = 0x1,
 
-    .baseHP  = 24,
+    .baseHP  = 25,
     .basePow = 6,
     .baseSkl = 12,
     .baseSpd = 12,

@@ -10,7 +10,7 @@ const struct ClassData ClassSwordCavF = {
     .defaultPortraitId = 0x80,
     .sort_order = 0x20,
 
-    .baseHP  = 25,
+    .baseHP  = 28,
     .basePow = 5,
     .baseSkl = 5,
     .baseSpd = 7,

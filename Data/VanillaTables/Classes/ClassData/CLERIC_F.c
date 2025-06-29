@@ -10,7 +10,7 @@ const struct ClassData ClassClericF = {
     .defaultPortraitId = MONK_CARD,
     .sort_order = 0x2,
 
-    .baseHP  = 20,
+    .baseHP  = 23,
     .basePow = 0,
     .baseSkl = 9,
     .baseSpd = 3,

@@ -10,7 +10,7 @@ const struct ClassData ClassSwordfigherM = {
     .defaultPortraitId = SWORDFIGHTER_CARD,
     .sort_order = 0x2,
 
-    .baseHP  = 24,
+    .baseHP  = 26,
     .basePow = 5,
     .baseSkl = 11,
     .baseSpd = 10,

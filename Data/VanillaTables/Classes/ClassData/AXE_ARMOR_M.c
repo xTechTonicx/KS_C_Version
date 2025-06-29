@@ -11,7 +11,7 @@ const struct ClassData ClassAxeArmorM = {
         .defaultPortraitId = 0x76,
         .sort_order = 0xc,
 
-        .baseHP  = 24,
+        .baseHP  = 27,
         .basePow = 7,
         .baseSkl = 5,
         .baseSpd = 0,

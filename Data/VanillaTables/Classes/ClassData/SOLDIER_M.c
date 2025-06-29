@@ -10,7 +10,7 @@ const struct ClassData ClassSoldierM = {
     .defaultPortraitId = SOLDIER_CARD,
     .sort_order = 0x2,
 
-    .baseHP  = 26,
+    .baseHP  = 28,
     .basePow = 7,
     .baseSkl = 8,
     .baseSpd = 6,

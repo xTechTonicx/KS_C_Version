@@ -10,7 +10,7 @@ const struct ClassData ClassUmbralBishopF = {
     .defaultPortraitId = 0x7c,
     .sort_order = 0x12,
 
-    .baseHP  = 29,
+    .baseHP  = 31,
     .basePow = 2,
     .baseSkl = 11,
     .baseSpd = 8,

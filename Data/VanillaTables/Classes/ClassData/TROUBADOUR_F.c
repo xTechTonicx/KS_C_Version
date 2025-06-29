@@ -10,7 +10,7 @@ const struct ClassData ClassTroubadourF = {
     .defaultPortraitId = 0x82,
     .sort_order = 0x19,
 
-    .baseHP  = 25,
+    .baseHP  = 27,
     .basePow = 4,
     .baseSkl = 6,
     .baseSpd = 7,

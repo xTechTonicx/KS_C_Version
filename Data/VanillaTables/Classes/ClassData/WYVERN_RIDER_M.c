@@ -10,7 +10,7 @@ const struct ClassData ClassWyvernRiderM = {
     .defaultPortraitId = 0x88,
     .sort_order = 0xd,
 
-    .baseHP  = 24,
+    .baseHP  = 27,
     .basePow = 7,
     .baseSkl = 5,
     .baseSpd = 2,

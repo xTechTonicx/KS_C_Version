@@ -10,7 +10,7 @@ const struct ClassData ClassSwordPegasusF = {
     .defaultPortraitId = 0x86,
     .sort_order = 0x10,
 
-    .baseHP  = 24,
+    .baseHP  = 27,
     .basePow = 5,
     .baseSkl = 8,
     .baseSpd = 9,

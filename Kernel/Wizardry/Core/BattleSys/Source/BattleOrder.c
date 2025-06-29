@@ -100,7 +100,7 @@ bool CheckCanTwiceAttackOrder(struct BattleUnit *actor, struct BattleUnit *targe
 	if (followup_nullified_en) {
 		if (&gBattleActor == actor) {
 #if defined(SID_WaryFighter) && (COMMON_SKILL_VALID(SID_WaryFighter))
-			if (BattleFastSkillTester(target, SID_WaryFighter))
+			if (BattleFastSkillTester(target, SID_WaryFighter) || BattleFastSkillTester(actor, SID_WaryFighter))
 				return false;
 #endif
 
