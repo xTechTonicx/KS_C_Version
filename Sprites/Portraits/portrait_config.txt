@@ -4,8 +4,13 @@ Osborne 2 5 3 3
 Elaine 2 6 3 4
 Surge 2 5 3 3
 Cordell 2 5 3 3
+Cameron 2 5 3 3
+Mona 2 6 3 4
 Liev 3 6 3 4
 Jyri 3 5 3 3
 Osma 2 6 3 4
 Glove 2 5 3 3
 Fester 2 5 3 3
+Yulie 2 5 3 3
+Darron 2 5 3 3
+Beckham 2 5 2 3

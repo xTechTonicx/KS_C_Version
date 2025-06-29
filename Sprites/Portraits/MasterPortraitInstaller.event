@@ -54,6 +54,24 @@ CordellPortrait:
 #incbin "./PortraitData/Cordell_minimug.dmp"
 setMugEntry(0x7,CordellPortrait,2,5,3,3)
 
+// Cameron
+ALIGN 4
+CameronPortrait:
+#incbin "./PortraitData/Cameron_mug.dmp"
+#incbin "./PortraitData/Cameron_frames.dmp"
+#incbin "./PortraitData/Cameron_palette.dmp"
+#incbin "./PortraitData/Cameron_minimug.dmp"
+setMugEntry(0x8,CameronPortrait,2,5,3,3)
+
+// Mona
+ALIGN 4
+MonaPortrait:
+#incbin "./PortraitData/Mona_mug.dmp"
+#incbin "./PortraitData/Mona_frames.dmp"
+#incbin "./PortraitData/Mona_palette.dmp"
+#incbin "./PortraitData/Mona_minimug.dmp"
+setMugEntry(0x9,MonaPortrait,2,6,3,4)
+
 // Liev
 ALIGN 4
 LievPortrait:
@@ -61,7 +79,7 @@ LievPortrait:
 #incbin "./PortraitData/Liev_frames.dmp"
 #incbin "./PortraitData/Liev_palette.dmp"
 #incbin "./PortraitData/Liev_minimug.dmp"
-setMugEntry(0x8,LievPortrait,3,6,3,4)
+setMugEntry(0xA,LievPortrait,3,6,3,4)
 
 // Jyri
 ALIGN 4
@@ -70,7 +88,7 @@ JyriPortrait:
 #incbin "./PortraitData/Jyri_frames.dmp"
 #incbin "./PortraitData/Jyri_palette.dmp"
 #incbin "./PortraitData/Jyri_minimug.dmp"
-setMugEntry(0x9,JyriPortrait,3,5,3,3)
+setMugEntry(0xB,JyriPortrait,3,5,3,3)
 
 // Osma
 ALIGN 4
@@ -79,7 +97,7 @@ OsmaPortrait:
 #incbin "./PortraitData/Osma_frames.dmp"
 #incbin "./PortraitData/Osma_palette.dmp"
 #incbin "./PortraitData/Osma_minimug.dmp"
-setMugEntry(0xA,OsmaPortrait,2,6,3,4)
+setMugEntry(0xC,OsmaPortrait,2,6,3,4)
 
 // Glove
 ALIGN 4
@@ -88,7 +106,7 @@ GlovePortrait:
 #incbin "./PortraitData/Glove_frames.dmp"
 #incbin "./PortraitData/Glove_palette.dmp"
 #incbin "./PortraitData/Glove_minimug.dmp"
-setMugEntry(0xB,GlovePortrait,2,5,3,3)
+setMugEntry(0xD,GlovePortrait,2,5,3,3)
 
 // Fester
 ALIGN 4
@@ -97,5 +115,32 @@ FesterPortrait:
 #incbin "./PortraitData/Fester_frames.dmp"
 #incbin "./PortraitData/Fester_palette.dmp"
 #incbin "./PortraitData/Fester_minimug.dmp"
-setMugEntry(0xC,FesterPortrait,2,5,3,3)
+setMugEntry(0xE,FesterPortrait,2,5,3,3)
+
+// Yulie
+ALIGN 4
+YuliePortrait:
+#incbin "./PortraitData/Yulie_mug.dmp"
+#incbin "./PortraitData/Yulie_frames.dmp"
+#incbin "./PortraitData/Yulie_palette.dmp"
+#incbin "./PortraitData/Yulie_minimug.dmp"
+setMugEntry(0xF,YuliePortrait,2,5,3,3)
+
+// Darron
+ALIGN 4
+DarronPortrait:
+#incbin "./PortraitData/Darron_mug.dmp"
+#incbin "./PortraitData/Darron_frames.dmp"
+#incbin "./PortraitData/Darron_palette.dmp"
+#incbin "./PortraitData/Darron_minimug.dmp"
+setMugEntry(0x10,DarronPortrait,2,5,3,3)
+
+// Beckham
+ALIGN 4
+BeckhamPortrait:
+#incbin "./PortraitData/Beckham_mug.dmp"
+#incbin "./PortraitData/Beckham_frames.dmp"
+#incbin "./PortraitData/Beckham_palette.dmp"
+#incbin "./PortraitData/Beckham_minimug.dmp"
+setMugEntry(0x11,BeckhamPortrait,2,5,2,3)
 
