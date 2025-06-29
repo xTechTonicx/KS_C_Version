@@ -7,9 +7,12 @@ PUSH
     #include "PlayerCharacterData/Cordell.lyn.event"
     #include "PlayerCharacterData/Surge.lyn.event"
     #include "PlayerCharacterData/Osma.lyn.event"
+    #include "PlayerCharacterData/Cameron.lyn.event"
+    #include "PlayerCharacterData/Mona.lyn.event"
     #include "PlayerCharacterData/Jyri.lyn.event"
     #include "PlayerCharacterData/Liev.lyn.event"
     ORG $804A30
     #include "EnemyCharacterData/Glove.lyn.event"
     #include "EnemyCharacterData/Fester.lyn.event"
+    #include "EnemyCharacterData/Yulie.lyn.event"
 POP

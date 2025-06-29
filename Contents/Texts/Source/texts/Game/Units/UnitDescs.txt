@@ -30,6 +30,16 @@ A soldier born of a merchant[N]
 family in Lydemoor's capital.[N]
 Something of a tomboy.[X]
 
+## CameronDesc
+A Lydemoorian knight tasked with[N]
+patrolling the north-western mountains.[N]
+Disorganized, but has a heart of gold.[X]
+
+## MonaDesc
+A Lydemoorian patroller and a longtime[N]
+friend of Cameron. Does not enjoy[N]
+riding on horseback, despite her station.[X]
+
 ## ZandreaDesc
 A Dretian ninja working as a[N]
 mercenary. Keeps to herself[N]
@@ -44,6 +54,24 @@ before they were kidnapped.[X]
 A dull slaver attempting[N]
 to procure slaves from villages[N]
 in north-eastern Lydemoor.[X]
+
+## FesterDesc
+An arrogant bandit who is eager[N]
+for praise, no matter the cost to[N]
+civilians or allies.[X]
+
+## YulieDesc
+A blunt, no-nonsense mercenary and bandit.[X]
+
+## DarronDesc
+The leader of the Elbenor Nook Mercenary Co.[N]
+Despises Felean refugees, and has taken up[N]
+the slave trade to boost his profits.[X]
+
+## BeckhamDesc
+An Obrelian general that helped orchestrate[N]
+the initial surprise attack on Lydemoor.[N]
+Prideful and meritocratic.[X]
 
 ## SlaverDesc
 Bandits that capture civilians[N]

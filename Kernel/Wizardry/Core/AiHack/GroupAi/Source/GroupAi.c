@@ -46,6 +46,20 @@ void HandleGroupAi()
 	//Debugf("gAiState.unitIt: %u, gAiState.unit at gAiState: %u", *gAiState.unitIt, gAiState.units[*gAiState.unitIt]);
 	//Debugf("Attacker unit index: %d", gBattleActor.unit.index & 0xFF);
 	//Debugf("Attacker group is %u", gBattleActor.unit.aiGroup);
-	if(!UnitHandleGroupAi(&gBattleActor.unit))
+	if (!UnitHandleGroupAi(&gBattleActor.unit))
 		UnitHandleGroupAi(&gBattleTarget.unit);
+}
+
+void ActivateGroup(u8 group)
+{
+	FOR_UNITS_ONMAP_FACTION(FACTION_RED, u, {
+		if (UNIT_AI_GROUP(u) == group) {
+			ActivateUnit(u);
+		}
+	});
+}
+
+void ActivateGroupASMC()
+{
+	ActivateGroup((u8)gEventSlots[1]);
 }

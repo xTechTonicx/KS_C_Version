@@ -19,6 +19,12 @@ Osborne[X]
 ## ElaineName
 Elaine[X]
 
+## CameronName
+Cameron[X]
+
+## MonaName
+Mona[X]
+
 ## ZandreaName
 Zandrea[X]
 
@@ -27,6 +33,18 @@ Osma[X]
 
 ## GloveName
 Glove[X]
+
+## FesterName
+Fester[X]
+
+## YulieName
+Yulie[X]
+
+## DarronName
+Darron[X]
+
+## BeckhamName
+Beckham[X]
 
 ## SlaverName
 Slaver[X]

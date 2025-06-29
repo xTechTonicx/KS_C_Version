@@ -40,14 +40,14 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TurnEventPlayer(0x00, Turn2_PP, 2)
-TurnEventPlayer(0x00, Turn3_PP, 3)
-TurnEventEnemy(0x00, Turn1_EP, 1)
-TurnEventEnemy(0x00, Turn2_EP, 2)
-TurnEventEnemy(0x00, Turn3_EP, 3)
-TurnEventEnemy(0x00, Turn4_EP, 4)
-TurnEventEnemy(0x00, Turn5_EP, 5)
-TurnEventEnemy(0x00, Turn6_EP, 6)
+TurnEventPlayer(0x00, Turn2_PP_CH1, 2)
+TurnEventPlayer(0x00, Turn3_PP_CH1, 3)
+TurnEventEnemy(0x00, Turn1_EP_CH1, 1)
+TurnEventEnemy(0x00, Turn2_EP_CH1, 2)
+TurnEventEnemy(0x00, Turn3_EP_CH1, 3)
+TurnEventEnemy(0x00, Turn4_EP_CH1, 4)
+TurnEventEnemy(0x00, Turn5_EP_CH1, 5)
+TurnEventEnemy(0x00, Turn6_EP_CH1, 6)
 END_MAIN
 
 LocationBasedEvents:
@@ -213,7 +213,7 @@ ENDA
 NoFade
 ENDA
 
-Turn1_EP:
+Turn1_EP_CH1:
 CAMERA_CENTERED [7,5]
 MUSC Raid
 STAL 30
@@ -226,7 +226,7 @@ EndConvo
 NoFade
 ENDA
 
-Turn2_EP:
+Turn2_EP_CH1:
 
 // Cutscene
 CAMERA_CENTERED [7,5]
@@ -272,7 +272,7 @@ NoFade
 ENDA
 
 
-Turn3_EP:
+Turn3_EP_CH1:
 // Cutscene
 CAMERA_CENTERED [7,5]
 MUSC Raid
@@ -296,7 +296,7 @@ NoFade
 ENDA
 
 
-Turn4_EP:
+Turn4_EP_CH1:
 // Activate Upper Central Group
 SetAI_Pos(11,3,0,0,0xC,0)
 SetAI_Pos(10,2,0,0,0xC,0)
@@ -304,7 +304,7 @@ NoFade
 ENDA
 
 
-Turn5_EP:
+Turn5_EP_CH1:
 // Activate Upper Left Group
 SetAI_Pos(1,10,0,0,0xC,0)
 SetAI_Pos(1, 9,0,0,0xC,0)
@@ -316,14 +316,14 @@ NoFade
 ENDA
 
 
-Turn6_EP:
+Turn6_EP_CH1:
 // Activate Glove		
 SetAI_Pos(5,4,0,0,0xC,0)				
 NoFade
 ENDA
 
 
-Turn2_PP:
+Turn2_PP_CH1:
 CAMERA CHARACTER_AUDREY
 CURSOR CHARACTER_AUDREY
 STAL 60
@@ -341,7 +341,7 @@ NoFade
 ENDA
 
 
-Turn3_PP:
+Turn3_PP_CH1:
 CAMERA [8,18]
 MUSC Comrades
 LOAD1 0x0 FriendlyReinforcements2

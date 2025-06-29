@@ -2,10 +2,10 @@
 #include "KSDefinitions.h"
 
 const struct ItemData ItemLightLightning = {
-    .nameTextId = MSG_LIGHTNING,
+	.nameTextId = MSG_LIGHTNING,
 	.descTextId = MSG_DESC_LIGHTNING,
 	.number = ITEM_LIGHT_LIGHTNING,
-	.weaponType = ITYPE_LIGHT,
+	.weaponType = ITYPE_STAFF,
 	.attributes = IA_WEAPON | IA_MAGIC | IA_UNBREAKABLE,
 	.maxUses = 1,
 	.might = 4,

@@ -3515,7 +3515,7 @@ Effective against monsters.[X]
 A beginner cantrip that summons a fireball.[X]
 
 ## MSG_THUNDER_DESC
-A spell with extended range. Cannot follow up.[X]
+[NarrowFontDialogue]A spell with extended range. Cannot follow up.[X]
 
 ## MSG_045A
  [X]

@@ -88,7 +88,7 @@ STATIC_DECLAR bool WtaHandler_Vanilla(struct BattleUnit *attacker, struct Battle
 
 	for (it = pr_WeaponTriangleRules; it->attackerWeaponType >= 0; ++it) {
 		if ((attacker->weaponType == it->attackerWeaponType) && (defender->weaponType == it->defenderWeaponType)) {
-			if (it->atkBonus > 0) {
+			if ((it->atkBonus > 0 && !(attacker->weaponAttributes & IA_REVERTTRIANGLE)) || (it->atkBonus < 0 && attacker->weaponAttributes & IA_REVERTTRIANGLE)) {
 				status->bonus.hit += 5;
 				if (attacker->unit.ranks[attacker->weaponType] >= WPN_EXP_C)
 					status->bonus.hit += 5;

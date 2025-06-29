@@ -5,12 +5,15 @@
  #define CHARACTER_CORDELL 5
  #define CHARACTER_SURGE 6
  #define CHARACTER_OSMA 7
+ #define CHARACTER_CAMERON 8
+ #define CHARACTER_MONA 9
  #define CHARACTER_JYRI 8
  #define CHARACTER_LIEV 9
  
  // Enemy characters
  #define CHARACTER_GLOVE 0x40
  #define CHARACTER_FESTER  0x41
+ #define CHARACTER_YULIE  0x42
  
  // Generics
  #define CHARACTER_SLAVER_0 0x80

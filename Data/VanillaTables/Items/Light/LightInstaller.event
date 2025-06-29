@@ -1,3 +1,4 @@
 
 #include LIGHT_LIGHTNING.lyn.event
 #include STAFF_HEAL.lyn.event
+#include STAFF_MEND.lyn.event

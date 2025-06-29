@@ -18,7 +18,7 @@ const struct CharacterData CharElaine =
     .baseDef = 0,
     .baseRes = -1,
     .baseLck = 5,
-    .baseCon = 0,
+    .baseCon = 1,
     .baseRanks = {
         [ITYPE_LANCE] = WPN_EXP_D,
     },
