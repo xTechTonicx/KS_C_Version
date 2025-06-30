@@ -23,7 +23,8 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TurnEventPlayer(0x00, Turn2_PP_CH2, 2)
+TurnEventPlayer(0, Turn2_PP_CH2, 2)
+TurnEventEnemy(0, Turn2_EP_CH2, 2)
 END_MAIN
 
 LocationBasedEvents:
@@ -73,22 +74,51 @@ UNIT CHARACTER_OSMA CLASS_MAGE_F 0x0 Level(20, Ally, True)  [6,12] 0x0 0x0 0x0 0
 UNIT
 
 UnitsPlayerReinforcements:
-UNIT CHARACTER_CAMERON CLASS_LANCE_ARMOR_M 0x0 Level(4, Ally, False) [8,0] 0x0 0x0 0x1 REDA8R1 [ITEM_LANCE_BRONZE, ITEM_LANCE_LANCEREAVER] NoAI
+UNIT CHARACTER_CAMERON CLASS_LANCE_ARMOR_M 0x0 Level(4, Ally, False) [8,0] 0x0 0x0 0x1 REDA8R1 [ITEM_LANCE_BRONZE, ITEM_LANCE_IRON] NoAI
 UNIT CHARACTER_MONA CLASS_TROUBADOUR_F 0x0 Level(3, Ally, False) [8,0] 0x0 0x0 0x1 REDA7R1 [ITEM_STAFF_MEND, ITEM_SWORD_BRONZE] NoAI
 UNIT
 
-EnemyUnitsLeft:
+InitialEnemies:
 // Fort Guard
 UNIT CHARACTER_SLAVER_0 CLASS_MAGE_M 0x0 Level(3, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA8R7 [ITEM_ANIMA_THUNDER] NeverMoveAI
 UNIT CHARACTER_SLAVER_0 CLASS_MAGE_M 0x0 Level(3, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA6R3 [ITEM_ANIMA_THUNDER] NeverMoveAI
 
+// Village Vanguard
+UNIT CHARACTER_SLAVER_0 CLASS_SWORDFIGHTER_M 0x2 Level(2, Enemy, True) [17, 4] 0x0 0x0 0x0 0x0 [ITEM_SWORD_IRON]   AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_SWORDFIGHTER_M 0x2 Level(2, Enemy, True) [17, 5] 0x0 0x0 0x0 0x0 [ITEM_SWORD_BRONZE] AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_OUTLAW_M       0x2 Level(3, Enemy, True) [18, 5] 0x0 0x0 0x0 0x0 [ITEM_BOW_BRONZE] AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_MAGE_M         0x2 Level(3, Enemy, True) [19, 4] 0x0 0x0 0x0 0x0 [ITEM_ANIMA_THUNDER] AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_OUTLAW_M       0x2 Level(3, Enemy, True) [20, 6] 0x0 0x0 0x0 0x0 [ITEM_BOW_BRONZE]   AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_OUTLAW_M       0x2 Level(3, Enemy, True) [21, 5] 0x0 0x0 0x0 0x0 [ITEM_BOW_IRON]     AttackInRangeAI
+
+// Leadup Group
+UNIT CHARACTER_SLAVER_0 CLASS_OUTLAW_M       0x3 Level(3, Enemy, True) [23, 10] 0x0 0x0 0x0 0x0 [ITEM_BOW_IRON]    AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_OUTLAW_M       0x3 Level(3, Enemy, True) [25, 09] 0x0 0x0 0x0 0x0 [ITEM_BOW_IRON]    AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M      0x3 Level(2, Enemy, True) [24, 11] 0x0 0x0 0x0 0x0 [ITEM_AXE_IRON]    AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M      0x3 Level(2, Enemy, True) [23, 12] DropItem 0 0 0  [ITEM_AXE_HANDAXE]    AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M      0x3 Level(2, Enemy, True) [24, 13] 0x0 0x0 0x0 0x0 [ITEM_AXE_HANDAXE] AttackInRangeAI
+
+// Boss Group
+UNIT CHARACTER_YULIE    CLASS_OUTLAW_F       0x4 Level(5, Enemy, False) [18, 14] DropItem 0x0 0x0 0 [ITEM_BOW_IRON] AttackInRangeAI 
+UNIT CHARACTER_SLAVER_0 CLASS_OUTLAW_M       0x4 Level(3, Enemy, True) [20, 15] 0x0 0x0 0x0 0x0 [ITEM_BOW_IRON]    AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_SWORDFIGHTER_M 0x4 Level(3, Enemy, True) [22, 14] 0x0 0x0 0x0 0x0 [ITEM_SWORD_IRON]  AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M      0x4 Level(2, Enemy, True) [23, 14] 0x0 0x0 0x0 0x0 [ITEM_LANCE_IRON, ITEM_VULNERARY] AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_SWORDFIGHTER_M 0x4 Level(3, Enemy, True) [23, 15] 0x0 0x0 0x0 0x0 [ITEM_SWORD_IRON]  AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_CLERIC_F       0x4 Level(3, Enemy, True) [21, 11] DropItem 0 0 0x0 [ITEM_STAFF_MEND] NeverMoveAI
+UNIT
+
+FesterEnemy:
+UNIT CHARACTER_FESTER CLASS_SWORDFIGHTER_M 0x2 Level(4, Enemy, False) [19, 2] DropItem 0x0 0x0 0x0 [ITEM_SWORD_IRON] AttackInRangeAI
+UNIT
+
+FortEnemies:
 // Initial Oncoming Enemies
 UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x0 Level(2, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA2R12  [ITEM_AXE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x0 Level(2, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA3R10 [ITEM_AXE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M 0x0 Level(2, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA5R9  [ITEM_LANCE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x0 Level(2, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA4R5  [ITEM_AXE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x0 Level(2, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA6R6  [ITEM_AXE_BRONZE] [0x0,0x00,NoRecovery,0x0]
-UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x0 Level(2, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA8R3  [ITEM_AXE_HANDAXE] [0x0,0x00,NoRecovery,0x0]
+UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x0 Level(2, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA2R7  [ITEM_AXE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M 0x0 Level(2, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA8R5  [ITEM_LANCE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M 0x0 Level(2, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA9R6  [ITEM_LANCE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 
@@ -98,6 +128,10 @@ UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M 0x1 Level(2, Enemy, True) [8 ,7] DropIte
 UNIT CHARACTER_SLAVER_0 CLASS_MAGE_M    0x1 Level(3, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA14R5 [ITEM_ANIMA_FIRE] AttackInRangeAI
 UNIT
 
+Chapter02BrigandReinforce:
+UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x0 Level(2, Enemy, True) [15,11] DropItem 0x0 0x0 0x0 [ITEM_AXE_HANDAXE] BrigandAI
+UNIT
+
 //==================================================================//
 //=============================EVENTS===============================//
 //==================================================================//
@@ -105,7 +139,11 @@ UNIT
 
 BeginningScene:
 
-LOAD1 0x1 EnemyUnitsLeft
+LOAD1 0x1 FortEnemies
+ENUN
+LOAD1 0x1 InitialEnemies
+ENUN
+LOAD1 0x1 FesterEnemy
 ENUN
 LOAD1 0x0 UnitsPlayer
 ENUN
@@ -118,6 +156,12 @@ LOAD1 0x1 UnitsPlayerReinforcements
 ENUN
 SVAL 1 0x1
 ASMC ActivateGroupASMC
+NoFade
+ENDA
+
+Turn2_EP_CH2:
+LOAD1 0x1 Chapter02BrigandReinforce
+ENUN
 NoFade
 ENDA
 

@@ -41,7 +41,7 @@ const struct KernelDesigerConfig gKernelDesigerConfig = {
 	.battle_surrend_en = true,
 #endif
 
-	.hit_decrease_on_range = true,
+	.hit_decrease_on_range = false,
 
 #ifdef CONFIG_DEBUG_UNIT_LOAD_SKILL
 	.debug_autoload_skills = true,
@@ -49,8 +49,8 @@ const struct KernelDesigerConfig gKernelDesigerConfig = {
 
 	.guaranteed_lvup = false,
 	.lvup_mode_tutorial = CONFIG_LVUP_MODE_TUTORIAL,
-	.lvup_mode_normal   = CONFIG_LVUP_MODE_NORMAL,
-	.lvup_mode_hard	    = CONFIG_LVUP_MODE_HARD,
+	.lvup_mode_normal = CONFIG_LVUP_MODE_NORMAL,
+	.lvup_mode_hard = CONFIG_LVUP_MODE_HARD,
 
 	.unit_page_style = CONFIG_PAGE1_WITH_BWL,
 	.skil_page_style = CONFIG_PAGE4_MOKHA_PLAN_B,

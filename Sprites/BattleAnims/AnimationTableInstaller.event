@@ -180,3 +180,5 @@
     #include "BattleAnimData/WYVERNRIDER_U_UNARMED.event"
 }
 
+#include "MurderSticks/CLERIC_STAFF.event"
+#include "MurderSticks/PRIEST_STAFF.event"

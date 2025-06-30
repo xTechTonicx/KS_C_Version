@@ -8,7 +8,7 @@ Dragz - Forging prototype
 Sme - Fixed Damage Weapons
 Snakey1 - AssembleObjects.bat
 Snakey1 - REDA list event file
-Zeta - Murder Sticks
+Zeta - Murder Sticks + Anims for Priest/Cleric
 HyperGammaSpaces - EA Notepad++ Language settings
 Teq - Text Engine Rework
 HyperGammaSpaces - OC Questions

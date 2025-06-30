@@ -13,14 +13,14 @@ void UnitLoadStatsFromChracterVanilla(struct Unit *unit, const struct CharacterD
 	int i;
 
 	unit->maxHP = character->baseHP + unit->pClassData->baseHP;
-	unit->pow   = character->basePow + unit->pClassData->basePow;
-	unit->skl   = character->baseSkl + unit->pClassData->baseSkl;
-	unit->spd   = character->baseSpd + unit->pClassData->baseSpd;
-	unit->def   = character->baseDef + unit->pClassData->baseDef;
-	unit->res   = character->baseRes + unit->pClassData->baseRes;
-	unit->lck   = character->baseLck;
+	unit->pow = character->basePow + unit->pClassData->basePow;
+	unit->skl = character->baseSkl + unit->pClassData->baseSkl;
+	unit->spd = character->baseSpd + unit->pClassData->baseSpd;
+	unit->def = character->baseDef + unit->pClassData->baseDef;
+	unit->res = character->baseRes + unit->pClassData->baseRes;
+	unit->lck = character->baseLck;
 
-	if (UNIT_FACTION(unit) == FACTION_RED && unit->pCharacterData->number <= 0x40) 
+	if (UNIT_FACTION(unit) == FACTION_RED && unit->pCharacterData->number >= 0x40)
 		unit->lck += unit->pClassData->baseLuck;
 
 	unit->conBonus = 0;

@@ -21,4 +21,6 @@
 // #include "WeaponScaling/WeaponScalingInstaller.event" // moved to Autolevel.c
 #include "SnagHP/SnagHP.lyn.event"
 
+#include "MurderSticks/Installer.event"
+
 #include "ExternalPatchData.event"
