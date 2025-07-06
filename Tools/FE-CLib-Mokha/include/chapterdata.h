@@ -57,7 +57,8 @@ struct ROMChapterData {
     /* 2E */ u8 minWeaponTierLunatic;
     /* 2F */ u8 minWexpHard;
     /* 30 */ u8 minWexpLunatic;
-    /* 31 */ u8 turnsForTacticsRankBInEliwoodStory[2]; // left over from FE7
+    /* 31 */ u8 promotedAutolevelsLunatic;
+    /* 32 */ u8 promotedAutolevelsHardNormal;
     /* 33 */ u8 turnsForTacticsRankBInHectorStory[2]; // left over from FE7
     /* 35 */ u8 turnsForTacticsRankCInEliwoodStory[2]; // left over from FE7
     /* 37 */ u8 turnsForTacticsRankCInHectorStory[2]; // left over from FE7

@@ -31,7 +31,7 @@ const struct ClassData ClassUmbralBishopF = {
 
     .growthHP  = 80,
     .growthPow = 0,
-    .growthSkl = 60,
+    .growthSkl = 45,
     .growthSpd = 30,
     .growthDef = 35,
     .growthRes = 40,
