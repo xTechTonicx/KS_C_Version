@@ -30,6 +30,7 @@ enum ItemDefinitions
     ITEM_BOW_STEEL,
     // Light
     ITEM_LIGHT_LIGHTNING,
+    ITEM_STAFF_ENFEEBLE,
     ITEM_STAFF_HEAL,
     ITEM_STAFF_MEND,
     // Anima

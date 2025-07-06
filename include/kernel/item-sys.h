@@ -23,6 +23,7 @@ enum chax_ierevamp_use_effects {
 	IER_STAFF_REPAIR,
 	IER_STAFF_UNLOCK,
 	IER_STAFF_BARRIER,
+	IER_STAFF_ENFEEBLE,
 
 	/**
 	 * Boosters
@@ -149,6 +150,8 @@ extern HealAmountGetterFunc_t const *const gpHealAmountGetters;
 
 int HealAmountGetter(int base, struct Unit *actor, struct Unit *target);
 
+void ExecNewStatusStaff(ProcPtr proc, u8 status);
+
 /**
  * IER functions
  */
@@ -213,6 +216,7 @@ IER_DECLEARE_Action(IER_Action_WarpStaff);
 IER_DECLEARE_Action(IER_Action_UnlockStaff);
 IER_DECLEARE_Action(IER_Action_Hammerne);
 IER_DECLEARE_Action(IER_Action_TorchItem);
+IER_DECLEARE_Action(IER_Action_EnfeebleStaff);
 IER_DECLEARE_Action(IER_Action_VulneraryItem);
 IER_DECLEARE_Action(IER_Action_ElixirItem);
 IER_DECLEARE_Action(IER_Action_PureWaterItem);

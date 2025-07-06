@@ -20,15 +20,6 @@ SID_DefiantRes
 SID_DefiantCrit
 SID_DefiantAvoid
 
-SID_PushDefense
-SID_PushMagic
-SID_PushResistance
-SID_PushSkill
-SID_PushSpeed
-SID_PushStrength
-SID_PushLuck
-SID_PushSpectrum
-
 SID_Fury
 SID_FuryPlus
 SID_FortressDef
@@ -160,17 +151,6 @@ SID_BlowUncanny
 SID_BlowKilling
 
 // Stance skills
-SID_StanceBracing
-SID_StanceDarting
-SID_StanceFierce
-SID_StanceKestrel
-SID_StanceMirror
-SID_StanceReady
-SID_StanceSteady
-SID_StanceSturdy
-SID_StanceSwift
-SID_StanceWarding
-SID_StanceSpectrum
 
 // Weapon range
 SID_RangeBonusBMag1
@@ -283,3 +263,6 @@ SID_FlierGuidance
 SID_HealingFocus
 SID_Teleportation
 SID_Swarp
+
+// Enemy-exclusive skills
+SID_InevitableEnd

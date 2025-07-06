@@ -2,6 +2,9 @@
 #include "item-sys.h"
 #include "battle-system.h"
 #include "constants/texts.h"
+#include "debuff.h"
+#include "skill-system.h"
+#include "constants/skills.h"
 
 /**
  * Usability
@@ -245,6 +248,11 @@ void IER_Action_StatusStaff(ProcPtr proc, struct Unit *unit, int item)
 	ExecStatusStaff(proc);
 }
 
+void IER_Action_EnfeebleStaff(ProcPtr proc, struct Unit *unit, int item)
+{
+	ExecNewStatusStaff(proc, IER_STAFF_ENFEEBLE);
+}
+
 void IER_Action_NightMare(ProcPtr proc, struct Unit *unit, int item)
 {
 	// ExecNightmare(proc);
@@ -401,4 +409,42 @@ void IER_PrepEffect_Promotion(struct ProcPrepItemUse *proc, u16 item)
 void IER_PrepEffect_JunaFruit(struct ProcPrepItemUse *proc, u16 item)
 {
 	Proc_Goto(proc, PROC_LABEL_PREPITEMUSE_EXEC_JUNA);
+}
+
+void ExecNewStatusStaff(ProcPtr proc, u8 status) {
+	int accuracy;
+
+    BattleInitItemEffect(GetUnit(gActionData.subjectIndex),
+        gActionData.itemSlotIndex);
+
+    BattleInitItemEffectTarget(GetUnit(gActionData.targetIndex));
+
+    accuracy = GetOffensiveStaffAccuracy(GetUnit(gActionData.subjectIndex), GetUnit(gActionData.targetIndex));
+
+    gBattleActor.battleEffectiveHitRate = accuracy;
+
+    if (!Roll2RN(accuracy)) {
+        gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_MISS;
+    } else {
+        switch (status) {
+            case IER_STAFF_ENFEEBLE:
+#if (defined(SID_InevitableEnd) && (COMMON_SKILL_VALID(SID_InevitableEnd)))
+				bool hasIE = SkillTester(GetUnit(gActionData.subjectIndex), SID_InevitableEnd);
+#else
+				bool hasIE = false;
+#endif
+                InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), STR_DEBUFF_START, 4, hasIE);
+				InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), MAG_DEBUFF_START, 4, hasIE);
+				InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), SKL_DEBUFF_START, 4, hasIE);
+				InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), SPD_DEBUFF_START, 4, hasIE);
+				InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), LCK_DEBUFF_START, 4, hasIE);
+				InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), DEF_DEBUFF_START, 4, hasIE);
+				InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), RES_DEBUFF_START, 4, hasIE);
+		}
+	}
+
+    BattleApplyItemEffect(proc);
+    BeginBattleAnimations();
+
+    return;
 }

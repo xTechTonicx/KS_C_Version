@@ -317,6 +317,7 @@ void ClearUnitStatDebuff(struct Unit *unit, enum UNIT_STAT_DEBUFF_IDX debuff);
 bool CheckUnitStatDebuff(struct Unit *unit, enum UNIT_STAT_DEBUFF_IDX debuff);
 void TickUnitStatDebuff(struct Unit *unit, enum STATUS_DEBUFF_TICK_TYPE type);
 void TickUnitGradualDebuffs(struct Unit* unit);
+void InflictUnitStatDebuff(struct Unit* unit, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX stat, int amount, bool stacking);
 int SimulateStatDebuffPositiveType(struct Unit *unit);
 
 void PreBattleCalcStatDebuffs(struct BattleUnit *attacker, struct BattleUnit *defender);

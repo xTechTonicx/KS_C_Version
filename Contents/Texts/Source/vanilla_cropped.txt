@@ -3618,9 +3618,9 @@ for several turns.[X]
 Puts enemies to sleep for[Huff][LF]
 several turns.[X]
 
-## MSG_0479
-Sends enemies into a[LF]
-berserker rage.[X]
+## MSG_DESC_ENFEEBLE
+Inflicts -4 debuff to all of foes[LF]
+stats. Each stat recovers 1/turn.[X]
 
 ## MSG_047A
 Moves allies in adjacent[LF]

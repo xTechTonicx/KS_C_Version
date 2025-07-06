@@ -107,6 +107,13 @@ struct IERevamp const IERevampTable[IER_MAX] = {
 		.action_effect  = IER_Action_BarrierStaff,
 		.prep_effect    = NULL,
 	},
+	[IER_STAFF_ENFEEBLE] = {
+		.usability = IER_Usability_Berserk,
+		.prep_usability = NULL,
+		.effect = IER_Effect_Berserk,
+		.action_effect = IER_Action_EnfeebleStaff,
+		.prep_effect = NULL,
+	},
 
 	/**
 	 * Boosters

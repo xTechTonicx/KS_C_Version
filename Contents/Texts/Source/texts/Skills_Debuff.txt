@@ -192,3 +192,10 @@ DEF-7 until next action[X]
 ChillRes:[NL]
 Enemy with the highest RES get[NL]
 RES-7 until next action[X]
+
+## MSG_SKILL_InevitableEnd_NAME
+Inevitable End[X]
+
+## MSG_SKILL_InevitableEnd_DESC
+Inevitable End:[NL]
+Status effects on enemies will accumulate.[X]

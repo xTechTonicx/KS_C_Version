@@ -14,4 +14,9 @@ const u16 gConstSkillTable_Person[0x100][2] = {
         SID_VerdantPoise
 #endif
     },
+    [CHARACTER_OSBORNE] = {
+#if (defined(SID_InevitableEnd) && COMMON_SKILL_VALID(SID_InevitableEnd))
+        SID_InevitableEnd
+#endif
+    }
 };
