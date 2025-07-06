@@ -42,11 +42,8 @@ const struct ROMChapterData ChapterDebug = {
 	.minWeaponTierLunatic = 0,
 	.minWexpHard = WPN_EXP_C,
 	.minWexpLunatic = WPN_EXP_A,
-
-	.turnsForTacticsRankBInEliwoodStory = {
-		[0] = 6,
-		[1] = 6,
-	},
+	.promotedAutolevelsLunatic = 20,
+	.promotedAutolevelsHardNormal = 5,
 	.turnsForTacticsRankBInHectorStory = {
 		[0] = 6,
 		[1] = 6,

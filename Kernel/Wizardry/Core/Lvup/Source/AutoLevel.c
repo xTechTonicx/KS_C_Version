@@ -6,6 +6,15 @@
 
 #define BASE_AUTOLEVEL_FIXED_OFFSET 49
 
+LYN_REPLACE_CHECK(GetCurrentPromotedLevelBonus);
+int GetCurrentPromotedLevelBonus() {
+    if (gPlaySt.chapterStateBits & PLAY_FLAG_HARD) {
+        return GetROMChapterStruct(gPlaySt.chapterIndex)->promotedAutolevelsLunatic;
+    }
+    return GetROMChapterStruct(gPlaySt.chapterIndex)->promotedAutolevelsHardNormal;
+}
+
+
 int GetAutoleveledStatPenalty(int growth, int levels)
 {
 	return (growth * levels) / 100;
@@ -77,13 +86,13 @@ LYN_REPLACE_CHECK(UnitAutolevelPenalty);
 void UnitAutolevelPenalty(struct Unit *unit, u8 classId, int levelCount)
 {
 	unit->maxHP -= GetAutoleveledStatPenalty(unit->pClassData->growthHP, levelCount);
-	unit->pow -= GetAutoleveledStatPenalty(unit->pClassData->growthPow / 2, levelCount); // Reduced penalty
+	unit->pow -= GetAutoleveledStatPenalty(unit->pClassData->growthPow, levelCount);
 	unit->skl -= GetAutoleveledStatPenalty(unit->pClassData->growthSkl / 2, levelCount); // Reduced penalty
 	unit->spd -= GetAutoleveledStatPenalty(unit->pClassData->growthSpd, levelCount);
 	unit->def -= GetAutoleveledStatPenalty(unit->pClassData->growthDef, levelCount);
 	unit->res -= GetAutoleveledStatPenalty(unit->pClassData->growthRes, levelCount);
-	unit->lck += GetAutoleveledStatIncrease(unit->pClassData->growthLck / 2, levelCount); // Reduced penalty
-	UNIT_MAG(unit) -= GetAutoleveledStatPenalty(gpMagicJInfos[UNIT_CLASS_ID(unit)].growth / 2, levelCount); // Reduced penalty
+	unit->lck -= GetAutoleveledStatPenalty(unit->pClassData->growthLck / 2, levelCount); // Reduced penalty
+	UNIT_MAG(unit) -= GetAutoleveledStatPenalty(gpMagicJInfos[UNIT_CLASS_ID(unit)].growth, levelCount);
 	CheckMinimumStats(unit);
 	UnitInitializeAttunement(unit);
 }
