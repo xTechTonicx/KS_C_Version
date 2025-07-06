@@ -5,11 +5,11 @@
 #include "constants/skills.h"
 #include "KSDefinitions.h"
 
-#define BASE_KILL_EXP_AMOUNT 30
-#define BASE_CHIP_EXP_AMOUNT 10
+#define BASE_KILL_EXP_AMOUNT 26
+#define BASE_CHIP_EXP_AMOUNT 8
 
-#define NORMAL_MODE_EXP_BONUS 12
-#define HARD_MODE_EXP_BONUS 6
+#define NORMAL_MODE_EXP_BONUS 9
+#define HARD_MODE_EXP_BONUS 4
 
 int GetDifficultyExpBonus() {
 	SWITCH_BY_DIFFICULTY(return NORMAL_MODE_EXP_BONUS;, return HARD_MODE_EXP_BONUS;, return 0;)
@@ -44,14 +44,14 @@ int GetUnitKillExpAmount(struct Unit* actor, struct Unit* target) {
 	int result;
 	
 	if (levelDifference > 0)  // Unit is overeleveled
-		result =  BASE_KILL_EXP_AMOUNT - (((levelDifference + 3) * levelDifference) / 2);
+		result =  BASE_KILL_EXP_AMOUNT - (((levelDifference + 7) * levelDifference) / 2);
 	else if (levelDifference < 0) // Unit is underleveled
-		result = BASE_KILL_EXP_AMOUNT + (((-levelDifference + 3) * -levelDifference) / 2);
+		result = BASE_KILL_EXP_AMOUNT + (((-levelDifference + 7) * -levelDifference) / 2);
 	else
 		result = BASE_KILL_EXP_AMOUNT;
 	
-	if (result > 75) {
-		result = 75;
+	if (result > 57) {
+		result = 57;
 	}
 
 	result += GetDifficultyExpBonus();
@@ -100,10 +100,12 @@ int GetUnitExpLevel(struct Unit *unit)
 
 	if (CheckHasBwl(UNIT_CHAR_ID(unit)))
 		bonus = GetUnitHiddenLevel(unit);
+	else if (UNIT_CATTRIBUTES(unit) & CA_PROMOTED)
+		bonus = GetCurrentPromotedLevelBonus();
 	else
-		bonus = gpClassPreLoadHiddenLevel[UNIT_CLASS_ID(unit)];
+		return base;
 
-	return base + bonus;
+	return base + ((bonus + 20) >> 1);
 }
 
 STATIC_DECLAR int KernelModifyBattleUnitExp(int base, struct BattleUnit *actor, struct BattleUnit *target)
