@@ -12,7 +12,7 @@ const struct CharacterData CharCordell =
     .sort_order = 0x1,
     .baseLevel = 5, 
     .baseHP  = 5,
-    .basePow = 2,
+    .basePow = 3,
     .baseSkl = 0,
     .baseSpd = 4,
     .baseDef = 5,
@@ -21,7 +21,7 @@ const struct CharacterData CharCordell =
     .baseCon = 1,   
     
     .baseRanks = {
-        [ITYPE_BOW] = WPN_EXP_C,
+        [ITYPE_BOW] = WPN_EXP_D + 15,
     },
       
     .growthHP  = 70,

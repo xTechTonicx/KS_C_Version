@@ -29,5 +29,5 @@ const struct CharacterData CharGlove =
     .growthDef = 45,
     .growthRes = 30,
     .growthLck = 50,
-    .attributes = 0x0
+    .attributes = CA_BOSS,
 };

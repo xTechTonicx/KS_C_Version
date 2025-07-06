@@ -26,7 +26,7 @@ const struct ClassData ClassUmbralBishopF = {
     .maxDef = 25,
     .maxRes = 30,
     .maxCon = 20,
-    .baseLuck = 13,
+    .baseLuck = 8,
 
 
     .growthHP  = 80,
@@ -35,7 +35,7 @@ const struct ClassData ClassUmbralBishopF = {
     .growthSpd = 30,
     .growthDef = 35,
     .growthRes = 40,
-    .growthLck = 66,
+    .growthLck = 33,
 
     .promotionHp  = 0,
     .promotionPow = 0,

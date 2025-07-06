@@ -29,5 +29,5 @@ const struct CharacterData CharFester =
     .growthDef = 20,
     .growthRes = 10,
     .growthLck = 50,
-    .attributes = 0x0
+    .attributes = CA_BOSS
 };

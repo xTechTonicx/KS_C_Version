@@ -15,6 +15,6 @@ const struct ItemData ItemMendStaff = {
 	.costPerUse = 40,
 	.weaponRank = WPN_EXP_D,
 	.iconId = 0x49, // TODO Update Icon
-	.useEffectId = 1,
+	.useEffectId = 2,
 	.weaponExp = 2,
 };

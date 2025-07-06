@@ -8,11 +8,11 @@
 #define BASE_KILL_EXP_AMOUNT 26
 #define BASE_CHIP_EXP_AMOUNT 8
 
-#define NORMAL_MODE_EXP_BONUS 9
-#define HARD_MODE_EXP_BONUS 4
+#define NORMAL_MODE_EXP_BONUS(v) *v = (*v * 10) / 8
+#define HARD_MODE_EXP_BONUS(v) *v = (*v * 9) / 8
 
-int GetDifficultyExpBonus() {
-	SWITCH_BY_DIFFICULTY(return NORMAL_MODE_EXP_BONUS;, return HARD_MODE_EXP_BONUS;, return 0;)
+void GetDifficultyExpBonus(int *result) {
+	SWITCH_BY_DIFFICULTY(NORMAL_MODE_EXP_BONUS(result);, NORMAL_MODE_EXP_BONUS(result);, return;)
 }
 
 int GetUnitChipExpAmount(struct Unit* actor, struct Unit* target) {
@@ -41,6 +41,7 @@ int GetUnitKillExpAmount(struct Unit* actor, struct Unit* target) {
 	}
 	
 	int levelDifference = GetUnitExpLevel(actor) - GetUnitExpLevel(target);
+	Debugf("Level difference: %d", levelDifference);
 	int result;
 	
 	if (levelDifference > 0)  // Unit is overeleveled
@@ -54,7 +55,7 @@ int GetUnitKillExpAmount(struct Unit* actor, struct Unit* target) {
 		result = 57;
 	}
 
-	result += GetDifficultyExpBonus();
+	GetDifficultyExpBonus(&result);
 
 	result += GetUnitClassKillExpBonus(actor, target);
 
@@ -98,12 +99,14 @@ int GetUnitExpLevel(struct Unit *unit)
 
 	base = unit->level;
 
-	if (CheckHasBwl(UNIT_CHAR_ID(unit)))
-		bonus = GetUnitHiddenLevel(unit);
-	else if (UNIT_CATTRIBUTES(unit) & CA_PROMOTED)
-		bonus = GetCurrentPromotedLevelBonus();
-	else
+	if (UNIT_CATTRIBUTES(unit) & CA_PROMOTED) {
+		if (CheckHasBwl(UNIT_CHAR_ID(unit)))
+			bonus = GetUnitHiddenLevel(unit);
+		else 
+			bonus = GetCurrentPromotedLevelBonus();
+	} else {
 		return base;
+	}
 
 	return base + ((bonus + 20) >> 1);
 }

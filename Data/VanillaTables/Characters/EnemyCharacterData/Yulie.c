@@ -29,5 +29,5 @@ const struct CharacterData CharYulie =
     .growthDef = 40,
     .growthRes = 40,
     .growthLck = 50,
-    .attributes = CA_FEMALE
+    .attributes = CA_FEMALE | CA_BOSS,
 };
