@@ -98,17 +98,15 @@ bool CheckCanTwiceAttackOrder(struct BattleUnit *actor, struct BattleUnit *targe
 	}
 
 	if (followup_nullified_en) {
-		if (&gBattleActor == actor) {
 #if defined(SID_WaryFighter) && (COMMON_SKILL_VALID(SID_WaryFighter))
-			if (BattleFastSkillTester(target, SID_WaryFighter) || BattleFastSkillTester(actor, SID_WaryFighter))
-				return false;
+		if (BattleFastSkillTester(target, SID_WaryFighter) || BattleFastSkillTester(actor, SID_WaryFighter))
+			return false;
 #endif
 
 #if defined(SID_Moonlight) && (COMMON_SKILL_VALID(SID_Moonlight))
-			if (BattleFastSkillTester(actor, SID_Moonlight))
-				return false;
+		if ((&gBattleActor == actor) && BattleFastSkillTester(actor, SID_Moonlight))
+			return false;
 #endif
-		}
 	}
 
 	/* Check attacker */
