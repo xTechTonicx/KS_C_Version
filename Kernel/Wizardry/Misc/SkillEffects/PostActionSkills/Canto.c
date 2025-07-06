@@ -13,7 +13,7 @@ STATIC_DECLAR bool CheckCanto(void)
 		return false;
 
 #if defined(SID_Canto) && (COMMON_SKILL_VALID(SID_Canto))
-	canto = SkillListTester(gActiveUnit, SID_Canto);
+	canto = SkillListTester(gActiveUnit, SID_Canto) || UNIT_CATTRIBUTES(gActiveUnit) & CA_CANTO;
 #else
 	canto = false;
 #endif
