@@ -155,9 +155,6 @@ void UnitAutolevelWExpConfig(struct Unit *unit)
 LYN_REPLACE_CHECK(UnitAutolevelWExp);
 void UnitAutolevelWExp(struct Unit *unit, const struct UnitDefinition *uDef)
 {
-	// This sucks but it has to hook here :/
-	SetUnitAiGroup(unit, (u8)uDef->leaderCharIndex);
-
 	if (uDef->autolevel && UNIT_FACTION(unit) != FACTION_BLUE)
 		UnitAutolevelWExpConfig(unit);
 }

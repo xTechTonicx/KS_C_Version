@@ -2,6 +2,19 @@
 #include "GroupAi.h"
 #include "kernel-lib.h"
 
+LYN_REPLACE_CHECK(CharStoreAI);
+void CharStoreAI(struct Unit* unit, const struct UnitDefinition* uDef) {
+    unit->ai1 = uDef->ai[UDEF_AIIDX_AI_A];
+
+    unit->ai2 = uDef->ai[UDEF_AIIDX_AI_B];
+
+    unit->ai_config &= ~AI_UNIT_CONFIG_HEALTHRESHOLD_MASK; // clear heal threshold
+    unit->ai_config |= uDef->ai[UDEF_AIIDX_AI_CONF_L];
+    unit->ai_config |= (uDef->ai[UDEF_AIIDX_AI_CONF_H] << 8);
+	SetUnitAiGroup(unit, uDef);
+    return;
+}
+
 void ActivateUnit(struct Unit *unit)
 {
 	Debugf("Activating unit %u", unit->index & 0xFF);
@@ -17,9 +30,9 @@ void ActivateUnit(struct Unit *unit)
 	}
 }
 
-void SetUnitAiGroup(struct Unit *unit, u8 aiGroup)
+void SetUnitAiGroup(struct Unit *unit, const struct UnitDefinition* uDef)
 {
-	unit->aiGroup = aiGroup;
+	unit->aiGroup = (u8)uDef->leaderCharIndex;
 }
 
 bool UnitHandleGroupAi(struct Unit *unit)
