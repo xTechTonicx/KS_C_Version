@@ -14,7 +14,7 @@ const struct ClassData ClassOutlawM = {
     .basePow = 5,
     .baseSkl = 4,
     .baseSpd = 8,
-    .baseDef = 2,
+    .baseDef = 1,
     .baseRes = 7,
     .baseCon = 7,
     .baseMov = 5,
@@ -33,7 +33,7 @@ const struct ClassData ClassOutlawM = {
     .growthPow = 35,
     .growthSkl = 35,
     .growthSpd = 45,
-    .growthDef = 30,
+    .growthDef = 20,
     .growthRes = 50,
     .growthLck = 30,
 

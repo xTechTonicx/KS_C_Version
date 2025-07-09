@@ -11,7 +11,7 @@ const struct ClassData ClassSwordfigherM = {
     .sort_order = 0x2,
 
     .baseHP  = 26,
-    .basePow = 5,
+    .basePow = 6,
     .baseSkl = 11,
     .baseSpd = 10,
     .baseDef = 3,
