@@ -88,8 +88,7 @@ struct ROMChapterData {
     /* 75 */ u8 gmapEventId;
 
     /* 76 */ u16 divinationTextIdBeginning; // left over from FE7
-    /* 78 */ u16 divinationTextIdInEliwoodStory; // left over from FE7
-    /* 7A */ u16 divinationTextIdInHectorStory; // left over from FE7
+    /* 78 */ void (*groupAiFunc) (int group);
     /* 7C */ u16 divinationTextIdEnding; // left over from FE7
     /* 7E */ u8 divinationPortrait; // left over from FE7
     /* 7F */ u8 divinationFee; // left over from FE7
@@ -186,5 +185,8 @@ const void* GetChapterMapChangesPointer(unsigned chIndex);
 const struct ChapterEventGroup* GetChapterEventDataPointer(unsigned chIndex);
 const char * GetChapterTitleName(unsigned chIndex);
 u8 IsDifficultMode(void);
+
+void DummyGroupAiFunc(int);
+void Chapter02GroupAiFunc(int group);
 
 #endif // GUARD_CHAPTERDATA_H

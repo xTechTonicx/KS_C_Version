@@ -25,6 +25,8 @@ POIN BeginningScene EndingScene
 TurnBasedEvents:
 TurnEventPlayer(0, Turn2_PP_CH2, 2)
 TurnEventPlayer(0, Turn3_PP_CH2, 3)
+TurnEventPlayer(7, ActivateRemainingEnemies_CH2, 1, 250)
+TurnEventEnemy(8, Counter1Event_CH2, 1, 250)
 END_MAIN
 
 LocationBasedEvents:
@@ -83,15 +85,18 @@ InitialEnemies:
 UNIT CHARACTER_SLAVER_0 CLASS_MAGE_M 0x0 Level(3, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA8R7 [ITEM_ANIMA_THUNDER] NeverMoveAI
 UNIT CHARACTER_SLAVER_0 CLASS_MAGE_M 0x0 Level(3, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA6R3 [ITEM_ANIMA_THUNDER] NeverMoveAI
 
+// Mountain Brigands
+UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x2 Level(2, Enemy, True) [11, 2] 0x0 0x0 0x0 0x0 [ITEM_AXE_IRON] AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x2 Level(2, Enemy, True) [10, 8] 0x0 0x0 0x0 0x0 [ITEM_AXE_IRON] AttackInRangeAI
+
 // Village Vanguard
 UNIT CHARACTER_SLAVER_0 CLASS_SWORDFIGHTER_M 0x1 Level(2, Enemy, True) [18, 4] 0x0 0x0 0x0 0x0 [ITEM_SWORD_IRON]   AttackInRangeAI
 UNIT CHARACTER_SLAVER_0 CLASS_SWORDFIGHTER_M 0x1 Level(2, Enemy, True) [18, 5] 0x0 0x0 0x0 0x0 [ITEM_SWORD_BRONZE] AttackInRangeAI
 UNIT CHARACTER_SLAVER_0 CLASS_OUTLAW_M       0x1 Level(3, Enemy, True) [19, 5] 0x0 0x0 0x0 0x0 [ITEM_BOW_BRONZE] AttackInRangeAI
-UNIT CHARACTER_SLAVER_0 CLASS_MAGE_M         0x1 Level(3, Enemy, True) [20, 4] 0x0 0x0 0x0 0x0 [ITEM_ANIMA_THUNDER] AttackInRangeAI
 
 // Leadup Group
-UNIT CHARACTER_SLAVER_0 CLASS_OUTLAW_M       0x3 Level(3, Enemy, True) [23, 10] 0x0 0x0 0x0 0x0 [ITEM_BOW_IRON]    AttackInRangeAI
-UNIT CHARACTER_SLAVER_0 CLASS_OUTLAW_M       0x3 Level(3, Enemy, True) [25, 09] 0x0 0x0 0x0 0x0 [ITEM_BOW_IRON]    AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_OUTLAW_M       0x1 Level(3, Enemy, True) [23, 10] 0x0 0x0 0x0 0x0 [ITEM_BOW_IRON]    AttackInRangeAI
+UNIT CHARACTER_SLAVER_0 CLASS_OUTLAW_M       0x1 Level(3, Enemy, True) [25, 09] 0x0 0x0 0x0 0x0 [ITEM_BOW_IRON]    AttackInRangeAI
 UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M      0x3 Level(2, Enemy, True) [24, 11] 0x0 0x0 0x0 0x0 [ITEM_AXE_IRON]    AttackInRangeAI
 UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M      0x3 Level(2, Enemy, True) [23, 12] DropItem 0 0 0  [ITEM_AXE_HANDAXE]    AttackInRangeAI
 UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M      0x3 Level(2, Enemy, True) [24, 13] 0x0 0x0 0x0 0x0 [ITEM_AXE_HANDAXE] AttackInRangeAI
@@ -111,14 +116,14 @@ UNIT
 
 FortEnemies:
 // Initial Oncoming Enemies
+UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M 0x0 Level(2, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA8R5  [ITEM_LANCE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x0 Level(2, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA2R12  [ITEM_AXE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x0 Level(2, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA3R10 [ITEM_AXE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M 0x0 Level(2, Enemy, True) [8 ,7] 0x0 0x0 0x1 REDA5R9  [ITEM_LANCE_BRONZE] [0x0,0x00,NoRecovery,0x0]
+UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M 0x0 Level(2, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA9R6  [ITEM_LANCE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x0 Level(2, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA4R5  [ITEM_AXE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x0 Level(2, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA6R6  [ITEM_AXE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT CHARACTER_SLAVER_0 CLASS_BRIGAND_M 0x0 Level(2, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA2R7  [ITEM_AXE_BRONZE] [0x0,0x00,NoRecovery,0x0]
-UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M 0x0 Level(2, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA8R5  [ITEM_LANCE_BRONZE] [0x0,0x00,NoRecovery,0x0]
-UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M 0x0 Level(2, Enemy, True) [6 ,3] 0x0 0x0 0x1 REDA9R6  [ITEM_LANCE_BRONZE] [0x0,0x00,NoRecovery,0x0]
 UNIT
 
 Chapter02BrigandReinforce:
@@ -140,6 +145,9 @@ LOAD1 0x1 FesterEnemy
 ENUN
 LOAD1 0x0 UnitsPlayer
 ENUN
+
+// Set flag 7 to true, as it's cleared when group 1 is activated
+ENUT 0x7
 NoFade
 ENDA
 
@@ -147,14 +155,36 @@ Turn2_PP_CH2:
 
 LOAD1 0x1 UnitsPlayerReinforcements
 ENUN
-SVAL 1 0x1
-ASMC ActivateGroupASMC
 NoFade
 ENDA
 
 Turn3_PP_CH2:
 LOAD1 0x1 Chapter02BrigandReinforce
 ENUN
+SVAL 1 0x2
+ASMC ActivateGroupASMC
+NoFade
+ENDA
+
+ActivateRemainingEnemies_CH2:
+COUNTER_SET 0x0 0x1
+NoFade
+ENDA
+
+Counter1Event_CH2:
+// Check Counter #0
+ENUF(0x8)
+COUNTER_CHECK 0x0
+// If counter != 1, goto label 0
+SVAL 0x1 0x1
+BNE 0x0 0x1 0xC
+// If counter == 1, activate group 3 and disable the event
+SVAL 1 0x3
+ASMC ActivateGroupASMC
+ENUT 0x8
+// Decrement Counter (if possible)
+LABEL(0x0)
+COUNTER_DEC 0x0
 NoFade
 ENDA
 

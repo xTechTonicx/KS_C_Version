@@ -1,1 +1,2 @@
 #include "Source/GroupAi.lyn.event"
+#include "Source/GroupAiFuncs.lyn.event"

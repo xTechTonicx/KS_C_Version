@@ -51,6 +51,8 @@ bool UnitHandleGroupAi(struct Unit *unit)
 		}
 	});
 
+	GetROMChapterStruct(gPlaySt.chapterIndex)->groupAiFunc(group);
+
 	return true;
 }
 
