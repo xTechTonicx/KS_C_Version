@@ -25,8 +25,7 @@ POIN BeginningScene EndingScene
 TurnBasedEvents:
 TurnEventPlayer(0, Turn2_PP_CH2, 2)
 TurnEventPlayer(0, Turn3_PP_CH2, 3)
-TurnEventPlayer(7, ActivateRemainingEnemies_CH2, 1, 250)
-TurnEventEnemy(8, Counter1Event_CH2, 1, 250)
+TurnEventPlayer(7, HandleCounter0Ch2, 1, 255)
 END_MAIN
 
 LocationBasedEvents:
@@ -35,6 +34,7 @@ END_MAIN
 MiscBasedEvents:
 CauseGameOverIfLordDies
 DefeatAll(EndingScene)
+AFEV 9 InitCounter0Ch2 8
 END_MAIN
 
 CharacterBasedEvents:
@@ -107,7 +107,6 @@ UNIT CHARACTER_SLAVER_0 CLASS_OUTLAW_M       0x4 Level(3, Enemy, True) [20, 15] 
 UNIT CHARACTER_SLAVER_0 CLASS_SWORDFIGHTER_M 0x4 Level(3, Enemy, True) [22, 14] 0x0 0x0 0x0 0x0 [ITEM_SWORD_IRON]  AttackInRangeAI
 UNIT CHARACTER_SLAVER_0 CLASS_MILITIA_M      0x4 Level(2, Enemy, True) [23, 14] 0x0 0x0 0x0 0x0 [ITEM_LANCE_IRON, ITEM_VULNERARY] AttackInRangeAI
 UNIT CHARACTER_SLAVER_0 CLASS_SWORDFIGHTER_M 0x4 Level(3, Enemy, True) [23, 15] 0x0 0x0 0x0 0x0 [ITEM_SWORD_IRON]  AttackInRangeAI
-UNIT CHARACTER_SLAVER_0 CLASS_CLERIC_F       0x0 Level(3, Enemy, True) [21, 11] DropItem 0 0 0x0 [ITEM_STAFF_MEND] NeverMoveAI
 UNIT
 
 FesterEnemy:
@@ -152,17 +151,14 @@ NoFade
 ENDA
 
 Turn2_PP_CH2:
-
-LOAD1 0x1 UnitsPlayerReinforcements
-ENUN
+LoadReinforcements(UnitsPlayerReinforcements)
 NoFade
 ENDA
 
 Turn3_PP_CH2:
-LOAD1 0x1 Chapter02BrigandReinforce
+LoadReinforcements(Chapter02BrigandReinforce)
 ENUN
-SVAL 1 0x2
-ASMC ActivateGroupASMC
+ActivateGroup(2)
 NoFade
 ENDA
 
@@ -171,20 +167,26 @@ COUNTER_SET 0x0 0x1
 NoFade
 ENDA
 
-Counter1Event_CH2:
-// Check Counter #0
-ENUF(0x8)
-COUNTER_CHECK 0x0
-// If counter != 1, goto label 0
-SVAL 0x1 0x1
-BNE 0x0 0x1 0xC
-// If counter == 1, activate group 3 and disable the event
-SVAL 1 0x3
-ASMC ActivateGroupASMC
-ENUT 0x8
-// Decrement Counter (if possible)
-LABEL(0x0)
-COUNTER_DEC 0x0
+InitCounter0Ch2:
+COUNTER_SET 0 3
+ENUF 7
+NoFade
+ENDA
+
+HandleCounter0Ch2:
+ENUF 7
+COUNTER_CHECK 0
+SVAL 1 3
+BEQ 0 0x1 0xC
+SVAL 1 2
+BNE 1 0x1 0xC
+ActivateGroup(3)
+GOTO 0
+LABEL 1
+ActivateGroup(4)
+ENUT 7
+LABEL 0
+COUNTER_DEC 0
 NoFade
 ENDA
 
