@@ -332,10 +332,8 @@ StartText(Chapter1Turn2PP1)
 MUSC 0x0
 ContinueText
 REMA
-CAMERA [8,18]
 MUSC Comrades
-LOAD1 0x0 FriendlyReinforcements1
-ENUN
+LoadReinforcements(FriendlyReinforcements1)
 Text(Chapter1Turn2PP2)
 NoFade
 ENDA
@@ -344,7 +342,7 @@ ENDA
 Turn3_PP_CH1:
 CAMERA [8,18]
 MUSC Comrades
-LOAD1 0x0 FriendlyReinforcements2
+LoadReinforcements(FriendlyReinforcements2)
 ENUN
 Text(Chapter1Turn3PP)
 NoFade
