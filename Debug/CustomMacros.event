@@ -1,0 +1,6 @@
+#define EndConvo "CALL $9EE2C4" //From SME's eventing guide.
+
+#define ActivateGroup(groupId) "SVAL 0x2 groupId; ASMC ActivateGroupASMC;"
+
+#define LoadReinforcements(g) "SVAL 0x2 (g|0x8000000);; CALL 0x9EE274;"
+#define LoadReinforcementsHard(g) "SVAL 0x2 (g|0x8000000);; CALL 0x9EE29C;"
