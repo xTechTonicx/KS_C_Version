@@ -23,7 +23,6 @@ enum chax_ierevamp_use_effects {
 	IER_STAFF_REPAIR,
 	IER_STAFF_UNLOCK,
 	IER_STAFF_BARRIER,
-	IER_STAFF_ENFEEBLE,
 
 	/**
 	 * Boosters
@@ -88,6 +87,8 @@ enum chax_ierevamp_use_effects {
 	IER_CHAX_STAFF_LATONA,
 	IER_CHAX_SKILL_SCROLL,
 	IER_CHAX_STAFF_NIGHTMARE,
+
+	IER_STAFF_ENFEEBLE,
 
 	IER_MAX = 0x51,
 };
