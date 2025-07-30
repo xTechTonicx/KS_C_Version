@@ -3,8 +3,6 @@
 #include "common-chax.h"
 
 #define NEW_UNIT_STATUS_MAX_DURATION 4
-#define STAT_DEBUFF_BITS 6
-#define STAT_DEBUFF_MAX_AMOUNT 63
 
 struct UnitStatusRework {
 	u8 index : 6;
@@ -259,16 +257,6 @@ enum UNIT_STAT_DEBUFF_IDX {
 	UNIT_STAT_DEBUFF_MAX = 128, /* DO NOT modify this */
 };
 
-enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX {
-	STR_DEBUFF_START = UNIT_STAT_DEBUFF_STR_0,
-	MAG_DEBUFF_START = UNIT_STAT_DEBUFF_MAG_0,
-	SKL_DEBUFF_START = UNIT_STAT_DEBUFF_SKL_0,
-	SPD_DEBUFF_START = UNIT_STAT_DEBUFF_SPD_0,
-	LCK_DEBUFF_START = UNIT_STAT_DEBUFF_LCK_0,
-	DEF_DEBUFF_START = UNIT_STAT_DEBUFF_DEF_0,
-	RES_DEBUFF_START = UNIT_STAT_DEBUFF_RES_0
-};
-
 extern const struct DebuffInfo gStatDebuffInfos[UNIT_STAT_DEBUFF_MAX];
 extern struct DebuffInfo const *const gpStatDebuffInfos;
 
@@ -316,8 +304,6 @@ void SetUnitStatDebuff(struct Unit *unit, enum UNIT_STAT_DEBUFF_IDX debuff);
 void ClearUnitStatDebuff(struct Unit *unit, enum UNIT_STAT_DEBUFF_IDX debuff);
 bool CheckUnitStatDebuff(struct Unit *unit, enum UNIT_STAT_DEBUFF_IDX debuff);
 void TickUnitStatDebuff(struct Unit *unit, enum STATUS_DEBUFF_TICK_TYPE type);
-void TickUnitGradualDebuffs(struct Unit* unit);
-void InflictUnitStatDebuff(struct Unit* unit, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX stat, int amount, bool stacking);
 int SimulateStatDebuffPositiveType(struct Unit *unit);
 
 void PreBattleCalcStatDebuffs(struct BattleUnit *attacker, struct BattleUnit *defender);

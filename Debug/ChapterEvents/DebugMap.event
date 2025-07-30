@@ -89,7 +89,7 @@ UNIT
 //==================================================================//
 
 Turn1_PP:
-// ASMC SetUnitStatDebuff_Debug
+ASMC SetUnitStatDebuff_Debug
 NoFade
 ENDA
 

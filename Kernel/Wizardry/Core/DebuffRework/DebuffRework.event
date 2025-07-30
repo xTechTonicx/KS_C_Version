@@ -11,6 +11,7 @@
 
 #include "StatDebuff/LynJump.event"
 #include "StatDebuff/StatDebuff.lyn.event"
+#include "StatDebuff/GradualStatDebuff.lyn.event"
 #include "StatDebuff/Hooks.lyn.event"
 
 #include "Source/EventCmd.lyn.event"

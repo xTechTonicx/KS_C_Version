@@ -9,6 +9,7 @@
 #include "attunement.h"
 #include "autolevel.h"
 #include "GroupAi.h"
+#include "GradualStatDebuff.h"
 
 enum CharacterDefinitions {
 	// Player characters
