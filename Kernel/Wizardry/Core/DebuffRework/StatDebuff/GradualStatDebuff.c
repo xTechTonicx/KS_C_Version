@@ -44,7 +44,7 @@ void InflictBitfileStatDebuff(u32* bitfile, enum UNIT_STAT_GRADUAL_DEBUFF_START_
 		newDebuff = currentDebuff + amount;
 	else if (amount > currentDebuff)
 		newDebuff = amount;
-	else        // !stacking || amount <= currentDebuff
+	else        // !stacking && amount <= currentDebuff
 		return; // Don't need to do anything
 	
 	if (newDebuff > STAT_DEBUFF_MAX_AMOUNT)
