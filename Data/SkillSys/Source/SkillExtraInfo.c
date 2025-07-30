@@ -1,6 +1,7 @@
 #include "common-chax.h"
 #include "skill-system.h"
 #include "constants/skills.h"
+#include "GradualStatDebuff.h"
 
 const struct SkillExtraInfo gSkillExtraInfo[MAX_SKILL_NUM + 1] = {
 #if (defined(SID_HpBonus) && COMMON_SKILL_VALID(SID_HpBonus))
@@ -1040,31 +1041,31 @@ const struct SkillExtraInfo gSkillExtraInfo[MAX_SKILL_NUM + 1] = {
 #endif
 
 #if (defined(SID_SealDefense) && COMMON_SKILL_VALID(SID_SealDefense))
-	[SID_SealDefense] = {{ 6 }},
+	[SID_SealDefense] = {{ SEAL_SKILL_PENALTY }},
 #endif
 
 #if (defined(SID_SealLuck) && COMMON_SKILL_VALID(SID_SealLuck))
-	[SID_SealLuck] = {{ 6 }},
+	[SID_SealLuck] = {{ SEAL_SKILL_PENALTY }},
 #endif
 
 #if (defined(SID_SealMagic) && COMMON_SKILL_VALID(SID_SealMagic))
-	[SID_SealMagic] = {{ 6 }},
+	[SID_SealMagic] = {{ SEAL_SKILL_PENALTY }},
 #endif
 
 #if (defined(SID_SealResistance) && COMMON_SKILL_VALID(SID_SealResistance))
-	[SID_SealResistance] = {{ 6 }},
+	[SID_SealResistance] = {{ SEAL_SKILL_PENALTY }},
 #endif
 
 #if (defined(SID_SealSkill) && COMMON_SKILL_VALID(SID_SealSkill))
-	[SID_SealSkill] = {{ 6 }},
+	[SID_SealSkill] = {{ SEAL_SKILL_PENALTY }},
 #endif
 
 #if (defined(SID_SealSpeed) && COMMON_SKILL_VALID(SID_SealSpeed))
-	[SID_SealSpeed] = {{ 6 }},
+	[SID_SealSpeed] = {{ SEAL_SKILL_PENALTY }},
 #endif
 
 #if (defined(SID_SealStrength) && COMMON_SKILL_VALID(SID_SealStrength))
-	[SID_SealStrength] = {{ 6 }},
+	[SID_SealStrength] = {{ SEAL_SKILL_PENALTY }},
 #endif
 
 #if (defined(SID_WyvernFlight) && COMMON_SKILL_VALID(SID_WyvernFlight))
@@ -1148,6 +1149,7 @@ const struct SkillExtraInfo gSkillExtraInfo[MAX_SKILL_NUM + 1] = {
 #endif
 
 #if (defined(SID_BornLeader) && COMMON_SKILL_VALID(SID_BornLeader))
-	[SID_BornLeader] = {{ 10 , 2 }}
+	[SID_BornLeader] = {{ 10 , 2 }},
 #endif
+
 };

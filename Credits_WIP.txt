@@ -12,6 +12,7 @@ Zeta - Murder Sticks + Anims for Priest/Cleric
 HyperGammaSpaces - EA Notepad++ Language settings
 Teq - Text Engine Rework
 HyperGammaSpaces - OC Questions
+Jester - Seal Skill Reference
 
 ==Item Icons==
 Batima - Bronze Axe/Lance, Bronze/Iron/Steel/Silver Dagger

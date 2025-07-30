@@ -409,16 +409,16 @@ void StatDebuff_OnUnitToBattle(struct Unit *unit, struct BattleUnit *bu)
 void SetUnitStatDebuff_Debug() {
 	Debug("Called SetUnitStatDebuff_Debug");
 	// Expect Audrey debuff = 8
-	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_AUDREY), STR_DEBUFF_START, 5, false);
-	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_AUDREY), STR_DEBUFF_START, 4, false);
-	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_AUDREY), STR_DEBUFF_START, 3, true);
+	InflictGradualStatDebuff(GetUnitFromCharId(CHARACTER_AUDREY), STR_DEBUFF_START, 5, false);
+	InflictGradualStatDebuff(GetUnitFromCharId(CHARACTER_AUDREY), STR_DEBUFF_START, 4, false);
+	InflictGradualStatDebuff(GetUnitFromCharId(CHARACTER_AUDREY), STR_DEBUFF_START, 3, true);
 	// Expect Wesley debuff = 4
-	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_WESLEY), DEF_DEBUFF_START, 4, true);
-	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_WESLEY), DEF_DEBUFF_START, 2, false);
+	InflictGradualStatDebuff(GetUnitFromCharId(CHARACTER_WESLEY), DEF_DEBUFF_START, 4, true);
+	InflictGradualStatDebuff(GetUnitFromCharId(CHARACTER_WESLEY), DEF_DEBUFF_START, 2, false);
 	// Expect Osborne debuff = 5
-	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_OSBORNE), MAG_DEBUFF_START, 2, false);
-	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_OSBORNE), MAG_DEBUFF_START, 5, false);
+	InflictGradualStatDebuff(GetUnitFromCharId(CHARACTER_OSBORNE), MAG_DEBUFF_START, 2, false);
+	InflictGradualStatDebuff(GetUnitFromCharId(CHARACTER_OSBORNE), MAG_DEBUFF_START, 5, false);
 	// Expect Elaine debuff = 5
-	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_ELAINE), SPD_DEBUFF_START, 5, false);
-	InflictUnitStatDebuff(GetUnitFromCharId(CHARACTER_ELAINE), SPD_DEBUFF_START, 2, false);
+	InflictGradualStatDebuff(GetUnitFromCharId(CHARACTER_ELAINE), SPD_DEBUFF_START, 5, false);
+	InflictGradualStatDebuff(GetUnitFromCharId(CHARACTER_ELAINE), SPD_DEBUFF_START, 2, false);
 }

@@ -5,6 +5,7 @@
 #include "debuff.h"
 #include "skill-system.h"
 #include "constants/skills.h"
+#include "GradualStatDebuff.h"
 
 /**
  * Usability
@@ -433,13 +434,13 @@ void ExecNewStatusStaff(ProcPtr proc, u8 status) {
 #else
 				bool hasIE = false;
 #endif
-                InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), STR_DEBUFF_START, 4, hasIE);
-				InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), MAG_DEBUFF_START, 4, hasIE);
-				InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), SKL_DEBUFF_START, 4, hasIE);
-				InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), SPD_DEBUFF_START, 4, hasIE);
-				InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), LCK_DEBUFF_START, 4, hasIE);
-				InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), DEF_DEBUFF_START, 4, hasIE);
-				InflictUnitStatDebuff(GetUnit(gActionData.targetIndex), RES_DEBUFF_START, 4, hasIE);
+                InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), STR_DEBUFF_START, 4, hasIE);
+				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), MAG_DEBUFF_START, 4, hasIE);
+				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), SKL_DEBUFF_START, 4, hasIE);
+				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), SPD_DEBUFF_START, 4, hasIE);
+				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), LCK_DEBUFF_START, 4, hasIE);
+				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), DEF_DEBUFF_START, 4, hasIE);
+				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), RES_DEBUFF_START, 4, hasIE);
 		}
 	}
 

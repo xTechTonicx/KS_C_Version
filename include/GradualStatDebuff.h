@@ -2,7 +2,8 @@
 
 #define STAT_DEBUFF_BITS 6
 #define STAT_DEBUFF_MAX_AMOUNT 63
-#define STAT_TICK_PER_TURN 2
+#define STAT_TICK_PER_TURN 1
+#define SEAL_SKILL_PENALTY 5
 #include "debuff.h"
 
 enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX {
@@ -16,5 +17,5 @@ enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX {
 };
 
 void TickUnitGradualDebuffs(struct Unit* unit);
-void InflictUnitStatDebuff(struct Unit* unit, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX stat, int amount, bool stacking);
+void InflictGradualStatDebuff(struct Unit* unit, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX stat, int amount, bool stacking);
 void ResetStatDebuffPositiveType(struct Unit *unit);
