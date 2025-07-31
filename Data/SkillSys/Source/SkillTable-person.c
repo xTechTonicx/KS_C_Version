@@ -6,8 +6,7 @@
 const u16 gConstSkillTable_Person[0x100][2] = {
     [CHARACTER_AUDREY] = {
 #if (defined(SID_BornLeader) && COMMON_SKILL_VALID(SID_BornLeader))
-        SID_BornLeader,
-        SID_SealResistance
+        SID_BornLeader
 #endif
     },
     [CHARACTER_WESLEY] = {

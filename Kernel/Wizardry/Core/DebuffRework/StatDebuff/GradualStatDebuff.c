@@ -53,8 +53,8 @@ void InflictBitfileStatDebuff(u32* bitfile, enum UNIT_STAT_GRADUAL_DEBUFF_START_
 	SetCurrentTickingDebuff(bitfile, stat, newDebuff);
 }
 
-void InflictGradualStatDebuff(struct Unit* unit, enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX stat, int amount, bool stacking) {
-	InflictBitfileStatDebuff(GetUnitStatDebuffStatus(unit)->st.bitmask, stat, amount, stacking);
+void InflictGradualStatDebuff(struct Unit* unit, enum UnitStatusIdxRef stat, int amount, bool stacking) {
+	InflictBitfileStatDebuff(GetUnitStatDebuffStatus(unit)->st.bitmask, DEBUFF_START + (stat * STAT_DEBUFF_BITS) , amount, stacking);
 	ResetStatDebuffPositiveType(unit);
 }
 

@@ -434,13 +434,13 @@ void ExecNewStatusStaff(ProcPtr proc, u8 status) {
 #else
 				bool hasIE = false;
 #endif
-                InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), STR_DEBUFF_START, 4, hasIE);
-				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), MAG_DEBUFF_START, 4, hasIE);
-				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), SKL_DEBUFF_START, 4, hasIE);
-				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), SPD_DEBUFF_START, 4, hasIE);
-				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), LCK_DEBUFF_START, 4, hasIE);
-				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), DEF_DEBUFF_START, 4, hasIE);
-				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), RES_DEBUFF_START, 4, hasIE);
+                InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), UNIT_STATUS_POW, 4, hasIE);
+				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), UNIT_STATUS_MAG, 4, hasIE);
+				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), UNIT_STATUS_SKL, 4, hasIE);
+				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), UNIT_STATUS_SPD, 4, hasIE);
+				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), UNIT_STATUS_LCK, 4, hasIE);
+				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), UNIT_STATUS_DEF, 4, hasIE);
+				InflictGradualStatDebuff(GetUnit(gActionData.targetIndex), UNIT_STATUS_RES, 4, hasIE);
 		}
 	}
 
