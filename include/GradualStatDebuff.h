@@ -1,23 +1,12 @@
 #pragma once
 
 #include "kernel-lib.h"
+#include "debuff.h"
 
 #define STAT_DEBUFF_BITS 6
 #define STAT_DEBUFF_MAX_AMOUNT 63
 #define STAT_TICK_PER_TURN 1
 #define SEAL_SKILL_PENALTY 5
-#include "debuff.h"
-
-enum UNIT_STAT_GRADUAL_DEBUFF_START_IDX {
-	STR_DEBUFF_START = UNIT_STAT_DEBUFF_STR_0,
-	MAG_DEBUFF_START = UNIT_STAT_DEBUFF_MAG_0,
-	SKL_DEBUFF_START = UNIT_STAT_DEBUFF_SKL_0,
-	SPD_DEBUFF_START = UNIT_STAT_DEBUFF_SPD_0,
-	LCK_DEBUFF_START = UNIT_STAT_DEBUFF_LCK_0,
-	DEF_DEBUFF_START = UNIT_STAT_DEBUFF_DEF_0,
-	RES_DEBUFF_START = UNIT_STAT_DEBUFF_RES_0,
-	DEBUFF_START     = STR_DEBUFF_START
-};
 
 void TickUnitGradualDebuffs(struct Unit* unit);
 void InflictGradualStatDebuff(struct Unit* unit, enum UnitStatusIdxRef stat, int amount, bool stacking);
